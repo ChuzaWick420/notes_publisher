@@ -1,8 +1,5 @@
 site_name: Notes
 
-extra_css:
-  - stylesheets/pygments.css
-
 theme:
     name: 'material'
     palette:
@@ -62,6 +59,9 @@ plugins:
       categories:
         - categories
         - tags
+
+extra_css:
+  - stylesheets/pygments.css
 
 extra_javascript:
   - javascripts/mathjax.js
