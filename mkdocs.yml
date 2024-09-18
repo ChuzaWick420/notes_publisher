@@ -28,8 +28,8 @@ theme:
 # Extensions
 markdown_extensions:
   - pymdownx.highlight:
-      linenums: true
-      pygments_style: github-dark
+      linenums: false
+      pygments_style: "monokai"
       use_pygments: true
 
   - footnotes
