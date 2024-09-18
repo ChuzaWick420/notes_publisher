@@ -27,8 +27,9 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - codehilite:
-      guess_lang: false
+  - pydownx.highlight:
+      linenums: true
+      pygments_style: github-dark
       use_pygments: true
 
   - footnotes
