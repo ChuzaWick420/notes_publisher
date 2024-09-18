@@ -2,6 +2,7 @@ site_name: Notes
 
 theme:
     name: 'material'
+
     palette:
 
     # Light mode
@@ -21,6 +22,9 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+    # disable default syntax highlighting
+    highlightjs: false
 
 # Extensions
 markdown_extensions:
