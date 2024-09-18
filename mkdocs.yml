@@ -2,7 +2,6 @@ site_name: Notes
 
 theme:
     name: 'material'
-
     palette:
 
     # Light mode
@@ -28,6 +27,10 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - codehilite:
+      guess_lang: false
+      use_pygments: true
+
   - footnotes
   # - attr_list
   - pymdownx.arithmatex:
