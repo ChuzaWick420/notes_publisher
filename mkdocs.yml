@@ -1,7 +1,7 @@
 site_name: Notes
 
 extra_css:
-  - "stylesheets/pygments.css"
+  - stylesheets/pygments.css
 
 theme:
     name: 'material'
