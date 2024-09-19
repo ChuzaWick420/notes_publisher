@@ -8,5 +8,5 @@ elseif n ~= 30 then
 	print("n is not 30")
 
 else 
-	print("go fk yourself")
+	print("hi")
 ```
