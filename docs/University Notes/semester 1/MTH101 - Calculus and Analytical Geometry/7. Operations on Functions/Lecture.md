@@ -1,10 +1,13 @@
 ---
 tags:
   - university-notes
+  - composite-functions
+  - function-operations
 university-name: Virtual University of Pakistan
 ---
 
 # Operations on Functions
+## Operations
 Just like `numbers`, we can do operations on `functions`[^1] as well.  
 Assume we have `2` `functions`[^1] such as:  
 
@@ -26,13 +29,14 @@ $$f(x) \cdot g(x) = (f \cdot g)(x) = x^2 \cdot (x + 1)$$
 
 ### Notation
 
-$$f^n(x) = \prod^n f(x) = f(x) \cdot f(x) \cdot \ldots \cdot f(x)$$
+$$f^n(x) = \prod^n f(x) = f(x) \times f(x) \times \ldots \times f(x)$$
 
 ## Division
 
 $$\frac{f(x)}{g(x)} = \left(\frac{f}{g}\right)(x) = \frac{x^2}{x + 1}$$
 
-The `domain`[^2] of these `functions`[^1] which result after operations, is the `intersection`[^3] of the `domains`[^2] of $f(x)$ and $g(x)$.
+The `domain`[^2] of these `functions`[^1] which result after operations, is the `intersection`[^3] of the `domains`[^2] of $f(x)$ and $g(x)$.  
+Basically saying that we need certain `set`[^4] of values which work for both `functions`[^1].
 
 ## Composition
 
@@ -51,23 +55,24 @@ $$h(x) = (x+1)^2$$
 
 $$h(x) = (fog)(x) = f(g(x))$$
 
-# Classification of Functions
-## Constant
-The `functions`[^1] whose `range`[^4] is equal to a `constant number` is called a `constant function`.
+## Classification of Functions
+### Constant
+The `functions`[^1] whose `range`[^5] is equal to a `constant number` is called a `constant function`.
 
-## Monomial in `x`
+### Monomial in $x$
 Anything of the form  
 
 $$f(x) = cx^n ; x \in \mathbb{Z}^+ + \{0\}$$
 
-## Polynomial in `x`
+### Polynomial in $x$
 Anything of the form  
 
 $$f(x) = \sum_{i = 0}^n a_ix^i = a_0 + a_1x^1 + \ldots + a_nx^n$$
 
-# References
+## References
 
-[^1]: [[notes_publisher/docs/Mathematics/Function/Content|Functions]]
-[^2]: [[notes_publisher/docs/Mathematics/Function/Content|Domain]]
-[^3]: [[notes_publisher/docs/Mathematics/Set/Content|Intersection]]
-[^4]: [[notes_publisher/docs/Mathematics/Function/Content|Range]]
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
+[^2]: Read more about [[Mathematics/Function/Content|Domain]].
+[^3]: Read more about [[Mathematics/Set/Content|Intersection]].
+[^4]: Read more about [[Mathematics/Function/Content|Range]].
+[^5]: Read more about [[Mathematics/Set/Content|sets]].
