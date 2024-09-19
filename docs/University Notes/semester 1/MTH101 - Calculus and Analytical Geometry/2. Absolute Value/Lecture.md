@@ -1,11 +1,12 @@
 ---
 tags:
   - university-notes
+  - absolute-values
 university-name: Virtual University of Pakistan
 ---
 
 # Absolute Values
-This places an important role in determining `distance` between 2 points on a `coordinate line`.
+This plays an important role in determining `distance` between 2 points on a `coordinate line`.
 
 ## Definition
 The `absolute value` of a `real number`, `a` is denoted as $\lvert a \rvert$.  
@@ -49,6 +50,7 @@ $$\sqrt{a^2} \ne (\sqrt{a})^2$$
 
 ### Example
 Let's take $a = -4$ and take its `square root`.  
+
 - Case $\sqrt{a^2}$  
 
 $$\sqrt{(-4)^2}= \sqrt{16} = 4$$

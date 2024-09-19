@@ -64,6 +64,7 @@ $$a < b \implies \frac{1}{a} > \frac{1}{b}$$
 
 ## Intervals
 We can define them as `sets`[^1] in following way:  
+
 - For `closed intervals`:
 
 $$[a, b]=\{x:a \le x \le b\}$$
