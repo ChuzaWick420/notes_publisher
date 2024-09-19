@@ -28,6 +28,8 @@ theme:
 # Extensions
 markdown_extensions:
   - pymdownx.highlight:
+      guess_lang: true
+      default_lang: "cpp"
       linenums: false
       pygments_style: "monokai"
       use_pygments: true

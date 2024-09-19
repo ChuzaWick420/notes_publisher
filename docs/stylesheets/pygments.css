@@ -85,7 +85,7 @@ span.linenos.special {
 
 /* Punctuation */
 .p {
-	color: var(--code-blocks-colors-parantheses) !important;
+	color: var(--code-blocks-colors-parentheses) !important;
 }
 
 /* Comment.Hashbang */
@@ -110,7 +110,6 @@ span.linenos.special {
 /* Comment.PreprocFile */
 .cpf {
 	color: var(--code-blocks-colors-preprocessor-file) !important;
-	font-style: italic !important;
 }
 
 /* Comment.Single */
@@ -222,6 +221,7 @@ span.linenos.special {
 /* Keyword.Type */
 .kt {
 	color: var(--code-blocks-colors-datatype) !important;
+	font-style: italic;
 }
 
 /* Literal.Date */
@@ -253,6 +253,7 @@ span.linenos.special {
 .nc {
 	color: var(--code-blocks-colors-class) !important;
 	font-weight: bold !important;
+	font-style: italic;
 }
 
 /* Name.Constant */
@@ -280,7 +281,7 @@ span.linenos.special {
 
 /* Name.Function */
 .nf {
-	color: #d2a8ff !important;
+	color: var(--code-blocks-colors-function) !important;
 	font-weight: bold !important;
 }
 

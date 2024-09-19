@@ -75,7 +75,7 @@ int main() {
     std::unique_ptr<Shape> rect = std::make_unique<Rectangle>(4.0, 6.0);
 
     // Template function usage
-    std::cout << "Add 2 + 3 = " << add(2, 3) << std::endl;
+    std::cout << "Add PI + 3 = " << add(PI, 3) << std::endl;
 
     // Lambda expression (C++11)
     auto printArea = [](const std::unique_ptr<Shape>& shape) {
