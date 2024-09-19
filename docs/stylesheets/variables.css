@@ -10,6 +10,14 @@
 	--code-blocks-colors-keyword: #569CD6;
 	--code-blocks-colors-comment: #8b949e;
 	--code-blocks-colors-class: #4EC9B0;
+	--code-blocks-colors-preprocessor-directive: #6A9955;
+	--code-blocks-colors-preprocessor-file: #D69D85;
+	--code-blocks-colors-parentheses: #ffa159;
+	--code-blocks-colors-identifier: #e6edf3;
+	--code-blocks-colors-operator: #ff7b72;
+	--code-blocks-colors-literal-num: #a5d6ff;
+	--code-blocks-colors-datatype: #045e37;
+	--code-blocks-colors-string: #D69D85;
 
 	/*code blocks styles*/
 }
