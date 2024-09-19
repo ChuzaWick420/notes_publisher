@@ -1,11 +1,15 @@
 :root {
 	/*page colors*/
 	--page-colors-headings: #f5f5f5;
+	--page-colors-text: #f0f0f0;
 
 	/*page styles*/
 	--page-styles-headings: bold;
 
 	/*code blocks colors*/
+	--code-blocks-colors-keyword: #569CD6;
+	--code-blocks-colors-comment: #8b949e;
+	--code-blocks-colors-class: #4EC9B0;
 
 	/*code blocks styles*/
 }

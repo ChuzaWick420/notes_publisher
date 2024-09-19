@@ -9,3 +9,7 @@ h6 {
 	color: var(--page-colors-headings) !important;
 	font-weight: var(--page-styles-headings) !important;
 }
+
+p {
+	color: var(--page-colors-text);
+}

@@ -1,3 +1,5 @@
+@import "variables.css";
+
 pre {
 	line-height: 125% !important;
 }
@@ -36,7 +38,7 @@ span.linenos.special {
 
 /* Comment */
 .c {
-	color: #8b949e !important;
+	color: var(--code-blocks-colors-comment) !important;
 	font-style: italic !important;
 }
 
@@ -57,7 +59,7 @@ span.linenos.special {
 
 /* Keyword */
 .k {
-	color: #ff7b72 !important;
+	color: var(--code-blocks-colors-keyword) !important;
 }
 
 /* Literal */

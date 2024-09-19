@@ -4,6 +4,18 @@
 
 #define PI 3.14
 
+//single line comment
+template <typename T>
+void hi(T val) {
+    std::cout << val << std::cout;
+}
+
+/*
+Multi
+Line
+Comment
+*/
+
 enum {
     UP = 1, DOWN, LEFT, RIGHT
 } directions;
@@ -21,6 +33,7 @@ class Car {
 
     private:
         static int size = 0;
+        int dir = UP;
         int wheels* = nullptr;
 };
 
@@ -34,7 +47,7 @@ int main () {
 
     Car obj(5);
 
-    std::cout << "hello world" << std::endl;
+    std::cout << "hello world \n";
 
     return 0;
 }
