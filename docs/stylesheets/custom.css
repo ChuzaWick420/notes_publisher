@@ -6,6 +6,6 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--page-colors-headings);
-	font-weight: var(--page-styles-headings);
+	color: var(--page-colors-headings) !important;
+	font-weight: var(--page-styles-headings) !important;
 }
