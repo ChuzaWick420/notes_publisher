@@ -96,7 +96,7 @@ span.linenos.special {
 
 /* Comment.Multiline */
 .cm {
-	color: #8b949e !important;
+	color: var(--code-blocks-colors-comment) !important;
 	font-style: italic !important;
 }
 
@@ -115,7 +115,7 @@ span.linenos.special {
 
 /* Comment.Single */
 .c1 {
-	color: #8b949e !important;
+	color: var(--code-blocks-colors-comment) !important;
 	font-style: italic !important;
 }
 
@@ -251,7 +251,7 @@ span.linenos.special {
 
 /* Name.Class */
 .nc {
-	color: #f0883e !important;
+	color: var(--code-blocks-colors-class) !important;
 	font-weight: bold !important;
 }
 

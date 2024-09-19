@@ -1,53 +1,116 @@
 ```cpp
 #include <iostream>
-#include "graphics.h"
+#include <vector>
+#include <memory>
+#include <algorithm>
+#include <tuple>
 
-#define PI 3.14
+// Macro definition
+#define PI 3.14159
 
-//single line comment
+// Enum class
+enum class ShapeType { Circle, Rectangle };
+
+// Template function
 template <typename T>
-void hi(T val) {
-    std::cout << val << std::cout;
+T add(T a, T b) {
+    return a + b;
 }
 
-/*
-Multi
-Line
-Comment
-*/
+// Base class declaration
+class Shape {
+public:
+    // Virtual function (pure virtual for polymorphism)
+    virtual double area() const = 0;
 
-enum {
-    UP = 1, DOWN, LEFT, RIGHT
-} directions;
+    // Virtual destructor
+    virtual ~Shape() = default;
 
-class Car {
-
-    public:
-        Car(int x) : size(x) {}
-
-        ~Car() {
-            delete[] (*this).wheels;
-        }
-
-        void allocate();
-
-    private:
-        static int size = 0;
-        int dir = UP;
-        int wheels* = nullptr;
+    // Static method (inside class)
+    static constexpr const char* shapeType() {
+        return "Shape";
+    }
 };
 
-void Car::allocate(){
-    this->wheels = new int[4];
+// Derived class declaration with method definition outside
+class Circle : public Shape {
+    double radius;
+public:
+    Circle(double r);   // Constructor declaration
+    
+    // Function defined outside the class
+    double area() const override;
+
+    // Static method defined outside the class
+    static std::string typeName();
+};
+
+// Derived class declaration with constructor initializer list
+class Rectangle : public Shape {
+    double width, height;
+public:
+    Rectangle(double w, double h) : width(w), height(h) {}
+
+    double area() const override {
+        return width * height;
+    }
+};
+
+// Constructor definition outside class (Circle)
+Circle::Circle(double r) : radius(r) {}
+
+// Method definition outside class (Circle)
+double Circle::area() const {
+    return PI * radius * radius;
 }
 
-int main () {
-    int x = 10;
-    float y = 20.0f;
+// Static method definition outside class (Circle)
+std::string Circle::typeName() {
+    return "Circle";
+}
 
-    Car obj(5);
+int main() {
+    // Smart pointers
+    std::unique_ptr<Shape> circle = std::make_unique<Circle>(5.0);
+    std::unique_ptr<Shape> rect = std::make_unique<Rectangle>(4.0, 6.0);
 
-    std::cout << "hello world \n";
+    // Template function usage
+    std::cout << "Add 2 + 3 = " << add(2, 3) << std::endl;
+
+    // Lambda expression (C++11)
+    auto printArea = [](const std::unique_ptr<Shape>& shape) {
+        std::cout << "Area: " << shape->area() << std::endl;
+    };
+
+    // Range-based for loop (C++11)
+    std::vector<std::unique_ptr<Shape>> shapes;
+    shapes.push_back(std::make_unique<Circle>(3.0));
+    shapes.push_back(std::make_unique<Rectangle>(2.0, 5.0));
+
+    for (const auto& shape : shapes) {
+        printArea(shape);
+    }
+
+    // std::for_each with lambda
+    std::for_each(shapes.begin(), shapes.end(), [](const auto& shape) {
+        std::cout << "Shape area: " << shape->area() << std::endl;
+    });
+
+    // Structured bindings (C++17) with tuple
+    std::tuple<int, double, std::string> myTuple = {1, 3.14, "Hello"};
+    auto [intValue, doubleValue, stringValue] = myTuple;  // Structured binding
+    std::cout << "Structured bindings: " << intValue << ", " << doubleValue << ", " << stringValue << std::endl;
+
+    // Using decltype and auto
+    decltype(circle) anotherCircle = std::make_unique<Circle>(4.0);
+    std::cout << "Another Circle Area: " << anotherCircle->area() << std::endl;
+
+    // Null pointer example
+    Shape* nullShape = nullptr;  // C++11 nullptr
+
+    if (nullShape == nullptr) {
+        std::cout << "Shape pointer is null." << std::endl;
+    }
 
     return 0;
 }
