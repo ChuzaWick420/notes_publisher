@@ -72,7 +72,7 @@ $$f(x) = \sum_{i = 0}^n a_ix^i = a_0 + a_1x^1 + \ldots + a_nx^n$$
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[Mathematics/Function/Content|Domain]].
-[^3]: Read more about [[Mathematics/Set/Content|Intersection]].
-[^4]: Read more about [[Mathematics/Function/Content|Range]].
+[^2]: Read more about [[Mathematics/Function/Content|domain]].
+[^3]: Read more about [[Mathematics/Set/Content|intersection]].
+[^4]: Read more about [[Mathematics/Function/Content|range]].
 [^5]: Read more about [[Mathematics/Set/Content|sets]].

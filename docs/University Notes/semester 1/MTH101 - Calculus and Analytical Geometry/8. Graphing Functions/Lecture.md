@@ -1,6 +1,8 @@
 ---
 tags:
   - university-notes
+  - function
+  - graphs
 university-name: Virtual University of Pakistan
 ---
 
@@ -9,7 +11,7 @@ Imagine a `function`[^1]
 
 $$f(x) = y = x + 2; x\ne 2$$
 
-One way to graph is to fine the _intercepts_.
+One way to graph is to find the `intercepts`.
 
 ## `x intercept`
 
@@ -40,7 +42,7 @@ If a `function`[^1] is multiplied by a `constant` $c$ , such that $c \cdot f(x)$
 We can check if a graph is of a `function`[^1] by drawing a _vertical line_ of the form $x = a$.  
 If this line intersects the graph at only _one point_ then it is graph of a `function`[^1].
 
-# References
+## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|Functions]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|Lines]].
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
+[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|lines]].
