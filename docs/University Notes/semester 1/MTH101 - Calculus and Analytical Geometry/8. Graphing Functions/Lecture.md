@@ -33,7 +33,7 @@ Its graph will be
 1. $f(x) + c$ translates the `graph` $c$ units _up_.
 2. $f(x) - c$ translates the `graph` $c$ units _down_.
 3. $f(x + c)$ translates the `graph` $c$ units _left_.
-4. $f(x - c)$ translates the `graph` $c$ units _right.
+4. $f(x - c)$ translates the `graph` $c$ units _right_.
 
 ## Scaling
 If a `function`[^1] is multiplied by a `constant` $c$ , such that $c \cdot f(x)$ then $c$ is the _vertical scaling factor_ of $f(x)$.
