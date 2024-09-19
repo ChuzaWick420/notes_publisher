@@ -70,6 +70,8 @@ plugins:
 
 extra_css:
   - stylesheets/pygments.css
+  - stylesheets/custom.css
+  - stylesheets/variables.css
 
 extra_javascript:
   - javascripts/mathjax.js
