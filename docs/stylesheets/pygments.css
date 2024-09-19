@@ -74,7 +74,7 @@ span.linenos.special {
 
 /* Operator */
 .o {
-	color: #ff7b72 !important;
+	color: var(--code-blocks-colors-operator) !important;
 	font-weight: bold !important;
 }
 
@@ -200,7 +200,7 @@ span.linenos.special {
 
 /* Keyword.Declaration */
 .kd {
-	color: #ff7b72 !important;
+	color: var(--code-blocks-colors-keyword) !important;
 }
 
 /* Keyword.Namespace */
@@ -318,8 +318,8 @@ span.linenos.special {
 
 /* Operator.Word */
 .ow {
-	color: #ff7b72 !important;
-	font-weight: bold !important;
+	color: var(--code-blocks-colors-operator) !important;
+	font-style: italic !important;
 }
 
 /* Punctuation.Marker */
@@ -364,7 +364,7 @@ span.linenos.special {
 
 /* Literal.String.Backtick */
 .sb {
-	color: #a5d6ff !important;
+	color: var(--code-blocks-colors-string) !important;
 }
 
 /* Literal.String.Char */
@@ -384,7 +384,7 @@ span.linenos.special {
 
 /* Literal.String.Double */
 .s2 {
-	color: #a5d6ff !important;
+	color: var(--code-blocks-colors-string) !important;
 }
 
 /* Literal.String.Escape */
@@ -399,7 +399,7 @@ span.linenos.special {
 
 /* Literal.String.Interpol */
 .si {
-	color: #a5d6ff !important;
+	color: var(--code-blocks-colors-string) !important;
 }
 
 /* Literal.String.Other */
@@ -429,7 +429,7 @@ span.linenos.special {
 
 /* Name.Function.Magic */
 .fm {
-	color: #d2a8ff !important;
+	color: var(--code-blocks-colors-function) !important;
 	font-weight: bold !important;
 }
 

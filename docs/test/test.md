@@ -216,7 +216,6 @@ greet("Python")
 ```
 
 # RUST
-
 ```rust
 // Deriving traits automatically (like Debug, Clone)
 #[derive(Debug, Clone)]
@@ -537,7 +536,7 @@ false && logMessage('This will not log.');
 ```
 
 # x86asm
-```x86asm
+```
 ; x86 Assembly example demonstrating common idioms
 
 section .data
