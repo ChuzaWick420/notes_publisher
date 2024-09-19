@@ -1,10 +1,14 @@
 ---
 tags:
   - university-notes
+  - distance
+  - quadratic-formula
+  - circle
 university-name: Virtual University of Pakistan
 ---
 
-# Distance Formula
+# Distance, Circle and Quadratic Equations
+## Distance Formula
 ![[Pasted image 20240812144155.png]]
 
 Notice how there is a `triangle`?  
@@ -18,22 +22,22 @@ $$distance = \sqrt{(\Delta y)^2 + (\Delta x)^2}$$
 
 $$distance = \sqrt{(y_2 - y_1)^2 + (x_2 - x_1)^2}$$
 
-# Midpoint
+## Midpoint
 The midpoint of $\overline{AB}$ is defined to be $average$ of the coordinate values relative to $axes$.  
 ![[Pasted image 20240812145906.png]]
 
-# Circle
-A `circle` is defined to be a set of points which are equidistant from a certain point.  
+## Circle
+A `circle` is defined to be a `set`[^1] of points which are equidistant from a certain point called the `center` of the circle.  
 
-$$\{(x, y): r = \sqrt{x^2 + y^2}\}$$
+$$circle := \{(x, y): r = \sqrt{x^2 + y^2}; r \in \mathbb{R^+}\}$$
 
 ![[Pasted image 20240812154939.png]]
 
-## General Form
+### General Form
 
 $$ax^2 + by^2 + dx + ey + f = 0$$
 
-### Example
+#### Example
 Find `radius` and `center` of the circle $x^2 + y^2 - 8x + 2y + 8 = 0$ 
 
 $$x^2 + y^2 - 8x + 2y + 8 = 0$$
@@ -46,9 +50,12 @@ $$(x - 4)^2 + (y + 1)^2 = 9$$
 
 $$(x - 4)^2 + (y - (-1))^2 = 3^2$$
 
+$$\because d^2 = r^2 = (x - x_0)^2 + (y - y_0)^2$$
+  
+Where $P(x, y)$ will be any arbitrary point and $P_0(x_0, y_0)$ is the `center`.  
 So the `radius` is `3` and the center is `(4, -1)`
 
-# Parabola
+## Parabola
 ![[Pasted image 20240812165943.png]]
 
 This `parabola` can be represented by equation:  
@@ -68,7 +75,7 @@ $$y = x^2 - Sx + P$$
 
 Where `S` is `sum of the roots` and `P` is `product of the roots`.
 
-## General Equation
+### General Equation
 
 $$y = ax^2 + bx + c$$
 
@@ -79,7 +86,7 @@ $$0 = x^2 + \frac{b}{a} \cdot x + \frac{c}{a}$$
 
 Where $-\frac{b}{a} = sum$ and $\frac{c}{a} = product$
 
-### Vertex
+#### Vertex
 The `tip` of the `parabola` is called its `vertex` and it exists in middle of the `roots`  
 
 $$middle = \frac{sum}{2}$$
@@ -89,3 +96,7 @@ The `x-coordinate` will be
 $$x = - \frac{b}{2a}$$
 
 And we can get the `y-coordinate` just by putting this in $y = f(x)$
+
+## Reference
+
+[^1]: Read more about [[Mathematics/Set/Content|sets]].

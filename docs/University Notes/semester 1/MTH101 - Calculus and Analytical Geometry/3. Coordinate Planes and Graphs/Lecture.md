@@ -1,6 +1,8 @@
 ---
 tags:
   - university-notes
+  - absolute-values
+  - graphs
 university-name: Virtual University of Pakistan
 ---
 
