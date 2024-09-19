@@ -1,13 +1,18 @@
 ---
 tags:
   - university-notes
+  - inequalities
+  - intervals
+  - calculus
+  - coordinate-line
 university-name: Virtual University of Pakistan
 ---
 
-# What is Calculus?
+# Coordinates, Graphs and Lines
+## What is Calculus?
 Study of rate of change of one quantity with respect to other quantity.
 
-# Pictorial Summary of Hierarchy of Real Numbers
+## Pictorial Summary of Hierarchy of Real Numbers
 
 ![[Pasted image 20240810184459.png]]  
 Here, the following `sets`[^1] are represented:
@@ -19,7 +24,7 @@ Here, the following `sets`[^1] are represented:
 - $\mathbb{Z}$ for `integers numbers`.
 - $\mathbb{N}$ for `natural numbers`.
 
-# Coordinate line
+## Coordinate line
 This is just a convention.  
 ![[Pasted image 20240810190801.png]]
 
@@ -27,10 +32,10 @@ Let's say, we define a `unit` of `length` as `r`.
 
 ![[Pasted image 20240810191207.png]]
 
-# Order Properties
+## Order Properties
 When we compare 2 _distinct_ numbers, one of them is going to be either $>$ or $<$.
 
-# Inequalities
+## Inequalities
 They can contain multiple possibilities. Here's an example:  
 
 $$2 \le 6$$
@@ -43,7 +48,7 @@ $$2 = 6$$
 
 Since the first one is `true` so the `inequality` itself is `true`.
 
-## Theorems
+### Theorems
 
 $$a < b \land b < c \implies a < c$$
 
@@ -57,7 +62,7 @@ $$a < b \land c < d \implies a + c < b + d$$
 
 $$a < b \implies \frac{1}{a} > \frac{1}{b}$$
 
-# Intervals
+## Intervals
 We can define them as `sets`[^1] in following way:  
 - For `closed intervals`:
 
@@ -71,7 +76,7 @@ Geometrically, we can show it as:
 ![[Pasted image 20240810201905.png]]  
 Here, the _red line_ represents the whole `set`[^1] of values which are `elements` of the `interval` we defined.
 
-# Solving Inequalities
+## Solving Inequalities
 Take for example:  
 
 $$3 + 7x \le 2x - 9$$
@@ -90,6 +95,6 @@ $$\frac{1}{5} \cdot 5x \le - 12 \cdot \frac{1}{5}$$
 
 $$x \le \frac{-12}{5}$$
 
-# References
+## References
 
 [^1]: Read more about [[Mathematics/Set/Content|sets]].
