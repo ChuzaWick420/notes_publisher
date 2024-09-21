@@ -1,13 +1,16 @@
 ---
 Topic: Calculus
-Sub-Topic:
+Sub-Topic: 
+tags:
+  - "calculus"
+  - function
 ---
 
 # Functions
 ## Definition
 A `function` is a rule relating to 2 `sets`[^1] in such a way that it assigns only 1 element of one `set`[^1] to an element of another `set`[^1]
 
-## Geometric Intuition
+## Programmatic Intuition
 It can be looked at as a `black box` which takes one `input`, does something to it and produces an `output`.  
 ![[Pasted image 20240812214426.png]]
 

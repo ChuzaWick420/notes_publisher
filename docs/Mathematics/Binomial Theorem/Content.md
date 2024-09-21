@@ -1,6 +1,7 @@
 ---
 Topic: Algebra
-Sub-Topic:
+Sub-Topic: 
+tags:
 ---
 
 # Binomial Theorem

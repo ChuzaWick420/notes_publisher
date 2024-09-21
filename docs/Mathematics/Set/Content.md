@@ -1,6 +1,8 @@
 ---
 Topic: Set Theory
 Sub-Topic: None
+tags:
+  - sets
 ---
 
 # Definition
