@@ -1,6 +1,9 @@
 ---
 tags:
   - university-notes
+  - trigonometry
+  - circle
+  - inequalities
 university-name: Virtual University of Pakistan
 ---
 
@@ -12,7 +15,7 @@ $$\because \lim_{x \rightarrow 0} \sin(x) = 0$$
 
 $$\because \lim_{x \rightarrow 0} \cos(x) = 1$$
 
-So to prove the continuity of $cos$ and $sin$ functions, we will modify our definition of `continuity`[^1].
+So to prove the continuity of $\cos$ and $\sin$ functions, we will modify our definition of `continuity`[^1].
 1. $f(c)$ is defined.
 2. $\lim_{h \rightarrow 0} f(h + c)$ exists.
 3. $\lim_{h \rightarrow 0} f(h + c) = f(c)$
@@ -25,18 +28,18 @@ $$\lim_{h \rightarrow 0} \sin(h + c) = \lim_{h \rightarrow 0}\left( \sin(h) \cdo
 
 $$ = \cos(c) \cdot \lim_{h \rightarrow 0} \sin(h) + \sin(c) \cdot \lim_{h \rightarrow 0} \cos(h)$$
 
-$$= \cos(c) \cdot (0) + \sin(c) \cdot (0)$$
+$$= \cos(c) \cdot (0) + \sin(c) \cdot (1)$$
 
 $$= \sin(c)$$
 
-# Squeeze Theorem
+## Squeeze Theorem
 Let us have 3 `functions`[^2] such that
 
 $$g(x) \le f(x) \le h(x)$$
 
-If $\lim_{x \rightarrow a} g(x) = \lim_{x \rightarrow a} h(x) = L$ then $\lim_{x \rightarrow a} f(x)$.
+If $\lim_{x \rightarrow a} g(x) = \lim_{x \rightarrow a} h(x) = L$ then $\lim_{x \rightarrow a} f(x) = L$.
 
-## Usecase
+### Use case
 
 Let us try to prove why the `area of a sector` is defined to be:  
 
@@ -44,13 +47,27 @@ $$Area = \frac 1 2 r^2 \cdot \theta$$
 
 Where $r$ is the `radius` of the `circle`.  
 ![[Pasted image 20240815230447.png]]  
-Let us say, the `area` of this `triangle` is $A_1 = \frac 1 2 1 \cdot \sin(x)$ that is $\frac {\sin(x)}{2}$ .
+Let us say, the `area` of this `triangle` is $A_1 = \frac 1 2 \cdot 1 \cdot \sin(x)$ that is $\frac {\sin(x)}{2}$ .  
+Recall,  
 
-Then there is `area of the sector` that is $A_2 = \frac 1 2 1^2 \cdot x$ that is $\frac x 2$.
+$$Area = \frac 1 2 \times base \times perp$$
+
+ $$\because base = 1$$
+
+ $$\because perp = \sin(\theta)$$
+
+Then there is `area of the sector` that is $A_2 = \frac 1 2 \cdot 1^2 \cdot x$ that is $\frac x 2$.
 
 Then there is another `triangle`.  
 ![[Pasted image 20240815231728.png]]  
-The `area` of this `triangle` is $A_3 = \frac 1 2 1 \cdot \tan(x)$ that is $\frac{\tan(x)}{2}$.
+The `area` of this `triangle` is $A_3 = \frac 1 2 \cdot 1 \cdot \tan(x)$ that is $\frac{\tan(x)}{2}$.  
+The `base` is $\tan(x)$ because  
+
+$$\because \tan(x) = \frac {perp}{base}$$
+
+$$\because base = 1$$
+
+  $$\therefore \tan(x) = perp$$
 
 From visual aids, it is clear that $A_1 \le A_2 \le A_3$.  
 
@@ -69,11 +86,11 @@ Applying our `squeezing theorem`, we get
 $$\lim_{x \rightarrow 0} 1 \ge \lim_{x \rightarrow 0} \frac{x}{\sin(x)} \ge \lim_{x \rightarrow 0} \cos(x)$$
 
 $$1 \ge 1 \ge 1$$
-  
+
 Hence, the formula for `area of the sector` of a `circle` holds true.
 
-# References
+## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^2]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].  
-[^3]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|Theorems of Inequalities]].
+[^1]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^2]: Read more about [[Mathematics/Function/Content|functions]].  
+[^3]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|inequalities]].
