@@ -1,6 +1,7 @@
 ---
 tags:
   - university-notes
+  - differentiation
 university-name: Virtual University of Pakistan
 ---
 
@@ -21,6 +22,6 @@ Hence, the rule itself is defined as:
 
 $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} = f^{'}(u) \cdot g^{'}(x)$$
 
-# References
+## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|Functions]].
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
