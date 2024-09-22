@@ -1,10 +1,13 @@
 ---
 tags:
   - university-notes
+  - "logrithm"
+  - differentiation
 university-name: Virtual University of Pakistan
 ---
 
-# Derivative of Logarithmic Functions
+# Derivative of Logarithmic and Exponential Functions
+## Derivative of Logarithmic Functions
 There is a special `irrational constant` which is defined as:  
 
 $$e = \sum_{n = 0}^\infty \frac{1}{n!}$$
@@ -33,7 +36,7 @@ Then we can define $v = \frac{h}{x}$. Substituting it, we get:
 
 $$=\lim_{v\to0}\frac{1}{vx}log_{b}(1+v)$$
 
-Since the `limit`[^1] is in terms of `v`, therefore, the `x` is now treated as a `constant`.  
+Since the `limit`[^1] is in terms of $v$ now, therefore, the $x$ is now treated as a `constant`.  
 
 $$=\frac{1}{x}\lim_{v\to0}\frac{1}{v}log_{b}(1+v)$$
 
@@ -49,13 +52,13 @@ Using the `theorems of logarithm`[^3] again, we get
 
 $$= \frac{1}{x \cdot \ln(b)}$$
 
->Note: checkout the `logarithmic notation`[^4] to know what $\ln(b)$ means.
+>Note: checkout the `logarithmic notation`[^3] to know what $\ln(b)$ means.
 
-# Derivative of Natural Logarithm
+## Derivative of Natural Logarithm
 
 $$\frac{d}{dx}[\ln(u)]=\frac{1}{u}\cdot\frac{du}{dx}$$
 
-# Derivative of Exponential Functions
+## Derivative of Exponential Functions
 
 $$y = f(x) = b^x$$
 
@@ -73,15 +76,15 @@ $$\frac{dy}{dx}=y\cdot \ln b$$
 
 $$= b^x \cdot \ln b$$
 
-## Generalized Form
+### Generalized Form
 
-$$\frac{d}{dx}[b^{u}]=b^{u}\cdot \ln b\cdot\frac{du}{dx}$$
+$$\frac{d}{dx}[a^{u}]=a^{u}\cdot \ln a\cdot\frac{du}{dx}$$
 
-# Inverse Functions
+## Inverse Functions
 Imagine 2 `functions`[^2], $f(x)$ and $g(x)$.  
 If $f(g(x)) = x$ for every $x$ in domain of $g(x)$ and if $g(f(x)) = x$ for every $x$ in domain of $f(x)$, then we say both `functions`[^2] are `inverse` of each other.
 
-## Example
+### Example
 
 $$f(x) = 2x$$
 
@@ -91,11 +94,11 @@ $$g(x) = \frac{x}{2}$$
 
 Then to check, we try both of our conditions  
 
-### Condition 1
+#### Condition 1
 
 $$f(g(x)) = 2 \left(\frac{x}{2}\right) = x$$
 
-### Condition 2
+#### Condition 2
 
 $$g(f(x)) = \frac{1}{2} \cdot (2x) = x$$
 
@@ -103,7 +106,7 @@ For a `function`[^2] to have an `inverse`, one of the important conditions is th
 
 $$y = f^{-1}(x) \implies f(y) = x$$
 
-# Derivative of Inverse Functions
+## Derivative of Inverse Functions
 
 $$(f^{-1})(x) = \frac{1}{f^{'}(f^{-1}(x))}$$
 
@@ -111,9 +114,8 @@ Therefore,
 
 $$\frac{dy}{dx}=(f^{-1})^{\prime}(x)\Rightarrow\frac{dx}{dy}=f^{\prime}(y)=f^{\prime}(f^{-1}(x))$$
 
-# References
+## References
 
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|Limits]].
 [^2]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^3]: Read more about [[notes_publisher/docs/Mathematics/Logarithm/Content|Theorems of logarithm]].
-[^4]: Read more about [[notes_publisher/docs/Mathematics/Logarithm/Content|Logarithmic notation]].
+[^3]: Read more about [[Mathematics/Logarithm/Content|logarithms]].
