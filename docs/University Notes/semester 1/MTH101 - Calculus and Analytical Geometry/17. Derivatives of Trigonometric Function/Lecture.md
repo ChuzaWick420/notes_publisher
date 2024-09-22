@@ -1,10 +1,13 @@
 ---
 tags:
   - university-notes
+  - differentiation
+  - trigonometry
 university-name: Virtual University of Pakistan
 ---
 
-# Derivative of $f(x) = \sin(x)$
+# Derivative of Trigonometric Functions
+## Derivative of $f(x) = \sin(x)$
 
 $$\frac{d}{dx} (\sin x) = \lim_{h \to 0} \frac{\sin(x+h) - \sin(x)}{h}$$
 
@@ -28,9 +31,9 @@ $$= \cos(x) \cdot (1) - \sin(x) \cdot (0)$$
 
 $$= \cos(x)$$
 
-# Derivative of $f(x) = \cos(x)$
+## Derivative of $f(x) = \cos(x)$
 
-$$\frac{d}{dx}cos(x) = \lim_{h\to0}\frac{cos(x+h)-cos(x)}{h}$$
+$$\frac{d}{dx}\cos(x) = \lim_{h\to0}\frac{\cos(x+h)-\cos(x)}{h}$$
 
 $$= \lim_{h\to0}\frac{\cos(x)\cos(h)-\sin(x)\sin(h)-\cos(x)}{h}$$
 
@@ -42,7 +45,7 @@ $$= \cos(x)(0) - \sin(x)(1)$$
 
 $$= -\sin(x)$$
 
-# Derivative of $f(x) = \tan(x)$
+## Derivative of $f(x) = \tan(x)$
 
 $$\frac{d}{dx}\tan(x) = \frac{d}{dx}\left[\frac{\sin(x)}{\cos(x)}\right]$$
 
@@ -54,11 +57,13 @@ $$= \frac{\cos(x)\cos(x)-\sin(x)[-\sin(x)]}{\cos^{2}(x)}$$
 
 $$= \frac{\cos^{2}(x)+\sin^{2}(x)}{\cos^{2}(x)}$$
 
+$$\because \cos^{2}(x)+\sin^{2}(x) = 1$$
+
 $$=\frac{1}{\cos^{2}(x)}$$
 
 $$= \sec^2(x)$$
 
-# Derivative of $f(x) = \sec(x)$
+## Derivative of $f(x) = \sec(x)$
 
 $$\frac{d}{dx}\sec(x) = \frac{d}{dx}\left(\frac{1}{\cos(x)}\right)$$
 
@@ -70,7 +75,7 @@ $$=\frac{\sin(x)}{\cos(x)}\cdot\frac{1}{\cos(x)}$$
 
 $$=\sec(x)\tan(x)$$
 
-# Derivative of $f(x) = \csc(x)$
+## Derivative of $f(x) = \csc(x)$
 
 $$\frac{d}{dx}\csc(x) = \frac{d}{dx}\left(\frac{1}{\sin(x)}\right)$$
 
@@ -80,7 +85,7 @@ $$=-\frac{\cos(x)}{\sin(x)}\cdot\frac{1}{\sin(x)}$$
 
 $$=-\csc(x)\cot(x)$$
 
-# Derivative of $f(x) = \cot(x)$
+## Derivative of $f(x) = \cot(x)$
 
 $$\frac{d}{dx}\cot(x) = \frac{d}{dx}\left(\frac{1}{\tan(x)}\right)$$
 
@@ -88,8 +93,14 @@ $$=\frac{\tan(x)(0)-(1)[\sec^{2}(x)]}{\tan^{2}(x)}$$
 
 $$=-\frac{\sec^{2}(x)}{\tan^{2}(x)}$$
 
+$$= - \frac{1}{\cos^2(x)} \div \frac{\sin^2(x)}{\cos^2(x)}$$
+
+$$= - \frac{1}{\cos^2(x)} \times \frac{\cos^2(x)}{\sin^2(x)}$$
+
+$$= - \frac{1}{\sin^2(x)}$$
+
 $$=-\csc^{2}(x)$$
 
-# References
+## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|Quotient Formula]].
+[^1]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|quotient formula]].
