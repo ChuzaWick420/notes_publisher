@@ -1,6 +1,7 @@
 ---
 tags:
   - university-notes
+  - differentiation
 university-name: Virtual University of Pakistan
 ---
 
@@ -21,7 +22,7 @@ Alternatively, we can also do it by _without_ solving for `y`.
 
 $$yx = 1$$
 
-Applying `power rule`[^2].  
+Applying `chain rule`[^2].  
 
 $$x\frac{d}{dx}(y)+y\frac{d}{dx}(x)=0$$
 
@@ -42,7 +43,7 @@ $$\frac{dy}{dx} = -\frac{1}{x^2}$$
 
 This method of `differentiation` without finding value of `y` is called `implicit differentiation`.
 
-# References
+## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|Power Rule]].
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
+[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/18. The chain Rule/Lecture|chain rule]].
