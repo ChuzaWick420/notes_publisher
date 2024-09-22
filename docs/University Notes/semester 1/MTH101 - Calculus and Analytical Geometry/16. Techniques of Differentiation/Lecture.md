@@ -4,11 +4,12 @@ tags:
 university-name: Virtual University of Pakistan
 ---
 
-# Derivatives of Constant Functions
+# Techniques of Differentiation
+## Derivatives of Constant Functions
 
 $$\frac{d}{dx} (c) = 0$$
 
-## Proof
+### Proof
 
 $$\lim_{h \rightarrow 0} \frac{f(h + x) - f(x)}{h}$$
 
@@ -22,11 +23,11 @@ $$ = \lim_{h \rightarrow 0} 0$$
 
 $$ = 0$$
 
-# Power Rule
+## Power Rule
 
 $$\frac{d}{dx}(x^n) = n \cdot x^{n - 1}$$
 
-## Proof
+### Proof
 
 $$\frac{d}{dx}(x^n) = \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}$$
 
@@ -48,11 +49,11 @@ Since all the terms except for _first_ one include some factor of $h$, most of t
 
 $$= nx^{n-1}$$
 
-# Sum or Difference of the Functions
+## Sum or Difference of the Functions
 
 $$\frac{d}{dx}\left(f(x) + g(x)\right) = \frac{d}{dx}(f(x)) + \frac{d}{dx}(g(x))$$
 
-## Proof
+### Proof
 
 $$\frac{d}{dx}\left(f(x) + g(x)\right) = \lim_{h \rightarrow 0} \frac{f(x+h) + g(x + h) - f(x) - g(x)}{h}$$
 
@@ -62,11 +63,11 @@ $$\frac{d}{dx}\left(f(x) + g(x)\right) = \lim_{h \rightarrow 0} \frac{f(x+h)  - 
 
 $$\frac{d}{dx}\left(f(x) + g(x)\right) = \frac{d}{dx} f(x) + \frac{d}{dx} g(x)$$
 
-# Product
+## Product
 
 $$\frac{d}{dx}\left(f(x) \cdot g(x)\right) = f(x) \cdot \frac{d}{dx} g(x) + g(x) \cdot \frac{d}{dx} f(x)$$
 
-## Proof
+### Proof
 
 $$\frac{d}{dx}\left(f(x) \cdot g(x)\right) = \lim_{h \rightarrow 0} \frac{f(x + h) \cdot g(x + h) - f(x) \cdot g(x)}{h}$$
 
@@ -82,19 +83,19 @@ $$= \lim_{h \rightarrow 0} \frac{f(x + h) \cdot \left( g(x + h) - g(x) \right)}{
 
 $$= f(x) \cdot \frac{d}{dx} g(x) + g(x) \cdot \frac{d}{dx} f(x)$$
 
-# Quotient
+## Quotient
 
 $$\frac{d}{dx} \left[ \frac{f(x)}{g(x)} \right] = \frac{g(x) \frac{d}{dx}[f(x)] - f(x) \frac{d}{dx}[g(x)]}{[g(x)]^2}
 $$
 
-## Proof
+### Proof
 ![[Pasted image 20240817144720.png]]
 
-# Reciprocal Theorem
+## Reciprocal Theorem
 
 $$\frac{d}{dx} \left( \frac{1}{g(x)} \right) = -\frac{\frac{d}{dx} \left( g(x) \right)}{\left( g(x) \right)^2}
 $$
 
-# References
+## References
 
 [^1]: Read more about [[notes_publisher/docs/Mathematics/Binomial Theorem/Content|binomial theorem]].
