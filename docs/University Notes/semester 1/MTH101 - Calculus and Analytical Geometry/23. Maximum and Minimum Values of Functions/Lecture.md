@@ -36,8 +36,60 @@ We can divide this task into following tasks.
 2. Find values of $f(x)$ at `critical points`[^3] and the endpoints of the `interval`[^2] the `function`[^1] is defined at.
 3. The largest of the values in Step 2 is `absolute maxima` and the smallest is `absolute minima`.
 
+## Example
+Find dimensions of a `rectangle` with $100 ft$ `perimeter` such that it has maximum `area`.
+
+### Solution
+We can represent the `perimeter` as:  
+
+$$100 = 2y + 2x$$
+
+$$50 = x + y$$
+
+$$y = 50 - x$$
+
+Then we can represent the `area` which we want to maximize as:  
+
+$$A(x, y) = xy$$
+
+We can re-write the `function`[^1] in terms of $x$.  
+
+$$A(x) = x \cdot (50 - x) = 50x - x^2$$
+
+From the equation above, it is evident that $A(x) = 0$ if $x = 0, 50$.  
+
+> Since `negative lengths` are not realistic, $x$ cannot go below $0$ and if $x > 50$ then the `area` becomes `negative` which is not realistic either. Hence, our `interval`[^2] is $[0, 50]$.
+
+Then we find the `absolute maxima`. For that, we need to find the `critical points`[^3]. For that, we do our `derivative test`[^4].  
+
+$$A^{\prime}(x) = 50 - 2x$$
+
+$$0 = 50 - 2x$$
+
+$$2x = 50$$
+
+$$x = 25$$
+
+So our values to check are $x = 0, 25, 50$.  
+
+$$A(0) = 50 \cdot 0 - 0^2 = 0$$
+
+$$A(25) = 50 \cdot 25 - {25}^2 = 625$$
+
+$$A(50) = 50 \cdot 50 - {50}^2 = 0$$
+
+So the `absolute maximum` lies at $x = 25$.  
+Put this in the `perimeter` equation.  
+
+$$y = 50 - x$$
+
+$$y = 50 - 25 = 25$$
+
+Hence, the dimensions of the `rectangle` with maximum `area` are $25 \times 25$.
+
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]]
 [^3]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|critical points]]
+[^4]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|derivative tests]]
