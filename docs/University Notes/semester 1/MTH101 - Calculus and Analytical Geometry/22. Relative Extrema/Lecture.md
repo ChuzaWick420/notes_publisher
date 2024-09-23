@@ -127,17 +127,17 @@ The graph of this `function`[^1] looks something like this.
 ![[Pasted image 20240907001652.png]]
 
 ### Horizontal Asymptots
-A line $y = y_0$ is called `horizontal asymptots` for the graph of $f(x)$ if
+A line $y = y_0$ is called `horizontal asymptots` for the graph of $f(x)$ if either is true
+
 - $\lim_{x \to +\infty} f(x) = y_0$  
-or
 - $\lim_{x \to -\infty} f(x) = y_0$
 
 In the graph of the `function`[^1] above, $\lim_{x \to + \infty} f(x) = \lim_{x \to - \infty} f(x) = 1$.
 
 ### Vertical Asymptots
-A line $x = x_0$ is called `vertical asymptots` for the graph of $f(x)$ if
+A line $x = x_0$ is called `vertical asymptots` for the graph of $f(x)$ if either is true
+
 - $\lim_{x \to x_0^-} f(x) = - \infty$  
-or
 - $\lim_{x \to x_0^+} f(x) = + \infty$  
 
 In the case of graph of the `function`[^1] above, $\lim_{x \to 2^-} f(x) = - \infty$ and$\lim_{x \to 2^+} f(x) = - \infty$. Hence, the `vertical Asymptots` is $2$.
