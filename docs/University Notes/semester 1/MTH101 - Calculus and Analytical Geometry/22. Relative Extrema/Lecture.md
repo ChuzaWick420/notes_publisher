@@ -140,7 +140,7 @@ A line $x = x_0$ is called `vertical asymptots` for the graph of $f(x)$ if eithe
 - $\lim_{x \to x_0^-} f(x) = - \infty$  
 - $\lim_{x \to x_0^+} f(x) = + \infty$  
 
-In the case of graph of the `function`[^1] above, $\lim_{x \to 2^-} f(x) = - \infty$ and$\lim_{x \to 2^+} f(x) = - \infty$. Hence, the `vertical Asymptots` is $2$.
+In the case of graph of the `function`[^1] above, $\lim_{x \to 2^-} f(x) = - \infty$ and $\lim_{x \to 2^+} f(x) = - \infty$. Hence, the `vertical Asymptots` is $2$.
 
 ## References
 
