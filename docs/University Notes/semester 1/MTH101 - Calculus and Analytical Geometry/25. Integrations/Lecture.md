@@ -1,0 +1,71 @@
+---
+tags:
+  - university-notes
+  - integral
+  - differentiation
+university-name: Virtual University of Pakistan
+---
+
+# Integration
+## The Area Problem
+### The Problem
+Given a `continous function`[^1] $f(x)$ defined over an `interval`[^2] $[a, b]$, find area between the `x-axis` and the `graph` of the `function`[^3].  
+![[Pasted image 20240925180230.png]]
+
+### Solution
+Let's first define the `area` to be a `function`[^3] of $x$ where $x$ is the distance from $a$ and $a \le x \le b$.  
+To know what this `area` looks like, Newton and Leibniz suggested to find  
+
+$$A^{\prime}(x) = \lim_{h \to 0} \frac{A(x + h) - A(x)}{h}$$
+
+Here $x$ is an arbitrary number with $h$ being an arbitrary addition to it.  
+The difference $A(x + h) - A(x)$ can be thought of as:  
+![[Pasted image 20240925182600.png]]  
+The `area` of this slice can be approximated by computing the `area` of a `rectangle` whose `base` is $h$ and whose `height` is $f(c)$ where $c$ is the `midpoint` between $x$ and $(x + h)$.  
+![[Pasted image 20240925183131.png]]  
+From the visualization, as the $h \to 0$, $c \to x$.  
+
+$$A^{\prime}(x) = \lim_{h \to 0} \frac{A(x + h) - A(x)}{h} \approx \lim_{h \to 0} \frac{f(c) \cdot h}{h} = \lim_{h \to 0} f(c) = f(x)$$
+
+## Integrations (Anti-Derivatives)
+A `function`[^3] $F(x)$ is called `anti-derivative` of $f(x)$ on a given `interval`[^2] if $F^{\prime}(x) = f(x)$ for all values of $x$ within that `interval`[^2].
+
+### Example
+Imagine few `functions`[^3] such as:  
+
+$$f(x) = x^2$$
+
+$$g(x) = x^2 - 3$$
+
+$$h(x) = x^2 \pm c; c \in \mathbb{R}$$
+
+Then
+
+$$f^{\prime}(x) = g^{\prime}(x) = h^{\prime}(x) = 2x$$
+
+Hence, the more generalized `anti-derivative` is $F(x) \pm C$ or more simply, just $F(x) + C$ where $C \in \mathbb{R}$.
+
+## Indefinite Integral
+If we have $\frac{d}{dx} \left(F(x) + C\right) = f(x)$ then,  
+
+$$d \left(F(x) + C\right) = f(x) \cdot dx$$
+
+$$F(x) + C = \int f(x) \cdot dx$$
+
+> $\int$ and $d$ annihilate each other.
+
+The $\int$ is called the `integral symbol` and the $f(x)$ in this case is called the `integrand`.
+
+## Properties of Indefinite Integral
+
+- $$\int c f(x) \, dx = c \int f(x) \, dx$$
+
+- $$\int \left(f(x) + g(x)\right) dx = \int f(x) dx + \int g(x) dx$$
+
+- $$\int \left(f(x) - g(x)\right) dx = \int f(x) dx - \int g(x) dx$$
+
+## References
+
+[^1]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^3]: Read more about [[Mathematics/Function/Content|functions]].
