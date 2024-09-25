@@ -103,4 +103,4 @@ $$=-\csc^{2}(x)$$
 
 ## References
 
-[^1]: Read more about [[/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|quotient rule]].
+[^1]: Read more about [[/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|quotient rule]].
