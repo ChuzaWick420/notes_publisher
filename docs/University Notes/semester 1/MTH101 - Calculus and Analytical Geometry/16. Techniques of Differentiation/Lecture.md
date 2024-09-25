@@ -99,4 +99,4 @@ $$
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Binomial Theorem/Content|binomial theorem]].
+[^1]: Read more about [[Mathematics/Binomial Theorem/Content|binomial theorem]].
