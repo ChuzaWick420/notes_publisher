@@ -34,6 +34,7 @@ $$\left. \frac{d}{dx}\sqrt{x} \right|_{x = x_0} = \left. \frac{1}{2 \sqrt{x}} \r
 
 ## Existence of Derivatives
 There are some situations when we can say that the `derivative` does not exist at a certain point for a `function`[^1].
+
 1. The graph has _vertical `tangents`_.
 2. The graph has _point of discontinuity_.
 3. The graph has corners (can be made through `piece wise functions`[^1]).

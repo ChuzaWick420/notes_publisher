@@ -45,4 +45,4 @@ If this line intersects the graph at only _one point_ then it is graph of a `fun
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|lines]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|lines]].

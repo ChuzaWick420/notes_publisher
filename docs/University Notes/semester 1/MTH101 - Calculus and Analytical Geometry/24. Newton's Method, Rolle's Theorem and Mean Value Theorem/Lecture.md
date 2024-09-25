@@ -85,5 +85,5 @@ $$f^{\prime}(c) = \left(\frac{f(b) - f(a)}{b - a}\right)$$
 ## Reference
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
-[^3]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].

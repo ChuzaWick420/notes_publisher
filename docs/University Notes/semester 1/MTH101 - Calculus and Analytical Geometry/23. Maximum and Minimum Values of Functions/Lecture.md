@@ -90,6 +90,6 @@ Hence, the dimensions of the `rectangle` with maximum `area` are $25 \times 25$.
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]]
-[^3]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|critical points]]
-[^4]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|derivative tests]]
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]]
+[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|critical points]]
+[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|derivative tests]]

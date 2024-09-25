@@ -116,6 +116,6 @@ $$\frac{dy}{dx}=(f^{-1})^{\prime}(x)\Rightarrow\frac{dx}{dy}=f^{\prime}(y)=f^{\p
 
 ## References
 
-[^1]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|Limits]].
+[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|Limits]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
 [^3]: Read more about [[Mathematics/Logarithm/Content|logarithms]].

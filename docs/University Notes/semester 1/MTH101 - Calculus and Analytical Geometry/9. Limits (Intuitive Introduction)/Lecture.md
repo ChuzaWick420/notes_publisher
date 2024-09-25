@@ -53,5 +53,5 @@ $$\lim_{x \rightarrow 0^-}\frac{\sin(x)}{x} = \lim_{x \rightarrow 0^+}\frac{\sin
 
 ## References
 
-[^1]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
-[^2]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].  
+[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^2]: Read more about [[Mathematics/Function/Content|functions]].  

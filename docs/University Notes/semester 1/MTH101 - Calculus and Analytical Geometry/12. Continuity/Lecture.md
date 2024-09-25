@@ -49,4 +49,4 @@ If $f(x)$ is _continuous_ over the interval $[a, b]$ and $f(a)$ and $f(b)$ have 
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/10. Limits (Computational Techniques)/Lecture|limits]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/10. Limits (Computational Techniques)/Lecture|limits]].

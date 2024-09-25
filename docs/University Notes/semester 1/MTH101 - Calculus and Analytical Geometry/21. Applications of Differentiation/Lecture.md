@@ -116,6 +116,6 @@ Since $f^{\prime \prime}(x) > 0$ for all $x$, the graph is _concave up_ at inter
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/19. Implicit Differentiation/Lecture|implicit differentiation]].
-[^3]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
-[^4]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|differentiation]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/19. Implicit Differentiation/Lecture|implicit differentiation]].
+[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|differentiation]].

@@ -70,4 +70,4 @@ Similarly, for the $x = -y$, we can just _reflect_ it.
 
 ## References
 
-[^1]: Read more about [[University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/2. Absolute Value/Lecture|absolute values]].
+[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/2. Absolute Value/Lecture|absolute values]].
