@@ -5,7 +5,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Sigma Notation
-The Greek letter $\sum$ is called `sigma` or `summation` and is used to represent a length `sum` into a more compact form.
+The Greek letter $\sum$ is called `sigma` or `summation` and is used to represent a lengthy `sum` into a more compact form.
 
 ## Example
 Consider a sequence as such  
