@@ -1,6 +1,8 @@
 ---
 tags:
   - university-notes
+  - limits
+  - sigma
 university-name: Virtual University of Pakistan
 ---
 
