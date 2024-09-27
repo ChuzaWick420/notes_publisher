@@ -1,6 +1,7 @@
 ---
 tags:
   - university-notes
+  - integral
 university-name: Virtual University of Pakistan
 ---
 
