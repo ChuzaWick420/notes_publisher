@@ -31,7 +31,7 @@ This will give us a collection of solids similar to `cylindrical shells` but the
 ![[Pasted image 20240927230317.png]]  
 So the whole `volume` of the whole solid can be written as  
 
-$$V(S) = V(S_1) + V(S_2) + \ldots + V(S_n) = \sum_{i = 1}^n S_i$$
+$$V(S) = V(S_1) + V(S_2) + \ldots + V(S_n) = \sum_{i = 1}^n V(S_i)$$
 
 Using the formula for `volume` of `cylindrical shells`, we can define volume of any arbitrary sub-solid as follows  
 
@@ -40,7 +40,7 @@ $$V(S_i) = 2\pi \cdot f(x_i^*) \cdot \Delta x_i \cdot x_i^*$$
 Here the $x_i^*$ is the `average radius` which is good for approximation of `height` defined by $f(x_i^*)$, when the `thickness` is very small, that is $max(\Delta x_i) \to 0$  
 
 $$V(S)=\lim_{\max(\Delta x_i)\to 0}\sum_{i=1}^{n}2\pi x_i^*f(x_i^*)\Delta x_i=\int_{a}^{b}2\pi xf(x)dx$$
-  
+
 ![[Pasted image 20240927231333.png]]
 
 ## References
