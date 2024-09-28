@@ -1,0 +1,79 @@
+---
+tags:
+  - university-notes
+  - "integral"
+  - sigma
+  - limits
+  - differentiation
+university-name: Virtual University of Pakistan
+---
+
+# Area of Surface of Revolution
+## Surface Area Problem
+Let us have a `continuous function`[^1] $f(x)$ defined over the `interval`[^2] $[a, b]$  
+![[Pasted image 20240928112944.png]]  
+If we revolve it about `x-axis` then we get a solid as  
+![[Pasted image 20240928113123.png]]
+
+If we divide this solid into slices, we will get a collection of `frustums` which look like this  
+![[Pasted image 20240928113744.png]]  
+The formula for finding `surface area` of a `frustum` is  
+
+$$S = \pi (r_1 + r_2) \cdot l$$
+
+Where $l$ is the `line segment` (the `arc length`) on the $f(x)$.  
+Therefore, for any arbitrary `frustum`, if  
+
+$$r_1 = f(x_{i - 1})$$
+
+$$r_2 = f(x_{i})$$
+
+Using the `pythagorus theorem` and `mean value theorem`[^3] 
+
+$$l=\sqrt{(\Delta x)^2+\left[f(x_k)-f(x_{k-1})\right]^2} = \sqrt{1+\left[f'(x_i^*)\right]^2}\Delta x_i$$
+
+then  
+
+$$S_i=\pi\left(f(x_{i-1})+f(x_i)\right)\sqrt{1+\left(f'(x_i^*)\right)^2}\Delta x_i$$
+
+Then using the `intermediate value theorem`[^4],  
+
+$$\frac{1}{2}\left(f(x_{i-1})+f(x_i)\right)=f(x_i^{**})$$
+
+Here $x_i^{**}$ is a value existing within $[x_{i - 1}, x_i]$  
+Hence, we can rewrite our equation to  
+
+$$S_i=2\pi f(x_i^{**})\sqrt{1+\left(f'(x_i^*)\right)^2}\Delta x_i$$
+
+Adding all the `frustums` up, we get  
+
+$$\sum_{i=1}^{n}S_i=\sum_{i=1}^{n}2\pi f(x_i^{**})\sqrt{1+\left(f'(x_i^*)\right)^2}\Delta x_i$$
+
+Then to make our approximations better,  
+
+$$S = \lim_{\max(\Delta x_i\to 0)}\sum_{i=1}^{n}2\pi f(x_i^{**})\sqrt{1+\left(f'(x_i^*)\right)^2}\Delta x_i$$
+
+Which of course can be written in `integral`[^2] form.  
+
+$$S = \int_{a}^{b}2\pi f(x)\sqrt{1+\left(f'(x)\right)^2}dx$$
+
+## Example
+Find the `surface area` of the portion of the `sphere` generated from $y = \sqrt{1 - x^2}$ bounded within $0 \le x \le \frac 1 2$.
+
+## Solution
+Using our equation
+
+$$S = \int_{a}^{b}2\pi f(x)\sqrt{1+\left(f'(x)\right)^2}dx$$
+
+$$= \int_0^{\frac 1 2} 2 \pi \sqrt{1 - x^2} \cdot \sqrt{1 + \left(\frac{d}{dx} \sqrt{1 - x^2}\right)^2} dx$$
+
+After simplifying the `integrand`[^2], we get  
+
+$$\int_0^{\frac 1 2} 2 \pi dx = 2 x \pi \bigg]_0^{\frac 1 2} = \pi$$
+
+## References
+
+[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/24. Newton's Method, Rolle's Theorem and Mean Value Theorem/Lecture|mean value theorem]].
+[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|intermediate value theorem]].
