@@ -1,6 +1,8 @@
 ---
 tags:
   - university-notes
+  - integral
+  - sigma
 university-name: Virtual University of Pakistan
 ---
 
