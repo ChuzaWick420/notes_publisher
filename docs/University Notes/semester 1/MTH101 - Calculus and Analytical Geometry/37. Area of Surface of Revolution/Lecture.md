@@ -53,7 +53,7 @@ Then to make our approximations better,
 
 $$S = \lim_{\max(\Delta x_i\to 0)}\sum_{i=1}^{n}2\pi f(x_i^{**})\sqrt{1+\left(f'(x_i^*)\right)^2}\Delta x_i$$
 
-Which of course can be written in `integral`[^2] form.  
+Which of course can be written in `integral`[^5] form.  
 
 $$S = \int_{a}^{b}2\pi f(x)\sqrt{1+\left(f'(x)\right)^2}dx$$
 
@@ -67,7 +67,7 @@ $$S = \int_{a}^{b}2\pi f(x)\sqrt{1+\left(f'(x)\right)^2}dx$$
 
 $$= \int_0^{\frac 1 2} 2 \pi \sqrt{1 - x^2} \cdot \sqrt{1 + \left(\frac{d}{dx} \sqrt{1 - x^2}\right)^2} dx$$
 
-After simplifying the `integrand`[^2], we get  
+After simplifying the `integrand`[^5], we get  
 
 $$\int_0^{\frac 1 2} 2 \pi dx = 2 x \pi \bigg]_0^{\frac 1 2} = \pi$$
 
@@ -77,3 +77,4 @@ $$\int_0^{\frac 1 2} 2 \pi dx = 2 x \pi \bigg]_0^{\frac 1 2} = \pi$$
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
 [^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/24. Newton's Method, Rolle's Theorem and Mean Value Theorem/Lecture|mean value theorem]].
 [^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|intermediate value theorem]].
+[^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
