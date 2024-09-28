@@ -83,7 +83,7 @@ The `integrand`[^1] approaches to $+ \infty$ as $x \to 2$. Therefore,
 
 $$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}} = \int_{1}^{2}\frac{dx}{(x-2)^{2/3}} + \int_{2}^{4}\frac{dx}{(x-2)^{2/3}}$$
 
-$$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}} $$
+$$\int_{1}^{2}\frac{dx}{(x-2)^{2/3}} $$
 
 $$= \lim_{l\to 2^{-}}\int_{1}^{l}\frac{dx}{(x-2)^{2/3}} $$
 
@@ -91,11 +91,15 @@ $$= \lim_{l\to 2^{-}}\left[3(l-2)^{1/3}-3(1-2)^{1/3}\right] $$
 
 $$= 3$$
 
+$$\int_{2}^{4}\frac{dx}{(x-2)^{2/3}} $$
+
 $$\lim_{l\to 2^{+}}\int_{l}^{4}\frac{dx}{(x-2)^{2/3}} $$
 
 $$= \lim_{l\to 2^{+}}\left[3(4-2)^{1/3}-3(l-2)^{1/3}\right] $$
 
 $$= 3\sqrt[3]{2}$$
+
+$$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}} = 3 + 3 \sqrt[3]{2}$$
 
 ## References
 
