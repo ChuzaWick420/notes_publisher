@@ -106,9 +106,65 @@ $$\lim_{x \to 0^+} \frac{\frac{d}{dx} \ln x}{\frac{d}{dx} \frac{1}{x}}$$
 
 $$= \lim_{x \to 0^+} \frac{1/x}{- 1/x^2} = \lim_{x \to 0^+} (-x) = 0$$
 
-##### Step 5
+##### Step 3
 
 $$\lim_{x \to 0^+} x \ln x = 0$$
+
+### Type $0^0$, $\infty^0$, $1^\infty$, $\infty^\infty$
+These usually come of as the result of  
+
+$$\lim_{x \to a} y = \lim_{x \to a}f(x)^{g(x)}$$
+
+To solve these,  
+
+$$\lim_{x\rightarrow a}\ln y=\lim_{x\rightarrow a}\left(\ln (f(x))^{g(x)}\right)$$
+
+$$=\lim_{x\rightarrow a}\left(g(x)\ln f(x)\right)$$
+
+If we know $\lim_{x\rightarrow a}\ln y$ then determining the other side becomes easier.
+
+#### Example
+Show that  
+
+$$\lim_{x\rightarrow0}(1+x)^{1/x}=e$$
+
+##### Step 1
+
+$$\lim_{x \to 0}(1 + x) = 1$$
+
+$$\lim_{x \to 0} \frac 1 x = \infty$$
+
+##### Step 2
+
+$$y=(1+x)^{1/x}$$
+
+$$\ln y=\ln(1+x)^{1/x}$$
+
+$$=\frac{1}{x}\ln(1+x)$$
+
+$$=\frac{\ln(1+x)}{x}$$
+
+$$\lim_{x\rightarrow0}\ln y=\lim_{x\rightarrow0}\frac{\ln(1+x)}{x}$$
+
+$$\lim_{x \to 0} \ln (1 + x) = \ln (1) = 0$$
+
+$$\lim_{x \to 0} x = 0$$
+
+##### Step 3
+
+$$\lim_{x\rightarrow0}\ln y=\lim_{x\rightarrow0}\frac{\ln(1+x)}{x}$$
+
+$$=\lim_{x\rightarrow0}\frac{\frac{d}{dx}\ln(1+x)}{\frac{d}{dx}x}$$
+
+$$ = \lim_{x \to 0}\frac{1 / (1 + x)}{1} = 1$$
+
+This shows that as $x \to 0$, $\ln y \to 0$.  
+
+$$\because e^{\ln y} \to e^1$$
+
+$$\therefore x \to 0 \implies y \to e$$
+
+$$\lim_{x\rightarrow0}(1+x)^{1/x}=e$$
 
 ## References
 
