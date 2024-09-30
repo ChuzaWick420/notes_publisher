@@ -167,6 +167,51 @@ $$f^{\prime}(x) \ge 0$$
 A `sequence` that is either `non decreasing` or `non increasing` is called a `monotone`.  
 A `sequence` that is either `decreasing` or `increasing` is called a `strictly monotone`.
 
+### Example
+Prove that the `sequence`  
+
+$$\frac 1 2, \frac 2 3, \ldots , \frac{n}{n+1}, \ldots$$
+
+is an `increasing sequence`.
+
+#### Solution
+
+$$a_n = \frac{n}{n+1}$$
+
+$$a_{n + 1} = \frac{n + 1}{n+2}$$
+
+Now from here, we can take either the `difference` route or `ratio` route.
+
+##### Difference
+
+$$a_{n+1} - a_n = \frac{n+1}{n+2} - \frac{n}{n+1}$$
+
+$$= \frac{n^2 + 2n + 1 - n^2 - 2n}{(n+1)(n+2)}$$
+
+$$= \frac{1}{(n+1)(n+2)} > 0$$
+
+##### Ratio
+
+$$\frac{a_{n+1}}{a_n} = \frac{(n+1)/(n+2)}{n/(n+1)}$$
+
+$$= \frac{n+1}{n+2} \cdot \frac{n+1}{n} $$
+
+$$= \frac{n^2 + 2n + 1}{n^2 + 2n} > 1$$
+
+### Eventually Monotonic
+A `sequence` is called `eventually monotonic` for some $n = N$, the `sequence` becomes a `monotone`.
+
+## Theorems
+## Non Decreasing
+1. There is a `constant` $M$ such that $a_n \le M$ for all $n$ then the `sequence` _converges_ to a `limit`[^4] satisfying $L \le M$.
+
+2. There is no upper bound in case of $$\lim_{n \to +\infty}a_n = +\infty$$
+
+## Non Increasing
+1. There is a `constant` $M$ such that $a_n \ge M$ for all $n$ then the `sequence` _converges_ to a `limit`[^4] satisfying $L \ge M$.
+
+2. There is no lower bound in case of $$\lim_{n \to +\infty}a_n = -\infty$$
+
 ## References
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
