@@ -62,7 +62,7 @@ A `sequence` which does not _converge_ is said to _diverge_.
 ![[Pasted image 20240930171329.png]]  
 After $n > 5$, our values start to approach $L$.
 
-## Theorems
+### Theorems
 
 - $$\lim_{n \to +\infty} c = c$$
 
@@ -75,6 +75,97 @@ After $n > 5$, our values start to approach $L$.
 - $$\lim_{n \to +\infty} (a_n \cdot b_n) = \lim_{n \to + \infty} a_n \cdot \lim_{n \to +\infty} b_n = L_1 \cdot L_2$$
 
 - $$\lim_{n \to +\infty}\left(\frac{a_n}{b_n}\right) = \frac{\lim_{n \to +\infty} a_n}{\lim_{n \to +\infty} b_n} = \frac{L_1}{L_2}$$
+
+### Example
+Determine if the following `sequence` _converges_ or _diverges_.  
+
+$$\left\{\frac{n}{2n+1}\right\}_{n=1}^{+\infty}$$
+
+#### Solution
+Divide the `numerator` and `denominator` by $n$.  
+
+$$\lim_{n\rightarrow+\infty}\frac{n}{2n+1} = \lim_{n\rightarrow+\infty}\frac{1}{2+1/n} $$
+
+$$= \frac{\lim_{n\rightarrow+\infty}1}{\lim_{n\rightarrow+\infty}(2+1/n)} = \frac{1}{2}$$
+
+## Recursive Sequence
+There are some `sequences` which are defined by providing an _initial_ value and by giving a formula which relates each subsequent `term` to the `term` that precedes it.  
+These `sequences` are called `recursive sequences`.
+
+### Example
+For $n \ge 1$  
+
+$$a_{n+1} = \frac 1 2 \left(a_n + \frac {3}{a_n}\right)$$
+
+## Monotonicity
+A `sequence` $\{a_n\}$ is called 
+
+### Increasing
+
+If $$a_1 < a_2 < \ldots < a_n < \ldots$$
+
+#### Difference of `terms`
+
+$$a_{n + 1} - a_n > 0$$
+
+#### Ratio of `terms`
+
+$$\frac{a_{n + 1}}{a_n} > 1$$
+
+#### Derivative of $f(x) = a_n$
+
+$$f^{\prime}(x) > 0$$
+
+### Decreasing
+
+If $$a_1 > a_2 > \ldots > a_n > \ldots$$
+
+#### Difference of `terms`
+
+$$a_{n + 1} - a_n < 0$$
+
+#### Ratio of `terms`
+
+$$\frac{a_{n + 1}}{a_n} < 1$$
+
+#### Derivative of $f(x) = a_n$
+
+$$f^{\prime}(x) < 0$$
+
+### Non Increasing
+
+If $$a_1 \ge a_2 \ge \ldots \ge a_n \ge \ldots$$
+
+#### Difference of `terms`
+
+$$a_{n + 1} - a_n \le 0$$
+
+#### Ratio of `terms`
+
+$$\frac{a_{n + 1}}{a_n} \le 1$$
+
+#### Derivative of $f(x) = a_n$
+
+$$f^{\prime}(x) \le 0$$
+
+### Non Decreasing
+
+If $$a_1 \le a_2 \le \ldots \le a_n \le \ldots$$
+
+#### Difference of `terms`
+
+$$a_{n + 1} - a_n \ge 0$$
+
+#### Ratio of `terms`
+
+$$\frac{a_{n + 1}}{a_n} \ge 1$$
+
+#### Derivative of $f(x) = a_n$
+
+$$f^{\prime}(x) \ge 0$$
+
+A `sequence` that is either `non decreasing` or `non increasing` is called a `monotone`.  
+A `sequence` that is either `decreasing` or `increasing` is called a `strictly monotone`.
 
 ## References
 
