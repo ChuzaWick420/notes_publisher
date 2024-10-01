@@ -3,6 +3,7 @@ tags:
   - university-notes
   - composite-functions
   - function-operations
+  - sigma
 university-name: Virtual University of Pakistan
 ---
 

@@ -86,7 +86,7 @@ If $c_0, c_1$ etc are `constants` and $x$ is a `variable` then the `series`[^1] 
 
 $$\sum_{i=0}^{\infty}c_{i}x^{i}=c_{0}+c_{1}x+c_{2}x^{2}+\ldots+c_{i}x^{i}+\ldots$$
 
-is called `power seires`.
+is called `power series`.
 
 ### Theorem
 For `power series`, exactly one of the following is true
