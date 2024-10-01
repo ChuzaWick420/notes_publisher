@@ -90,6 +90,7 @@ is called `power seires`.
 
 ### Theorem
 For `power series`, exactly one of the following is true
+
 1. The `series`[^1] _converges_ only for $x = 0$
 2. The `series`[^1] _converges_ absolutely for all real values of $x$.
 3. The `series`[^1] _converges_ absolutely for all $x$ in some finite `open interval`[^5] $(-R, R)$, _diverges_ if $x < -R$ or $x > R$ and at $x = -R, R$, can either
@@ -139,6 +140,7 @@ For any `power series` of the form
 $$\sum c_{i}(x-a)^{i}$$
 
 exactly one of the following is true
+
 1. The `series`[^1] _converges_ only for $x = a$
 2. The `series`[^1] _converges_ absolutely for all real values of $x$.
 3. The `series`[^1] _converges_ absolutely for all $x$ in some `open interval`[^5] $(a - R, a + R)$, _diverges_ if $x < a - R$ or $x > a + R$ and at $x = a \pm R$, may
