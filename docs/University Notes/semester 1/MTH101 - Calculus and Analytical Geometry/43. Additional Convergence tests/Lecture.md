@@ -2,6 +2,7 @@
 tags:
   - university-notes
   - sigma
+  - series
 university-name: Virtual University of Pakistan
 ---
 
@@ -54,3 +55,4 @@ Then if $p > 0$ and is `finite` then both `series`[^1] either _converge_ or _div
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/7. Operations on Functions/Lecture|polynomials]].
+[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/27. Sigma Notation/Lecture|sum]].
