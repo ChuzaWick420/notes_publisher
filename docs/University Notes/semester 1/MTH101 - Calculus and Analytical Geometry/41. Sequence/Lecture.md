@@ -205,12 +205,16 @@ A `sequence` is called `eventually monotonic` for some $n = N$, the `sequence` b
 ## Non Decreasing
 1. There is a `constant` $M$ such that $a_n \le M$ for all $n$ then the `sequence` _converges_ to a `limit`[^4] satisfying $L \le M$.
 
-2. There is no upper bound in case of $$\lim_{n \to +\infty}a_n = +\infty$$
+2. There is no upper bound in case of  
+
+$$\lim_{n \to +\infty}a_n = +\infty$$
 
 ## Non Increasing
 1. There is a `constant` $M$ such that $a_n \ge M$ for all $n$ then the `sequence` _converges_ to a `limit`[^4] satisfying $L \ge M$.
 
-2. There is no lower bound in case of $$\lim_{n \to +\infty}a_n = -\infty$$
+2. There is no lower bound in case of  
+
+$$\lim_{n \to +\infty}a_n = -\infty$$
 
 ## References
 
