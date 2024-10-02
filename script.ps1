@@ -1,5 +1,5 @@
 # Define the parent directory where the search will start
-$repo_root = "$pwd"
+$repo_root = pwd
 
 $parentDirectory = "./docs/"
 
