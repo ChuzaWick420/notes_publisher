@@ -1,4 +1,6 @@
 # Define the parent directory where the search will start
+$repo_root = "$pwd"
+
 $parentDirectory = "./docs/"
 
 # Get all subdirectories named 'figures' within the parent directory
@@ -8,6 +10,7 @@ Write-Host "Hello World!"
 
 pwd
 ls
+
 # Iterate over each 'figures' directory
 foreach ($dir in $figuresDirs) {
     # Find all Python scripts (.py files) within the current 'figures' directory
@@ -33,7 +36,7 @@ foreach ($dir in $figuresDirs) {
 
     }
 
-    cd $parentDirectory
+    cd $repo_root
     cd ../
 }
 
