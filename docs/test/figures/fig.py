@@ -19,7 +19,3 @@ fig.update_layout(title='Interactive Paraboloid', scene=dict(
 
 # Save the plot as an HTML file
 fig.write_html("paraboloid_plot.html")
-
-# To display in a Jupyter notebook (if using):
-fig.show()
-

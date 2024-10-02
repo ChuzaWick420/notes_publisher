@@ -8,7 +8,7 @@ permissions:
   contents: write
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -28,4 +28,5 @@ jobs:
       - run: pip install mkdocs-roamlinks-plugin
       - run: pip install mkdocs-rss-plugin
       # - run: pip install mkdocs-mermaid2-plugin
+      - run: ./script.ps1
       - run: mkdocs gh-deploy --force
