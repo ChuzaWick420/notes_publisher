@@ -5,4 +5,4 @@ tags:
 university-name: Virtual University of Pakistan
 ---
 
-<iframe src="../figures/fig1"></iframe>
+<iframe src="../figures/paraboloid_plot.html"></iframe>
