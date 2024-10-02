@@ -61,12 +61,12 @@ markdown_extensions:
 plugins:
   - mkdocs-jupyter:
       include_requirejs: true
-      execute: true
-      execute_ignore:
-        - "University Notes/script.py"
+    #execute: true
+    #execute_ignore:
+        #- "University Notes/script.py"
 
   - search
-  - roamlinks
+  #- roamlinks
   #- blog
   - rss:
       match_path: blog/posts/.* 

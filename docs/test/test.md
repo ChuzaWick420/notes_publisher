@@ -603,4 +603,4 @@ exit:
 ```
 
  testing if it works  
-<iframe src="figures/figure1.html"></iframe>
+<iframe src="../figures/paraboloid_plot.html"></iframe>
