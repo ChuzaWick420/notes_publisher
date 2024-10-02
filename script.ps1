@@ -1,5 +1,5 @@
 # Define the parent directory where the search will start
-$parentDirectory = "~/"
+$parentDirectory = "./docs/"
 
 # Get all subdirectories named 'figures' within the parent directory
 $figuresDirs = Get-ChildItem -Path $parentDirectory -Recurse -Directory | Where-Object { $_.Name -eq 'figures' }
@@ -7,7 +7,7 @@ $figuresDirs = Get-ChildItem -Path $parentDirectory -Recurse -Directory | Where-
 Write-Host "Hello World!"
 
 pwd
-
+ls
 # Iterate over each 'figures' directory
 foreach ($dir in $figuresDirs) {
     # Find all Python scripts (.py files) within the current 'figures' directory
