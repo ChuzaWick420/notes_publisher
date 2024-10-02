@@ -602,4 +602,4 @@ exit:
     int 0x80               ; Interrupt to make system call
 ```
 
-Testing the [figure](figures/figure1.ipynb) if it works.
+Testing the {%figures/figure1.ipynb%} if it works.
