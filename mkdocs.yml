@@ -81,3 +81,5 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
+  - https://cdn.plot.ly/plotly-latest.min.js  # For Plotly
+  - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js  # For ipywidgets
