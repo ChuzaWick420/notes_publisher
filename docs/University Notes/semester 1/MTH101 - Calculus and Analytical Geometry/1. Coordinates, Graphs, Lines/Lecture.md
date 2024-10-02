@@ -99,6 +99,4 @@ $$x \le \frac{-12}{5}$$
 ## References
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
----
-
 [^1]: Read more about [[Mathematics/Set/Content|sets]].
