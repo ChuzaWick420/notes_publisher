@@ -4,6 +4,7 @@ tags:
   - distance
   - quadratic-formula
   - circle
+  - geometry
 university-name: Virtual University of Pakistan
 ---
 

@@ -2,6 +2,7 @@
 tags:
   - university-notes
   - linear-equations
+  - geometry
 university-name: Virtual University of Pakistan
 ---
 

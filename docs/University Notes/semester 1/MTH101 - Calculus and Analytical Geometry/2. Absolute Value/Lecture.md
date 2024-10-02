@@ -2,6 +2,7 @@
 tags:
   - university-notes
   - absolute-values
+  - calculus
 university-name: Virtual University of Pakistan
 ---
 

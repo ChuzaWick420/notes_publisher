@@ -4,6 +4,7 @@ tags:
   - composite-functions
   - function-operations
   - sigma
+  - function
 university-name: Virtual University of Pakistan
 ---
 

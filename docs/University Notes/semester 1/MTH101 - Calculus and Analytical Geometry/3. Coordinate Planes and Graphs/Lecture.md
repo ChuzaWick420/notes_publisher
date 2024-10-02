@@ -3,6 +3,8 @@ tags:
   - university-notes
   - absolute-values
   - graphs
+  - calculus
+  - geometry
 university-name: Virtual University of Pakistan
 ---
 
