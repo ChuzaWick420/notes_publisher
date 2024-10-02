@@ -10,6 +10,8 @@ foreach ($dir in $figuresDirs) {
     $pythonScripts = Get-ChildItem -Path $dir.FullName -Filter *.py
     
     cd $dir
+    
+    pwd
 
     foreach ($script in $pythonScripts) {
 
