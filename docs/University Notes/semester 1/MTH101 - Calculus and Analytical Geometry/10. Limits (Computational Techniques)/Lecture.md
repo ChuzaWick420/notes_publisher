@@ -44,3 +44,6 @@ $$\lim_{x \rightarrow - \infty} \frac{c_0 + c_1 \cdot x^1 + \ldots + c_nx^n}{d_0
 #### Example
 
 $$\lim_{x \rightarrow - \infty} \frac{4x^2 - x}{2x^3 - 5} = \lim_{x \rightarrow - \infty} \frac{4x^2}{2x^3} = \lim_{x \rightarrow - \infty} \frac{2}{x} = 0$$
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

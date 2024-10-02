@@ -167,5 +167,6 @@ $$\therefore x \to 0 \implies y \to e$$
 $$\lim_{x\rightarrow0}(1+x)^{1/x}=e$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].

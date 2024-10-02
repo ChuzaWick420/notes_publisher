@@ -64,6 +64,7 @@ $$\int_0^{2 \pi} \sin(x) \cdot dx = 0$$
 5. If $f(x)$ _not_ bound by $[a, b]$ then $f(x)$ is _not_ `integrable` on $[a, b]$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].

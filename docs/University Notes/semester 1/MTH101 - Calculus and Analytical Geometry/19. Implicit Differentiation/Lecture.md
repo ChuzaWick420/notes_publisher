@@ -44,6 +44,7 @@ $$\frac{dy}{dx} = -\frac{1}{x^2}$$
 This method of `differentiation` without finding value of `y` is called `implicit differentiation`.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/18. The chain Rule/Lecture|chain rule]].
+[^2]: Read more about [[docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/18. The Chain Rule/Lecture|chain rule]].

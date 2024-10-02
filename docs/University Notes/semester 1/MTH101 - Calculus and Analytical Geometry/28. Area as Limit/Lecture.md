@@ -93,6 +93,7 @@ $$\because \lim_{n \to \infty} \frac{1}{2n} = 0$$
 $$= \lim_{n \to \infty} \left(\frac{3}{2} + \frac{1}{2n} \right) = \frac 3 2 = 1.5$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].

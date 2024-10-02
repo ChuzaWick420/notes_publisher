@@ -151,6 +151,7 @@ exactly one of the following is true
 The `interval of convergence` is centered at $x = a$.
 
 ## Reference
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/27. Sigma Notation/Lecture|sum]].

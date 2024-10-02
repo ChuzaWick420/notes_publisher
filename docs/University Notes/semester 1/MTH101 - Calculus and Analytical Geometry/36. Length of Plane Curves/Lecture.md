@@ -59,6 +59,7 @@ Of course, we can re-write it in `integral`[^5] form.
 $$L=\int_{a}^{b}\sqrt{1+(f^{\prime}(x))^{2}}dx$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

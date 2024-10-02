@@ -52,6 +52,7 @@ and if $f(x)$ has `derivatives` of all orders of $a$ then
 $$\sum_{i=0}^{\infty}\frac{f^{(i)}(a)}{i!}(x-a)^{i}=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^{2}+\ldots+\frac{f^{(i)}(a)}{i!}(x-a)^{i}+\ldots$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/7. Operations on Functions/Lecture|polynomials]].

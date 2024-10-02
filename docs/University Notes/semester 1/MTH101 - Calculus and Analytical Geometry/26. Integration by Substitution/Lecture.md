@@ -57,6 +57,7 @@ Substituting $u$, we get
 $$= \frac{(x^2 + 1)^{51}}{51} + C$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[docs/Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].

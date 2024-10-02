@@ -88,6 +88,7 @@ $$y = 50 - 25 = 25$$
 Hence, the dimensions of the `rectangle` with maximum `area` are $25 \times 25$.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]]

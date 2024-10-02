@@ -47,6 +47,7 @@ If $f(x)$ is _continuous_ at the interval $[a, b]$ and there is a value $c$ betw
 If $f(x)$ is _continuous_ over the interval $[a, b]$ and $f(a)$ and $f(b)$ have opposite signs then there is at least one solution for $f(x) = 0$ in the interval $(a, b)$.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/10. Limits (Computational Techniques)/Lecture|limits]].

@@ -98,5 +98,6 @@ $$\frac{d}{dx} \left( \frac{1}{g(x)} \right) = -\frac{\frac{d}{dx} \left( g(x) \
 $$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Binomial Theorem/Content|binomial theorem]].

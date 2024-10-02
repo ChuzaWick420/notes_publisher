@@ -85,6 +85,7 @@ $$A(x) = \pi \cdot \left(\sqrt{r^2 - x^2}\right)^2$$
 $$V = \int_{-r}^{r} \pi \cdot (r^2 - x^2) dx = \frac 4 3 \pi r^3$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|plane]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].

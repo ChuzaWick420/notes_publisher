@@ -100,6 +100,7 @@ $$\therefore \frac {1}{b - a}\int_a^b f(x) dx = f(c)$$
 Here $f(c)$ is also called $f_{avg}$, the average value of $f(x)$ with respect to $x$ over the `interval`[^2] $[a, b]$.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]]
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

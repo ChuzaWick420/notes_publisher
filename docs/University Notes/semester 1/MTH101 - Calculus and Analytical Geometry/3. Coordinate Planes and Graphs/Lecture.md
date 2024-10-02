@@ -69,5 +69,6 @@ Similarly, for the $x = -y$, we can just _reflect_ it.
 ![[Pasted image 20240811013037.png]]
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/2. Absolute Value/Lecture|absolute values]].

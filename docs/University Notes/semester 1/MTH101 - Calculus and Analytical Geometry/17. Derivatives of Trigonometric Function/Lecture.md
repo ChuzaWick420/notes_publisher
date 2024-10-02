@@ -102,5 +102,6 @@ $$= - \frac{1}{\sin^2(x)}$$
 $$=-\csc^{2}(x)$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|quotient rule]].

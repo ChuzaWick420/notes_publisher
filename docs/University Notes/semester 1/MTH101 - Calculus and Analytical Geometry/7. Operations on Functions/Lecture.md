@@ -71,6 +71,7 @@ Anything of the form
 $$f(x) = \sum_{i = 0}^n a_ix^i = a_0 + a_1x^1 + \ldots + a_nx^n$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[Mathematics/Function/Content|domain]].

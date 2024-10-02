@@ -23,5 +23,6 @@ Hence, the rule itself is defined as:
 $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} = f^{'}(u) \cdot g^{'}(x)$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

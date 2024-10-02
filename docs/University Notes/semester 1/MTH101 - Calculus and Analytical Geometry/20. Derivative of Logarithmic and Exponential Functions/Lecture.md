@@ -115,6 +115,7 @@ Therefore,
 $$\frac{dy}{dx}=(f^{-1})^{\prime}(x)\Rightarrow\frac{dx}{dy}=f^{\prime}(y)=f^{\prime}(f^{-1}(x))$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|Limits]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].

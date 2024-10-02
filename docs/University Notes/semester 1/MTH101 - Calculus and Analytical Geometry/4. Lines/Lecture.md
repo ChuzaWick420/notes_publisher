@@ -95,3 +95,6 @@ $$ax + by + c = 0$$
 
 Where `a`, `b` and `c` are `constants`.  
 This equation is called `first degree` equation.
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

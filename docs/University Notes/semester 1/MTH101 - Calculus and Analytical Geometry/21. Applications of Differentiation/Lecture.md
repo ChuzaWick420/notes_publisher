@@ -114,6 +114,7 @@ $$f^{\prime \prime}(x) = 2$$
 Since $f^{\prime \prime}(x) > 0$ for all $x$, the graph is _concave up_ at interval $(-\infty, +\infty)$.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/19. Implicit Differentiation/Lecture|implicit differentiation]].

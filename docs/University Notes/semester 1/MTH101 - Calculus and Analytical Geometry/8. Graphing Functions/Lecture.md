@@ -43,6 +43,7 @@ We can check if a graph is of a `function`[^1] by drawing a _vertical line_ of t
 If this line intersects the graph at only _one point_ then it is graph of a `function`[^1].
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|lines]].

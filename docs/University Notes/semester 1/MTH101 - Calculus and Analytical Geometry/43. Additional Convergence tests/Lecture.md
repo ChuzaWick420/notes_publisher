@@ -52,6 +52,7 @@ Let us say there are two `series`[^1] $\sum a_i$ and $\sum b_i$ with `positive t
 Then if $p > 0$ and is `finite` then both `series`[^1] either _converge_ or _diverge_.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/7. Operations on Functions/Lecture|polynomials]].

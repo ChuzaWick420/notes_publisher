@@ -51,7 +51,7 @@ $$(x - 4)^2 + (y + 1)^2 = 9$$
 $$(x - 4)^2 + (y - (-1))^2 = 3^2$$
 
 $$\because d^2 = r^2 = (x - x_0)^2 + (y - y_0)^2$$
-  
+
 Where $P(x, y)$ will be any arbitrary point and $P_0(x_0, y_0)$ is the `center`.  
 So the `radius` is `3` and the center is `(4, -1)`
 
@@ -98,5 +98,6 @@ $$x = - \frac{b}{2a}$$
 And we can get the `y-coordinate` just by putting this in $y = f(x)$
 
 ## Reference
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Set/Content|sets]].

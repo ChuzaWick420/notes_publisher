@@ -72,3 +72,6 @@ $$ = \sum_{i=1}^{30}i^{2}+\sum_{i=1}^{30}i$$
 using the theorems  
 
 $$= \frac{(30)(31)(61)}{6}+\frac{30(31)}{2}=9920$$
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

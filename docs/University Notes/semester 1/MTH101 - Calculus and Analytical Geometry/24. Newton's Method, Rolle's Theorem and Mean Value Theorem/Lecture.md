@@ -83,6 +83,7 @@ $$0 = f^{\prime}(c) - \left(\frac{f(b) - f(a)}{b - a}\right)$$
 $$f^{\prime}(c) = \left(\frac{f(b) - f(a)}{b - a}\right)$$
 
 ## Reference
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

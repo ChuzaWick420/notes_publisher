@@ -217,6 +217,7 @@ $$\lim_{n \to +\infty}a_n = +\infty$$
 $$\lim_{n \to +\infty}a_n = -\infty$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[Mathematics/Set/Content|sets]].

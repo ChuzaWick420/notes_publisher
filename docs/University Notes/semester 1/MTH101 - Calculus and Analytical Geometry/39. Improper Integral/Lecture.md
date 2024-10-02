@@ -102,6 +102,7 @@ $$= 3\sqrt[3]{2}$$
 $$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}} = 3 + 3 \sqrt[3]{2}$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

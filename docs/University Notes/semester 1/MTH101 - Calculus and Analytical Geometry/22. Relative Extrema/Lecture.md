@@ -143,6 +143,7 @@ A line $x = x_0$ is called `vertical asymptots` for the graph of $f(x)$ if eithe
 In the case of graph of the `function`[^1] above, $\lim_{x \to 2^-} f(x) = - \infty$ and $\lim_{x \to 2^+} f(x) = - \infty$. Hence, the `vertical Asymptots` is $2$.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

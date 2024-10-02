@@ -65,6 +65,7 @@ The $\int$ is called the `integral symbol` and the $f(x)$ in this case is called
 - $$\int \left(f(x) - g(x)\right) dx = \int f(x) dx - \int g(x) dx$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

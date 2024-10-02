@@ -40,5 +40,6 @@ There are some situations when we can say that the `derivative` does not exist a
 3. The graph has corners (can be made through `piece wise functions`[^1]).
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

@@ -93,3 +93,6 @@ We can define `distance` as an absolute value
 ![[Pasted image 20240811003636.png]]
 
 ![[Pasted image 20240811003751.png]]
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

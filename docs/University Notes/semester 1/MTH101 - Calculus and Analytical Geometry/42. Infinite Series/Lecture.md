@@ -120,6 +120,7 @@ If $p > 1$, the `series` _converges_.
 If $0 < p \le 1$, then `series` _diverges_.
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/41. Sequence/Lecture|sequences]].

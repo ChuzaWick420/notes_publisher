@@ -30,6 +30,7 @@ $$Average = \frac{f(t_1) - f(t_0)}{t_1 - t_0}$$
 $$instantaneous =\lim_{t_1 \rightarrow t_0} \frac{f(t_1) - f(t_0)}{t_1 - t_0}$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|slopes]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].

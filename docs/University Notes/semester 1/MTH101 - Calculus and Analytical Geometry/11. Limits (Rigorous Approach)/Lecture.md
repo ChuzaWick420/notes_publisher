@@ -22,3 +22,6 @@ The $\epsilon$ is a very small number. Here is an example
 $$\frac{1}{10^{10^{100}}}$$
 
 This below part of `fraction` is called `Googolplex`.
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

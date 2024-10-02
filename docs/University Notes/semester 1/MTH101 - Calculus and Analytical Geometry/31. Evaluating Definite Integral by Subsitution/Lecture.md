@@ -64,6 +64,7 @@ However, if we don't but $n$ is relatively pretty large then in that case
 $$\int_{a}^{b}f(x)dx\approx\sum_{i=1}^{n}f(x_{i}^{*})\Delta x_{i}$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].

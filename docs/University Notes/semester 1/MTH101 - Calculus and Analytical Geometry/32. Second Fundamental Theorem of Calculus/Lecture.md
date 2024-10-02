@@ -37,6 +37,7 @@ If the `integrand`[^1] is `continuous`[^3], then the `derivative`[^4] of a `defi
 $$\frac{d}{dx}\left(\int_{a}^{x}f(t)dt\right)=f(x)$$
 
 ## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/29. Definite Integral/Lecture|definite integrals]].
