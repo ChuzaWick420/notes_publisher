@@ -119,6 +119,7 @@ int main() {
 ```
 
 # Python
+
 ```py
 # Simple function decorator
 def log_execution(func):
@@ -216,6 +217,7 @@ greet("Python")
 ```
 
 # RUST
+
 ```rust
 // Deriving traits automatically (like Debug, Clone)
 #[derive(Debug, Clone)]
@@ -392,6 +394,7 @@ fn main() {
 ```
 
 # Javascript
+
 ```js
 // Arrow functions
 const add = (a, b) => a + b;
@@ -536,6 +539,7 @@ false && logMessage('This will not log.');
 ```
 
 # x86asm
+
 ```
 ; x86 Assembly example demonstrating common idioms
 
@@ -597,3 +601,5 @@ exit:
     xor ebx, ebx           ; Exit code 0
     int 0x80               ; Interrupt to make system call
 ```
+
+Testing the [figure](figures/figure1.ipynb) if it works.
