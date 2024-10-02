@@ -602,4 +602,5 @@ exit:
     int 0x80               ; Interrupt to make system call
 ```
 
-Testing the {{< notebook path="figures/figure1.ipynb" >}} if it works.
+ testing if it works  
+<iframe src="../figures/figure1.html"></iframe>
