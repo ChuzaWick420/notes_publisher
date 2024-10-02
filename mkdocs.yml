@@ -59,6 +59,7 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - mkdocs-jupyter
   - search
   - roamlinks
   #- blog
