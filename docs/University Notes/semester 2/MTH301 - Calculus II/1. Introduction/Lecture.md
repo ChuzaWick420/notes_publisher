@@ -5,4 +5,56 @@ tags:
 university-name: Virtual University of Pakistan
 ---
 
-<iframe src="../figures/paraboloid_plot.html"></iframe>
+# Introduction
+## Differential Calculus
+It deals with problem of finding
+
+1. Rates of change
+2. `Slope` of `curve`.
+
+### Applications
+- `Velocities` and `acceleration` of moving bodies
+- Firing angles for cannons to achieve maximum `height` or travel `distance`.
+- The times when planets are closest to each other
+
+## Integral Calculus
+Deals with the problem of determining a `function`[^1] from the information of its `rate of change`.
+
+### Applications
+1. Calculating length of `curves`.
+2. Finding `areas` of irregular regions in a `plane`[^2].
+3. Finding `volumes` and `masses` of arbitrary solids.
+4. Knowledge about acting `forces` and `position` of a body in future, relative to present time
+
+## Reference Axes
+Just like `planes`[^2], we can define a `space` with 3 axes, $x$, $y$ and $z$.  
+The `planes`[^2], $x = 0$, $y = 0$ and $z = 0$ divide the `space` into 8 `octants`.  
+The `origin` of the `space` lies at $(0, 0, 0)$ and any point in `space` will have 3 coordinate values.
+
+<iframe src="../figures/octants.html"></iframe>
+Following are the `signs` for coordinate values in each `octant`
+
+1. (+, +, +)
+2. (-, +, +)
+3. (-, -, +)
+4. (+, -, +)
+5. (+, +, -)
+6. (-, +, -)
+7. (-, -, -)
+8. (+, -, -)
+
+## `Functions`[^3] With Multiple `Variables`
+A `function`[^3] can depend on multiple `variables`.
+
+### Example
+
+$$A = lw$$
+
+$$V = lwh$$
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
+[^3]: Read more about [[Mathematics/Function/Content|functions]].
