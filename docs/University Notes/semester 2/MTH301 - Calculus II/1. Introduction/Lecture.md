@@ -2,6 +2,8 @@
 tags:
   - university-notes
   - calculus
+  - function
+  - space
 university-name: Virtual University of Pakistan
 ---
 
