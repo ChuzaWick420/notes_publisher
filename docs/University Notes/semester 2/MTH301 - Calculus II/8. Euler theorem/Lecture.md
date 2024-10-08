@@ -1,0 +1,56 @@
+---
+tags:
+  - university-notes
+  - partial-differential
+university-name: Virtual University of Pakistan
+---
+
+# More about Euler's Theorem Chain Rule
+In general, the order of the `nth partial derivative`[^1] can be changed without affecting the final result whenever the `function`[^2] and all of its `partial derivative` of order $\le n$ are `continuous`[^3].  
+If the first 3 `partial derivatives`[^1] are `continuous`[^3] then  
+
+$$f_{xyy} = f_{yxy} = f_{yyx}$$
+
+Or in another notation,
+
+$$
+\frac{\partial^3 f}{\partial y^2 \partial x}
+=
+\frac{\partial^3 f}{\partial y \partial x \partial y}
+=
+\frac{\partial^3 f}{\partial x \partial y^2}
+$$
+
+## The `Chain Rule`[^4]
+If $y$ is a `function`[^2] of $w$ which is a `function`[^2] of $v$ which is a `function`[^2] of $x$ ultimately then  
+
+$$\frac{dy}{dx} = \frac{dy}{dw} \cdot \frac{dw}{dv} \cdot \frac{dv}{dx}$$
+
+Now imagine we have $w = f(x, y)$ and $x = g(t)$ and $y = f(t)$  
+then  
+
+$$\frac{dw}{dt} = \frac{\partial w}{\partial x} \frac{dx}{dt} + \frac{\partial w}{\partial y} \frac{dy}{dt}$$
+
+![[Pasted image 20241007232746.png]]
+
+### Example
+
+$$w = xy, x = \cos t, \text{ and } y = \sin t$$
+
+ $$ \frac{\partial w}{\partial y} = x \quad \text{and} \quad \frac{\partial w}{\partial x} = y $$
+
+ $$ \frac{dx}{dt} = -\sin t, \quad \frac{dy}{dt} = \cos t $$
+
+ $$ \frac{dw}{dt} = \frac{\partial w}{\partial x} \frac{dx}{dt} + \frac{\partial w}{\partial y} \frac{dy}{dt} $$
+
+ $$ = (\sin t)(-\sin t) + (\cos t)(\cos t) $$
+
+ $$ = -\sin^2 t + \cos^2 t = \cos 2t $$
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+
+[^1]: Read more about [[semester 2/MTH301 - Calculus II/7. Geometric meaning of partial derivative/Lecture|partial derivatives]].
+[^2]: Read more about [[Mathematics/Function/Content|functions]].
+[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/18. The Chain Rule/Lecture|the chain rule]].
