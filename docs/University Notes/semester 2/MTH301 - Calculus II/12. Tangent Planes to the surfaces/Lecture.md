@@ -3,6 +3,7 @@ tags:
   - university-notes
   - vectors
   - tangent
+  - partial-differential
 university-name: Virtual University of Pakistan
 ---
 

@@ -3,6 +3,7 @@ tags:
   - university-notes
   - gradient
   - vectors
+  - partial-differential
 university-name: Virtual University of Pakistan
 ---
 
