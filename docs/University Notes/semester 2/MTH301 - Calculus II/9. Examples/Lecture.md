@@ -1,11 +1,60 @@
 ---
 tags:
   - university-notes
+  - partial-differential
 university-name: Virtual University of Pakistan
 ---
 
 # Examples
-![[Drawing 2024-10-08 11.47.33.excalidraw]]
 
-## References
+## Example 1
+
+$$w = \sin (x) + x^2 \text{ and } x = 3r + 4s$$
+
+![[Pasted image 20241008122806.png]]
+
+$$\frac{dw}{dx} = \cos{x} + 2x$$
+
+ $$\frac{\partial x}{\partial r} = 3, \quad \frac{\partial x}{\partial s} = 4$$
+
+ $$\frac{\partial w}{\partial r} = \frac{dw}{dx} \cdot \frac{\partial x}{\partial r}$$
+
+ $$= (\cos{x} + 2x) \cdot 3$$
+
+ $$= 3\cos{(3r + 4s)} + 6(3r + 4s)$$
+
+ $$= 3\cos{(3r + 4s)} + 18r + 24s$$
+
+ $$\frac{\partial w}{\partial s} = \frac{dw}{dx} \cdot \frac{\partial x}{\partial s}$$
+
+ $$= (\cos{x} + 2x) \cdot 4$$
+
+ $$= 4\cos{x} + 8x$$
+
+ $$= 4\cos{(3r + 4s)} + 8(3r + 4s)$$
+
+ $$= 4\cos{(3r + 4s)} + 24r + 32s$$
+
+## Example 2
+![[Pasted image 20241008123753.png]]  
+
+$$\frac{\partial w}{\partial r} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial r} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial r} + \frac{\partial w}{\partial z} \cdot \frac{\partial z}{\partial r}$$
+
+ $$\frac{\partial w}{\partial s} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial s} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial s} + \frac{\partial w}{\partial z} \cdot \frac{\partial z}{\partial s}$$
+
+## `Chain Rule`[^1] For `Functions`[^2] of Multiple Variables
+Suppose $w = f(x, y, \ldots, v)$ be a `function`[^2] of multiple `variables`, a finite `set`[^3] and $x, y, \ldots, v$ are themselves `functions`[^2] of variables $p, q, t$ etc, another finite `set`[^3].  
+Then,  
+
+$$\frac{\partial w}{\partial p} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial p} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial p} + \cdots + \frac{\partial w}{\partial v} \cdot \frac{\partial v}{\partial p}$$
+
+$$\frac{\partial w}{\partial q} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial q} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial q} + \cdots + \frac{\partial w}{\partial v} \cdot \frac{\partial v}{\partial q}$$
+
+$$\frac{\partial w}{\partial t} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial t} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial t} + \cdots + \frac{\partial w}{\partial v} \cdot \frac{\partial v}{\partial t}$$
+
+# References
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+
+[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/18. The Chain Rule/Lecture|chain rule]].
+[^2]: Read more about [[Mathematics/Function/Content|functions]].
+[^3]: Read more about [[Mathematics/Set/Content|sets]].
