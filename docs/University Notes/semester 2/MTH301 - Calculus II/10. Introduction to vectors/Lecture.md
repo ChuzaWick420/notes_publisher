@@ -136,7 +136,6 @@ a_2 & a_3 \\
 b_2 & b_3
 \end{matrix}
 \right|
-
 - \hat{j}
 \left|
 \begin{matrix}
@@ -144,7 +143,6 @@ a_1 & a_3 \\
 b_1 & b_3
 \end{matrix}
 \right|
-
 + \hat{k}
 \left|
 \begin{matrix}

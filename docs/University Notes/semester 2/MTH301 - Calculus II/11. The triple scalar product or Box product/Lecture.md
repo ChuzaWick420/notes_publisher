@@ -1,6 +1,8 @@
 ---
 tags:
   - university-notes
+  - gradient
+  - vectors
 university-name: Virtual University of Pakistan
 ---
 
