@@ -2,6 +2,7 @@
 tags:
   - university-notes
   - partial-differential
+  - function
 university-name: Virtual University of Pakistan
 ---
 

@@ -4,6 +4,7 @@ tags:
   - vectors
   - tangent
   - partial-differential
+  - function
 university-name: Virtual University of Pakistan
 ---
 

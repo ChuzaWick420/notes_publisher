@@ -4,6 +4,7 @@ tags:
   - gradient
   - vectors
   - partial-differential
+  - function
 university-name: Virtual University of Pakistan
 ---
 

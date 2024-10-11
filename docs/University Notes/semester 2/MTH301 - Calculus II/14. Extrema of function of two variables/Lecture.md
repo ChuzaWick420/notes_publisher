@@ -1,0 +1,45 @@
+---
+tags:
+  - university-notes
+  - extrema
+  - function
+university-name: Virtual University of Pakistan
+---
+
+# Extrema of `functions`[^1] with Two Variables
+## Absolute Maximum
+A `function`[^1] is said to have `absolute maximum` on the `domain`[^1] $\mathbb{R}^2$ if there is a point $(x_0, y_0) \in \mathbb{R}^2$ such that  
+
+$$f(x_0, y_0) \ge f(x, y) \text{ for all } (x, y) \in \mathbb{R}^2$$
+
+## Absolute Minimum
+Similarly, `absolute minimum` exists if  
+
+$$f(x_0, y_0) \le f(x, y) \text{ for all } (x, y) \in \mathbb{R}^2$$
+
+## Relative or Local Maximum
+The `function`[^1] is said to have `relative maximum` at point $(x_0, y_0)$ if there exists an open disk $K$ centered at $(x_0, y_0)$, of radius $r$.  
+
+$$f(x_0, y_0) \ge f(x, y) \text{ for all } (x, y) \in K$$
+
+$$\text{where } K = \{(x, y) \in \mathbb{R}^2 : (x - x_0)^2 + (y - y_0)^2 < r^2\}$$
+
+## Relative or Local Minimum
+Similarly, for `relative minimum`, we have  
+
+$$f(x_0, y_0) \le f(x, y) \text{ for all } (x, y) \in K$$
+
+## Extreme Value Theorem
+If $f(x, y)$ is `continuous`[^2] on a closed and bounded set $R$ then the `function`[^1] has `absolute maximum` and `absolute minimum` on $R$.  
+If a `function`[^1] has `relative extrema` at $(x_0, y_0)$, then  
+
+$$f_x(x_0, y_0) = f_y(x_0, y_0) = 0$$
+
+## Saddle point
+If $f(x, y)$ has a disk $K$ centered at $(a, b)$ and there exists points $(x, y)$ in its `domain`[^1] such that $f(x, y) > f(a, b)$ and $f(x, y) < f(a, b)$ then this point on `surface` $f(a, b, f(a, b))$ is called `saddle point`.
+
+## References
+Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
+[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
