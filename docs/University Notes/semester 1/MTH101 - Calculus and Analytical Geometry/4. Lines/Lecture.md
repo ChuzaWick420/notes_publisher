@@ -7,37 +7,49 @@ university-name: Virtual University of Pakistan
 ---
 
 # Lines
+If we have 2 points $A(x_1, y_1)$ and $B(x_2, y_2)$ then a `line` is an object which connects both of these points.  
+This object has no width or curvature and can also be imagined as a `set`[^1] of points.
+
 ## Slopes
 ![[Pasted image 20240812131250.png]]
 
-If $\overline{AB}$ is a line then, its `slope` is defined to be the `ratio` from `rise` to `run`.  
+If $\overline{AB}$ is a `line` then, its `slope` $m$ is defined to be the `ratio` from `rise` to `run`.  
 
-$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac {\Delta y}{\Delta x}$$
 
 ## Angle of Inclination
-From the slope, we can fine the `angle of inclination` by using $\tan^{-1}{(m)}$.  
+From the [slope](#slopes), we can fine the `angle of inclination` by using $\tan^{-1}{(m)}$.  
+
+$$\tan(\theta) = \frac{\text{perp}}{\text{base}}$$
+
+$$\tan(\theta) = \frac {\Delta y}{\Delta x}$$
+
+$$\tan (\theta) = m$$
+
+$$\theta = \tan^{-1} (m)$$
+
 ![[Pasted image 20240812132611.png]]
 
 ## Parallel and Perpendicular Lines
 ### Parallel
-For `parallel` lines, if $m_1$ and $m_2$ are `slopes` of each line then
+For _parallel_ [lines](#lines) if $m_1$ and $m_2$ are [slopes](#slopes) of each [lines](#lines) then
 
 $$m_1 = m_2$$
 
 ### Perpendicular
-For `perpendicular` lines,  
+For _perpendicular_ [lines](#lines).  
 
 $$m_1 = \frac{-1}{m_2}$$
 
 ![[Pasted image 20240812134340.png]]
 
-To prove:  
+To prove  
 
 $$\tan(\theta_1) \cdot \tan(\theta_2) = -1$$
 
-$$\because \theta_2 = \theta_2 + 90\degree$$
+$$\because \theta_2 = \theta_2 + 90^{\circ}$$
 
-$$\tan(\theta_1) \cdot \tan(\theta_1 + 90) = -1$$
+$$\tan(\theta_1) \cdot \tan(\theta_1 + 90^\circ) = -1$$
 
 $$\tan(\theta_1) \cdot - \cot(\theta_1 ) = -1$$
 
@@ -58,20 +70,20 @@ More generally,
 
 $$x = a$$
 
- Where $a$ is a `constant`.
+ Where $a \in \mathbb{Z}$ .
 
 #### `y-axis`
-If we take `y` in terms of `function` then notice how it does not depend on `x`, hence it is a `constant`.  
+If we take $y$ in terms of `function`[^2] then notice how it does not depend on $x$, hence it is `constant`.  
 ![[Pasted image 20240812135733.png]]
 
 More generally,  
 
 $$y = a$$
 
- Where $a$ is a `constant`.
+Where $a \in \mathbb{Z}$.
 
 ### Slope - Point Form
-if we are given `slope` of a line along with single point $P(x_1, y_1)$ which lies on that line then we can construct the equation for it.  
+if we are given [slope](#slopes) of a [line](#lines) along with a single point $P(x_1, y_1)$ which lies on that [line](#lines) then we can construct the equation for it.  
 
 $$m = \frac{y - y_1}{x - x_1}$$
 
@@ -86,7 +98,7 @@ If we have an `x intercept` called $a$ then the previous equation takes form of
 $$y - 0 = m \cdot (x - a)$$
 
 #### Relative to `y-axis`
-If we have an `y intercept` called `b` then the previous equation takes form of  
+If we have an `y intercept` called $b$ then the previous equation takes form of  
 
 $$y - b = m \cdot (x - 0)$$
 
@@ -94,8 +106,10 @@ $$y - b = m \cdot (x - 0)$$
 
 $$ax + by + c = 0$$
 
-Where `a`, `b` and `c` are `constants`.  
+Where $a$, $b$ and $c$ are `constants`.  
 This equation is called `first degree` equation.
 
 ## References
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+
+[^1]: Read more about [[Mathematics/Set/Content|sets]].
