@@ -3,6 +3,8 @@ tags:
   - university-notes
   - absolute-values
   - calculus
+  - coordinate-line
+  - distance
 university-name: Virtual University of Pakistan
 ---
 
@@ -10,20 +12,21 @@ university-name: Virtual University of Pakistan
 This plays an important role in determining `distance` between 2 points on a `coordinate line`[^1].
 
 ## Definition
-The `absolute value` of a `real number`, `a` is denoted as $\lvert a \rvert$.  
+The `absolute value` of a `real number` $a$ is denoted as $\lvert a \rvert$.  
 ![[Pasted image 20240810231538.png]]
 
 ## Example
 
 $$|a+b| \le |a| + |b|$$
 
-Reason behind it is that one of them can be a _negative number_, hence decreasing the overall _sum_ as compared to _sum of the magnitudes_.
+Reason behind this is that one of the numbers can be _negative_.  
+Hence, decreasing the overall `sum`.
 
 ## Example
 
 $$|x - 5| = 4$$
 
-Look at this equation, it can have 2 possibilities
+Look at this equation, it can have 2 possibilities.
 
 1. $$x -5 = 4$$
 
@@ -33,7 +36,7 @@ Look at this equation, it can have 2 possibilities
 
 $$|x + 4| = |x - 2|$$
 
-This equation can have `4` possibilities.
+This equation can have 4 possibilities.
 
 1. $$(x+4) = (x - 2)$$
 
@@ -72,7 +75,7 @@ $$\because \iota^2 = -1$$
 
 $$= -1 \times 4 = -4$$
 
-Notice how the first case resembles `absolute value`.  
+Notice how the first case resembles the [absolute value](#definition).
 
 $$|a| = \sqrt{a^2}$$
 
@@ -82,7 +85,7 @@ $$\lvert a\rvert = \lvert -a \rvert$$
 
 $$\lvert a \cdot b\rvert = \lvert a\rvert \cdot \lvert b\rvert$$
 
-$$\lvert \frac{a}{b} \rvert = \frac{\lvert a \rvert} {\lvert b \rvert}$$
+$$\left| \frac{a}{b} \right| = \frac{\lvert a \rvert} {\lvert b \rvert}$$
 
 $$\lvert a^n\rvert = \lvert a\rvert^n$$
 
