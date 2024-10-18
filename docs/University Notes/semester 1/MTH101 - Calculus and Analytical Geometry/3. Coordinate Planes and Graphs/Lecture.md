@@ -16,18 +16,18 @@ university-name: Virtual University of Pakistan
 $b$ is called the `y-coordinate` or `ordinate` and $a$ is called the `x-coordinate` or `abscissa`.
 
 ### Quadrants
-The `plane` can be divided into 4 `quadrants`.  
+The [plane](#plane) can be divided into 4 `quadrants`.  
 ![[Pasted image 20240811010156.png]]
 
 ### Graphs
-The `order pairs` which satisfy the equation $y = x^2$ make a graph collectively.
-
-![](https://youtu.be/IbrPxYQF9TM)
+The `order pairs` which satisfy any equation consisting of variables $x$ and $y$, make a `graph` collectively.  
+Here's an example  
+![example](https://youtu.be/IbrPxYQF9TM)
 
 ## Intercepts
-These are the points where `graphs` intersect the `axes` of the `coordinate plane`.
+These are the points where [graph](#graphs) intersect the `axes` of the [coordinate plane](#plane).
 
-> A graph is made from `2` quantities or `variables`. So to find the intercept with respect to one `variable`, we assume the other one to be `0`.
+> A [graph](#graph) is made from `2` quantities or `variables`. So to find the intercept with respect to one `variable`, we assume the other one to be $0$.
 
 ### Example
 
@@ -56,14 +56,15 @@ $$y = \frac{6}{2} = 3$$
 ## Symmetricity
 The `axes` themselves act like a _mirror_.  
 The numbers $(a, b)$ and $(-a, b)$ are symmetric about `y-axis`.  
-This simplifies the sketching of `graphs`.
+Similarly, the numbers $(a, b)$ and $(a, -b)$ are symmetric about `x-axis`.  
+This simplifies the sketching of [graphs](#graphs).
 
 ### Example
 
 $$x = |y|$$
 
 This yields 2 possibilities. $x = y$ and $x = -y$.  
-Notice how `absolute value`[^1] of $y$ never changes, hence the `graph` is symmetric about `x-axis`  
+Notice how `absolute value`[^1] of $y$ never changes, hence the [graph](#graphs) is symmetric about `x-axis`  
 Now if we plot one of them, say $x = y$  
 ![[Pasted image 20240811012751.png]]
 
