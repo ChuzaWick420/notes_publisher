@@ -7,7 +7,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Absolute Values
-This plays an important role in determining `distance` between 2 points on a `coordinate line`.
+This plays an important role in determining `distance` between 2 points on a `coordinate line`[^1].
 
 ## Definition
 The `absolute value` of a `real number`, `a` is denoted as $\lvert a \rvert$.  
@@ -97,3 +97,5 @@ We can define `distance` as an absolute value
 
 ## References
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+
+[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|coordinate line]].

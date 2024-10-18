@@ -39,7 +39,7 @@ fig.add_trace(go.Scatter3d(
     text=['Octant 1', 'Octant 2', 'Octant 3', 'Octant 4',
           'Octant 5', 'Octant 6', 'Octant 7', 'Octant 8'],
     textposition='top center',  # Position of text relative to the points
-    textfont=dict(size=8, color='black')  # Font size and color
+    textfont=dict(size=14, color='black')  # Font size and color
 ))
 
 # Update layout

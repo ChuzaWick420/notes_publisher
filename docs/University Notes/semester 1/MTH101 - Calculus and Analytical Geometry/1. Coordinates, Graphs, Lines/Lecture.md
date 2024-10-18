@@ -5,6 +5,7 @@ tags:
   - intervals
   - calculus
   - coordinate-line
+  - sets
 university-name: Virtual University of Pakistan
 ---
 
@@ -54,16 +55,16 @@ $$a < b \land b < c \implies a < c$$
 
 $$a < b \implies a + c < b + c \implies a - c < b - c$$
 
-$$a < b \implies ac < bc; c > 0$$
+$$a < b \implies ac < bc \text{ where } c > 0$$
 
-$$a < b \implies ac > bc; c < 0$$
+$$a < b \implies ac > bc \text{ where } c < 0$$
 
 $$a < b \land c < d \implies a + c < b + d$$
 
 $$a < b \implies \frac{1}{a} > \frac{1}{b}$$
 
 ## Intervals
-We can define them as `sets`[^1] in following way:  
+We can define them as `sets`[^1] in the following way:  
 
 - For `closed intervals`:
 
@@ -75,14 +76,14 @@ $$(a, b)=\{x:a < x < b\}$$
 
 Geometrically, we can show it as:  
 ![[Pasted image 20240810201905.png]]  
-Here, the _red line_ represents the whole `set`[^1] of values which are `elements` of the `interval` we defined.
+Here, the _red line_ represents the whole `set`[^1] of values which are `elements` of the `interval` we have defined.
 
 ## Solving Inequalities
 Take for example:  
 
 $$3 + 7x \le 2x - 9$$
 
-Then we apply the theorems on it.  
+Then we apply the [theorems of inequalities](#theorems) on it.  
 
 $$3 - 3 + 7x \le 2x - 9 - 3$$
 

@@ -48,8 +48,8 @@ Following are the `signs` for coordinate values in each `octant`.
 7. (-, -, -)
 8. (+, -, -)
 
-## `Functions`[^3] With Multiple `Variables`
-A `function`[^3] can depend on multiple `variables`.
+## `Functions`[^1] With Multiple `Variables`
+A `function`[^1] can depend on multiple `variables`.
 
 ### Example
 
@@ -62,4 +62,3 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
-[^3]: Read more about [[Mathematics/Function/Content|functions]].
