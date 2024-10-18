@@ -22,7 +22,7 @@ The [plane](#plane) can be divided into 4 `quadrants`.
 ### Graphs
 The `order pairs` which satisfy any equation consisting of variables $x$ and $y$, make a `graph` collectively.  
 Here's an example  
-![example](https://youtu.be/IbrPxYQF9TM)
+<iframe src="https://www.youtube.com/embed/IbrPxYQF9TM"></iframe>
 
 ## Intercepts
 These are the points where [graph](#graphs) intersect the `axes` of the [coordinate plane](#plane).

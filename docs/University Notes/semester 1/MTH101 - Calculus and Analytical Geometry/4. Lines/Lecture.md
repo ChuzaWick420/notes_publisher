@@ -113,3 +113,4 @@ This equation is called `first degree` equation.
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Set/Content|sets]].
+[^2]: Read more about [[Mathematics/Function/Content|functions]].
