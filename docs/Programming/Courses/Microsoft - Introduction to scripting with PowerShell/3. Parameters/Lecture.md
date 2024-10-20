@@ -10,7 +10,7 @@ The following can accept `parameters`:
 3. `scripts`  
 These make the `scripts` more flexible
 
-# Declare and Use a Parameter
+## Declare and Use a Parameter
 To use `parameters` we use `Param()` keyword.
 
 imagine we have a file named `script.ps1`
@@ -25,14 +25,14 @@ Write-Host "File has been created"
 
 The `parameters` been to be comma separated.
 
-# Use The Parameter
+## Use The Parameter
 Then inside the `PowerShell` we can use it as follows.
 
 ```PowerShell
 ./script.ps1 -Path "./newfile"
 ```
 
-# Improve Your Parameters
+## Improve Your Parameters
 You should keep the following questions in mind:
 1. Is this `parameter` _optional_ or _mandatory_?
 2. What are the legal and illegal values?
@@ -40,10 +40,10 @@ You should keep the following questions in mind:
 4. Can it rely on _default values_?
 5. Can you provide details to the user?
 
-# Select an Approach
+## Select an Approach
 You can do the following things
 
-## If / Else
+### If / Else
 
 ```PowerShell
 Param(
@@ -60,7 +60,7 @@ Else {
 }
 ```
 
-## Making Parameters Mandatory
+### Making Parameters Mandatory
 You can make a `parameter` _mandatory_ by using a _decorator_.
 
 ```PowerShell
@@ -92,7 +92,7 @@ Path: !?
 Please provide a valid path
 ```
 
-## Assigning a Type
+### Assigning a Type
 
 ```PowerShell
 Param(
@@ -100,7 +100,7 @@ Param(
 )
 ```
 
-## Default Values
+### Default Values
 
 ```PowerShell
 Param(

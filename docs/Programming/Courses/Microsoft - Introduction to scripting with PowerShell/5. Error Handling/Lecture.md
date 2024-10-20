@@ -6,7 +6,7 @@ Platform: Microsoft Learn
 # Error Handling
 There can be levels of severity to the `errors` which determine if `script` should be stopped etc and totally depends your approach.
 
-# Errors
+## Errors
 You can get different types of `errors`.  
 For example, if you are trying to write to a file, you might get `errors` like.
 1. File does not exist
@@ -14,14 +14,14 @@ For example, if you are trying to write to a file, you might get `errors` like.
 
 In `PowerShell`, there are `2` types of errors.
 
-## Terminating Errors
+### Terminating Errors
 This `error` can be handled by using `Try` / `Catch` blocks and if these are not handled, the `script` will terminate at the statement which caused the `error`.
 
-## Non Terminating Errors
+### Non Terminating Errors
 These `errors` don't terminate the `script`.
 
-# Managing Errors by Using `Try`/`Catch`/`Finally`
-## `Try`
+## Managing Errors by Using `Try`/`Catch`/`Finally`
+### `Try`
 You can encapsulate the potential `error` prone statements into a `try` block
 
 ```PowerShell
@@ -31,7 +31,7 @@ Try {
 }
 ```
 
-## `Catch`
+### `Catch`
 The `try` block may raise an `error`.  
 In this case, while trying to _write_ to a file, we can get a `System.IO.IOException`.  
 The `Catch` block catches this and tries to recover.  
@@ -47,7 +47,7 @@ Try {
 }
 ```
 
-## `Finally`
+### `Finally`
 This is used in the end for clean up purposes.
 
 ```PowerShell
@@ -62,7 +62,7 @@ Try {
 }
 ```
 
-# Inspecting Errors
+## Inspecting Errors
 There is a built-in `variable` (or `object`) that is `$_`
 
 ```PowerShell
@@ -75,7 +75,7 @@ Try {
    }
 ```
 
-# Raising Errors
+## Raising Errors
 
 ```PowerShell
 Try {
