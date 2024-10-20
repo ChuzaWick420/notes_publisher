@@ -121,12 +121,6 @@ $$\therefore \int_{S}\vec F \cdot d \vec S=\frac{1}{3}\int_{0}^{\frac \pi 2}\int
 
 $$=9\left(1+\frac{3\pi}{4}\right)$$
 
-## Conservative Vector Fields
-The value of `integral`[^3] $\int_c \vec F \cdot d \vec r$ between 2 points depends on particular paths of `integration`[^3].  
-However if this value in independent of the path for a `vector field` $\vec F$ then $\vec F$ is called a `conservative vector field`.  
-
-$$\oint_c \vec F \cdot d \vec r = 0$$
-
 ## References
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
