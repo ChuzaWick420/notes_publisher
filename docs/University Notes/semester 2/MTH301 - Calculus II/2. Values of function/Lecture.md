@@ -44,4 +44,4 @@ $$f(x_1, x_2, \ldots,x_n)$$
 ## References
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [Mathematics/Function/Content|functions]].
+[^1]: Read more about [[Mathematics/Function/Content|functions]].
