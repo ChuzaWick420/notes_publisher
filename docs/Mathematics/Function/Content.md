@@ -76,6 +76,21 @@ $$\{y : y \ne 1\} = (- \infty, 1) \cup (1, +\infty) = \mathbb{R} - \{1\}$$
 The graph of this `function` looks something like this.  
 ![[Pasted image 20240812223135.png]]
 
+## `Even` And `Odd`
+### Even
+A `function` is called `even function` if  
+
+$$f(x) = f(-x)$$
+
+Intuitively, this means that the `function` is _mirrored_ by only $y$ axis.
+
+### Odd
+A `function` is called `odd function` if  
+
+$$f(-x) = -f(x)$$
+
+Intuitively, this means that the `function` is _mirrored_ by $y$ axis and then mirrored copy is inverted by $x$ axis.
+
 ## References
 
 [^1]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]]
