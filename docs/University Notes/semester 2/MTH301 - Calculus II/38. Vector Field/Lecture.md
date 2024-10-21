@@ -105,7 +105,7 @@ For a closed `surface` $S$, enclosing a region $V$ in a `vector field` $\vec F$,
 $$\int_V \nabla \cdot \vec F dV = \int_S \vec F \cdot d \vec S$$
 
 ### Example
-Verify the [divergence theorem](#divergence-theorem-or-gauss'-theorem) for the `vector field`.  
+Verify the [divergence theorem](#divergence-theorem-or-gauss-theorem) for the `vector field`.  
 
 $$\vec F = x^2 \hat i + z \hat j + y \hat k$$
 
@@ -225,7 +225,7 @@ $$\int_S \nabla \times \vec F \cdot d \vec S = \oint_c \vec F \cdot d \vec r$$
 ### Example
 A `hemisphere` $S$ is defined as $x^2 + y^2 + z^2 = 4$ where $z \ge 0$.  
 A `vector field` $\vec F = 2y \hat i + x \hat j+ xz \hat k$ exists over the surface around its boundary $c$.  
-Verify [stokes theorem](#stoke's-theorem) on it.  
+Verify [stokes theorem](#stokes-theorem) on it.  
 
 $$\int_S \nabla \times \vec F \cdot d \vec S = \oint_c \vec F \cdot d \vec r$$
 
@@ -278,7 +278,7 @@ $$= \frac{x \hat i + y \hat j + z \hat k}{2}$$
 $$\int_S \nabla \times \vec F \cdot \hat n dS = \int_S (-z \hat k - 3 \hat k) \cdot \left(\frac{x \hat i + y \hat j + z \hat k} 2\right) dS$$
 
 $$= \frac 1 2 \int_S (- yz - 3z) dS$$
-  
+
 Converting the coordinates into `spherical coordinate system`[^4].  
 
 $$x = 2 \sin (\phi) \cos (\theta)$$
