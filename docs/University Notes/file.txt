@@ -1,45 +1,45 @@
-1. Logic
-2. Truth Tables
-3. Laws of Logic
-4. Biconditional
-5. Argument
-6. Applications of Logic
-7. Set Theory
-8. Venn Diagram
-9. Set Identities
-10. Applications of Venn Diagram
-11. Relations
-12. Types of Relations
-13. Matrix Representation of Relations
-14. Inverse of Relations
-15. Functions
-16. Types of Functions
-17. Inverse Function
-18. Composition of Functions
-19. Sequence
-20. Series
-21. Recursion I
-22. Recursion II
-23. Mathematical Induction
-24. Mathematical Induction for Divisibility
-25. Methods of Proof
-26. Proof by Contradiction
-27. Algorithm
-28. Division Algorithm
-29. Combinatorics
-30. Permutations
-31. Combinations
-32. K-Combinations
-33. Tree Diagram
-34. Inclusion-Exclusion Principle
-35. Probability
-36. Laws of Probability
-37. Conditional Probability
-38. Random Variable
-39. Introduction to Graphs
-40. Paths and Circuits
-41. Matrix Representation of Graphs
-42. Isomorphism of Graphs
-43. Planar Graphs
-44. Trees
-45. Spanning Trees
+1. Communication
+2. Levels of communication
+3. Interpersonal communication
+4. Communication in the Organization, Guiding Principles
+5. Communication Destination
+6. Listening
+7. Improving your Listening skills
+8. Nonverbal communication
+9. Barriers to communication
+10. Barriers to communication (continued)
+11. Overcoming communication barriers
+12. Speech
+13. Selecting a topic
+14. Thesis statement
+15. Introduction of Speech
+16. Body of Speech
+17. Modes of Delivery
+18. Strategic Oral Delivery
+19. Making a Good Speech
+20. Handling Questions and Answers
+21. Responding Questions & Answers
+22. Significance of the Setting
+23. Visual Aids
+24. Visual Aids (continued)
+25. Group Communication
+26. Elements of Effective written Communication
+27. Elements of Effective written Communication (continued)
+28. Elements of Effective written Communication (continued)
+29. Preparing for Effective Business Writing
+30. Preparing for Effective Business Writing (continued)
+31. Preparing for Effective Business Writing (continued)
+32. Parts of Business Letters
+33. Direct Request Letters
+34. Direct Request Letters (continued)
+35. Direct Request Letters (continued)
+36. Good Newsletters
+37. Disappointing Newsletters
+38. Disappointing Newsletters (continued)
+39. Disappointing Newsletters (continued)
+40. Writing Persuasive Message
+41. Writing Persuasive Message (continued)
+42. Writing Persuasive Message (continued)
+43. Writing Resume
+44. Writing Resume (continued)
+45. Overview
