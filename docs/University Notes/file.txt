@@ -1,45 +1,19 @@
-1. Communication
-2. Levels of communication
-3. Interpersonal communication
-4. Communication in the Organization, Guiding Principles
-5. Communication Destination
-6. Listening
-7. Improving your Listening skills
-8. Nonverbal communication
-9. Barriers to communication
-10. Barriers to communication (continued)
-11. Overcoming communication barriers
-12. Speech
-13. Selecting a topic
-14. Thesis statement
-15. Introduction of Speech
-16. Body of Speech
-17. Modes of Delivery
-18. Strategic Oral Delivery
-19. Making a Good Speech
-20. Handling Questions and Answers
-21. Responding Questions & Answers
-22. Significance of the Setting
-23. Visual Aids
-24. Visual Aids (continued)
-25. Group Communication
-26. Elements of Effective written Communication
-27. Elements of Effective written Communication (continued)
-28. Elements of Effective written Communication (continued)
-29. Preparing for Effective Business Writing
-30. Preparing for Effective Business Writing (continued)
-31. Preparing for Effective Business Writing (continued)
-32. Parts of Business Letters
-33. Direct Request Letters
-34. Direct Request Letters (continued)
-35. Direct Request Letters (continued)
-36. Good Newsletters
-37. Disappointing Newsletters
-38. Disappointing Newsletters (continued)
-39. Disappointing Newsletters (continued)
-40. Writing Persuasive Message
-41. Writing Persuasive Message (continued)
-42. Writing Persuasive Message (continued)
-43. Writing Resume
-44. Writing Resume (continued)
-45. Overview
+266. ch07. what is security accreditation part 2
+267. ch07. embedding information security into the sdlc
+268. ch07. software security testing & validation - part 1
+269. ch07. software security testing & validation - part 2
+270. ch07. embedding information security into project management
+271. ch07. how to conduct an internal security assessment
+272. ch07. what are the different types of security assessments
+273. ch07. what are the different types of security assessments - part 2
+274. ch07. what are the different types of security assessments - part 3
+275. ch08. what are the different types of security assessments - part 4
+276. ch08. what are the stages of a third party penetration test
+277. ch08. how to fail in implementing a successful security transformation
+278. ch08. benefits of the security transformation
+279. ch08. security transformation timeline
+280. ch08. whose responsibility is the security transformation
+281. ch08. raising management support for security transformation project
+282. ch08. key questions to assess security posture of the organization
+283. ch08. key leadership qualities of the security transformation head
+284. course wrap up
