@@ -20,6 +20,7 @@ After some discussion, both of you agree to meet tomorrow morning.
 All behaviors are motivated which can be known or unknown, clear or unclear, controlled or uncontrolled and directly influence each transaction in the interpersonal communication.
 
 Some of the reasons we fail to access other people, are following:
+
 1. We assume that people will behave same way in every situation.
 2. We try too hard to put everyone into consistent categories.
 3. We are too influenced by first impressions.
