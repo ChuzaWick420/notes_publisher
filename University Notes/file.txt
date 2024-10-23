@@ -1,0 +1,19 @@
+266. ch07. what is security accreditation part 2
+267. ch07. embedding information security into the sdlc
+268. ch07. software security testing & validation - part 1
+269. ch07. software security testing & validation - part 2
+270. ch07. embedding information security into project management
+271. ch07. how to conduct an internal security assessment
+272. ch07. what are the different types of security assessments
+273. ch07. what are the different types of security assessments - part 2
+274. ch07. what are the different types of security assessments - part 3
+275. ch08. what are the different types of security assessments - part 4
+276. ch08. what are the stages of a third party penetration test
+277. ch08. how to fail in implementing a successful security transformation
+278. ch08. benefits of the security transformation
+279. ch08. security transformation timeline
+280. ch08. whose responsibility is the security transformation
+281. ch08. raising management support for security transformation project
+282. ch08. key questions to assess security posture of the organization
+283. ch08. key leadership qualities of the security transformation head
+284. course wrap up
