@@ -1,0 +1,102 @@
+---
+tags:
+  - university-notes
+university-name: Virtual University of Pakistan
+---
+
+# Communication in Organizations
+## Guiding Principle
+1. People are not mind readers. They judge you based on your behavior, not intentions. We always communicate something by our tone of voice, gestures etc even if we try not to. Similarly, we always receive communications from others as well.
+2. A word is like an arrow. It never returns once it has left the bow. Once a word is uttered, it _will_ create some sort of impression.
+3. We don't exchange ideas but rather symbols which represent those ideas. 
+
+### Mediated Communication
+This communication happens when 2 parties use some intermediate means to communicate.  
+They don't communicate face to face and there is no direct feedback.  
+**Examples:** Radio, Phone, TV, letters.
+
+### Person to Group Communication
+It involves one `speaker` and `audience`.  
+The `speaker` faces the `audience` which consists of people with similar interests.  
+The traditional `speaker` and `audience` setting may include microphones, projectors etc.
+
+### Mass Communication
+It includes sending a `message` to a large, dissimilar, anonymous, distant `audience` through some intermediate instrument such as newspapers or TV.  
+The `mass media` includes:
+
+- Books
+- Newspapers
+- Magazines
+- TV
+- Radio
+- Audio or Video recording
+- Computers and computer networks
+
+## Communication in the Organization
+Communication is used extensively in managerial functions such as:
+
+1. Planning
+2. Organizing
+3. Staffing
+4. Controlling
+5. Directing
+
+### Downward Communication
+The information flows from people of higher level to that of lower level in an organizational hierarchy, to inform employees about the things which are important to them.
+
+- Information about their jobs 
+- Organizational policies and procedures 
+- Feedback about their performance
+- Organizational goals and objectives
+
+The types of `downward` communication may include:
+
+- Instructions
+- Speeches
+- Meetings
+- Announcements
+- Memos
+- Notifications
+- Letters
+- Hand Books
+- Pamphlets
+- Company newsletters
+- Periodicals
+- Notice boards
+- Policy statements
+- Procedures
+
+#### Why is it Important?
+It gives employees a clear job direction and safety rules, keeps them motivated and more efficient.  
+Employees want to know about their 
+
+- benefits
+- insurance
+- health care
+- pensions
+- trainings
+- work environment
+- retirement
+
+### Upward Communication
+It travels from subordinates to their supervisors.  
+It is important for management to know
+
+- Production performance
+- Marketing information
+- Financial data
+- Low level employees are thinking
+
+Types of media used here are:
+
+- Reports
+- Interoffice memos
+- Supervisor subordinate conferences
+- Suggestion systems
+- Grievance procedures
+
+### Lateral Communication
+It is used for speeding up the communication and works horizontally.  
+Meaning that the communication happens between people of same level in the organizational hierarchy.  
+Sometimes it can take place diagonally as well when there is no direct reporting relationships.  
+![[Pasted image 20241023130102.png]]
