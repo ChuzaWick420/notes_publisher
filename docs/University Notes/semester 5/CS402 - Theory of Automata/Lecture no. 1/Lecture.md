@@ -8,35 +8,6 @@ university-name: Virtual University of Pakistan
 
 # Lecture No. 1
 
-## Summary
-
-- Introduction to the course title.
-- Formal and informal languages.
-- Alphabets
-- Strings
-- Null String
-- Words
-- Valid and Invalid alphabets
-- Length of a string
-- Reverse of a string
-- Defining languages
-- Descriptive definition of languages
-- Equal
-- Even - Even
-- Integer
-- Even
-
-- $$\{a^n b^n\}$$
-
-- $$\{a^n b^n a^n\}$$
-
-- Factorial
-- Double Factorial
-- Square
-- Double Square
-- Prime
-- Palindrome
-
 ## What Does Automata Means?
 
 It is the plural of `automaton`, and it means "something that works automatically".
@@ -50,7 +21,7 @@ There are 2 types of languages
 
 ## Alphabets
 
-A finite non empty `set`[^1] of `symbols` (called `letters`) is called an `alphabet` and is represented by the Greek letter $\sum$.  
+A finite non empty `set`[^1] of `symbols` (called `letters`) is called an `alphabet` and is represented by the Greek letter $\Sigma$.  
 It includes `letters`, `digits` and variety of `operators` such as `GOTO` and `IF`.
 
 ### Example
@@ -58,7 +29,7 @@ It includes `letters`, `digits` and variety of `operators` such as `GOTO` and `I
 Certain versions of `ALGOL` has 113 `letters`.  
 The `binary language` has the `alphabet`  
 
-$$\sum = \{1, 0\}$$
+$$\Sigma = \{1, 0\}$$
 
 ## Strings
 
@@ -66,7 +37,7 @@ Concatenation of finite number of `letters` from the `alphabet` is called a `str
 
 ### Example
 
-If $\sum = \{a, b\}$ is the [alphabet](#alphabets) then $ab$ and $abaaab$ are both `strings`.
+If $\Sigma = \{a, b\}$ is the [alphabet](#alphabets) then $ab$ and $abaaab$ are both `strings`.
 
 ## Null String
 
@@ -79,7 +50,7 @@ It is denoted by Greek letters $\lambda$ or $\Lambda$.
 
 ### Example
 
-If $\sum = \{x\}$ then `language` $L$ can be defined as:  
+If $\Sigma = \{x\}$ then `language` $L$ can be defined as:  
 
 $$L = \{x^n : n = 1, 2, 3, \ldots\}$$
 
@@ -95,11 +66,11 @@ The $x$, $xx$ and $xxx$ are the `words` of `language` $L$.
 
 While defining an [alphabet](#alphabets), an [alphabet](#alphabets) may consist of a group of `symbols`.  
 
-$$\sum = \{B, aB, bab, d\}$$
+$$\Sigma = \{B, aB, bab, d\}$$
 
 Now consider the following [alphabet](#alphabets).  
 
-$$\sum = \{B, Ba, bab, d\}$$
+$$\Sigma = \{B, Ba, bab, d\}$$
 
 and then consider a [string](#strings) $BababB$.  
 It can be `tokenized` into following ways:
@@ -118,7 +89,7 @@ If $s$ is a [string](#strings) then $|s|$ is called the `length of string`.
 
 ### Example
 
-$$\sum = \{a, b\}$$
+$$\Sigma = \{a, b\}$$
 
 $$s = ababa$$
 
@@ -128,7 +99,7 @@ $$|s| = 5$$
 
 ### Example
 
-$$\sum = \{B, aB, bab, d\}$$
+$$\Sigma = \{B, aB, bab, d\}$$
 
 $$s = BaBbabBd$$
 
@@ -142,7 +113,7 @@ The reverse of a [string](#strings) is denoted as $Rev(s)$ or $s^r$ and consists
 
 ### Example
 
-$$\sum = \{a, b, c\}$$
+$$\Sigma = \{a, b, c\}$$
 
 $$s = abc$$
 
@@ -152,7 +123,7 @@ $$Rev(s) = s^r = cba$$
 
 ### Example
 
-$$\sum = \{B, aB, bab, d\}$$
+$$\Sigma = \{B, aB, bab, d\}$$
 
 $$s = BaBbabBd$$
 
@@ -175,7 +146,7 @@ The `language` is defined, describing the conditions imposed on its words.
 
 #### Example
 
-`Language` $L$ of [strings](#strings) of `odd lengths` defined over $\sum = \{a\}$ can be written as  
+`Language` $L$ of [strings](#strings) of `odd lengths` defined over $\Sigma = \{a\}$ can be written as  
 
 $$L = \{a^{2n + 1}: n = 0, 1, 2, \ldots\}$$
 
@@ -183,7 +154,7 @@ $$L = \{a, aaa, aaaaa, \ldots\}$$
 
 ## Palindrome
 
-It is a `language` defined over $\sum$ consisting of $\Lambda$ and $s$ such that  
+It is a `language` defined over $\Sigma$ consisting of $\Lambda$ and $s$ such that  
 
 $$Rev(s) = s$$
 
