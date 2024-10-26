@@ -2,6 +2,11 @@
 
 # Define the parent directory where the search will start
 repo_root=$(pwd)
+
+# Debugging runner dir layout
+ls "~/"
+ls "~/notes_publisher"
+
 parentDirectory="~/notes_publisher/docs/"
 
 # Get all subdirectories named 'figures' within the parent directory, pipe the list into while loop
