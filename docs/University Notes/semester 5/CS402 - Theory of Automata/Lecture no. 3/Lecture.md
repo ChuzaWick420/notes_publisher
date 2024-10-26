@@ -6,7 +6,7 @@ university-name: Virtual University of Pakistan
 
 <span style="color: gray;">Dated: 25-10-2024</span>
 
-# Lecture No. 2
+# Lecture No. 3
 
 ## Regular Expression
 
@@ -42,7 +42,8 @@ Imagine we have $\Sigma = \{a, b\}$ then
 
 ### Example
 
-A `language` $L$ consisting of all combinations of `symbols` is defined as $(a + b)^*$.
+A `language` $L$ consisting of all combinations of `symbols` is defined as $(a + b)^*$.  
+The $(a + b)$ represents a single `letter` which can be either $a$ or $b$.
 
 ## Example
 

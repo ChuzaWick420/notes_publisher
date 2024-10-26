@@ -28,7 +28,7 @@ It is same as [kleene star closure](#kleene-star-closure) but it does not genera
 
 $$\Sigma = \{0, 1\}$$
 
-$$\Sigma^* = \{0, 1, 00, 01, 10, 11, \ldots\}$$
+$$\Sigma^+ = \{0, 1, 00, 01, 10, 11, \ldots\}$$
 
 ## Recursive Definition
 
@@ -42,7 +42,7 @@ Following 3 steps are used to define a `language` recursively:
 
 1. $x$ is an `integer`.
 2. If $x$ is an `integer` then $x + 1$ and $x - 1$ are also `integers`.
-3. Any other `strings`[^2] generated which does no follows `step 2` is not allowed in the `language`.
+3. Any other `string`[^2] generated which does no follows `step 2` is not allowed in the `language`.
 
 ## References
 

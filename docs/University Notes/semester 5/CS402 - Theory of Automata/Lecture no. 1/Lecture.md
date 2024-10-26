@@ -56,7 +56,7 @@ $$L = \{x^n : n = 1, 2, 3, \ldots\}$$
 
 or  
 
-$$L = \{x, xx, xxx\}$$
+$$L = \{x, xx, xxx, \dots\}$$
 
 The $x$, $xx$ and $xxx$ are the `words` of `language` $L$.
 
