@@ -1,4 +1,5 @@
 site_name: Notes
+docs_dir: ./docs/
 
 theme:
     name: 'material'
@@ -14,16 +15,16 @@ theme:
     #    name: Switch to dark mode
 
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: pink
-      accent: blue
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: pink
+        accent: blue
       #  toggle:
       #  icon: material/toggle-switch
       #  name: Switch to light mode
 
     # disable default syntax highlighting
-    highlightjs: false
+    # highlightjs: false
 
 # Extensions
 markdown_extensions:
@@ -54,12 +55,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
   - toc:
       permalink: true
 
 plugins:
   - search
+  - obsidian-interactive-graph
   - roamlinks
   #- blog
   - rss:
@@ -71,12 +72,16 @@ plugins:
         - tags
 
 extra_css:
-  - stylesheets/pygments.css
-  - stylesheets/custom.css
-  - stylesheets/variables.css
+  - assets/stylesheets/pygments.css
+  - assets/stylesheets/custom.css
+  - assets/stylesheets/variables.css
+  - assets/stylesheets/interactive_graph.css
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - assets/javascripts/mathjax.js
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 

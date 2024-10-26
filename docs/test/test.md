@@ -120,7 +120,7 @@ int main() {
 
 # Python
 
-```py
+```Python
 # Simple function decorator
 def log_execution(func):
     def wrapper(*args, **kwargs):
@@ -216,7 +216,7 @@ say_hello()
 greet("Python")
 ```
 
-# RUST
+# Rust
 
 ```rust
 // Deriving traits automatically (like Debug, Clone)
@@ -603,4 +603,4 @@ exit:
 ```
 
  testing if it works  
-<iframe src="../figures/paraboloid_plot.html"></iframe>
+![[integral]]
