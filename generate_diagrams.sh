@@ -2,7 +2,7 @@
 
 # Define the parent directory where the search will start
 repo_root=$(pwd)
-parentDirectory="./docs/"
+parentDirectory="~/notes_publisher/docs/"
 
 # Get all subdirectories named 'figures' within the parent directory, pipe the list into while loop
 find "$parentDirectory" -type d -name "figures" | while IFS= read -r dir; do 
