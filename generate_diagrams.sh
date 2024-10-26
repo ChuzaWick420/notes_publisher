@@ -4,10 +4,10 @@
 repo_root=$(pwd)
 
 # Debugging runner dir layout
-ls "~/"
-ls "~/notes_publisher"
+ls "/"
+ls "/notes_publisher"
 
-parentDirectory="~/notes_publisher/docs/"
+parentDirectory="/notes_publisher/docs/"
 
 # Get all subdirectories named 'figures' within the parent directory, pipe the list into while loop
 find "$parentDirectory" -type d -name "figures" | while IFS= read -r dir; do 
