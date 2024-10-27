@@ -1,24 +1,23 @@
 #!/bin/bash
 
-# Define the parent directory where the search will start
 repo_root=$(pwd)
+parentDirectory="docs"
 
-# Get all subdirectories named 'figures' within the parent directory, pipe the list into while loop
-find "$repo_root" -type d -name "figures" | while IFS= read -r dir; do 
+find "$parentDirectory" -type d -name "figures" | while IFS= read -r dir; do
 
-# Iterate over each 'figures' directory
-    find "$dir" -maxdepth 1 -name "*.py" | python
-        # Optionally, check if the Python script ran successfully
-        if [[ $? -ne 0 ]]; then
-            echo "Failed to run script: $script" >&2
-        fi
+    current_dir=$(pwd)
 
-        # Debug
-        echo "$script"
+    cd "$dir"
+
+
+    ls | while IFS= read -r script; do
+        python $script
     done
 
-    cd "$repo_root"
-    cd ../
+    cd "$current_dir"
+
+done
+
+cd "$repo_root"
 
 echo "All scripts executed."
-
