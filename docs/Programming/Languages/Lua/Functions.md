@@ -52,3 +52,14 @@ end
 
 name()("hi")
 ```
+
+## Working with Tables
+
+```lua
+function name (table)
+	print(table.key)
+end
+
+name({key = 69}) -- valid
+name{key = 69}   -- valid
+```
