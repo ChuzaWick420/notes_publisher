@@ -13,6 +13,14 @@ end
 name = function (param) print (param) end
 ```
 
+`Functions` can return multiple values.
+
+```lua
+function name (arg)
+	return 1, 2, 3, 4
+end
+```
+
 ## Higher order Functions
 
 ### Taking Function as Argument

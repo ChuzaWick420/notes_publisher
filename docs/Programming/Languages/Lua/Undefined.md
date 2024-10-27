@@ -2,7 +2,8 @@
 
 ```lua
 variable = nil
-variable = -- some variable which was not defined / declared
+variable = 
+variable = unknown_variable_which_was_not_defined
 ```
 
 the `nil` keyword defines an `undefined garbage value`.

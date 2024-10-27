@@ -20,4 +20,4 @@ instead, we have `~=`.
 
 ## Logical Operators
 
-`lua` does not have `&&` or `||`, instead it has `and` and `or` keywords.
+`lua` does not have `!` or `&&` or `||`, instead it has `not` and `and` and `or` keywords.
