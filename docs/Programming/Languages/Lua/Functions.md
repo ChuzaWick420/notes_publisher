@@ -21,6 +21,16 @@ function name (arg)
 end
 ```
 
+The following are the same `functions`.
+
+```lua
+function log(x)
+	print(x)
+end
+
+log = function(x) print(x) end
+```
+
 ## Higher order Functions
 
 ### Taking Function as Argument
