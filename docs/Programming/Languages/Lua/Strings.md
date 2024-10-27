@@ -10,3 +10,12 @@ str_3 = [[
 	string
 ]]
 ```
+
+The `..` `operator` concatenates the `strings`.
+
+```lua
+str_1 = "Hi "
+str_2 = "Bye"
+
+print(str_1 .. str_2)
+```
