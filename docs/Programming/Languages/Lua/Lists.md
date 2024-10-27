@@ -1,5 +1,7 @@
 # Lists
 
+`Lists` are not a unique `data type` but rather, they are just `tables` with numbers as `keys`.
+
 ```lua
 list = {
 	"Hi",
