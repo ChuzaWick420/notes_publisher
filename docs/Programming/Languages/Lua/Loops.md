@@ -1,4 +1,6 @@
-# For
+# Loops
+
+## For
 
 ```lua
 for i = 0, 20, 2 do
@@ -7,21 +9,23 @@ end
 ```
 
 Notice how there are `3` values.
+
 1. Starting value
 2. Ending value
 3. Increment or decrement by
 
-# While
+## While
 
 ```lua
 while num < 50 do
 	print("hi")
+	num = num + 1
 end
 ```
 
 `block scopes` usually end with `end` keyword.
 
-# Another Variant
+## Another Variant
 
 ```lua
 repeat
