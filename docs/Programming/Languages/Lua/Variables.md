@@ -1,3 +1,5 @@
+# Variables
+
 ```lua
 variable = "value"
 ```

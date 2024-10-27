@@ -1,3 +1,5 @@
+# Undefined
+
 ```lua
 variable = nil
 variable = -- some variable which was not defined / declared

@@ -1,3 +1,5 @@
+# Boolean
+
 ```lua
 var = false
 var = true

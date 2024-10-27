@@ -1,4 +1,6 @@
-# Normal
+# Functions
+
+## Normal
 
 ```lua
 function name (arg)
@@ -11,9 +13,9 @@ end
 name = function (param) print (param) end
 ```
 
-# Higher Order Functions
+## Higher order Functions
 
-## Taking Function as Argument
+### Taking Function as Argument
 
 ```lua
 function name (para)
@@ -23,7 +25,7 @@ end
 name(print)
 ```
 
-## Returning Functions
+### Returning Functions
 
 ```lua
 function name () 
