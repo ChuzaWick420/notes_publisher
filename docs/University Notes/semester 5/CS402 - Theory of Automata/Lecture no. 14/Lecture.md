@@ -50,3 +50,5 @@ $$r = (a+b)^*aa(a + b)^*$$
 ![[cs402_14_d_5.svg]]
 
 ## References
+
+[^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 3/Lecture|finite automaton]].
