@@ -75,15 +75,24 @@ extra_css:
   - assets/stylesheets/pygments.css
   - assets/stylesheets/custom.css
   - assets/stylesheets/variables.css
-  - assets/stylesheets/interactive_graph.css
+
+  # For Notes Graph
+  # - assets/stylesheets/interactive_graph.css
 
 extra_javascript:
+  # For Notes Graph
+  # - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  # - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  # - assets/javascripts/interactive_graph.js
+
+  # Mermaid Graph
+  # - https://unpkg.com/mermaid/dist/mermaid.min.js 
+
+  # For LaTeX support
   - assets/javascripts/mathjax.js
-  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
-  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - assets/javascripts/interactive_graph.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js 
-  - https://cdn.plot.ly/plotly-latest.min.js  # For Plotly
-  - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js  # For ipywidgets
+
+  # For 3D math diagrams using Python and Plotly
+  - https://cdn.plot.ly/plotly-latest.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
