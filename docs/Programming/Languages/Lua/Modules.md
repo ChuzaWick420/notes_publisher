@@ -40,8 +40,8 @@ local b = require("Plugin") -- not ran, cached
 
 -- a = b
 
-local x = dofile("Plugin") -- ran
-local y = dofile("Plugin") -- ran
+local x = dofile("Plugin.lua") -- ran
+local y = dofile("Plugin.lua") -- ran
 
-local f = loadfile("Plugin") -- load but don't run
+local f = loadfile("Plugin.lua") -- load but don't run
 ```
