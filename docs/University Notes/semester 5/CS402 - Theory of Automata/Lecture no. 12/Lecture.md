@@ -10,13 +10,13 @@ university-name: Virtual University of Pakistan
 
 ## Example
 
-![[Diagram_1.svg]]  
-![[Diagram_2.svg]]  
-![[Diagram_3.svg]]  
-![[Diagram_4.svg]]  
-![[Diagram_5.svg]]  
-![[Diagram_6.svg]]  
-![[Diagram_7.svg]]
+![[cs402_12_d_1.svg]]  
+![[cs402_12_d_2.svg]]  
+![[cs402_12_d_3.svg]]  
+![[cs402_12_d_4.svg]]  
+![[cs402_12_d_5.svg]]  
+![[cs402_12_d_6.svg]]  
+![[cs402_12_d_7.svg]]
 
 ## Kleene's Theorem part 3
 
@@ -34,11 +34,11 @@ $$r_2 = (a + b)^* aa (a + b)^*$$
 
 ##### $r_1$
 
-![[r_1_diag.svg]]
+![[cs402_12_d_8.svg]]
 
 ##### $r_2$
 
-![[r_2_diag.svg]]
+![[cs402_12_d_9.svg]]
 
 ##### $r_1 + r_2$
 
@@ -47,7 +47,7 @@ Same goes for the `final state`.
 
 $$r_1 + r_2 = (a + b)^*b + (a + b)^* aa (a + b)^*$$
 
-![[r_union_diag.svg]]
+![[cs402_12_d_10.svg]]
 
 ## References
 
