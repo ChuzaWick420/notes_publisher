@@ -1,6 +1,9 @@
 site_name: Notes
 docs_dir: docs
 
+exclude_docs: |
+  Diagrams/*.md
+
 theme:
     name: 'material'
     palette:
@@ -78,7 +81,7 @@ extra_css:
   - assets/stylesheets/variables.css
 
   # Obsidian Tags
-  - assets/stylesheets/obsidian_tags.css
+  # - assets/stylesheets/obsidian_tags.css
 
   # For Notes Graph
   # - assets/stylesheets/interactive_graph.css
@@ -102,4 +105,4 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
 
   # Obsidian Tags
-  - assets/javascripts/interactive_graph.js
+  # - assets/javascripts/obsidian_tags.js
