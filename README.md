@@ -15,3 +15,7 @@ The `ci.yml` file tells the machine to:
 - Use `pygments` to syntax highlight the code blocks.
 - Run a `bash script` which runs my `python` scripts, responsible for generating the `HTML` pages for the 3D diagrams which later get linked to my notes using `iframes`.
 - Host the website on `Github Pages`.
+
+## References
+- https://github.com/jobindjohn/obsidian-publish-mkdocs
+- https://github.com/daxcore/mkdocs-obsidian-interactive-graph-plugin/
