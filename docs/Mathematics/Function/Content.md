@@ -7,14 +7,18 @@ tags:
 ---
 
 # Functions
+
 ## Definition
+
 A `function` is a rule relating to 2 `sets`[^1] in such a way that it assigns only 1 element of one `set`[^1] to an element of another `set`[^1]
 
 ## Programmatic Intuition
+
 It can be looked at as a `black box` which takes one `input`, does something to it and produces an `output`.  
 ![[Pasted image 20240812214426.png]]
 
 ## Notation
+
 Since `function` is a relation between 2 variables, we can write it as:  
 
 $$y = f(x)$$
@@ -22,11 +26,15 @@ $$y = f(x)$$
 Where $x$ is called the `independant variable` because it is our `input` of choice and $y$ is called `dependant variable` since it depends of $x$.
 
 ## Domain and Range
+
 ### Domain
+
 The $x$ comes from a `set`[^1] that is `Set X` called its `domain`.
 
 #### Types of Domains
+
 ##### Natural Domain
+
 This `domain` comes out as a result of the formula of the `function` itself.
 
 ###### Example
@@ -37,6 +45,7 @@ Here, the `function` becomes undefined due to `division by zero` at $x = 2$.
 Hence, the `domain` is $\mathbb{R} - \{2\}$ or $(- \infty, 2) \cup (2, \infty)$.  
 
 ##### Restricted Domain
+
 Sometimes, the `domain` of a `function` can be altered by doing operations from algebra on the `function` to simplify it. 
 
 ###### Example
@@ -55,6 +64,7 @@ Therefore, we have to write it as
 $$h(x) = x + 2; x \ne 2$$
 
 ### Range
+
 The $y$ comes from a `set`[^1] that is `Set Y` called its `range`.  
 One of the techniques in finding `range` is to perform algebraic operations
 
@@ -72,12 +82,15 @@ Therefore, the range is:
 $$\{y : y \ne 1\} = (- \infty, 1) \cup (1, +\infty) = \mathbb{R} - \{1\}$$
 
 ## Piecewise Function
+
 ![[Pasted image 20240812223103.png]]  
 The graph of this `function` looks something like this.  
 ![[Pasted image 20240812223135.png]]
 
 ## `Even` And `Odd`
+
 ### Even
+
 A `function` is called `even function` if  
 
 $$f(x) = f(-x)$$
@@ -85,6 +98,7 @@ $$f(x) = f(-x)$$
 Intuitively, this means that the `function` is _mirrored_ by only $y$ axis.
 
 ### Odd
+
 A `function` is called `odd function` if  
 
 $$f(-x) = -f(x)$$
