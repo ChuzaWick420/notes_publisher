@@ -1,9 +1,6 @@
 site_name: Notes
 docs_dir: docs
 
-exclude_docs: |
-  Diagrams/*.md
-
 theme:
     name: 'material'
     palette:
@@ -64,6 +61,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - callouts
   - obsidian-interactive-graph
   - roamlinks
   #- blog
