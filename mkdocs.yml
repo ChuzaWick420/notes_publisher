@@ -26,55 +26,48 @@ theme:
     # disable default syntax highlighting
     # highlightjs: false
 
+plugins:
+  - search
+  - callouts
+  - obsidian-interactive-graph
+  - obsidian-support
+  - obsidian-bridge
+  - roamlinks
+  #- blog
+  # - rss:
+  #     match_path: blog/posts/.* 
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
+
 # Extensions
 markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.highlight:
       guess_lang: true
       default_lang: "cpp"
       linenums: false
       pygments_style: "monokai"
       use_pygments: true
-
-  - footnotes
-  # - attr_list
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
   # - pymdownx.details
   # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
-  - def_list
-  - attr_list
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - admonition
   - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       permalink: true
-
-plugins:
-  - search
-  - callouts
-  - obsidian-bridge
-  - obsidian-support
-  - obsidian-interactive-graph
-  - roamlinks
-  #- blog
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 
 extra_css:
   # Custom theme
@@ -89,6 +82,9 @@ extra_css:
   # - assets/stylesheets/interactive_graph.css
 
 extra_javascript:
+  # Obsidian Tags
+  - assets/javascripts/obsidian_tags.js
+
   # For Notes Graph
   # - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   # - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
@@ -106,5 +102,3 @@ extra_javascript:
   - https://cdn.plot.ly/plotly-latest.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
 
-  # Obsidian Tags
-  - assets/javascripts/obsidian_tags.js
