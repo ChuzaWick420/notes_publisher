@@ -671,10 +671,18 @@ The tradition
 
 ??? Example  
 	=== "Javascript"  
+		> [!note]- Btw  
+		> I use [NeoVim](https://neovim.io/) btw, which makes me:  
+		> 1. Smarter  
+		> 2. Superior  
 		```js  
 		console.log("Hello World");  
 		```  
 	=== "Python"  
+		> [!note]- Btw  
+		> I use [NeoVim](https://neovim.io/) btw, which makes me:  
+		> 1. Smarter  
+		> 2. Superior  
 		```py  
 		print("Hello World")  
 		```
