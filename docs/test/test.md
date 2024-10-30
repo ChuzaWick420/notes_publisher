@@ -602,5 +602,36 @@ exit:
     int 0x80               ; Interrupt to make system call
 ```
 
- testing if it works  
-![[Test 1.svg]]
+> [!abstract]- Index  
+> Hello world
+
+> [!info]- Info  
+> Yo wtf 
+
+> [!todo]- Tasks
+> - [ ] Hi
+> - [ ] Bye
+
+> [!tip]- Tippi  
+> Hi
+
+> [!success]- hello  
+> hi
+
+> [!question]- What is your shit  
+> ANSWER ME
+
+> [!warning]- RUN  
+> somethings is messed up
+
+> [!failure]- You  
+> have failed
+
+> [!danger]- oh  
+> no
+
+> [!example]- Here is an example  
+> Hi
+
+> [!quote] This is a quote  
+> "pela bena nokorus"

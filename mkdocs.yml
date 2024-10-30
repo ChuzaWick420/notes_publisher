@@ -53,6 +53,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - admonition
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
