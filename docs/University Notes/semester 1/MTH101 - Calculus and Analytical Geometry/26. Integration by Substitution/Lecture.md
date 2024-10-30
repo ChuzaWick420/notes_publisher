@@ -4,9 +4,13 @@ tags:
   - integral
   - differentiation
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Integration by Substitution
+
 Let's say we have  
 
 $$\frac{d}{du} g(u) = f(u)$$
@@ -57,6 +61,7 @@ Substituting $u$, we get
 $$= \frac{(x^2 + 1)^{51}}{51} + C$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[docs/Mathematics/Function/Content|functions]].

@@ -4,13 +4,18 @@ tags:
   - linear-equations
   - geometry
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Lines
+
 If we have 2 points $A(x_1, y_1)$ and $B(x_2, y_2)$ then a `line` is an object which connects both of these points.  
 This object has no width or curvature and can also be imagined as a `set`[^1] of points.
 
 ## Slopes
+
 ![[Pasted image 20240812131250.png]]
 
 If $\overline{AB}$ is a `line` then, its `slope` $m$ is defined to be the `ratio` from `rise` to `run`.  
@@ -18,6 +23,7 @@ If $\overline{AB}$ is a `line` then, its `slope` $m$ is defined to be the `ratio
 $$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac {\Delta y}{\Delta x}$$
 
 ## Angle of Inclination
+
 From the [slope](#slopes), we can fine the `angle of inclination` by using $\tan^{-1}{(m)}$.  
 
 $$\tan(\theta) = \frac{\text{perp}}{\text{base}}$$
@@ -31,12 +37,15 @@ $$\theta = \tan^{-1} (m)$$
 ![[Pasted image 20240812132611.png]]
 
 ## Parallel and Perpendicular Lines
+
 ### Parallel
+
 For _parallel_ [lines](#lines) if $m_1$ and $m_2$ are [slopes](#slopes) of each [lines](#lines) then
 
 $$m_1 = m_2$$
 
 ### Perpendicular
+
 For _perpendicular_ [lines](#lines).  
 
 $$m_1 = \frac{-1}{m_2}$$
@@ -62,8 +71,11 @@ $$\tan(\theta_1) \cdot \frac{-1}{\tan(\theta_1 )} = -1$$
 $$-1 = -1$$
 
 ## Equations of Lines
+
 ### Lines Parallel to Coordinate Axes
+
 #### `x-axis`
+
 ![[Pasted image 20240812135906.png]]
 
 More generally,  
@@ -73,6 +85,7 @@ $$x = a$$
  Where $a \in \mathbb{Z}$ .
 
 #### `y-axis`
+
 If we take $y$ in terms of `function`[^2] then notice how it does not depend on $x$, hence it is `constant`.  
 ![[Pasted image 20240812135733.png]]
 
@@ -82,7 +95,8 @@ $$y = a$$
 
 Where $a \in \mathbb{Z}$.
 
-### Slope - Point Form
+### Slope - point Form
+
 if we are given [slope](#slopes) of a [line](#lines) along with a single point $P(x_1, y_1)$ which lies on that [line](#lines) then we can construct the equation for it.  
 
 $$m = \frac{y - y_1}{x - x_1}$$
@@ -92,12 +106,15 @@ $$y - y_1 = m \cdot (x - x_1)$$
 Here, the $P(x, y)$ is any arbitrary point.
 
 ### Slope - Intercept Form
+
 #### Relative to `x-axis`
+
 If we have an `x intercept` called $a$ then the previous equation takes form of  
 
 $$y - 0 = m \cdot (x - a)$$
 
 #### Relative to `y-axis`
+
 If we have an `y intercept` called $b$ then the previous equation takes form of  
 
 $$y - b = m \cdot (x - 0)$$
@@ -110,6 +127,7 @@ Where $a$, $b$ and $c$ are `constants`.
 This equation is called `first degree` equation.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Set/Content|sets]].

@@ -2,10 +2,15 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Sketching
+
 ## Graph of $r = \sin(\theta)$
+
 Let us take some samples.  
 For that, we will increment $\theta$ by $\frac \pi 2 30^{\circ}$ and construct a table containing our samples
 
@@ -36,6 +41,7 @@ $$x^2 + \left(y - \frac 1 2\right)^2 = \frac 1 4$$
 Hence, it is a `circle` with $radius = \frac 1 2$ centered at $\left(0, \frac 1 2\right)$.
 
 ## Limacons
+
 Following form of equations are of `limacons`.  
 
 $$r = a + b \sin (\theta)$$
@@ -47,13 +53,16 @@ $$r = a + b \cos (\theta)$$
 $$r = a - b \cos (\theta)$$
 
 ### Cardioid
+
 Special case for `limacons` in which $a = b$, creates a `cardioid`.  
 ![[Pasted image 20241014124438.png]]
 
 ### Inner Ring
+
 if $b > a$ or $\frac a b < 1$ then the `limacons` have an inner ring.
 
 ## Leminscate
+
 There is a greek word called `lemnicos` which means `looped ribon`.  
 If $a > 0$ then following are the equations for `leminscate`.
 
@@ -89,4 +98,5 @@ $$r = a \cdot \theta$$
 ![[Pasted image 20241014125545.png]]
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

@@ -4,29 +4,39 @@ tags:
   - integral
   - sigma
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Work and `Definite integral`[^1]
+
 ## Work Done by a Constant Force
+
 If a body is moved unit `distance` $d$ by a `force` $\vec{F}$ in $x^+$ direction then `work` done on the body can be found out by  
 
 $$W = \vec{F} \cdot d$$
 
 ### Units
+
 #### Distance
+
 - `meter` $m$
 
 #### Force
+
 - `newton` $N$
 - `pounds` $lb$
 - `dynes` (the `force` required to accelerate a `1 gram` body by $\frac{1 cm}{s^2}$)
 
 #### Work
+
 - `newton meter` (also called `joule` $j$) $N m$
 - `foot pounds` $ft \, lb$
 - `dyne centi meters` $dyne \, cm$
 
 ## Work Done by a Variable Force
+
 Imagine a body moving in $x^+$ direction by a `force` which is dependent on the `distance` $x$ in `interval`[^2] $[a, b]$ then the find the `work` done on the body.  
 The `work` done at any instance would be  
 
@@ -41,6 +51,7 @@ And for more accuracy
 $$W=\lim_{\max(\Delta x_{i}\to 0)}\sum_{i=1}^{n}F(x_{i}^{*})\Delta x_{i}=\int_{a}^{b}F(x)dx$$
 
 ## Pressure
+
 It is defined as `force` per unit `area`.  
 
 $$P = \frac{force}{area} = \rho \, h$$
@@ -48,6 +59,7 @@ $$P = \frac{force}{area} = \rho \, h$$
 Where $\rho$ is the `density` and $h$ is the `depth`.
 
 ### Fluid Pressure
+
 If a flat surface is submerged in a fluid at certain `depth` $h$ then the `pressure` on that surface would be  
 
 $$F = \rho \cdot h \cdot A$$
@@ -55,6 +67,7 @@ $$F = \rho \cdot h \cdot A$$
 The shape of the container is irrelevant.
 
 ### Pascal's Principle
+
 The fluid `pressure` at a given `height` is same in all the directions.
 
 The formula for `fluid pressure` on a surface would be  
@@ -62,6 +75,7 @@ The formula for `fluid pressure` on a surface would be
 $$F = \int_{a}^{b} \rho h(x) w(x) dx$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/29. Definite Integral/Lecture|definite integrals]].

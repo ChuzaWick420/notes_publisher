@@ -1,8 +1,11 @@
 ---
 tags:
   - university-notes
-university-name:
+university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Examples
 

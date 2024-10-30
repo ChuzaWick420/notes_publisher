@@ -3,7 +3,10 @@ tags:
   - university-notes
   - limits
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Limits of Vector Valued Functions
 
@@ -12,12 +15,14 @@ $$\lim_{t \to a} \vec{r}(t) = \lim_{t \to a} x(t) \hat i + \lim_{t \to a} y(t) \
 If `limit`[^1] of any component does not exist then we say that `limit`[^1] for $\vec{r}(t)$ does not exist.
 
 ## Continuity of `Vector Valued Functions`
+
 1. $\vec{r}(t_0)$ is defined.
 2. $\lim_{t \to t_0} \vec r (t)$ exists.
 3. $\lim_{t \to t_0} \vec r (t) = \vec r (t_0)$
 
 ## `Derivative`[^2]
-Similar to real valued `functions`[^3],  
+
+Similar to real valued `functions`,[^3]  
 
 $$\vec r ^{\prime}(t) = \frac d {dt} \vec r (t) = \lim_{h \to 0} \frac{\vec r (t + h) + \vec r (t)}{h}$$
 
@@ -26,10 +31,12 @@ $$\vec r ^{\prime}(t) = \frac d {dt} \vec r (t) = \lim_{h \to 0} \frac{\vec r (t
 $$\frac d {dt} \vec r (t) = x^\prime(t) \hat i + y^\prime(t) \hat j + z^\prime(t) \hat k$$
 
 ## Tangent Vectors
+
 if $\vec r (t)$ and $\vec r ^ \prime (t)$ exist and are non zero, then $\vec r ^ \prime(t_0)$ is called the `tangent vector` to $\vec r (t)$ at $\vec r (t_0)$.
 
 ## Properties of `Derivatives`[^2]
-`Vector valued functions` have same properties as for real valued `functions`[^2].  
+
+`Vector valued functions` have same properties as for real valued `functions`.[^2]  
 There are 2 additional ones
 
 1. $$\frac d {dt} \left(\vec {r_1}(t) \cdot \vec {r_2}(t) \right) = \vec{r_1} \cdot \frac{dr_2}{dt} +  \frac{dr_1}{dt} \cdot \vec{r_2}$$
@@ -47,9 +54,11 @@ Since both are _perpendicular_.
 $$\int_a^b \vec r (t) = \int_a^b (x(t) \cdot dt) \hat i + \int_a^b (y(t) \cdot dt) \hat j$$
 
 ## Properties of `Integrals`[^4]
-They are similar to properties of `integrals`[^4] for the real valued `functions`[^2].
+
+They are similar to properties of `integrals`[^4] for the real valued `functions`.[^2]
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].

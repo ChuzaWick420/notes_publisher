@@ -3,9 +3,13 @@ tags:
   - university-notes
   - differentiation
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Techniques of Differentiation
+
 ## Derivatives of Constant Functions
 
 $$\frac{d}{dx} (c) = 0$$
@@ -42,7 +46,7 @@ $$= \lim_{h \rightarrow 0} \frac{nx^{n-1}h + \ldots + h^n}{h}$$
 
 Taking $h$ as common factor, out  
 
-$$= \lim_{h \rightarrow 0} \frac{h \left(nx^{n-1} + \ldots + h^{n- 1}\right)}{h}$$
+$$= \lim_{h \rightarrow 0} \frac{h \left(nx^{n-1} + \ldots + h^{n1}\right)}{h}$$
 
 $$= \lim_{h \rightarrow 0} \left(nx^{n-1} + \ldots + h^{n - 1}\right)$$
 
@@ -90,6 +94,7 @@ $$\frac{d}{dx} \left[ \frac{f(x)}{g(x)} \right] = \frac{g(x) \frac{d}{dx}[f(x)] 
 $$
 
 ### Proof
+
 ![[Pasted image 20240817144720.png]]
 
 ## Reciprocal Theorem
@@ -98,6 +103,7 @@ $$\frac{d}{dx} \left( \frac{1}{g(x)} \right) = -\frac{\frac{d}{dx} \left( g(x) \
 $$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Binomial Theorem/Content|binomial theorem]].

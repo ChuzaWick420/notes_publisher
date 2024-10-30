@@ -1,15 +1,20 @@
 ---
 tags:
   - university-notes
-  - "integral"
+  - integral
   - sigma
   - limits
   - differentiation
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Area of Surface of Revolution
+
 ## Surface Area Problem
+
 Let us have a `continuous function`[^1] $f(x)$ defined over the `interval`[^2] $[a, b]$  
 ![[Pasted image 20240928112944.png]]  
 If we revolve it about `x-axis` then we get a solid as  
@@ -36,7 +41,7 @@ then
 
 $$S_i=\pi\left(f(x_{i-1})+f(x_i)\right)\sqrt{1+\left(f'(x_i^*)\right)^2}\Delta x_i$$
 
-Then using the `intermediate value theorem`[^4],  
+Then using the `intermediate value theorem`,[^4]  
 
 $$\frac{1}{2}\left(f(x_{i-1})+f(x_i)\right)=f(x_i^{**})$$
 
@@ -58,20 +63,23 @@ Which of course can be written in `integral`[^5] form.
 $$S = \int_{a}^{b}2\pi f(x)\sqrt{1+\left(f'(x)\right)^2}dx$$
 
 ## Example
+
 Find the `surface area` of the portion of the `sphere` generated from $y = \sqrt{1 - x^2}$ bounded within $0 \le x \le \frac 1 2$.
 
 ## Solution
+
 Using our equation
 
 $$S = \int_{a}^{b}2\pi f(x)\sqrt{1+\left(f'(x)\right)^2}dx$$
 
 $$= \int_0^{\frac 1 2} 2 \pi \sqrt{1 - x^2} \cdot \sqrt{1 + \left(\frac{d}{dx} \sqrt{1 - x^2}\right)^2} dx$$
 
-After simplifying the `integrand`[^5], we get  
+After simplifying the `integrand`,[^5] we get  
 
 $$\int_0^{\frac 1 2} 2 \pi dx = 2 x \pi \bigg]_0^{\frac 1 2} = \pi$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].

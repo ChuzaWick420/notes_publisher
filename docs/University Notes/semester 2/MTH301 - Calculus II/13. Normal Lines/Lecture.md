@@ -4,10 +4,15 @@ tags:
   - partial-differential
   - function
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Orthogonal Surfaces
+
 ## Normal line
+
 If $P_0(x_, y_0, z_0)$ be any point on the `surface` $f(x, y, z) = 0$.  
 If $f(x, y, z)$ is differentiable at $P_0$ then the `normal line` at $P_0$ has the equation  
 
@@ -18,6 +23,7 @@ $$y = y_0 + f_y(P_0)t$$
 $$z = z_0 + f_z(P_0)t$$
 
 ### Example
+
 Find the `tangent plane`[^1] and `normal line` to the `surface`
 
 $$f(x,y,z)=x^{2}+y^{2}+z^{2}-14$$
@@ -40,7 +46,7 @@ $$2(x-1)-4(y+2)+6(z-3)=0$$
 
 $$x-2y+3z-14=0$$
 
-##### Normal Line
+##### Normal line
 
 $$
 \frac{x-1}{2}=\frac{y+2}{-4}=\frac{z-3}{6}
@@ -53,9 +59,11 @@ $$
 $$
 
 ## Orthogonal Surfaces
+
 Two `surfaces` are called `orthogonal` if, at their point of intersection, `normals` of both are _orthogonal_.
 
 ### Condition
+
 Imagine we have 2 `surfaces`  
 
 $$f(x, y, z) = 0$$
@@ -75,6 +83,7 @@ $$\vec{n_1} \cdot \vec{n_2} = 0$$
 $$f_{x}g_{x}+f_{y}g_{y}+f_{z}g_{z}=0$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/12. Tangent Planes to the surfaces/Lecture|tangent lines]].

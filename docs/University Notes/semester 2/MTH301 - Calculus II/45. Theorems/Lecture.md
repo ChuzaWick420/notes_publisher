@@ -2,10 +2,15 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Theorems
+
 ## The First Shift Theorem
+
 If $\mathscr L (F(t)) = f(s)$ then $\mathscr L (e^{-at} F(t)) = f(s + a)$.
 
 ### Example
@@ -17,6 +22,7 @@ $$\mathscr L (t^2 e^{4t}) = \frac 2 {(s - 4)^3}$$
 Here $a = -4$.
 
 ## Multiplying by $t$
+
 If $\mathscr L (F(t)) = f(s)$ then  
 
 $$\mathscr L (F(t)) = - \frac d {ds} (f(s))$$
@@ -32,11 +38,13 @@ This theorem can be extended to following
 $$\mathscr{L}(t^{n}F(t))=(-1)^{n}\frac{d^{n}}{ds^{n}}(f(s))$$
 
 ## Dividing by $t$
+
 If $\mathscr L (F(t)) = f(s)$ then  
 
 $$\mathscr L \left(\frac {F(t)} t\right) = \int_s^\infty f(s) ds$$
 
 ### Example
+
 Determine  
 
 $$\mathscr L \left(\frac{\sin (at)}{t}\right) = \frac a {s^2 + a^2}$$
@@ -66,6 +74,7 @@ $$= \mathscr L ^ {-1}\left(\frac{1}{s + 2}\right) + \mathscr L ^ {-1}\left(\frac
 $$= e^{-2t} + 2 e^{3t}$$
 
 ## Rules of Partial Fractions
+
 1. The degree of `numerator` should be lower than degree of `denominator`.
 2. Factorize the `denominator` into its `prime factors`. This determines the shapes of the `partial fraction`.
 3. A `linear` factor $(s + a)$ gives a `partial fraction` $\frac A {s + a}$.
@@ -77,6 +86,7 @@ $$= e^{-2t} + 2 e^{3t}$$
 9. $\frac{s + a}{(s + b) (s + c)^2}$ has gives $\frac{A}{s + b} + \frac{B}{s + c} + \frac{C}{(s + c)^2}$.
 
 ## Example
+
 Solve the following equation given that $x(0) = 5$ and $\frac{dx}{dt}\bigg|_{t = 0} = 7$  
 
 $$\frac{d^2x}{dt^2} - 3 \frac{dx}{dt} + 2x = 2e^{3t}$$
@@ -110,6 +120,7 @@ $$\mathscr{L}(x(t))=\frac{3}{s-1}+\frac{2}{s-2}$$
 $$x(t)=\mathscr{L}^{-1}\left(\frac{3}{s-1}\right)+\mathscr{L}^{-1}\left(\frac{2}{s-2}\right)=3e^{t}+2e^{2t}$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/44. Laplace Transforms/Lecture|laplace transform]].

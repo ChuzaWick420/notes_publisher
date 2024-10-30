@@ -3,9 +3,13 @@ tags:
   - university-notes
   - limits
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Formal Definition
+
 For any number $\epsilon > 0$ , if we can find an interval $(x_0, x_1)$ containing a point $a$ such that such that
 
 $$L - \epsilon < f(x) < L + \epsilon$$
@@ -24,4 +28,5 @@ $$\frac{1}{10^{10^{100}}}$$
 This below part of `fraction` is called `Googolplex`.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

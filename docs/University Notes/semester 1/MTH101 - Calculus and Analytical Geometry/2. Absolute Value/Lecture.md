@@ -6,12 +6,17 @@ tags:
   - coordinate-line
   - distance
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Absolute Values
-This plays an important role in determining `distance` between 2 points on a `coordinate line`[^1].
+
+This plays an important role in determining `distance` between 2 points on a `coordinate line`.[^1]
 
 ## Definition
+
 The `absolute value` of a `real number` $a$ is denoted as $\lvert a \rvert$.  
 ![[Pasted image 20240810231538.png]]
 
@@ -53,6 +58,7 @@ Notice how `1` is related to `4` and `2` is related to `3`.
 $$\sqrt{a^2} \ne (\sqrt{a})^2$$
 
 ### Example
+
 Let's take $a = -4$ and take its `square root`.  
 
 - Case $\sqrt{a^2}$  
@@ -90,6 +96,7 @@ $$\left| \frac{a}{b} \right| = \frac{\lvert a \rvert} {\lvert b \rvert}$$
 $$\lvert a^n\rvert = \lvert a\rvert^n$$
 
 ## Geometric Interpretation of Absolute Value
+
 We can define `distance` as an absolute value
 
 ![[Pasted image 20240811003955.png]]
@@ -99,6 +106,7 @@ We can define `distance` as an absolute value
 ![[Pasted image 20240811003751.png]]
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|coordinate line]].

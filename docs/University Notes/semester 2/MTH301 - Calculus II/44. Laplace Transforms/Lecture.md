@@ -2,7 +2,10 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Laplace Transform
 
@@ -15,6 +18,7 @@ $$\mathscr L (t^3) = \frac{3!}{s^4}$$
 $$\implies \mathscr L^{-1} \left(\frac{3!}{s^4}\right) = t^3$$
 
 ## Definition
+
 The `laplace transform` of a `function`[^1] $F(t)$ denotes as $\mathscr L (F(t))$ is defined as  
 
 $$\mathscr L (F(t)) = \int_0^\infty e^{-st} F(t) dt$$
@@ -30,6 +34,7 @@ $$= a \int_0^\infty e^{-st} dt$$
 $$=a\frac{e^{-st}}{-s}\bigg|_{0}^{\infty}=-\frac{a}{s}(0-1)=\frac{a}{s}$$
 
 ## Complex Numbers
+
 A number of the following form is called a `complex number`.  
 
 $$z = a + b\iota$$
@@ -37,6 +42,7 @@ $$z = a + b\iota$$
 where $a$ is the `real` part and $b$ is the `imaginary` part.
 
 ## Conjugate of Complex Numbers
+
 If $z = a + b \iota$ is a [complex number](#complex-numbers) then its `conjugate` will be $\overline z = \overline{a + b \iota} = a - b \iota$ 
 
 ## Several Standard Results
@@ -56,6 +62,7 @@ If $z = a + b \iota$ is a [complex number](#complex-numbers) then its `conjugate
 - $$\mathscr L (\cosh (at)) = \frac{s}{s^2 - a^2}$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

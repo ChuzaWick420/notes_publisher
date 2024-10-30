@@ -2,7 +2,10 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Change of Parameter
 
@@ -31,18 +34,22 @@ $t = g(u)$ is called a smooth change in parameter if $g(u)$ satisfies the follow
 3. $g^\prime(u) \ne 0$ for any $u$ in the `domain`[^3] of $g$
 
 ## Arc Length
+
 Because we do `derivative`[^2] of `vector valued functions`[^4] component wise, we can also do `integration`[^5] component wise.
 
 ### Example
+
 if $x^\prime (t)$ and $y^\prime (t)$ are `continuous`[^2] for $a \le t \le b$ then the `arc length` is  
 
 $$L = \int_a^b \sqrt{\left(\frac {dx}{dt}\right)^2 + \left(\frac {dy}{dt}\right)^2} dt$$
 
 ## Arc Length as Parameter
+
 1. Select an arbitrary point P on the curve C to serve as a reference point.
 2. Choose one direction to move along the curve which will be considered `positive` and other direction will be considered `negative`.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|differentiation]].

@@ -2,9 +2,13 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Definite Integral
+
 ## Wallis Sine Formula
 
 When $n$ is `even`  
@@ -22,6 +26,7 @@ $$= \frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \ldots \cdot \frac 6 7 \cdot
 $$\int UVdx=U\int Vdx-\int\left(\int Vdx\cdot\frac{dU}{dx}\right)dx$$
 
 ## Line Integrals
+
 ![[Pasted image 20241017153458.png]]  
 Let us say we have a curve $C$ defined by $f(x)$ and $P$ be a point on this curve.  
 The `position vector`[^1] for $P$ with respect to `origin` will be $\vec P$ or let's say $\vec r$.  
@@ -38,6 +43,7 @@ Here $p$ is just an `index`.
 $$\lim_{dr \to 0} \sum_{p = 1}^n dr_p = \int_c dr$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].

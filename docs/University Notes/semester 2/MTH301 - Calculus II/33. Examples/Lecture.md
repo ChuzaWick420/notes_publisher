@@ -4,15 +4,21 @@ tags:
   - line-integral
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Examples
+
 ## Example
+
 Evaluate the following from $A(1, 2)$ to $B(3, 5)$  
 
 $$I = \int_c(3ydx + (3x + 2y)dy)$$
 
 ### Solution
+
 From the inspection, we notice that the `integrant`[^1] is in the following pattern
 
 $$P dx + Q dy$$
@@ -23,7 +29,7 @@ $$\because Q = \frac{\partial z}{\partial y} = 3x + 2y \therefore \frac{\partial
 
 $$\because \frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}$$
 
-This is an `exact differential`[^2].  
+This is an `exact differential`.[^2]  
 
 $$\therefore I = \int_c dz$$
 
@@ -44,24 +50,29 @@ $$= \left[3xy + y^2\right]^{(3, 5)}_{(1, 2)}$$
 $$= 60$$
 
 ## Theorem
+
 If $P dx + Q dy$ is an `exact differential`[^2] then
 
 1. $I = \int_c (Pdx + Qdy)$ is independent of the path of `integration`[^1]
 2. $I = \oint_c (Pdx + Qdy) = 0$
 
 ## Green's Theorem
+
 Let $P(x)$ and $Q(y)$ be `continuous functions`[^3] within the region $R$ including its boundary $c$.  
 If its first `partial derivatives`[^4] are `continuous` then  
 
 $$\iint_R\left(\frac{\partial P}{\partial y} - \frac{\partial Q}{\partial x}\right) dx dy = - \oint_C (P dx + Q dy)$$
 
 ## Example
+
 Evaluate the following at `vertices` $O(0, 0)$, $A(1, 0)$ and $B(1, 2)$  
 
 $$I = \oint (2x + y)dx + (3x - 2y)dy$$
 
 ### Solution
+
 #### By Previous Method
+
 ##### $c_1$
 
 $$c_1 : y = 0 \therefore dy = 0$$
@@ -103,6 +114,7 @@ $$\because \text{Area} = 1$$
 $$I = 2$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].

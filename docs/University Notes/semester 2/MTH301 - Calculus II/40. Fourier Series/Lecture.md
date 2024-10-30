@@ -2,9 +2,13 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Fourier Series
+
 The `series`[^1] of `trignometrical` `functions`[^2] of the following form is called `fourier series`.  
 
 $$f(x) = A_0 + c_1 \sin(x + \alpha_1) + c_2 \sin(2x + \alpha_2) + \ldots$$
@@ -28,8 +32,10 @@ Then the `series`[^1] becomes
 $$= A_0 + \sum_{n=1}^\infty (a_n \cos (nx) + b_n \sin(nx))$$
 
 ## Coefficients of Fourier Series
+
 ### $A_0$
-To find $A_0$, we will `integrate`[^3] both sides of the `series`[^1].  
+
+To find $A_0$, we will `integrate`[^3] both sides of the `series`.[^1]  
 
 $$f(x) = A_0 + \sum_{n=1}^\infty (a_n \cos (nx) + b_n \sin(nx))$$
 
@@ -44,6 +50,7 @@ $$\int_{-\pi}^\pi f(x) = 2 \pi \cdot A_0$$
 $$A_0 = \frac 1 {2 \pi} \int_{- \pi}^\pi f(x)$$
 
 ### $a_n$
+
 To find $a_n$, we will multiply $f(x)$ by $\cos(mx)$ and `integrate`[^3] from $- \pi$ to $\pi$.  
 
 $$\int_{-\pi}^{\pi}f(x)\cos(mx)dx=\int_{-\pi}^{\pi}A_{0}\cos(mx)dx+\sum_{n=1}^{\infty}\left(\int_{-\pi}^{\pi}a_{n}\cos(nx)\cos(mx)dx+\int_{-\pi}^{\pi}b_{n}\sin(nx)\cos(mx)dx\right)$$
@@ -53,6 +60,7 @@ $$=0+a_{n}\pi+0=a_{n}\pi\quad\text{for}~n=m$$
 $$\therefore a_{n}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\cos(nx)dx$$
 
 ### $b_n$
+
 To find $b_n$, we will repeat the same process but we will multiply by $\sin(nx)$.
 
 $$\therefore b_{n}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\sin(nx)dx$$
@@ -68,13 +76,15 @@ $$\therefore b_{n}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\sin(nx)dx$$
 4. $$A_0 = \frac 1 2 a_0$$
 
 ## Example
-Determine the [fourier series](#fourier-series) for the following `function`[^2].  
+
+Determine the [fourier series](#fourier-series) for the following `function`.[^2]  
 
 $$f(x) = \frac \pi 2 \text{ and } 0 < x < 2\pi$$
 
 $$f(x) = f(x + 2 \pi)$$
 
 ### Solution
+
 We will now find the `coefficients`.
 
 #### $a_0$
@@ -122,17 +132,20 @@ $$f(x)= \frac 1 2 a_0 + \sum_{n=1}^\infty (a_n \cos (nx) + b_n \sin(nx))$$
 $$f(x) = \frac \pi 2 - \left(\sin (x) + \frac 1 2 \sin(2x) + \ldots\right)$$
 
 ## Dirichlet Conditions
+
 If the [fourier series](#fourier-series) is represented as $f(x)$ then $f(x_1)$ will give an infinite `series`[^1] of $x_1$ which converges as more and more terms of the `series`[^1] are evaluated.  
 For this to happen, following conditions should be satisfied
 
 1. $f(x)$ must be defined and single valued.
-2. $f(x)$ should be `continuous`[^4] or have a finite number of finite `discontinuities`[^4] over the `period`[^5].
-3. $f(x)$ and $f^\prime(x)$ should be piecewise continuous `functions`[^2] in the `periodic interval`[^5].
+2. $f(x)$ should be `continuous`[^4] or have a finite number of finite `discontinuities`[^4] over the `period`.[^5]
+3. $f(x)$ and $f^\prime(x)$ should be piecewise continuous `functions`[^2] in the `periodic interval`.[^5]
 
 ## Effect of Harmonics
-As more and more terms of [fourier series](#fourier-series) are evaluated, the `graph` of the `series`[^1] approaches the `graph` of the original `function`[^2], the `series`[^1] represents.
+
+As more and more terms of [fourier series](#fourier-series) are evaluated, the `graph` of the `series`[^1] approaches the `graph` of the original `function`,[^2] the `series`[^1] represents.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].

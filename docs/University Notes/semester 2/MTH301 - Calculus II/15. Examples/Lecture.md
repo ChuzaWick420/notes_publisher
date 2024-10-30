@@ -4,9 +4,13 @@ tags:
   - extrema
   - participant
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Examples
+
 ## Example
 
 $$f(x) = \sqrt{x^2 + y^2}$$
@@ -96,6 +100,7 @@ $$D = 4 \cdot 0 - 4^2 = -16 < 0$$
 Hence, the `function`[^4] $f(x, y)$ has `saddle point`[^3] at $(0, 2)$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/7. Geometric meaning of partial derivative/Lecture|partial derivative]].

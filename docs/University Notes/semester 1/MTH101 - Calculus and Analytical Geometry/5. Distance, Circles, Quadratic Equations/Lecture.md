@@ -6,10 +6,15 @@ tags:
   - circle
   - geometry
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Distance, Circle and Quadratic Equations
+
 ## Distance Formula
+
 ![[Pasted image 20240812144155.png]]
 
 Notice how there is a `triangle`?  
@@ -24,10 +29,12 @@ $$distance = \sqrt{(\Delta y)^2 + (\Delta x)^2}$$
 $$distance = \sqrt{(y_2 - y_1)^2 + (x_2 - x_1)^2}$$
 
 ## Midpoint
+
 The midpoint of $\overline{AB}$ is defined to be $average$ of the coordinate values relative to $axes$.  
 ![[Pasted image 20240812145906.png]]
 
 ## Circle
+
 A `circle` is defined to be a `set`[^1] of points which are equidistant from a certain point called the `center` of the circle.  
 
 $$circle := \{(x, y): r = \sqrt{x^2 + y^2}; r \in \mathbb{R^+}\}$$
@@ -39,6 +46,7 @@ $$circle := \{(x, y): r = \sqrt{x^2 + y^2}; r \in \mathbb{R^+}\}$$
 $$ax^2 + by^2 + dx + ey + f = 0$$
 
 #### Example
+
 Find `radius` and `center` of the circle $x^2 + y^2 - 8x + 2y + 8 = 0$ 
 
 $$x^2 + y^2 - 8x + 2y + 8 = 0$$
@@ -57,6 +65,7 @@ Where $P(x, y)$ will be any arbitrary point and $P_0(x_0, y_0)$ is the `center`.
 So the `radius` is `3` and the center is `(4, -1)`
 
 ## Parabola
+
 ![[Pasted image 20240812165943.png]]
 
 This `parabola` can be represented by equation:  
@@ -88,6 +97,7 @@ $$0 = x^2 + \frac{b}{a} \cdot x + \frac{c}{a}$$
 Where $-\frac{b}{a} = sum$ and $\frac{c}{a} = product$
 
 #### Vertex
+
 The `tip` of the `parabola` is called its `vertex` and it exists in middle of the `roots`  
 
 $$middle = \frac{sum}{2}$$
@@ -99,6 +109,7 @@ $$x = - \frac{b}{2a}$$
 And we can get the `y-coordinate` just by putting this in $y = f(x)$
 
 ## Reference
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Set/Content|sets]].

@@ -3,15 +3,21 @@ tags:
   - university-notes
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # The First Fundamental Theorem of Calculus
+
 ## Theorem
+
 If $f(x)$ is a `continuous function`[^1] over the `interval`[^2] $[a, b]$ and $F(x)$ is its `anti-derivative`[^3] then
 
 $$\int_a^b f(x) dx = F(b) - F(a)$$
 
 ### Proof
+
 Let us divide the `interval`[^2] into $n$ `subintervals`, such that  
 
 $$a < x_1 < x_2 < \ldots < x_{n-1} < b$$
@@ -20,7 +26,7 @@ So our `subintervals` are
 
 $$[a, x_1], [x_1, x_2], \ldots , [x_{n - 1}, b]$$
 
-Let $x_1^*$ be the `midpoint`[^4] of `interval`[^2] $[a, x_1]$ and so on, then using the `mean value theorem`[^5],  
+Let $x_1^*$ be the `midpoint`[^4] of `interval`[^2] $[a, x_1]$ and so on, then using the `mean value theorem`,[^5]  
 
 $$F(x_1) - F(a) = F'(x_1^*)(x_1 - a) = f(x_1^*) \Delta x_1$$
 
@@ -43,6 +49,7 @@ We can also write it as
 $$\int_{a}^{b} f(x) dx = F(x) \bigg]_{a}^{b}$$
 
 ## Example
+
 ### The Problem
 
 Evaluate $\int_0^6 f(x) dx$ if 
@@ -56,9 +63,10 @@ x^2 & x < 2 \\
 $$
 
 ### Solution
+
 First thing we notice is that it is a `discontinous function`[^1] and the point of `discontinuity` is $2$.  
 We can divide our `interval`[^2] $[0, 6]$ into $[0, 2)$ and $[2, 6]$.  
-Then using the `properties of integration`[^3],  
+Then using the `properties of integration`,[^3]  
 
 $$\int_0^6 f(x) dx = \int_0^2 f(x) dx + \int_2^6 f(x) dx$$
 
@@ -73,9 +81,10 @@ $$= \left(\frac 8 3 - 0\right) + \left( 42 - 2\right)$$
 $$= \frac {128}{3}$$
 
 ## Mean Value Theorem for Integrals
+
 ![[Pasted image 20240927165430.png]]  
 Here $M$ is the largest value which $f(x)$ can output and $m$ is the smallest.  
-According to `mean value theorem`[^5], there is some value $c$ in $[a, b]$ where,  
+According to `mean value theorem`,[^5] there is some value $c$ in $[a, b]$ where,  
 
 $$\int_a^b f(x) dx = f(c) \cdot (b - a)$$
 
@@ -100,6 +109,7 @@ $$\therefore \frac {1}{b - a}\int_a^b f(x) dx = f(c)$$
 Here $f(c)$ is also called $f_{avg}$, the average value of $f(x)$ with respect to $x$ over the `interval`[^2] $[a, b]$.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]]

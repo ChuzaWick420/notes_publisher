@@ -3,15 +3,21 @@ tags:
   - university-notes
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Examples
+
 ## Example
+
 Use the `double integral`[^1] to find the `volume` of `tetrahedron` bounded by coordinate `planes`[^2] and the `plane`[^2] $z = 4 - 4x -2y$.  
 
 $$V = \iint_R (4 - 4x - 2y) dA$$
 
 ### Solution
+
 The bounding region $R$ is a `triangle` and has `vertices` defined by equation $0 = 4 - 4x - 2y$ and the `origin`.  
 
 $$2y = 4 - 4x$$
@@ -27,9 +33,11 @@ $$= \int_0^1 (4 - 8x + 4x^2) dx$$
 $$= \frac 4 3$$
 
 ## Example
+
 Find the `volume` of the solid bounded by `cylinder` $x^2 + y^2= 4$ and the `planes` $z + y = 4$ and $z = 0$.
 
 ### Solution
+
 From the equation of the `circle`,  
 
 $$y^2 = 4 - x^2$$
@@ -47,6 +55,7 @@ Evaluate this and we will get
 $$= 16\pi$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/18. Revision Of Integration/Lecture|double integrals]].

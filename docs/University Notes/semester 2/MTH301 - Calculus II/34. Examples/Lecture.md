@@ -2,22 +2,28 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Examples
+
 ## Example
-Evaluate the following `integral`[^1] around the region $R$ bounded by the curves $y = x^2$ and $x = y^2$ by using `green's theorem`[^2].  
+
+Evaluate the following `integral`[^1] around the region $R$ bounded by the curves $y = x^2$ and $x = y^2$ by using `green's theorem`.[^2]  
 
 $$I = \oint_C (xy dx+ (2x - y) dy)$$
 
 ### Solution
-First of all, for the boundaries of `integral`[^1], we need to find the `intersection points`.  
+
+First of all, for the boundaries of `integral`,[^1] we need to find the `intersection points`.  
 
 $$\because y^2 = x$$
 
 $$\therefore y = \sqrt x$$
 
-We will ignore the $-\sqrt x$ because we only care about first `quadrant`[^3].  
+We will ignore the $-\sqrt x$ because we only care about first `quadrant`.[^3]  
 We know that the $y$ values will be the same for both equations at the intersections.  
 Therefore,  
 
@@ -65,6 +71,7 @@ $$=-\left[\frac{2}{5}x^{\frac 5 2}-\frac{1}{4}x^{4}-\frac{4}{3}x^{\frac 3 2}+\fr
 $$= \frac {31}{60}$$
 
 ## Gradient of a Scalar `Function`[^4]
+
 If $\phi$ is a scalar `function`[^4] then its `gradient` is  
 
 $$\nabla \phi = \left(\hat i \frac {\partial}{\partial x} + \hat j \frac {\partial}{\partial y} + \hat k \frac {\partial}{\partial z}\right) \phi$$
@@ -72,6 +79,7 @@ $$\nabla \phi = \left(\hat i \frac {\partial}{\partial x} + \hat j \frac {\parti
 $$= \hat i \frac {\partial \phi}{\partial x} + \hat j \frac {\partial \phi}{\partial y} + \hat k \frac {\partial \phi}{\partial z}$$
 
 ## Divergence of a Vector Function
+
 If $\vec A(a_1, a_2, a_3) = a_1 \hat i + a_2 \hat j + a_3 \hat k$  
 then  
 
@@ -80,6 +88,7 @@ $$\nabla \cdot \vec A=\left(\hat{i}\frac{\partial}{\partial x}+\hat{j}\frac{\par
 $$=\frac{\partial a_{1}}{\partial x}+\frac{\partial a_{2}}{\partial y}+\frac{\partial a_{3}}{\partial z}$$
 
 ## Curl of a Vector Function
+
 If $\vec A(a_1, a_2, a_3) = a_1 \hat i + a_2 \hat j + a_3 \hat k$  
 then
 
@@ -107,6 +116,7 @@ After playing around with these, you will come across following results
 3. $$\nabla \cdot (\nabla \phi) = \frac{\partial^{2}\phi}{\partial x^{2}}+\frac{\partial^{2}\phi}{\partial y^{2}}+\frac{\partial^{2}\phi}{\partial z^{2}}$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].

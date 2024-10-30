@@ -3,13 +3,19 @@ tags:
   - university-notes
   - extrema
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Extreme Valued Theorem
+
 ## Theorem
-If a `function`[^1] is `continuous`[^2] over the `closed interval`[^3] $[a, b]$ then the `function`[^1] has `absolute maximum`[^4] and `absolute minimum`[^4] values over that `interval`[^3].
+
+If a `function`[^1] is `continuous`[^2] over the `closed interval`[^3] $[a, b]$ then the `function`[^1] has `absolute maximum`[^4] and `absolute minimum`[^4] values over that `interval`.[^3]
 
 ## Steps
+
 If $f(x)$ is `continuous`[^2] over $[a, b]$ then
 
 1. Find `critical points`[^4] and their corresponding $f(x)$ values.
@@ -43,16 +49,19 @@ $$f\left(\frac 1 2\right) = \left(\frac 1 2\right)^3 + \left(\frac 1 2 \right)^2
 This shows that `absolute maximum` is $2$ present at $x = -1$ and `absolute minimum` is $-1$ present at $x = -2$.
 
 ## Steps for `function`[^1] of 2 Variables
+
 1. Find `critical points`[^4] of $f$ that lie in the interior of $R$.
 2. Find all boundary points where `absolute extrema` can occur.
 3. Evaluate $f(x, y)$ at these points. The largest of them is `absolute maximum` and the smallest being `absolute minimum`.
 
 ### Example
+
 Find `absolute minimum` and `absolute maximum` values over first `quadrant`[^5] within the triangular region $R$ bounded by $x = 0$, $y = 0$ and $y = 9 - x$ where `function`[^1] is
 
 $$f(x, y) = 2 + 2x + 2y - x^2 - y^2$$
 
 #### Solution
+
 <iframe src="../figures/extrema.html"></iframe>
 From the equation $y = 9 - x$, we get 3 corners, $(0, 0)$, $(9, 0)$ and $(0, 9)$.
 To find other points
@@ -94,6 +103,7 @@ Similarly, we will get $y = \frac 9 2$
 Therefore, the `absolute minimum` is $-61$ existing at $(0, 9)$ and $(9, 0)$ and `absolute maximum` is $4$ existing at $(1, 1)$.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

@@ -4,10 +4,15 @@ tags:
   - line-integral
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Examples
+
 ## Example
+
 Evaluate the following along the boundaries of a `rectangle` with `vertices` $A(1, 0)$, $B(3, 0)$, $C(3, 2)$ and $D(1, 2)$.  
 
 $$\oint (xy \, dx + (1 + y^2)dy)$$
@@ -22,7 +27,7 @@ We can divide $c$ into 4 paths, representing the sides of the `rectangle`.
 
 $$\overline{AB} : c_1 : y = 0 \text { from } x = 1 \text{ to } 3$$
 
-Putting this into our `integrand`[^1], we get  
+Putting this into our `integrand`,[^1] we get  
 
 $$I_{c_1} = 0$$
 
@@ -30,7 +35,7 @@ $$I_{c_1} = 0$$
 
 $$\overline{BC} : c_2 : x = 3 \therefore dx = 0$$
 
-Putting this into our `integrand`[^1], we get  
+Putting this into our `integrand`,[^1] we get  
 
 $$I_{c_2}=\int_{0}^{2}(1+y^{2})dy=\left[y+\frac{y^{3}}{3}\right]_{0}^{2}$$
 
@@ -73,9 +78,11 @@ $$\frac{ds}{dx} = \sqrt{\left(\frac{dx}{dx}\right)^2 + \left(\frac{dy}{dx}\right
 $$\int_{C}f(x,y)dx=\int_{x_{1}}^{x_{2}}f(x,y)\sqrt{1+\left(\frac{dy}{dx}\right)^{2}}dx$$
 
 ## Dependence of line Integral on Path of Integration
+
 If the `integrant`[^1] seen to be an `exact differential`[^3] then the `line integral`[^3] is independent of the path taken.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].

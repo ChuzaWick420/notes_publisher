@@ -1,18 +1,23 @@
 ---
 tags:
   - university-notes
-  - "logrithm"
+  - logrithm
   - differentiation
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Derivative of Logarithmic and Exponential Functions
+
 ## Derivative of Logarithmic Functions
+
 There is a special `irrational constant` which is defined as:  
 
 $$e = \sum_{n = 0}^\infty \frac{1}{n!}$$
 
-We can alternatively define it in terms of `limits`[^1].  
+We can alternatively define it in terms of `limits`.[^1]  
 
 $$e = \lim_{x \to 0} (1 + x)^{\frac{1}{x}} = \lim_{x \to 0}\left(1 + \frac{1}{x}\right)^x = 2.71\ldots$$
 
@@ -52,7 +57,7 @@ Using the `theorems of logarithm`[^3] again, we get
 
 $$= \frac{1}{x \cdot \ln(b)}$$
 
->Note: checkout the `logarithmic notation`[^3] to know what $\ln(b)$ means.
+> Note: checkout the `logarithmic notation`[^3] to know what $\ln(b)$ means.
 
 ## Derivative of Natural Logarithm
 
@@ -81,7 +86,8 @@ $$= b^x \cdot \ln b$$
 $$\frac{d}{dx}[a^{u}]=a^{u}\cdot \ln a\cdot\frac{du}{dx}$$
 
 ## Inverse Functions
-Imagine 2 `functions`[^2], $f(x)$ and $g(x)$.  
+
+Imagine 2 `functions`,[^2] $f(x)$ and $g(x)$.  
 If $f(g(x)) = x$ for every $x$ in domain of $g(x)$ and if $g(f(x)) = x$ for every $x$ in domain of $f(x)$, then we say both `functions`[^2] are `inverse` of each other.
 
 ### Example
@@ -115,6 +121,7 @@ Therefore,
 $$\frac{dy}{dx}=(f^{-1})^{\prime}(x)\Rightarrow\frac{dx}{dy}=f^{\prime}(y)=f^{\prime}(f^{-1}(x))$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|Limits]].

@@ -2,17 +2,22 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Vector Field
 
 ## Conservative Vector Fields
-The value of `integral`[^1] $\int_c \vec F \cdot d \vec r$ between 2 points depends on particular paths of `integration`[^1].  
+
+The value of `integral`[^1] $\int_c \vec F \cdot d \vec r$ between 2 points depends on particular paths of `integration`.[^1]  
 However if this value in independent of the path for a `vector field` $\vec F$ then $\vec F$ is called a `conservative vector field`.  
 
 $$\oint_c \vec F \cdot d \vec r = 0$$
 
 ## Example
+
 If $\vec F = 2xyz \hat i + x^2 z \hat j + x^2 y \hat k$ then evaluate $\int_c \vec F \cdot d \vec r$ between $A(0, 0, 0)$ and $B(2, 4,6)$.
 
 1. Along the curve $c$ whose parametric equations are $x = u$, $y = u^2$ and $z = 3u$
@@ -40,7 +45,7 @@ Using any of the $x(u), y(u), z(u)$, we can see that the bounds for $u$ are $0, 
 
 $$\therefore \int_c \vec F(u) \cdot d \vec r = \int_0^2 15u^4 du = \left[3u^5\right]_0^2 = 96$$
 
-Now we will `integrate`[^1] along the straight `lines`[^2].
+Now we will `integrate`[^1] along the straight `lines`.[^2]
 
 #### $c_1$
 
@@ -100,11 +105,13 @@ We can apply 3 conditions to check if a `vector field` $\vec F$ is `conservative
 3. $$\vec F = \nabla V$$
 
 ## Divergence Theorem or Gauss' Theorem
+
 For a closed `surface` $S$, enclosing a region $V$ in a `vector field` $\vec F$,  
 
 $$\int_V \nabla \cdot \vec F dV = \int_S \vec F \cdot d \vec S$$
 
 ### Example
+
 Verify the [divergence theorem](#divergence-theorem-or-gauss-theorem) for the `vector field`.  
 
 $$\vec F = x^2 \hat i + z \hat j + y \hat k$$
@@ -218,11 +225,13 @@ $$\therefore \int_S \vec F \cdot dS = - \frac 9 2 + \frac 9 2 + 2 - 2 + 6 + 6 + 
 Hence, verified.
 
 ## Stoke's Theorem
+
 If $\vec F$ is a `vector field` existing over a `surface` $S$ over a boundary $c$ then  
 
 $$\int_S \nabla \times \vec F \cdot d \vec S = \oint_c \vec F \cdot d \vec r$$
 
 ### Example
+
 A `hemisphere` $S$ is defined as $x^2 + y^2 + z^2 = 4$ where $z \ge 0$.  
 A `vector field` $\vec F = 2y \hat i + x \hat j+ xz \hat k$ exists over the surface around its boundary $c$.  
 Verify [stokes theorem](#stokes-theorem) on it.  
@@ -241,7 +250,7 @@ $$\oint_c \vec F \cdot d \vec r = \int_c (2y \hat i - x\hat j + xz \hat k) \cdot
 
 $$= \int_c (2y dx - x dy + xz dz)$$
 
-Converting coordinates into `polar coordinates`[^4],  
+Converting coordinates into `polar coordinates`,[^4]  
 
 $$\because x = 2 \cos (\theta) \implies dx = - 2 \sin(\theta)$$
 
@@ -279,7 +288,7 @@ $$\int_S \nabla \times \vec F \cdot \hat n dS = \int_S (-z \hat k - 3 \hat k) \c
 
 $$= \frac 1 2 \int_S (- yz - 3z) dS$$
 
-Converting the coordinates into `spherical coordinate system`[^4].  
+Converting the coordinates into `spherical coordinate system`.[^4]  
 
 $$x = 2 \sin (\phi) \cos (\theta)$$
 
@@ -296,6 +305,7 @@ $$-12 \pi$$
 Hence, verified.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].

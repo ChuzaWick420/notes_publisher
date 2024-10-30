@@ -3,11 +3,17 @@ tags:
   - university-notes
   - limits
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
-# L'Hopital's Rule
+<span style="color: gray;">Dated: 30-10-2024</span>
+
+# L'hopital's Rule
+
 ## Indeterminate Forms
+
 ### Type $\frac 0 0$
+
 We can have expressions like  
 
 $$\lim_{x \to 2} \frac{x^2 - 4}{x - 2}$$
@@ -18,11 +24,13 @@ Which may or may not _converge_ and what they _do_ converge to is not immediatel
 Therefore, we need `L'Hopital's Rule`.
 
 #### The Rule
+
 If $\lim f(x) = \lim g(x) = 0$ and $\lim \frac{f^{\prime}(x)}{g^{\prime}(x)}$ gives us a _finite_ value $L$ or $+\infty$ or $-\infty$ then  
 
 $$\lim \frac{f(x)}{g(x)} = \lim \frac{f^{\prime}(x)}{g^{\prime}(x)}$$
 
 ##### Steps
+
 1. Check if $\lim \frac{f(x)}{g(x)}$ is in `indeterminate` form. If it is _not_ then the rule cannot be used.
 2. Differentiate $f(x)$ and $g(x)$ separately.
 3. Find $\lim \frac{f^{\prime}(x)}{g^{\prime}(x)}$ and if it is finite, $+\infty$ or $-\infty$ then
@@ -58,6 +66,7 @@ If $\lim f(x) = \lim g(x) = \infty$ and $\lim \frac{f^{\prime}(x)}{g^{\prime}(x)
 $$\lim \frac{f(x)}{g(x)} = \lim \frac{f^{\prime}(x)}{g^{\prime}(x)}$$
 
 #### Example
+
 Evaluate  
 
 $$\lim_{x \to +\infty} = \frac {x}{e^x}$$
@@ -81,6 +90,7 @@ $$=\lim_{x\rightarrow \infty}\frac{1}{e^{x}}=0$$
 $$\lim_{x \to +\infty} = \frac {x}{e^x} = 0$$
 
 ### Type $0 \cdot \infty$
+
 If we have $f(x) = 0$ and $g(x) = \infty$ then a `product limit`[^1] $\lim f(x) \cdot g(x)$ is of the form $0 \cdot \infty$ and to apply the rule on it, we need to convert it into either $\frac 0 0$ form or $\frac \infty \infty$ form.
 
 - $$\lim f(x) \cdot g(x) = \frac{f(x)}{\frac{1}{g(x)}} = \frac 0 0$$
@@ -88,6 +98,7 @@ If we have $f(x) = 0$ and $g(x) = \infty$ then a `product limit`[^1] $\lim f(x) 
 - $$\lim f(x) \cdot g(x) = \frac{g(x)}{f(x)} = \frac \infty \infty$$
 
 #### Example
+
 Evaluate  
 
 $$\lim_{x \to 0^+} x \ln x$$
@@ -111,6 +122,7 @@ $$= \lim_{x \to 0^+} \frac{1/x}{- 1/x^2} = \lim_{x \to 0^+} (-x) = 0$$
 $$\lim_{x \to 0^+} x \ln x = 0$$
 
 ### Type $0^0$, $\infty^0$, $1^\infty$, $\infty^\infty$
+
 These usually come of as the result of  
 
 $$\lim_{x \to a} y = \lim_{x \to a}f(x)^{g(x)}$$
@@ -124,6 +136,7 @@ $$=\lim_{x\rightarrow a}\left(g(x)\ln f(x)\right)$$
 If we know $\lim_{x\rightarrow a}\ln y$ then determining the other side becomes easier.
 
 #### Example
+
 Show that  
 
 $$\lim_{x\rightarrow0}(1+x)^{1/x}=e$$
@@ -167,6 +180,7 @@ $$\therefore x \to 0 \implies y \to e$$
 $$\lim_{x\rightarrow0}(1+x)^{1/x}=e$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].

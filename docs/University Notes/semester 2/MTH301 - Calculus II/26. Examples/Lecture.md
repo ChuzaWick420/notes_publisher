@@ -4,10 +4,15 @@ tags:
   - integral
   - limits
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Examples
+
 ## Example
+
 Let $R_a$ be a region bounded by `circle` $x^2 + y^2 = a^2$.  
 Then evaluate  
 
@@ -23,7 +28,7 @@ $$= \lim_{a \to \infty} \int_0^{2 \pi} \int_0^a \exp\left(-r^2\right) r dr d\the
 
 $$\because \frac d {dx} a^{bx} = a^{bx} \cdot \ln (a) \cdot \frac d {dx} (bx)$$
 
-Also applying `integration by subtitution`[^1], we get  
+Also applying `integration by subtitution`,[^1] we get  
 
 $$= \lim_{a \to \infty} \int_0^{2 \pi} \left[ -\frac {\exp(-r^2)}{2} \right]_0^{a} d\theta$$
 
@@ -36,6 +41,7 @@ $$
 $$
 
 ## Theorem
+
 Let $G$ be a `rectangular` region bounded by following  
 
 $$a \le x \le b$$
@@ -53,6 +59,7 @@ $$
 And the order of `integrals`[^4] can be changed.
 
 ## Example
+
 Evaluate  
 
 $$\iiint_S xyz \, dx dy dz$$
@@ -72,6 +79,7 @@ Continue evaluating and we will get
 $$= \frac 1 {48}$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/26. Integration by Substitution/Lecture|integration by substitution]].

@@ -1,12 +1,16 @@
 ---
 tags:
   - university-notes
-  - "calculus"
+  - calculus
   - function
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Values of `Functions`[^1]
+
 ## `Function`[^1] In One `variable`
 
 $$f(x) = x^2$$
@@ -42,6 +46,7 @@ $$f(2, 2, 4) = 2^2 + 2^2 + 4^2 = 24$$
 $$f(x_1, x_2, \ldots,x_n)$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

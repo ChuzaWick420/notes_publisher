@@ -4,10 +4,15 @@ tags:
   - limits
   - sigma
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Area as Limits
+
 ## Definition of Area
+
 Let us define `area` under a curve, to be a `sum` of areas of `rectangles` which are created as a result of dividing the `interval`[^1] $[a, b]$ into $n$ slices.  
 ![[Pasted image 20240926095520.png]]  
 We are taking $[a, b]$ into consideration. The `width` of this slice is $b - a$.  
@@ -33,12 +38,16 @@ $$\because A = area(R) = \lim_{n \to \infty} area(R_n)$$
 $$A = \lim_{n \to \infty} \sum_{i = 1}^{n} f(x_i) \cdot \Delta x$$
 
 ## Example
+
 ### Problem
+
 Find `area` under the `line`[^2] $y = x$ over the `interval`[^1] $[a, b]$.  
 ![[Pasted image 20240926101918.png]]
 
 ### Solution
+
 #### Approach 1
+
 As we know, the graph creates a `triangle`, we can divide it into pieces  
 ![[Pasted image 20240926102212.png]]  
 Then, to find the desired area, we perform the following  
@@ -52,6 +61,7 @@ The `area` of our desired section is $A_3 = A_1 - A_2$.
 $$A_3 = 2 - \frac 1 2 = \frac 3 2 = 1.5$$
 
 #### Approach 2
+
 We will use our previous conclusion  
 
 $$A = \lim_{n \to \infty} \sum_{i = 1}^{n} f(x_i) \cdot \Delta x$$
@@ -93,6 +103,7 @@ $$\because \lim_{n \to \infty} \frac{1}{2n} = 0$$
 $$= \lim_{n \to \infty} \left(\frac{3}{2} + \frac{1}{2n} \right) = \frac 3 2 = 1.5$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

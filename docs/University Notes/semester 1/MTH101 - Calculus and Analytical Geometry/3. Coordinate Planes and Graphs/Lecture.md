@@ -6,9 +6,13 @@ tags:
   - calculus
   - geometry
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Coordinate Planes and Graphs
+
 ## Plane
 
 ![[Pasted image 20240811005420.png]]
@@ -16,15 +20,18 @@ university-name: Virtual University of Pakistan
 $b$ is called the `y-coordinate` or `ordinate` and $a$ is called the `x-coordinate` or `abscissa`.
 
 ### Quadrants
+
 The [plane](#plane) can be divided into 4 `quadrants`.  
 ![[Pasted image 20240811010156.png]]
 
 ### Graphs
+
 The `order pairs` which satisfy any equation consisting of variables $x$ and $y$, make a `graph` collectively.  
 Here's an example  
 <iframe src="https://www.youtube.com/embed/IbrPxYQF9TM"></iframe>
 
 ## Intercepts
+
 These are the points where [graph](#graphs) intersect the `axes` of the [coordinate plane](#plane).
 
 > A [graph](#graph) is made from `2` quantities or `variables`. So to find the intercept with respect to one `variable`, we assume the other one to be $0$.
@@ -54,6 +61,7 @@ $$y = \frac{6}{2} = 3$$
 ![[Pasted image 20240912070654.png]]
 
 ## Symmetricity
+
 The `axes` themselves act like a _mirror_.  
 The numbers $(a, b)$ and $(-a, b)$ are symmetric about `y-axis`.  
 Similarly, the numbers $(a, b)$ and $(a, -b)$ are symmetric about `x-axis`.  
@@ -72,6 +80,7 @@ Similarly, for the $x = -y$, we can just _reflect_ it.
 ![[Pasted image 20240811013037.png]]
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/2. Absolute Value/Lecture|absolute values]].

@@ -2,12 +2,17 @@
 tags:
   - university-notes
   - integral
-  - "limits"
+  - limits
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Improper `Integrals`[^1]
+
 ## Integrals over Infinite `interval`[^2]
+
 The `improper integral`[^1] is of the form  
 
 $$\int_a^{+\infty} f(x) dx$$
@@ -74,11 +79,13 @@ then
 $$\int_{a}^{b}f(x)dx=\int_{a}^{c}f(x)dx+\int_{c}^{b}f(x)dx$$
 
 ## Example
+
 Evaluate  
 
 $$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}}$$
 
 ### Solution
+
 The `integrand`[^1] approaches to $+ \infty$ as $x \to 2$. Therefore,  
 
 $$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}} = \int_{1}^{2}\frac{dx}{(x-2)^{2/3}} + \int_{2}^{4}\frac{dx}{(x-2)^{2/3}}$$
@@ -102,6 +109,7 @@ $$= 3\sqrt[3]{2}$$
 $$\int_{1}^{4}\frac{dx}{(x-2)^{2/3}} = 3 + 3 \sqrt[3]{2}$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].

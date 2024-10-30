@@ -2,15 +2,20 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Periodic Functions
+
 A `function`[^1] is called `periodic function` if its values repeat after regular intervals of the independent `variable`.  
 This interval is called `period of oscillations`.  
 
 $$f(x + p) = f(x)$$
 
 ## Graph of $y = \sin(x)$
+
 This `function`[^1] repeats its values after $x = 2 \pi$.  
 Its `range`[^1] is $[-1, 1]$, meaning it can only produce a maximum `absolute value`[^2] of $1$.  
 Therefore, its `amplitude` is $1$.
@@ -39,6 +44,7 @@ In general if we have something like $y = a \sin (n \cdot x)$ then $a$ is called
 6. $$\int_{-\pi}^{\pi}\cos(n \cdot x)\cos(m \cdot x)dx=\frac{1}{2}\int_{-\pi}^{\pi}(\cos(n+m)x+\cos(n-m)x)dx=\frac{1}{2}(0+0)=0$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

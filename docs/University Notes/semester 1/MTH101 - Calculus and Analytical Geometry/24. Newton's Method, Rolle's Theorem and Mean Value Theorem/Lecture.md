@@ -3,10 +3,15 @@ tags:
   - university-notes
   - tangent
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Newton's Method, Rolle's Theorem and Mean Value Theorem
+
 ## Newton's Method for Approximating Solutions for $f(x) = 0$
+
 Let us first describe what does $f(x) = 0$ even means.  
 It means we are looking for those values of $x$ where $f(x) = y = 0$.  
 These are the values where the graph of `function`[^1] crosses the `x axis`.
@@ -42,11 +47,13 @@ Then we can generalize the equation from here
 $$x_{n+1} = x_n - \frac{f(x_n)}{f^{\prime}(x_n)}$$
 
 ### Limitations
+
 - Does not always work.
 - It might involve division by $0$. Hence rendering us unable to continue the process. This case can occur if he `slope` is $0$ at any point.
 - Sometimes, the approximations do not converge to a solution.
 
 ## Rolle's Theorem
+
 If $f(x)$ is differentiable over an `interval`[^2] $(a, b)$ and `continous`[^3] over the `interval`[^2] $[a, b]$ then there exists $c \in \{x \in \mathbb{R}: a < x < b\}$ such that $f^{\prime}(c) = 0$.
 
 ### General Equation
@@ -60,11 +67,13 @@ $$y - f(a) = \frac{f(b) - f(a)}{b - a} \cdot (x - a)$$
 $$y = \frac{f(b) - f(a)}{b - a} \cdot (x - a) + f(a)$$
 
 ## Mean Value Theorem
+
 If the conditions are right, the `secant line` will have same `slope` as the `tangent line`.
 
 If $f(x)$ is differentiable over an `interval`[^2] $(a, b)$ and `continous`[^3] over the `interval`[^2] $[a, b]$ then there exists $c \in \{x \in \mathbb{R}: a < x < b\}$ such that $f^{\prime}(c) = \frac{f(b) - f(a)}{b - a}$.
 
 ### Proof
+
 ![[Pasted image 20240925103021.png]]
 
 We can define a `function`[^1] $v(x)$ which represents the `distance` between the curve and the `secant line`.  
@@ -83,6 +92,7 @@ $$0 = f^{\prime}(c) - \left(\frac{f(b) - f(a)}{b - a}\right)$$
 $$f^{\prime}(c) = \left(\frac{f(b) - f(a)}{b - a}\right)$$
 
 ## Reference
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

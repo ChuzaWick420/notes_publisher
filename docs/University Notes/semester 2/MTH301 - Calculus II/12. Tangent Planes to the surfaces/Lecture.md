@@ -6,18 +6,25 @@ tags:
   - partial-differential
   - function
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Tangent Planes to the Surfaces
-If $C$ is a parametric curve on 3D then the `tangent line`[^1] to the $C$ at a point $P_0$ is the `line`[^2] going through $P_0$ and the `unit tangent vector`[^3].
+
+If $C$ is a parametric curve on 3D then the `tangent line`[^1] to the $C$ at a point $P_0$ is the `line`[^2] going through $P_0$ and the `unit tangent vector`.[^3]
 
 ## Tangent Plane
+
 If $P_0(x_0, y_0, z_0)$ is any point on the `surface` $S$ then the `plane`[^4] which contains all the `tangents`[^1] to the point $P_0$ is called `tangent plane`.
 
 ## Surface Normal
+
 The `vector`[^3] which is _perpendicular_ to [tangent plane](#tangent-plane) is called `surface normal`.
 
 ## Parametric Equations of a `line`[^2]
+
 The parametric equations of a `line`[^2] in 2D, going through $P(x_0, y_0)$, _parallel_ to the `vector`[^3] $a \hat i + b \hat j$ is given by  
 
 $$x = x_0 + at \text{ and } y = y_0 + bt$$
@@ -39,13 +46,14 @@ $$\vec{r}(t) = (x_0 + at) \hat i + (y_0 + bt) \hat j$$
 The idea is to make the $x$ and $y$ `variables` dependent on some other variable which is $t$ in this case.
 
 ## Equation of a Tangent Plane
+
 We can construct a `plane`[^4] if we know
 
 1. A point on the `plane`[^4]
 2. A [normal vector](#surface-normal) to it.
 
 Let there be a point $P_0(x_0, y_0, z_0)$ on the `plane`[^4] and [normal](#surface-normal) being in the direction of $\vec n = a \hat i + b \hat j + c \hat k$  
-Then let $P(x, y, z)$ be any arbitrary point on this `plane`[^4].  
+Then let $P(x, y, z)$ be any arbitrary point on this `plane`.[^4]  
 Then we can construct number of `vectors`[^3] on this `plane`[^4] by  
 
 $$\vec{P_0P} = (x - x_0) \hat i + (y - y_0) \hat j + (z - z_0) \hat k$$
@@ -59,6 +67,7 @@ Then the equation of the `tangent plane` is
 $$a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$$
 
 ## Example
+
 We know that the general equation for the `plane`[^4] is 
 
 $$ax + by + cz + d = 0$$
@@ -69,7 +78,7 @@ $$(x_1, y_1, z_1)$$
 
 $$(x_2, y_2, z_2)$$
 
-Putting these in our equation of the `plane`[^4], we get  
+Putting these in our equation of the `plane`,[^4] we get  
 
 $$ax_1 + by_1 + cz_1 + d = 0$$
 
@@ -79,7 +88,7 @@ Subtracting these, we get
 
 $$a(x_2 - x_1) + b(y_2 - y_1) + c(z_2 - z_1) = 0$$
 
-From the definition of `dot product`[^3], we can reverse it as 
+From the definition of `dot product`,[^3] we can reverse it as 
 
 $$( a \hat i + b \hat j + c \hat k ) \cdot \left((x_2 - x_1) \hat i + (y_2 - y_1) \hat j + (z_2 - z_1) \hat k\right) = 0$$
 
@@ -119,7 +128,7 @@ Then
 
 $$\frac{d}{dt} \left(f\left(g(t), h(t)\right)\right) = \frac{d}{dt} c$$
 
-Applying `chain rule`[^6], we get  
+Applying `chain rule`,[^6] we get  
 
 $$\frac{\partial f}{\partial x}\frac{dg}{dt}+\frac{\partial f}{\partial y}\frac{dh}{dt}=0$$
 
@@ -132,6 +141,7 @@ Some additional reversing, we get
 $$\nabla f \cdot \frac{d \vec{r}}{dt} = 0$$
 
 ### Example
+
 Find [tangent plane](#tangent-plane) to the surface  
 
 $$f(x, y, z) = 9 x^2 + 4y^2 - z^2 - 36 \text{ at } P(2, 3, 6)$$
@@ -149,7 +159,7 @@ $$f_x(P) = 18(2) = 36$$
 $$f_y(P) = 8(3) = 24$$
 
 $$f_z(P) = -2(6) = -12$$
-  
+
 So the equation for [tangent plane](#tangent-plane) will be  
 
 $$36(x-2)+24(y-3)-12(z-6)=0$$
@@ -157,6 +167,7 @@ $$36(x-2)+24(y-3)-12(z-6)=0$$
 $$3x+2y-z-6=0$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/14. Tangent Lines, Rates of Change/Lecture|tangents]].

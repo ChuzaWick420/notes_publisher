@@ -5,31 +5,38 @@ tags:
   - space
   - distance
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Elements of Three Dimensional Geometry
 
 ## `Distance` In 3D
+
 Imagine we have 2 points in `space`, $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$, then the `distance formula` for these points will be  
 
 $$\lvert \overline{PQ} \rvert = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
 
 ## `Midpoint` Of 2 Points
+
 If $R$ is the `midpoint` between $\overline{PQ}$ then it can be defined as  
 
 $$R\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}, \frac{z_1 + z_2}{2}\right)$$
 
 ## Directional `Angles`
+
 The `angles` $\alpha$, $\beta$ and $\gamma$ are the `angles` between the `line`[^1](or you can say its shadows on the $xy$, $yz$ and $xz$ `planes`[^2]) and the $x$, $y$ and $z$ axes respectively.
 <iframe src="../figures/directional_angles.html"></iframe>
 
 > $\gamma$ can work in both $xz$ and $yz$ `planes`[^2]
 
 ## Directional Ratios
+
 The `cosines` of `directional angles` are called `directional cosines`.  
 And any multiple of `directional cosines` are called `directional ratios`.
 
-Let us talk about the shadow on the $xy$ `plane`[^2].  
+Let us talk about the shadow on the $xy$ `plane`.[^2]  
 ![[Pasted image 20241003234452.png]]
 
 $$\cos \alpha = \frac x r = \frac{x}{\sqrt{x^2 + y^2 + z^2}}$$
@@ -40,7 +47,7 @@ $$\cos \gamma = \frac z r = \frac{z}{\sqrt{x^2 + y^2 + z^2}}$$
 
 $$\therefore \cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$$
 
-For a `line`[^1], joining $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$, the `directional cosines` are  
+For a `line`,[^1] joining $P(x_1, y_1, z_1)$ and $Q(x_2, y_2, z_2)$, the `directional cosines` are  
 
 $$\cos \alpha = \frac{x_2 - x_1}{\lvert \overline{PQ} \rvert}$$
 
@@ -49,8 +56,9 @@ $$\cos \beta = \frac{y_2 - y_1}{\lvert \overline{PQ} \rvert}$$
 $$\cos \gamma = \frac{z_2 - z_1}{\lvert \overline{PQ} \rvert}$$
 
 ## Intersection of 2 Non-parallel `planes`[^2]
-The intersection between 2 non-parallel `planes`[^2] creates a `line`[^1].  
-Their intersection gives us simultaneous `equations` which are called `non symmetric` form of equations of a straight `line`[^1].
+
+The intersection between 2 non-parallel `planes`[^2] creates a `line`.[^1]  
+Their intersection gives us simultaneous `equations` which are called `non symmetric` form of equations of a straight `line`.[^1]
 
 | **Region** | **Description**                        | **Equation**   |
 | ---------- | -------------------------------------- | -------------- |
@@ -83,6 +91,7 @@ Here $\phi$ is $\gamma$.
 <iframe src="../figures/right_circular_cone.html"></iframe>
 
 ## Elliptic Cylinder
+
 From the equation of `ellipse`  
 
 $$\frac{x^2}{a^2} + \frac{y^2}{b^2} = r^2$$
@@ -91,6 +100,7 @@ We can also introduce a 3rd axis $z = c$ to define the `height`,
 <iframe src="../figures/elliptic_cylinder.html"></iframe>
 
 ## Reference
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].

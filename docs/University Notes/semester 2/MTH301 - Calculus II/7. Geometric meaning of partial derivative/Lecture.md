@@ -4,10 +4,15 @@ tags:
   - differentiation
   - partial-differential
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Geometric Meaning of Partial Derivative
+
 ## Geometric Meaning of `partial derivative`[^1]
+
 Imagine we have  
 
 $$z = f(x, y)$$
@@ -29,6 +34,7 @@ $$f_y$$
 $$\frac{\partial f}{\partial y}$$
 
 ## Partial Derivatives
+
 Let $z = f(x, y)$ be a `function`[^2] of $x$ and $y$, then keeping $y$ as a `constant`, change in $f(x, y)$ due to change if $x$ can be given by  
 
 $$\Delta z = f(x + \Delta x, y) - f(x, y)$$
@@ -47,6 +53,7 @@ Similarly, the `partial derivative`[^1] with respect to $y$ will be
 $$f_y(x, y) = \frac{\partial z}{\partial y} = \lim_{\Delta y \to 0} \frac{f(x, \Delta y + y) - f(x, y)}{\Delta y}$$
 
 ## Geometric Meaning of `partial derivative`[^1]
+
 ![[Pasted image 20241007203726.png]]
 
 Imagine we have $z = f(x, y)$ being a `function`[^2] of 2 `variables` and its graph is a `surface`.  
@@ -88,6 +95,7 @@ $$ \frac{\partial^2 f}{\partial x \partial y} = -\sin y + e^x $$
 $$ \frac{\partial^2 f}{\partial y^2} = \frac{\partial}{\partial y} \left( \frac{\partial f}{\partial y} \right) = -x \cos y $$
 
 ## Laplace's Equation
+
 Let $w=f(x, y, z)$ be a `function`[^2] then  
 
 $$\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2} = 0$$
@@ -95,6 +103,7 @@ $$\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{
 It also works for `functions`[^2] of 2 `variables`.
 
 ## Euler's Theorem or Mixed Derivative Theorem
+
 If $f(x, y)$ and its `partial derivatives`[^1] $f_x, f_y, f_{xy}$ and $f_{yx}$ are defined throughout an `open region` containing a point $(a, b)$ and are all `continuous`[^4] at $(a, b)$ then  
 
 $$f_{xy}(a, b) = f_{yx}(a, b)$$
@@ -114,6 +123,7 @@ $$\frac{\partial w}{\partial x} = y$$
 $$\frac{\partial^2 w}{\partial y \partial x} = 1$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/6. Geometry of continuous functions/Lecture|partial derivatives]].

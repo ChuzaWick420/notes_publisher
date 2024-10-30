@@ -3,10 +3,14 @@ tags:
   - university-notes
   - partial-differential
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # More about Euler's Theorem Chain Rule
-In general, the order of the `nth partial derivative`[^1] can be changed without affecting the final result whenever the `function`[^2] and all of its `partial derivative` of order $\le n$ are `continuous`[^3].  
+
+In general, the order of the `nth partial derivative`[^1] can be changed without affecting the final result whenever the `function`[^2] and all of its `partial derivative` of order $\le n$ are `continuous`.[^3]  
 If the first 3 `partial derivatives`[^1] are `continuous`[^3] then  
 
 $$f_{xyy} = f_{yxy} = f_{yyx}$$
@@ -22,6 +26,7 @@ $$
 $$
 
 ## The `Chain Rule`[^4]
+
 If $y$ is a `function`[^2] of $w$ which is a `function`[^2] of $v$ which is a `function`[^2] of $x$ ultimately then  
 
 $$\frac{dy}{dx} = \frac{dy}{dw} \cdot \frac{dw}{dv} \cdot \frac{dv}{dx}$$
@@ -48,6 +53,7 @@ $$w = xy, x = \cos t, \text{ and } y = \sin t$$
  $$ = -\sin^2 t + \cos^2 t = \cos 2t $$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/7. Geometric meaning of partial derivative/Lecture|partial derivatives]].

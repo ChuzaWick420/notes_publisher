@@ -3,7 +3,10 @@ tags:
   - university-notes
   - partial-differential
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
+
+<span style="color: gray;">Dated: 30-10-2024</span>
 
 # Examples
 
@@ -36,6 +39,7 @@ $$\frac{dw}{dx} = \cos{x} + 2x$$
  $$= 4\cos{(3r + 4s)} + 24r + 32s$$
 
 ## Example 2
+
 ![[Pasted image 20241008123753.png]]  
 
 $$\frac{\partial w}{\partial r} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial r} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial r} + \frac{\partial w}{\partial z} \cdot \frac{\partial z}{\partial r}$$
@@ -43,7 +47,8 @@ $$\frac{\partial w}{\partial r} = \frac{\partial w}{\partial x} \cdot \frac{\par
  $$\frac{\partial w}{\partial s} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial s} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial s} + \frac{\partial w}{\partial z} \cdot \frac{\partial z}{\partial s}$$
 
 ## `Chain Rule`[^1] For `Functions`[^2] of Multiple Variables
-Suppose $w = f(x, y, \ldots, v)$ be a `function`[^2] of multiple `variables`, a finite `set`[^3] and $x, y, \ldots, v$ are themselves `functions`[^2] of variables $p, q, t$ etc, another finite `set`[^3].  
+
+Suppose $w = f(x, y, \ldots, v)$ be a `function`[^2] of multiple `variables`, a finite `set`[^3] and $x, y, \ldots, v$ are themselves `functions`[^2] of variables $p, q, t$ etc, another finite `set`.[^3]  
 Then,  
 
 $$\frac{\partial w}{\partial p} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial p} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial p} + \cdots + \frac{\partial w}{\partial v} \cdot \frac{\partial v}{\partial p}$$
@@ -53,6 +58,7 @@ $$\frac{\partial w}{\partial q} = \frac{\partial w}{\partial x} \cdot \frac{\par
 $$\frac{\partial w}{\partial t} = \frac{\partial w}{\partial x} \cdot \frac{\partial x}{\partial t} + \frac{\partial w}{\partial y} \cdot \frac{\partial y}{\partial t} + \cdots + \frac{\partial w}{\partial v} \cdot \frac{\partial v}{\partial t}$$
 
 # References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/18. The Chain Rule/Lecture|chain rule]].

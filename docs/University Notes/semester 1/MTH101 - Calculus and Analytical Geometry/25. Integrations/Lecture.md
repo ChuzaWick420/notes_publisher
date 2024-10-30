@@ -4,15 +4,22 @@ tags:
   - integral
   - differentiation
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Integration
+
 ## The Area Problem
+
 ### The Problem
-Given a `continous function`[^1] $f(x)$ defined over an `interval`[^2] $[a, b]$, find area between the `x-axis` and the `graph` of the `function`[^3].  
+
+Given a `continous function`[^1] $f(x)$ defined over an `interval`[^2] $[a, b]$, find area between the `x-axis` and the `graph` of the `function`.[^3]  
 ![[Pasted image 20240925180230.png]]
 
 ### Solution
+
 Let's first define the `area` to be a `function`[^3] of $x$ where $x$ is the distance from $a$ and $a \le x \le b$.  
 To know what this `area` looks like, Newton and Leibniz suggested to find  
 
@@ -28,9 +35,11 @@ From the visualization, as the $h \to 0$, $c \to x$.
 $$A^{\prime}(x) = \lim_{h \to 0} \frac{A(x + h) - A(x)}{h} \approx \lim_{h \to 0} \frac{f(c) \cdot h}{h} = \lim_{h \to 0} f(c) = f(x)$$
 
 ## Integrations (Anti-Derivatives)
-A `function`[^3] $F(x)$ is called `anti-derivative` of $f(x)$ on a given `interval`[^2] if $F^{\prime}(x) = f(x)$ for all values of $x$ within that `interval`[^2].
+
+A `function`[^3] $F(x)$ is called `anti-derivative` of $f(x)$ on a given `interval`[^2] if $F^{\prime}(x) = f(x)$ for all values of $x$ within that `interval`.[^2]
 
 ### Example
+
 Imagine few `functions`[^3] such as:  
 
 $$f(x) = x^2$$
@@ -46,6 +55,7 @@ $$f^{\prime}(x) = g^{\prime}(x) = h^{\prime}(x) = 2x$$
 Hence, the more generalized `anti-derivative` is $F(x) \pm C$ or more simply, just $F(x) + C$ where $C \in \mathbb{R}$.
 
 ## Indefinite Integral
+
 If we have $\frac{d}{dx} \left(F(x) + C\right) = f(x)$ then,  
 
 $$d \left(F(x) + C\right) = f(x) \cdot dx$$
@@ -65,6 +75,7 @@ The $\int$ is called the `integral symbol` and the $f(x)$ in this case is called
 - $$\int \left(f(x) - g(x)\right) dx = \int f(x) dx - \int g(x) dx$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].

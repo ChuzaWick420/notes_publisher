@@ -4,9 +4,13 @@ tags:
   - partial-differential
   - distance
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Exact Differential
+
 If $z = f(x, y, w)$ then  
 
 $$dz = \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy+ \frac{\partial z}{\partial w}dw$$
@@ -55,7 +59,7 @@ $$z = \int (2xy + 6x) dx$$
 
 $$z = x^2y + 3x^2 + f(y)$$
 
-Here $f(y)$ is the `constant` of `integral`[^2].  
+Here $f(y)$ is the `constant` of `integral`.[^2]  
 
 $$Q = \frac{\partial z}{\partial y} = x^2 + 2y^3$$
 
@@ -73,7 +77,8 @@ $$g(x) = 3x^2$$
 $$z = x^2y + 3x^2 + \frac{y^4}{2}$$
 
 ## Area Enclosed by a Closed Curve
-Imagine in a 2D `plane`[^3], we have a curve, bounded by a `function`[^1] $f(x)$ within the `interval`[^4] $[x_1, x_2]$.  
+
+Imagine in a 2D `plane`,[^3] we have a curve, bounded by a `function`[^1] $f(x)$ within the `interval`[^4] $[x_1, x_2]$.  
 ![[Pasted image 20241016130628.png]]  
 We know that the area of this region is given by the `integral`[^2]  
 
@@ -99,9 +104,11 @@ Here, we are `integrating`[^2] $g(x)$ from _left to right_ and $f(x)$ from _righ
 $$\text{Area} = - \oint y dx$$
 
 ### Example
+
 Determine the `area` within the `interval`[^4] $[0, 2]$ bounded by `functions`[^1] $y = 4x$ and $y = x^3$.
 
 #### Solution
+
 ![[Pasted image 20241016131959.png]]
 
 Let us define paths such that we `integrate`[^2] in a counter clockwise direction.  
@@ -119,9 +126,11 @@ $$=-\left\{\left(\frac{x^{4}}{4}\right)_{0}^{2}+\left(2x^{2}\right)_{0}^{2}\righ
 $$= 4$$
 
 ### Example
+
 Find `area` of `triangle` with `vertices` $O(0, 0)$, $A(5, 3)$ and $B(2, 6)$.
 
 #### Solution
+
 ![[Pasted image 20241016142057.png]]  
 The equations for the sides of the `triangle` are  
 
@@ -131,7 +140,7 @@ $$m\overline{OB} = y = \frac 6 2x = 3x$$
 
 $$m\overline{AB} = y = \frac {6 - 3}{2 - 5}x + 8 = 8 - \frac 3 3 x = 8 -x$$
 
-Here $8$ is the `y intercept`[^5].  
+Here $8$ is the `y intercept`.[^5]  
 Let us now define paths for our counter clockwise direction.  
 
 $$c_1: y = \frac 3 5 x \text{ from } x = 0 \text{ to } 5$$
@@ -147,6 +156,7 @@ $$=-\left\{\int_{0}^{5}\frac{3}{5}xdx+\int_{5}^{2}(8-x)dx+\int_{2}^{0}3xdx\right
 $$= 12$$
 
 ## Line Integral
+
 Imagine a curve $C$ from $A$ and $B$ and there is a particle at $K$ on this curve.  
 Then imagine there is a `force` $\vec{F}$ acting on the particle at $K$  
 This `force` can be broken down into its components such that one component is along the `tangent vector`[^6] of the curve and other one is along the `normal` to the curve.  
@@ -164,6 +174,7 @@ This `integral`[^2] is called `line integral`.
 We can further break the `tangent component` $F_t$ into its $x$ component which is $P dx$ and $y$ component which is $Q dy$.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

@@ -3,15 +3,21 @@ tags:
   - university-notes
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Revision of `Integration`[^1]
+
 ## Double Integral
+
 The `double integral` of a `function`[^2] of 2 variables $x$ and $y$ over a region $R$ can be denoted as  
 
 $$\iint_R = f(x, y) dx dy$$
 
 ### Example
+
 Find the `volume` of a solid bounded by `plane`[^3] $z = 4 - x - y$ and `rectangle` $R = \{(x, y) : 0 \le x \le 1, 0 \le y \le 2\}$
 
 #### Solution
@@ -35,6 +41,7 @@ $$= 7 - 2$$
 $$= 5$$
 
 ## Iterated or Repeated `Integral`[^1]
+
 Following is called `iterated` or `repeated integral`  
 
 $$\int_a^b \left(\int_c^d f(x, y)dx\right) dy$$
@@ -50,6 +57,7 @@ Integrating with respect to $x$ yields a `function`[^2] of $y$ and integrating w
 $$\int_a^b\int_c^d f(x, y) dxdy = \int_c^d\int_a^b f(x, y) dydx$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].

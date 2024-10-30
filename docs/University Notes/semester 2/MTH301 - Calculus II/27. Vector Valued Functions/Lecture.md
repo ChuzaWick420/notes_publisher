@@ -2,10 +2,14 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Vector Valued Functions
-The `functions`[^1] which have `real numbers` as their `domain`[^1] and 2D or 3D `vectors`[^2] as their `range`[^1], are called `vector valued functions`.
+
+The `functions`[^1] which have `real numbers` as their `domain`[^1] and 2D or 3D `vectors`[^2] as their `range`,[^1] are called `vector valued functions`.
 
 ## 2D
 
@@ -16,6 +20,7 @@ $$\vec{r}(t) = \langle\vec{x}(t), \vec{y}(t)\rangle = x(t)\hat{i} + y(t)\hat{j}$
 $$\vec{r}(t) = \langle\vec{x}(t), \vec{y}(t), \vec{z}(t)\rangle = x(t)\hat{i} + y(t)\hat{j} + z\hat{k}$$
 
 ## Graphs of `Vector Valued Functions`
+
 Let us say we have this `vector valued function`.  
 
 $$\vec{r}(t) = \langle\vec{x}(t), \vec{y}(t)\rangle = x(t)\hat{i} + y(t)\hat{j}$$
@@ -50,6 +55,7 @@ The graph it creates is a `circular helix`.
 ![[Pasted image 20241015152507.png]]
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

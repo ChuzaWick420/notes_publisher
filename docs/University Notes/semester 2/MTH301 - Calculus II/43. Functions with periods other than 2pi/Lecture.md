@@ -2,9 +2,13 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # `Functions`[^1] With `Periods`[^2] other than $2 \pi$
+
 There are sometimes `functions`[^1] which have $T$ `period`[^2] which is other than $2 \pi$.  
 We know that in physics, the oscillations are basically `function`[^1] of `time` and they repeat after $T$ interval.  
 
@@ -39,6 +43,7 @@ $$a_{n}=\frac{2}{T}\int_{0}^{T}f(t)\cos(n\omega t)dt=\frac{\omega}{\pi}\int_{0}^
 $$b_{n}=\frac{2}{T}\int_{0}^{T}f(t)\sin(n\omega t)dt=\frac{\omega}{\pi}\int_{0}^{\frac{2\pi}\omega}f(t)\sin(n\omega t)dt$$
 
 ## Half Wave Rectifier
+
 A `sinusoidal` voltage $E \sin (\omega t)$ is passed through a `half wave rectifier` which clips the negative voltage onto the $x$ axis.  
 Find the `fourier series`[^3] for the resulting `periodic function`.  
 
@@ -47,6 +52,7 @@ $$u(t) = 0 \quad - \frac T 2 < t < 0$$
 $$u(t) = E \sin (\omega t) \quad 0 < t < \frac T 2$$
 
 ### Solution
+
 #### $a_0$
 
 $$a_{0}=\frac{2}{T}\int_{- \frac {T}2}^{\frac T 2}u(t)dt$$
@@ -87,7 +93,7 @@ $$
 
 $$a_n = 0$$
 
-##### If $n$ is Even
+##### If $n$ is even
 
 $$a_n = \frac{E}{2\pi} \left( \frac{2}{1+n} + \frac{2}{1-n} \right) $$
 
@@ -132,6 +138,7 @@ $$u(t)=\frac{1}{2}a_{0}+\sum_{n=2}^{\infty}a_{n}\cos(n\omega t)$$
 $$u(t)=\frac{E}{\pi}+\frac{E}{2}\sin(\omega t)-\frac{2E}{\pi}\left(\frac 1 {1.3} \cos (2 \omega t) + \frac 1 {3.5} \cos (4 \omega t)+ \ldots\right)$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].

@@ -3,10 +3,15 @@ tags:
   - university-notes
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Double `Integral`[^1] for Non Rectangular Region
+
 ## Example
+
 Evaluate an equivalent `integral`[^1] of reversed order with respect to  
 
 $$\int_0^2\int_{x^2}^{2x} (4x + 2) dydx$$
@@ -23,12 +28,13 @@ Putting $x = 0,2$ in the `inequality`[^2] produces $0 \le y \le 4$.
 Hence,  
 
 $$\int_{0}^{4}\int_{\frac y 2}^{\sqrt y}(4x+2)dxdy$$
-  
+
  Evaluate this and we will get  
 
 $$= 8$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]]. 

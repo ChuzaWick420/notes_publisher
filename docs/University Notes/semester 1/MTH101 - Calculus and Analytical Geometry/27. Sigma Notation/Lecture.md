@@ -2,12 +2,17 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Sigma Notation
+
 The Greek letter $\sum$ is called `sigma` or `summation` and is used to represent a lengthy `sum` into a more compact form.
 
 ## Example
+
 Consider a sequence as such  
 
 $$1^2 + 2^2 + 3^2 + 4^2 + \ldots$$
@@ -21,6 +26,7 @@ The `upper limit` $\infty$ means "$i$ goes till $\infty$".
 The letter $i$ is called the `index variable`.
 
 ## Example
+
 We can also change the `lower limit` by changing the `index variable` as such.  
 
 $$\sum_{k = 3}^{7} = 2^{k - 2}$$
@@ -33,6 +39,7 @@ $$\sum_{j = 0}^{4}2^{(j + 3) - 2}$$
 $$\sum_{j = 0}^{4}2^{j + 1}$$
 
 ## Example
+
 This `index variable` works for everything.  
 
 $$\sum_{i = 1}^{\infty} i^2 = 1^2 + 2^2 + 3^2 + \ldots$$
@@ -74,4 +81,5 @@ using the theorems
 $$= \frac{(30)(31)(61)}{6}+\frac{30(31)}{2}=9920$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].

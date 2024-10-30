@@ -3,9 +3,13 @@ tags:
   - university-notes
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Definite Integral
+
 Previously, we sliced the `area` into `rectangles` with _equal_ `widths`. Was it mandatory? no.  
 Now we will slice them into `rectangles` with `width` that are _not equal_ in length.  
 ![[Pasted image 20240926181741.png]]  
@@ -24,18 +28,20 @@ This left side is called `definite integral` with $a$ being its `lower limit` an
 This term $\sum_{i = 1}^{n}f(x_i) \cdot \Delta x_i$ is called `Riemann Sum`.
 
 ### Example
+
 ![[Pasted.png]]  
 This `area` can be found out using:  
 
 $$\int_1^2 x \cdot dx$$
 
 ## Definite Integral of `Continuous Function`[^2]
+
 The _net signed_ `area` of a `continuous function`[^2] defined over the `interval`[^1] $(a, b)$ is also found out by  
 
 $$\int_a^b f(x) \cdot dx$$
 
 ![[Pasted image 20240926183728.png]]  
-This is the $\sin(x)$ `function`[^3].  
+This is the $\sin(x)$ `function`.[^3]  
 Let us say that the `area` of the blue section is $c$ then the `area` of the green section will be $-c$ (due to symmetric reasons).  
 Hence, the _net area_ is $0$!  
 
@@ -64,6 +70,7 @@ $$\int_0^{2 \pi} \sin(x) \cdot dx = 0$$
 5. If $f(x)$ _not_ bound by $[a, b]$ then $f(x)$ is _not_ `integrable` on $[a, b]$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

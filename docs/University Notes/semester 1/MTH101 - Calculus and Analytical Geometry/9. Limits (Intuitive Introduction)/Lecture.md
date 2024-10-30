@@ -5,21 +5,28 @@ tags:
   - integral
   - limits
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Limits(Intuitive Introduction)
+
 ## Tangent Problem
+
 ![[Pasted image 20240814164829.png]]  
 Given a `graph` and a `point`, find `tangent` to the `graph` at that `point`.
 
 The problem gave rise to `differential calculus`.
 
 ## Area Problem
+
 ![[Pasted image 20240814165139.png]]  
 Given a `graph`, find area under it in `interval`[^1] $[a, b]$.  
 This problem gave rise to `integral calculus`.
 
 ## Area as a Limit
+
 We can find the area under a `curve` by dividing it into smaller and smaller `rectangles`.  
 And then taking the _sum_ of the `area` of these `rectangles`, we get our `area`.  
 ![[Pasted image 20240814171719.png]]  
@@ -38,11 +45,13 @@ $$\frac{\sin(x)}{x} = undefined$$
 To check if a `limit` exists, meaning _what_ does the `function`[^2] approaches, we check from both _left_ and _right_ directions on the `x-axis`.
 
 ### From Right
+
 What does the `function`[^2] approaches as $x$ approach to `0` from right direction.  
 
 $$\lim_{x \rightarrow 0^+}\frac{\sin(x)}{x} = 1$$
 
 ### From Left
+
 What does the `function`[^2] approaches as $x$ approach to `0` from left direction.  
 
 $$\lim_{x \rightarrow 0^-}\frac{\sin(x)}{x} = 1$$
@@ -52,6 +61,7 @@ Therefore, to check the _existence_ of `lim`,
 $$\lim_{x \rightarrow 0^-}\frac{\sin(x)}{x} = \lim_{x \rightarrow 0^+}\frac{\sin(x)}{x} = 1$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

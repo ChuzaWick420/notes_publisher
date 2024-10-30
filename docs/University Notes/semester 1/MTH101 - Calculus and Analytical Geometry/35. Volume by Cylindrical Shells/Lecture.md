@@ -3,10 +3,15 @@ tags:
   - university-notes
   - integral
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Volume of Cylindrical Shells
+
 ## Cylindrical Shells
+
 ![[Pasted image 20240927224304.png]]  
 We get this when we extend a `washer`, a `disk` with a hole in it, _up_.  
 Just like finding `areas` between 2 curves,  
@@ -44,6 +49,7 @@ $$V(S)=\lim_{\max(\Delta x_i)\to 0}\sum_{i=1}^{n}2\pi x_i^*f(x_i^*)\Delta x_i=\i
 ![[Pasted image 20240927231333.png]]
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

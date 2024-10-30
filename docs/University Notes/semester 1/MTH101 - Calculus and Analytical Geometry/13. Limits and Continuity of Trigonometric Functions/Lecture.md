@@ -5,9 +5,13 @@ tags:
   - circle
   - inequalities
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Continuity of Trigonometric Functions
+
 Let us define a constant $h = x - c$ such that $x = h + c$.  
 The benefit of doing so is to give us the ability to replace $x \rightarrow c$ with $h \rightarrow 0$.  
 
@@ -15,7 +19,7 @@ $$\because \lim_{x \rightarrow 0} \sin(x) = 0$$
 
 $$\because \lim_{x \rightarrow 0} \cos(x) = 1$$
 
-So to prove the continuity of $\cos$ and $\sin$ functions, we will modify our definition of `continuity`[^1].
+So to prove the continuity of $\cos$ and $\sin$ functions, we will modify our definition of `continuity`.[^1]
 1. $f(c)$ is defined.
 2. $\lim_{h \rightarrow 0} f(h + c)$ exists.
 3. $\lim_{h \rightarrow 0} f(h + c) = f(c)$
@@ -33,6 +37,7 @@ $$= \cos(c) \cdot (0) + \sin(c) \cdot (1)$$
 $$= \sin(c)$$
 
 ## Squeeze Theorem
+
 Let us have 3 `functions`[^2] such that
 
 $$g(x) \le f(x) \le h(x)$$
@@ -77,7 +82,7 @@ Multiplying all sides by $\frac{2}{\sin(x)}$.
 
 $$1 \le \frac{x}{\sin(x)} \le \frac{1}{\cos(x)}$$
 
-Taking reciprocals and applying the theorem of `inequalities`[^3].  
+Taking reciprocals and applying the theorem of `inequalities`.[^3]  
 
 $$1 \ge \frac{x}{\sin(x)} \ge \cos(x)$$
 
@@ -90,6 +95,7 @@ $$1 \ge 1 \ge 1$$
 Hence, the formula for `area of the sector` of a `circle` holds true.
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].

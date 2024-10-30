@@ -4,9 +4,13 @@ tags:
   - differentiation
   - trigonometry
 university-name: Virtual University of Pakistan
+date: 2024-10-30
 ---
 
+<span style="color: gray;">Dated: 30-10-2024</span>
+
 # Derivative of Trigonometric Functions
+
 ## Derivative of $f(x) = \sin(x)$
 
 $$\frac{d}{dx} (\sin x) = \lim_{h \to 0} \frac{\sin(x+h) - \sin(x)}{h}$$
@@ -102,6 +106,7 @@ $$= - \frac{1}{\sin^2(x)}$$
 $$=-\csc^{2}(x)$$
 
 ## References
+
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/16. Techniques of Differentiation/Lecture|quotient rule]].
