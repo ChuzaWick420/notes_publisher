@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: |
          python -m pip install --upgrade pip
-         pip install mkdocs mkdocs-material numpy mkdocs-obsidian-interactive-graph-plugin mkdocs-callouts
+         pip install mkdocs mkdocs-material numpy mkdocs-obsidian-interactive-graph-plugin mkdocs-callouts mkdocs-obsidian-support-plugin
          pip install plotly ipywidgets  # Install libraries used in your notebooks
 
       - uses: actions/cache@v2
