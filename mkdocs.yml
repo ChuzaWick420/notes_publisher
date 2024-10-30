@@ -15,13 +15,18 @@ theme:
     #    name: Switch to dark mode
 
     # Dark mode
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        primary: teal
-        accent: indigo
+     - media: "(prefers-color-scheme: dark)"
+       scheme: slate
+       primary: teal
+       accent: indigo
       #  toggle:
       #  icon: material/toggle-switch
       #  name: Switch to light mode
+      #
+    features:
+      - content.code.select
+      - content.code.annotate
+      - content.code.copy
 
     # disable default syntax highlighting
     # highlightjs: false
@@ -29,7 +34,7 @@ theme:
 plugins:
   - search
   - callouts
-  - obsidian-interactive-graph
+  # - obsidian-interactive-graph
   - obsidian-support
   - obsidian-bridge
   - roamlinks
@@ -49,8 +54,13 @@ markdown_extensions:
   - def_list
   - footnotes
   - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.highlight
   - pymdownx.critic
-  - pymdownx.caret
+  - pymdownx.tabbed:
+      alternate_style: true
+  # - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
@@ -66,9 +76,8 @@ markdown_extensions:
   # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.superfences:
-  - toc:
-      permalink: true
+  # - toc:
+  #     permalink: true
 
 extra_css:
   # Custom theme

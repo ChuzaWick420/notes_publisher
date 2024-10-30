@@ -602,18 +602,79 @@ exit:
     int 0x80               ; Interrupt to make system call
 ```
 
-Here's a `function`[^1]  
+> [!note]- A note  
+> Hi
 
-$$f(x) = \int_0^1 x^2 dx$$
+> [!tip]- A tip  
+> Hi
 
-> [!abstract]- References  
+> [!example]- An example  
+> Hi
 
-> [!tip]- A great Tip  
-> This is a tip
+> [!quote]- A quote  
+> Hi
 
-> [!warning]- warning  
-> Something is off
+> [!warning]- A warning  
+> Hi
 
-## References
+> [!info]- An info  
+> Hi
 
-[^1]: Read more about [[Function/Content|functions]].
+> [!question]- A question  
+> Hi
+
+> [!success]- A success  
+> Hi
+
+> [!todo]- A todo  
+> Hi
+
+> [!failure]- A failure  
+> Hi
+
+> [!error]- An error  
+> Hi
+
+> [!bug]- A bug  
+> Hi
+
+> [!warning]- 3 Notifications
+> 
+> > [!bug]- A bug  
+> > Oh no, a logical error
+> 
+> > [!error]- A fatal error  
+> > Ran out of space
+> 
+> > [!failure]- Task Failed  
+> > Resources Exhausted
+> 
+> > [!tip]- Fixes
+> > - Eat
+> > - Sleep
+> > - Play
+> > - Hardwork
+> > - Repeat
+
+```cpp hl_lines="4"
+#include <iostream>
+
+int main() {
+	std::cout << "Hello World!" << std::endl; // (1)!
+	return 0;
+}
+```
+
+1. The `cout` objects is part of the `std` namespace.
+
+The tradition  
+
+??? Example  
+	=== "Javascript"  
+		```js  
+		console.log("Hello World");  
+		```  
+	=== "Python"  
+		```py  
+		print("Hello World")  
+		```
