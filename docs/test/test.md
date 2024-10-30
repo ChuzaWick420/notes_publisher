@@ -601,3 +601,19 @@ exit:
     xor ebx, ebx           ; Exit code 0
     int 0x80               ; Interrupt to make system call
 ```
+
+Here's a `function`[^1]  
+
+$$f(x) = \int_0^1 x^2 dx$$
+
+> [!abstract]- References  
+
+> [!tip]- A great Tip  
+> This is a tip
+
+> [!warning]- warning  
+> Something is off
+
+## References
+
+[^1]: Read more about [[Function/Content|functions]].

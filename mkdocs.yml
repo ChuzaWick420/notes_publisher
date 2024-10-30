@@ -45,6 +45,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - def_list
+  - attr_list
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -62,6 +63,7 @@ markdown_extensions:
 plugins:
   - search
   - callouts
+  - obsidian-bridge
   - obsidian-support
   - obsidian-interactive-graph
   - roamlinks
