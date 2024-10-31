@@ -44,6 +44,8 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.keys # Keyboard key symbols for ctrl, alt and delete etc
   - pymdownx.inlinehilite # inline code block syntax highlighting
+  - pymdownx.arithmatex: # Inline latex code
+      generic: true
   - pymdownx.superfences:  # Arbitrary number of nesting of blocks, necessary for tabbed content blocks
       custom_fences:
         - name: mermaid  # For diagrams like pie, sequence, flow chart, class

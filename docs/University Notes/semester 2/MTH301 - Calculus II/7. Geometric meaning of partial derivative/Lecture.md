@@ -110,7 +110,7 @@ $$f_{xy}(a, b) = f_{yx}(a, b)$$
 
 ### Advantages
 
-$$ w = xy + \frac{e^y}{y^2 + 1} $$
+$$w = xy + \frac{e^y}{y^2 + 1}$$
 
 The following suggests us to take `partial derivative`[^1] with respect to $y$ first and then with respect to $x$.  
 
