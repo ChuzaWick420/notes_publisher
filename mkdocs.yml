@@ -8,7 +8,10 @@ repo_url: https://github.com/ChuzaWick420/notes_publisher/
 theme:
   name: "material"
   palette:
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
 
   feature:
     - content.code.select # Selecting code lines, not working
