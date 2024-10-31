@@ -1,114 +1,80 @@
 site_name: Notes
 docs_dir: docs
 
+site_description: A website to contain my knowledge
+site_author: ChuzaWick420
+repo_url: https://github.com/ChuzaWick420/notes_publisher/
+
 theme:
-    name: 'material'
-    palette:
+  name: "material"
+  palette:
+    - scheme: slate
 
-    # Light mode
-    #    - media: "(prefers-color-scheme: light)"
-    #  scheme: default
-    #  primary: pink
-    #  accent: indigo
-    #  toggle:
-    #    icon: material/toggle-switch-off-outline
-    #    name: Switch to dark mode
-
-    # Dark mode
-     - media: "(prefers-color-scheme: dark)"
-       scheme: slate
-       primary: teal
-       accent: indigo
-      #  toggle:
-      #  icon: material/toggle-switch
-      #  name: Switch to light mode
-      #
-    features:
-      - content.code.select
-      - content.code.annotate
-      - content.code.copy
-
-    # disable default syntax highlighting
-    # highlightjs: false
+  feature:
+    - content.code.select # Selecting code lines, not working
+    - content.code.annotate  # Showing annotation within code blocks
+    - content.code.copy  # Button for copying code block
+    - content.footnote.tooltips # ToolTip for footnotes
 
 plugins:
-  - search
-  - callouts
-  # - obsidian-interactive-graph
-  - obsidian-support
-  - obsidian-bridge
-  - roamlinks
-  #- blog
-  # - rss:
-  #     match_path: blog/posts/.* 
-  #     date_from_meta:
-  #       as_creation: date
-  #     categories:
-  #       - categories
-  #       - tags
+  - search # search bar
+  - callouts # Obsidian callouts, e.g. [!note]-
+  - obsidian-bridge # Obsidian like file links
+  - glightbox # Image zooming
+  - obsidian-support # Obsidian Tags
+  # - obsidian-interactive-graph # Obsidian like graph, a bit hard to read
 
-# Extensions
 markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - pymdownx.details
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.critic
-  - pymdownx.tabbed:
-      alternate_style: true
-  # - pymdownx.caret
-  - pymdownx.keys
+  - admonition  # Obsidian callouts
+  - pymdownx.details  # Makes the callouts open and close-able
+  - pymdownx.blocks.caption # Captions for images
+  - def_list # MarkDown Definition lists
+  - attr_list  # Adds attributes and classes to markdown elements, necessary for buttons, grids, tooltips
+  - abbr # Abbreviations, necesary for tooltips
+  - md_in_html  # Writing MarkDown inside HTML, necessary for grids
+  - pymdownx.snippets # Adding content from other files, necessary for tooltips
+  - tables # MarkDown tables
+  - footnotes # MarkDown footnotes
+  - pymdownx.critic # Git like add, deletion, comment, highlight etc
+  - pymdownx.caret # Text marking like striking, underline and highlighting
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.highlight:
-      guess_lang: true
-      default_lang: "cpp"
-      linenums: false
-      pygments_style: "monokai"
-      use_pygments: true
-  - pymdownx.arithmatex:
-      generic: true
-  # - pymdownx.details
-  # - pymdownx.magiclink
-  - pymdownx.tasklist:
+  - pymdownx.keys # Keyboard key symbols for ctrl, alt and delete etc
+  - pymdownx.inlinehilite # inline code block syntax highlighting
+  - pymdownx.superfences:  # Arbitrary number of nesting of blocks, necessary for tabbed content blocks
+      custom_fences:
+        - name: mermaid  # For diagrams like pie, sequence, flow chart, class
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight: # Syntax highlighting
+      use_pygments: true # Use pygments for syntax highlighting
+      pygments_style: "monokai" # The pygment theme, I will override with my own
+  - pymdownx.tabbed: # Tabbed content blocks
+      alternate_style: true
+  - pymdownx.emoji: # emojis for mkdocs
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist: # Mkdocs style checklist
       custom_checkbox: true
-  # - toc:
-  #     permalink: true
 
 extra_css:
-  # Custom theme
   - assets/stylesheets/pygments.css
   - assets/stylesheets/custom.css
   - assets/stylesheets/variables.css
-
-  # Obsidian Tags
-  - assets/stylesheets/obsidian_tags.css
-
-  # For Notes Graph
-  # - assets/stylesheets/interactive_graph.css
-
+  # - assets/stylesheets/obsidian_tags.css # For obsidian tags
+  # - assets/stylesheets/interactive_graph.css # For Notes Graph
 extra_javascript:
-  # Obsidian Tags
-  - assets/javascripts/obsidian_tags.js
-
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.plot.ly/plotly-latest.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+  
+  # For obsidian tags 
+  # - assets/javascripts/obsidian_tags.js
+  
   # For Notes Graph
   # - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   # - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
   # - assets/javascripts/interactive_graph.js
-
-  # Mermaid Graph
-  # - https://unpkg.com/mermaid/dist/mermaid.min.js 
-
-  # For LaTeX support
-  - assets/javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-  # For 3D math diagrams using Python and Plotly
-  - https://cdn.plot.ly/plotly-latest.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
-
