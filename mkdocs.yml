@@ -24,7 +24,7 @@ plugins:
   - callouts # Obsidian callouts, e.g. [!note]-
   - obsidian-bridge # Obsidian like file links
   - glightbox # Image zooming
-  - obsidian-support # Obsidian Tags
+  # - obsidian-support # Obsidian Tags, causing problems to cpp code snippets within obsidian callouts
   # - obsidian-interactive-graph # Obsidian like graph, a bit hard to read
 
 markdown_extensions:
