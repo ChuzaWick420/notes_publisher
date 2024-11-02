@@ -24,7 +24,7 @@ Imagine a maze as such where `-` is the `initial state` and `+` is the `final st
 One is allowed to only move on the numeric tiles.  
 We can determine the number of ways someone can move from `-` to `+` using the following `non deterministic finite automaton`[^1]
 
-![[cs402_16_d_1]]
+![[cs402_16_d_1.svg]]
 
 It is shown that the shortest `string`[^2] which is accepted by the machine is $aaaaaa$.
 

@@ -17,7 +17,7 @@ date: 2024-11-02
 stateDiagram-v2
 state1: p-
 state2: q
-state3: +
+state3: r+
 
 state1-->state1 : b
 state1-->state2 : a
@@ -54,10 +54,8 @@ s3 --> s2 : a
 
 ```mermaid
 stateDiagram-v2
-s1 : -
 p : p
 q : q
-+ : +
 1 : 1
 2 : 2
 3 : 3
@@ -65,15 +63,15 @@ q : q
 5 : 5
 6+ : 6+
 
-s1 --> p : b
-s1 --> q : a
-s1 --> 2 : a
-s1 --> 3 : b
+[*] --> p : b
+[*] --> q : a
+[*] --> 2 : a
+[*] --> 3 : b
 p --> p : b
 p --> q : a
 q --> p : b
-q --> + : a
-+ --> + : a, b
+q --> r+ : a
+r+ --> r+ : a, b
 
 1 --> 2 : a
 1 --> 3 : b
@@ -95,7 +93,7 @@ q --> + : a
 
 From the first `finite automaton`,[^2] introduce new `states` which connect the `final states` to 2nd `finite automaton`'s[^2] `states` which are connect to its own(the 2nd `finite automaton`[^2]) `initial states`.
 
-There are some possible routes we can take depending on if the `finite automata`[^2] accept a `null string`[^3] or not
+There are some possible routes we can take depending on if the `finite automata`[^2] accept a `null string`[^3] or not.
 
 #### $FA_1$ And $FA_2$ Does not Accept $\Lambda$
 
@@ -193,7 +191,7 @@ state3 --> state3 : a, b
 
 ```mermaid
 stateDiagram-v2
-x : $x\pm$
+x : +-
 y : y
 
 x --> y : a, b
@@ -229,7 +227,7 @@ x --> y : a, b
 
 ```mermaid
 stateDiagram-v2
-x : $x\pm$
+x : x+-
 y : y
 
 x --> y : a, b
@@ -261,8 +259,8 @@ stateDiagram-v2
 
 ```mermaid
 stateDiagram-v2
-1 : $1\pm$
-s : $\pm$
+1 : 1+-
+s : +-
 
 
 s --> y : a, b
