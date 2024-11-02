@@ -32,7 +32,7 @@ A point is represented as
 
 $$P(x, y, z)$$
 
-<iframe src="../figures/rect_coords.html"></iframe>
+<iframe src="../Figures/rect_coords.html"></iframe>
 
 ## Cylindrical Coordinates for 3D Points
 
