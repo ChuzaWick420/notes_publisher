@@ -5,7 +5,7 @@ university-name: Virtual University of Pakistan
 date: 2024-11-02
 ---
 
-<span style="color: gray;">Dated: 2024-11-02</span>
+<span style="color: gray;">Dated: 02-11-2024</span>
 
 # Ch01. what is the Role of People, Process and Technology in Information Security
 

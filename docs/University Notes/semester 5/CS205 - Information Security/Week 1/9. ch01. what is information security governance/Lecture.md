@@ -5,7 +5,7 @@ university-name: Virtual University of Pakistan
 date: 2024-10-31
 ---
 
-<span style="color: gray;">Dated: 2024-10-31</span>
+<span style="color: gray;">Dated: 31-10-2024</span>
 
 # Ch01 .WHAT is Information Security Governance
 

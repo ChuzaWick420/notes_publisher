@@ -2,15 +2,21 @@
 tags:
   - university-notes
 university-name: Virtual University of Pakistan
+date: 2024-10-31
 ---
 
-# CH1: How is the Information Security Implemented?
+<span style="color: gray;">Dated: 31-10-2024</span>
+
+# Ch1: how is the Information Security Implemented?
+
 ## Pillars of Information Security
+
 - People
 - Process
 - Technology
 
 ## Leadership Commitment
+
 - "Tone at the top"  
 - Information security policy and objectives  
 - Assigning responsibility and authority  
@@ -18,11 +24,13 @@ university-name: Virtual University of Pakistan
 - Performance reviews  
 - Ensuring accountability
 
-## Information Security Manager or CISO
+## Information Security Manager or Ciso
+
 - Head of department responsible for implementing information security program
 - Directs planning, implementation, measurement, review and continual improvement of program.
 
-## IT User
+## It User
+
 - Understand policies  
 - Conduct security/risk assessment  
 - Design effective security architecture  
@@ -32,6 +40,7 @@ university-name: Virtual University of Pakistan
 - Conduct effective change management
 
 ## Business User
+
 - Security awareness and training  
 - Follow information security policy  
 - Develop and implement secure business processes  
@@ -39,6 +48,7 @@ university-name: Virtual University of Pakistan
 - Reporting incidents
 
 ## Information Security Program
+
 - Assessing security risks and gaps
 - Implementing security controls
 - Monitoring, measurement, & analysis
@@ -46,4 +56,5 @@ university-name: Virtual University of Pakistan
 - Accreditation/testing
 
 ## Assessment Questions
+
 1. `Awareness` is not the pillar of information security.
