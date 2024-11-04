@@ -139,7 +139,7 @@ Statistical sampling aims to assess how accurately the sample describes the popu
 It is the difference between the estimate derived from the `sample`(the statistic) and the true population value (the parameter).  
 They arise because they cannot exactly represent the population.  
 
-$$\text{Sampling error} = \overline X - \micro$$
+$$\text{Sampling error} = \overline X - \mu$$
 
 #### Non Sampling Errors
 
@@ -279,7 +279,7 @@ In this example, the random numbers selected are 041, 103, 374, 171, 508, 652, 8
 
 The `population mean` is  
 
-$$\micro = \frac{\sum fx}{\sum f} = \frac{15785}{1000}$$
+$$\mu = \frac{\sum fx}{\sum f} = \frac{15785}{1000}$$
 
 $$= 15.785 \text{ years}$$
 
@@ -298,7 +298,7 @@ Ages selected in the `sample` are
 
 $$\text{Sample mean age} = 15.6$$
 
-$$\text{Sampling Error} = \overline X - \micro$$
+$$\text{Sampling Error} = \overline X - \mu$$
 
 $$= 15.6 - 15.785$$
 
@@ -319,7 +319,3 @@ All these designs utilize random or quasi-random sampling, which is a form of pr
 This allows for objective calculation of estimate precision and reliability.  
 Typically, multiple sampling techniques are combined in survey designs, and simple random samples or multi-stage designs are seldom used without stratification.  
 It's essential to exercise care at every step to ensure the reliability of the results.
-
-## References
-
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
