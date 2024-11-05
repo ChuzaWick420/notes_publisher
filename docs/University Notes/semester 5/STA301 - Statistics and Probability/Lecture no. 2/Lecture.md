@@ -9,7 +9,7 @@ date: 2024-11-04
 
 # Lecture No. 2
 
-# Steps Involved in Statistical Research Project
+## Steps Involved in Statistical Research Project
 
 - Topic and significance of the study
 - Objective of your study

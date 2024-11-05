@@ -6,4 +6,5 @@ gitGraph
 	commit id: "Wrote: STA301 - 1, 2"
 	commit id: "Updated: STA301 - 1, 2, replaced \micro with \mu"
 	commit id: "Updated Templates"
+	commit id: "Wrote: STA301 - 3"
 ```
