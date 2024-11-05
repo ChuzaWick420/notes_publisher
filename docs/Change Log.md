@@ -21,4 +21,5 @@ gitGraph
 	commit id: "Wrote: cs205 - 15"
 	commit id: "Updated: cs205 - 15, added post assessments"
 	commit id: "Wrote: cs205 - 16"
+	commit id: "Wrote: cs205 - 17"
 ```
