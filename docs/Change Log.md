@@ -9,4 +9,5 @@ gitGraph
 	commit id: "Wrote: STA301 - 3"
 	commit id: "Wrote: STA301 - 4"
 	commit id: "Wrote: STA301 - 5"
+	commit id: "Wrote: STA301 - 6"
 ```
