@@ -73,3 +73,23 @@ date: 2024-11-05
 
 ![[Pasted image 20241105222917.png]]  
 ![[Pasted image 20241105222946.png]]
+
+> [!question]- Post assessments
+> 
+> > [!question]- In the context of security frameworks, PCI DSS stands for
+> > - [ ] Payment Card Industry Discrete Security Standard  
+> > - [ ] Private Card Industry Dual Security Standard  
+> > - [x] Payment Card Industry Data Security Standard  
+> > - [ ] Payment Card Industry Digital Security Standard
+> > 
+> > [!question]- which of the following specifies the requirements for establishing, implementing, maintaining and continually Improv-mg an information security management system.  
+> > - [ ] IS027001:2015  
+> > - [ ] IS027003:2013  
+> > - [ ] IS027001:2011  
+> > - [x] IS027001:2013
+> > 
+> > [!question]- In the context of security frameworks: SSC stands for  
+> > - [ ] Security Standard Company  
+> > - [ ] Security Standard Category  
+> > - [x] Security Standard Council  
+> > - [ ] Software Standard Category
