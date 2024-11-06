@@ -1,7 +1,7 @@
 ---
 tags:
   - university-notes
-university-name: 
+university-name: Virtual University of Pakistan
 date: 2024-11-05
 ---
 
