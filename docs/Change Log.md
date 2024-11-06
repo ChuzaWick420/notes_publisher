@@ -25,4 +25,7 @@ gitGraph
 	commit id: "Added: mth401 lectures"
 	checkout main
 	commit id: "Merged cs205"
+	checkout mth401
+	commit id: "Wrote: mth401 - 1"
+	commit id: "Wrote: mth401 - 2"
 ```
