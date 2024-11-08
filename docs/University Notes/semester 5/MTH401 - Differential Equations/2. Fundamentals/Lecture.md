@@ -128,9 +128,11 @@ For the differential equation
 
 $$y^\prime = - \frac x y$$
 
-the solution in  
+the solution is
 
 $$x^2 + y^2 - 4 = 0$$
+
+$$y = \pm \sqrt {4 - x^2}$$
 
 ## References
 
