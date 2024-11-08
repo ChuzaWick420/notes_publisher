@@ -32,9 +32,9 @@ gitGraph
 	checkout main
 	merge mth401
 	checkout cs502
-	merge main
 	commit id: "Wrote: cs502 - C1"
 	checkout main
 	merge cs502
 	commit id: "Updated change log"
+	commit id: "Wrote: cs502 - C2"
 ```
