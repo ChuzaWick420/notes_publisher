@@ -37,4 +37,11 @@ gitGraph
 	merge cs502
 	commit id: "Updated change log"
 	commit id: "Wrote: cs502 - C2"
+	checkout mth401
+	commit id: "Wrote: mth401 - 3"
+	commit id: "Wrote: mth401 - 4"
+	commit id: "Wrote: mth401 - 5"
+	commit id: "Wrote: mth401 - 6"
+	checkout main
+	merge mth401
 ```
