@@ -11,65 +11,74 @@ date: 2024-11-10
 
 ## Example
 
-$$y(1+2xy)dx+x(1-2xy)dy=0$$
+$$y^\prime=\frac{x^2+y^2}{xy}$$
 
-This equation is not 
-- `Separable`[^1]
-- `Homogeneous`[^2]
-- `Exact`[^3]
-- `Linear`[^4]
-- `Bernoulli`[^5]
+$$\frac{dy}{dx}=\frac{x^2+y^2}{xy}$$
 
-After staring long enough, we notice that  
+Put $y = wx$ then  
 
-$$u = 2xy$$
+$$\frac{dy}{dx}=w+x\frac{dw}{dx}$$
 
-$$y = \frac u {2x}$$
+$$w+x\frac{dw}{dx}=\frac{x^2+w^2x^2}{x\times w}=\frac{1+w^2}{w}$$
 
-$$\because dy = \frac{xdu - udx}{2x^2}$$
+$$w+x\frac{dw}{dx}=\frac{1}{w}+w$$
 
-$$2u^2dx+(1-u)xdu=0$$
+$$wdw=\frac{dx}{x}$$
 
-$$2\ln|x|-u^{-1}-\ln|u|=c$$
+After `integration`[^1]  
 
-$$\ln|\frac{x}{2y}|=c+\frac{1}{2xy}$$
+$$\frac{w^2}{2}=\ln x+\ln c$$
 
-$$\frac{x}{2y}=c_{1}e^{\frac 1 {2xy}}$$
+$$\frac{y^2}{2x^2}=\ln|xc|$$
 
-$$x=2c_{1}ye^{\frac 1 {2xy}}$$
+$$y^2=2x^2\ln|xc|$$
 
 ## Example
 
-$$\frac{d^{2}y}{dx^{2}}=2x\left(\frac{dy}{dx}\right)^{2}$$
+$$xe^{2y}\frac{dy}{dx}+e^{2y}=\frac{\ln x}{x}$$
 
-$$u = y^\prime$$
+Put $e^{2y} = u$ and we get  
 
-$$\frac{du}{dx}=y^{\prime\prime}$$
+$$2e^{2y}\frac{dy}{dx}=\frac{du}{dx}$$
 
-$$\frac{du}{dx}=2xu^2$$
+$$\frac{x}{2}\frac{du}{dx}+u=\frac{\ln x}{x}$$
 
-$$\frac{du}{u^2}=2xdx$$
+$$\frac{du}{dx}+\frac{2}{x}u=2\frac{\ln x}{x^{2}}$$
 
-$$\int u^{-2}du=\int 2xdx$$
+$$u(x) =\exp\left(\int\frac{2}{x}dx\right)=x^{2}$$
 
-$$-u^{-1}=x^2+c_1$$
+$$x^{2}\frac{du}{dx}+2xu=2\ln x$$
 
-$$u^{-1}=\frac{1}{y'}$$
+$$\frac{d}{dx}(x^{2}u)=2\ln x$$
 
-$$\frac{dy}{dx}=-\frac{1}{x^{2}+c_{1}^{2}}$$
+$$x^{2}u=2[x \ln x-x]+c$$
 
-$$dy=-\frac{dx}{x^{2}+c_{1}^{2}}$$
+$$x^{2}e^{2y}=2[x \ln x-x]+c$$
 
-$$\int dy=-\int \frac{dx}{x^{2}+c_{1}^{2}}$$
+### Example
 
-$$y+c_{2}=-\frac{1}{c_{1}}\tan^{-1}\frac{x}{c_{1}}$$
+$$x^4y^2y'+x^3y^3=2x^3-3$$
+
+Put $x^3y^3 = u$ and we get  
+
+$$3x^{2}y^{3}+3x^{3}y^{2}\frac{dy}{dx}=\frac{du}{dx}$$
+
+$$3x^{3}y^{2}\frac{dy}{dx}=\frac{du}{dx}-3x^{2}y^{3}$$
+
+$$x^{4}y^{2}\frac{dy}{dx}=\frac{x}{3}\frac{du}{dx}-x^{3}y^{3}$$
+
+$$\frac{x}{3}\frac{du}{dx}=2x^{3}-3$$
+
+$$\frac{du}{dx}=6x^{2}-\frac{9}{x}$$
+
+`Integrating`[^1] both sides, we get  
+
+$$u=2x^3-9\ln x+c$$
+
+$$x^3y^3=2x^3-9\ln x+c$$
 
 ## References
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/3. Separable Equations/Lecture|separable equations]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/4. Homogeneous Differential Equations/Lecture|homogeneous differential equations]].
-[^3]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/5. Exact Differential Equations/Lecture|exact differential equations]].
-[^4]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/7. First Order Linear Equation/Lecture|first order linear differential equations]].
-[^5]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/8. Bernoulli Equations/Lecture|bernoulli equation]].
+[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
