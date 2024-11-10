@@ -44,4 +44,15 @@ gitGraph
 	commit id: "Wrote: mth401 - 6"
 	checkout main
 	merge mth401
+	checkout mth401
+	commit id: "Wrote: mth401 - 7"
+	commit id: "Wrote: mth401 - 8"
+	commit id: "Wrote: mth401 - 8"
+	commit id: "Wrote: mth401 - 9"
+	commit id: "Updated: mth401 - 8, 9"
+	commit id: "Wrote: mth401 - 10"
+	commit id: "Wrote: mth401 - 11"
+	checkout main
+	merge mth401
+	commit id: "Updated: Change log"
 ```
