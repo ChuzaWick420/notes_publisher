@@ -39,3 +39,29 @@ date: 2024-11-12
 | SIEM                             | Event Management                             | High             | OSSEC, Splunk, Q-Radar                     |
 | DLP                              | Data Loss Prevention                         | High             | Symantec                                   |
 | Encryption Software              | Encryption                                   | High             | TrueCrypt                                  |
+
+> [!QUESTION]- Post Assessments
+> 
+> > [!QUESTION]- In perspective of security tools used in an Enterprise, McAfee is an example of  
+> > - [ ] Windows Update  
+> > - [ ] Automated Backup  
+> > - [ ] Virtual Machine  
+> > - [x] Enterprise Antivirus
+> 
+> > [!QUESTION]- In the context of Security Tools used in an Enterprise, the complexity level of Encryption Software is considered  
+> > - [ ] Low  
+> > - [x] High  
+> > - [ ] Medium  
+> > - [ ] very LOW
+> 
+> > [!QUESTION]- In the context of Security Tools used in an Enterprise, which of the following is an example of Network & Performance Management.  
+> > - [ ] veritas  
+> > - [ ] mast  
+> > - [x] ORION  
+> > - [ ] SCCM
+> 
+> > [!QUESTION]- In perspective of security tools used in an Enterprise, Veritas is an example of what
+> > - [ ] Virtual Machine  
+> > - [x] Automated Backup  
+> > - [ ] Enterprise Antivirus  
+> > - [ ] Windows Update
