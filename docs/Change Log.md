@@ -95,4 +95,10 @@ gitGraph
 	checkout main
 	merge cs205
 	commit id: "Updated: Change Log"
+	checkout cs502
+	commit id: "Wrote: cs502 - C3"
+	commit id: "Wrote: cs502 - C4"
+	checkout main
+	merge cs502
+	commit id: "Updated: Change Log"
 ```
