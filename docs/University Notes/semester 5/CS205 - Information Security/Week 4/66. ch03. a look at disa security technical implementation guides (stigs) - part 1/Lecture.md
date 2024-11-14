@@ -14,7 +14,7 @@ date: 2024-11-14
 - Most expansive security benchmarks available
 - Most regularly updated
 - Unclassified version
-- http://iase.disa.mil/stigs/Pages/index.aspx
+
 - 425 STIGs available
 - STIGs master list (A-Z):
     - http://iase.disa.mil/stigs/Pages/a-z.aspx
@@ -30,3 +30,35 @@ date: 2024-11-14
 ![[Pasted image 20241114151018.png]]
 
 - Completely different mechanism for DISA STIGs
+
+> [!QUESTION]- Post Assessment
+> 
+> > [!QUESTION]- Unclassified version of DISA is available _ charges.  
+> > - [ ] at 2500 US Dollars  
+> > - [x] without any  
+> > - [ ] at 500 US Dollars  
+> > - [ ] at 4000 US Dollars  
+> 
+> > [!QUESTION]- There are _ STIGs available in the unclassified version of DISA.  
+> > - [ ] 150  
+> > - [ ] 350  
+> > - [ ] 425  
+> > - [x] 107  
+> 
+> > [!QUESTION]- STIGs stands for  
+> > - [ ] Security Threats Identification Guides  
+> > - [x] Security Technical Implementation Guides  
+> > - [ ] Security Transformation Initiation Guides  
+> > - [ ] Security Training Industry Guides  
+> 
+> > [!QUESTION]- DISA refers to its security implementation guides specifically as  
+> > - [ ] Milestones  
+> > - [ ] Point of Reference  
+> > - [ ] Benchmarks  
+> > - [x] STIGs  
+> 
+> > [!QUESTION]- The classified version of DISA is only available for  
+> > - [ ] Chinese Department of Defense  
+> > - [x] USA Department of Defense  
+> > - [ ] UK Department of Defense  
+> > - [ ] USSR Department of Defense  
