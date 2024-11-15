@@ -28,3 +28,9 @@ date: 2024-11-14
     - If console access is not configured to timeout at 10 minutes or less, this is a finding.
 - Fix Text:
     - Configure the timeout for idle console connection to 10 minutes or less.
+
+> [!QUESTION]- In the context of DISA STIGs, configuring the rule that the network devices must time out access to console port at 5 minutes of inactivity falls into _ category of severity.  
+> - [x] CAT 2  
+> - [ ] CAT 1  
+> - [ ] CAT 5  
+> - [ ] CAT 3
