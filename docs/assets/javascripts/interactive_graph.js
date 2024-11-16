@@ -32,8 +32,8 @@ function draw_graph(myChart) {
   myChart.setOption(option);
 
   // add click event for nodes
-  myChart.on('click', function (params) {
-    if(params.dataType == "node") {
+  myChart.on('click', function(params) {
+    if (params.dataType == "node") {
       window.location = params.value;
     }
   });
@@ -44,20 +44,20 @@ function draw_graph(myChart) {
 
 var option;
 
-$.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
+$.getJSON(document.currentScript.src + '/../graph.json', function(graph) {
   myChart.hideLoading();
 
   // an offset of 5, so the dot/node is not that small
-  graph.nodes.forEach(function (node) {
+  graph.nodes.forEach(function(node) {
     node.symbolSize += 5;
   });
 
   // special feature, if u want to have long note titles, u can use this ' •'
   // to cut everything behind in graph view
-  graph.nodes.forEach(function (node) {
+  graph.nodes.forEach(function(node) {
     node.name = node.name.split(' •')[0];
   });
-  graph.links.forEach(function (link) {
+  graph.links.forEach(function(link) {
     link.source = link.source.split(' •')[0];
     link.target = link.target.split(' •')[0];
   });
@@ -87,16 +87,19 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
         roam: true,
         draggable: false,
         label: {
-          show: true,
+          show: false,
           position: 'right',
           formatter: '{b}'
+        },
+        labelLayout: {
+          hideOverlap: true
         },
         emphasis: {
           focus: 'adjacency', // gray out not related nodes on mouse over
           label: {
             fontWeight: "bold"
-	  }
-	},
+          }
+        },
         labelLayout: {
           hideOverlap: false // true could be a good idea for large graphs
         },
@@ -114,21 +117,21 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
   draw_graph(myChart);
 });
 
-$("#__palette_0").change(function(){
+$("#__palette_0").change(function() {
   option.backgroundColor = $("body").css("background-color");
   myChart.setOption(option);
 });
-$("#__palette_1").change(function(){
+$("#__palette_1").change(function() {
   option.backgroundColor = $("body").css("background-color");
   myChart.setOption(option);
 });
 
-$('#graph_button').on('click', function (params) {
+$('#graph_button').on('click', function(params) {
   $("body").css({ overflow: "hidden", position: "fixed" });
   $('#graph').remove();
   $('<div id="modal_background"><div id="graph" class="modal_graph"></div></div>').appendTo('body');
-  $('#modal_background').on('click', function (params) {
-    if(params.target === this) {
+  $('#modal_background').on('click', function(params) {
+    if (params.target === this) {
       $("body").css({ overflow: "", position: "" });
       $('#graph').remove();
       $('#modal_background').remove();

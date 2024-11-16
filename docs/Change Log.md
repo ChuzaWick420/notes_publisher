@@ -101,4 +101,7 @@ gitGraph
 	checkout main
 	merge cs502
 	commit id: "Updated: Change Log"
+	branch graph
+	checkout graph
+	commit id: "Added Obsidian_graph"
 ```
