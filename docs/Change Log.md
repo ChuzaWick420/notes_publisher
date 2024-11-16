@@ -107,4 +107,9 @@ gitGraph
 	checkout main
 	merge graph
 	commit id: "Updated: Change Log"
+	checkout graph
+	commit id: "Added requested feature"
+	checkout main
+	merge graph
+	commit id: "Updated: Change Log"
 ```
