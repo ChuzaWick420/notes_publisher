@@ -104,4 +104,7 @@ gitGraph
 	branch graph
 	checkout graph
 	commit id: "Added Obsidian_graph"
+	checkout main
+	merge graph
+	commit id: "Updated: Change Log"
 ```
