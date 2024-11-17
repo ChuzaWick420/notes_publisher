@@ -4,8 +4,9 @@ The way we construct a `ray` is to first have an `origin vector`,[^1] then get a
 Then we scale it by $t$ amount, hence making a `ray`.  
 
 $$\vec R(t) = \vec A + t\vec b$$
-  
-Here $\vec A$ is the `origin vector`[^1] and $\vec b$ is the `unit vector`.
+
+Here $\vec A$ is the `origin vector`[^1] and $\vec b$ is the `unit vector`.  
+![[ray.svg]]
 
 ## References
 

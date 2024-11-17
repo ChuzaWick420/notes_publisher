@@ -63,7 +63,7 @@ float scalar = float(window_width) / img_width;
 Also, since we are seeing things through the `camera` lens, it would make sense to put the display stuff inside `camera`.
 
 ```cpp
-void camera::show() {
+void camera::show_img() {
     int window_height = window_width / aspect_ratio;
 
     // Window to render image on
@@ -94,13 +94,114 @@ void camera::show() {
             if (event.type == sf::Event::Closed)
                 window.close();
         }
-
+        
+		//clear previous frame
         window.clear(sf::Color::Green);
 
+		//draw new frame
         window.draw(s_image);
 
+		//display it
         window.display();
     }
 }
 ```
 
+A `ray tracer` is responsible for following tasks.
+
+1. Shooting rays out of the eye.
+2. Determining which objects are being hit by that ray at closest.
+3. Determine the color of pixel to show on screen.
+
+Now we need to know what a `ray`[^1] is.  
+For the dimensions, $16 : 9$ is pretty common so we are going to use that.
+
+```cpp
+float aspect_ratio = 16.0f / 9.0f
+```
+
+Using this, we will determine dimensions of the following
+
+1. `Image`
+2. `Viewport` (a virtual 2D rectangle in the space which shows the image)
+3. `Window`
+
+Selecting an arbitrary `height` _or_ `width` for any of these, we can find the other.  
+
+$$\frac {\text{width}}{\text{height}} = \text{aspect ratio}$$
+
+To start off, we will try drawing a _sky_ which is going to be just a gradient from `blue` to `white`.  
+For that, we will use a `lerp function`.  
+This will _smoothly_ transition from `blue` to `white`.
+
+> [!NOTE] `blue` and `white` both are `colors`[^2] consisting of $r$, $g$ and $b$ values.  
+
+So our task is to smoothly transform each `color`[^2] component into the component of the other `color`,[^2] depending on some variable.  
+For our purpose, we can use the $y$ component of the `ray`[^2] to play that role since it changes according to `height`.  
+![[interpolation.svg]]  
+We need an equation for that `line`[^3]  
+
+$$\frac {y_2 - y_1}{x_2 - x_1} = \frac{y - y_1}{x - x_1}$$
+
+$$(y_2 - y_1) \cdot (x - x_1) = (y - y_1) \cdot (x_2 - x_1)$$
+
+We know that $y_1$ and $y_2$ are the component values of `blue` and `white` respectively and let's label them as $B$ and $W$.  
+Also, we want $x_1$ and $x_2$ to be $0$ and $1$ for simplicity.  
+Then the equation becomes.  
+
+$$(W - B) \cdot (h - 0) = (y(h) - B) \cdot (1 - 0)$$
+
+$$(W - B)h = y(h) - B$$
+
+$$y(h) = (W - B)h + B$$
+
+$$y(h) = Wh - Bh + B$$
+
+$$y(h) = Wh + B - Bh$$
+
+$$y(h) = Wh + B(1 - h)$$
+
+This `function`[^4] returns the pixel color for each `ray`[^1] for the _sky_.
+
+```cpp
+vec3 unit_direction = unit_vector(r.direction());
+```
+
+There is a slight problem though  
+![[unit _vec.svg]]  
+The $y$ component of the `unit vector`[^3] is in $[-1, 1]$ so we need to modify some of our maths for it.  
+![[unit_vec_2.svg]]  
+So the `interval`[^5] we are working with is $[-1, 1]$ and we want it to be $[0, 1]$  
+First thing to realize is that if we add $1$ to our input, the `interval`[^5] becomes  
+
+$$[-1, 1] \to [0, 2]$$
+
+```cpp
+unit_direction.y() + 1.0f;
+```
+
+then dividing by $2$, it is within $[0, 1]$  
+
+$$[0, 2] \to [0, 1]$$
+
+```cpp
+auto a = 0.5*(unit_direction.y() + 1.0);
+```
+
+## References
+
+```cpp
+color ray_color(const ray& r) {
+	//determine the unit vector
+	vec3 unit_direction = unit_vector(r.direction());
+	
+    auto a = 0.5*(unit_direction.y() + 1.0);
+    return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
+}
+```
+
+[^1]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
+[^2]: Read more about [[Vec3|colors]].
+[^3]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^4]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^5]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].

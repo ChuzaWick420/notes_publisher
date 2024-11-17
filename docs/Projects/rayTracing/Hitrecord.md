@@ -28,6 +28,8 @@ Imagine a `surface` $S$.
 If the `dot product`[^1] of incident `ray`[^2] and the `normal vector`[^1] is negative, the `ray`[^2] is outside of the `surface` $S$.  
 ![[surface_normals.svg]]
 
+If our condition is `true` then the `normal` is the `outward normal`, otherwise it is opposite to `outward normal`.
+
 ```cpp
 void hit_record::set_face_normal(const ray& r, const vec3& outward_normal) {
     // Sets the hit record normal vector.
