@@ -128,11 +128,128 @@ Similarly, `pixel00_loc` is given by
 
 #### `#!cpp void render(const hittable&)`
 
+First, we call the `camera::initialize()`.
+
+```cpp
+initialize();
+```
+
+resize the grid
+
+```cpp
+pixel_grid.resize(img_height * img_width);
+```
+
+Then, we will iterate over our 1 dimensional `pixel_grid`.
+
+```cpp
+for (auto& pixel : pixel_grid) {}
+```
+
+We will also need keep track of each iteration using an `index`.
+
+```cpp
+int index = 1;
+```
+
+For the $x$ coordinate of each pixel, we do
+
+```cpp
+int x = (index - 1) % img_width;
+```
+
+![[modulo.svg]]
+
+in the figure above, the `image_width` is $3$.  
+Similarly for $y$ coordinate, we do
+
+```cpp
+int y = (index - 1) / img_width;
+```
+
+then for anti-aliasing, we iterate over each sample and get the overall `color`.[^1]
+
+```cpp
+for (int sample = 0; sample < samples_per_pixel; sample++) {
+	ray r = get_ray(x, y);
+	pixel_color += ray_color(r, max_depth, world);
+}
+```
+
+Then in the end, we write the color
+
+```cpp
+write_color(&pixel, pixel_color * pixel_samples_scale);
+```
+
+then we show the image
+
+```cpp
+this->show();
+```
+
+```cpp
+void camera::render(const hittable& world) {
+    initialize();
+
+    pixel_grid.resize(img_height * img_width);
+
+    int index = 1;
+
+    for (auto& pixel : pixel_grid) {
+        color pixel_color(0, 0, 0);
+
+        int x = (index - 1) % img_width;
+        int y = (index - 1) / img_width;
+
+        for (int sample = 0; sample < samples_per_pixel; sample++) {
+            ray r = get_ray(x, y);
+            pixel_color += ray_color(r, max_depth, world);
+        }
+
+        write_color(&pixel, pixel_color * pixel_samples_scale);
+
+        index++;
+    }
+
+   this->show_img();
+}
+```
+
 #### `#!cpp void show_img()`
 
 #### `#!cpp vec3 sample_square()`
 
+Get's a random `vector`[^1] in a `square space` with dimensions  
+
+$$1 \times 1$$
+
+With `width` and `height` both ranging in $[-0.5, 0.5]$.
+
+```cpp
+vec3 camera::sample_square() const {
+    return vec3(random_double() - 0.5, random_double() - 0.5, 0);
+}
+```
+
 #### `#!cpp ray get_ray(int, int)`
+
+![[sampling.svg]]  
+We will need `pixel00_loc` are reference point.
+
+```cpp
+ray camera::get_ray(int u, int v) const {
+    auto offset = sample_square();
+    auto pixel_sample = pixel00_loc
+                        + ((u + offset.x()) * pixel_delta_u)
+                        + ((v + offset.y()) * pixel_delta_v);
+
+    auto ray_origin = center;
+    auto ray_direction = pixel_sample - ray_origin;
+
+    return ray(ray_origin, ray_direction);
+}
+```
 
 #### `#!cpp color ray_color(const ray&, int, const hittable&)`
 
@@ -200,7 +317,7 @@ $$y(a) = (1 - h)W + hB$$
 And this applies over all components of the `color`[^1]
 
 ```cpp
-return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
+(1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
 ```
 
 There can be multiple bounces, therefore, we will recursively call this `function`[^4] and limit the number of such bounces using a `depth` value.
@@ -220,6 +337,16 @@ world.hit(r, interval(0.001, infinity), rec)
 
 For each light bounce, we will calculate a random direction in a `hemisphere`.  
 ![[hemisphere.svg]]  
+
+```cpp
+vec3 direction = random_on_hemisphere(rec.normal);
+```
+
+Also, we will decrease the luminance by $\frac 1 2$.
+
+```cpp
+0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
+```
 
 ```cpp
 if (world.hit(r, interval(0.001, infinity), rec)) {
