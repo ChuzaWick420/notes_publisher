@@ -445,23 +445,27 @@ $$[0.001, \infty)$$
 world.hit(r, interval(0.001, infinity), rec)
 ```
 
-For each light bounce, we will calculate a random direction in a `hemisphere`.  
-![[hemisphere.svg]]  
+For each light bounce, we will calculate the scattered `ray`[^2] direction.  
 
 ```cpp
-vec3 direction = random_on_hemisphere(rec.normal);
+rec.mat->scatter(r, rec, attenuation, scattered)
 ```
 
-Also, we will decrease the luminance by $\frac 1 2$.
+Also, we will decrease the luminance by `attenuation` value.
 
 ```cpp
-0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
+attenuation * ray_color(scattered), depth - 1, world);
 ```
 
 ```cpp
 if (world.hit(r, interval(0.001, infinity), rec)) {
-	vec3 direction = random_on_hemisphere(rec.normal);
-	return 0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
+	ray scattered;
+	color attenuation;
+
+	if (rec.mat->scatter(r, rec, attenuation, scattered))
+		return attenuation * ray_color(scattered, depth-1, world);
+
+	return color(0,0,0);
 }
 ```
 
@@ -473,8 +477,13 @@ color camera::ray_color(const ray& r, int depth, const hittable& world) const {
     hit_record rec;
 
     if (world.hit(r, interval(0.001, infinity), rec)) {
-        vec3 direction = random_on_hemisphere(rec.normal);
-        return 0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
+        ray scattered;
+        color attenuation;
+
+        if (rec.mat->scatter(r, rec, attenuation, scattered))
+            return attenuation * ray_color(scattered, depth-1, world);
+
+        return color(0,0,0);
     }
 
     vec3 unit_direction = unit_vector(r.direction());
