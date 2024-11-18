@@ -4,11 +4,19 @@
 
 ### `#!cpp point3 p`
 
+A 3D point where `ray`[^1] hits the `surface` of an object.
+
 ### `#!cpp vec3 normal`
+
+The `normal` to the `surface`.
 
 ### `#!cpp double t`
 
+The distance between eye and `ray`[^2] hitting the object.
+
 ### `#!cpp bool front_face`
+
+Checking if the `ray`[^2] hit from outside or inside of the object.
 
 ## Methods
 
@@ -25,7 +33,7 @@ This class has no `destructors`.
 #### `#!cpp void set_face_normal(const ray&, const vec3&)`
 
 Imagine a `surface` $S$.  
-If the `dot product`[^1] of incident `ray`[^2] and the `normal vector`[^1] is negative, the `ray`[^2] is outside of the `surface` $S$.  
+If the `dot product`[^2] of incident `ray`[^1] and the `normal vector`[^2] is negative, the `ray`[^1] is outside of the `surface` $S$.  
 ![[surface_normals.svg]]
 
 If our condition is `true` then the `normal` is the `outward normal`, otherwise it is opposite to `outward normal`.
@@ -50,5 +58,5 @@ There are no static methods.
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|dot product]].
-[^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
+[^1]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
+[^2]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|dot product]].
