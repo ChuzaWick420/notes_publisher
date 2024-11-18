@@ -188,17 +188,30 @@ $$[0, 2] \to [0, 1]$$
 auto a = 0.5*(unit_direction.y() + 1.0);
 ```
 
-## References
+Let's take a look at our equation again
+
+$$y(h) = Wh + B(1 - h)$$
+
+The way we will be sending the `rays`[^1] is going to be opposite to the direction of $y$ component of `unit vector`.[^3]  
+Since the direction is opposite, so the $W$ is replaced by $B$ and vise versa.
+
+$$y(a) = (1 - h)W + hB$$
+
+And this applies over all components of the `color`[^2]
+
+```cpp
+return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
+```
 
 ```cpp
 color ray_color(const ray& r) {
-	//determine the unit vector
 	vec3 unit_direction = unit_vector(r.direction());
-	
     auto a = 0.5*(unit_direction.y() + 1.0);
     return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
 }
 ```
+
+## References
 
 [^1]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
 [^2]: Read more about [[Vec3|colors]].

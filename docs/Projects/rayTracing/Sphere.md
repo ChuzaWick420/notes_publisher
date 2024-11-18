@@ -135,16 +135,44 @@ if (root <= ray_t.min || ray_t.max <= root) {
 }
 ```
 
-If both `roots` are not in the `interval`,[^3] we are skipping these `roots`.
+If both `roots` are not in the `interval`,[^3] we are skipping these `roots`.  
+Otherwise, we record how far did the `ray`[^2] hit the `sphere`.
 
 ```cpp
 rec.t = root;
-rec.p = r.at(rec.t);
-rec.normal = (rec.p - center) / radius;
+```
 
-vec3 outward_normal = (rec.p - center) / radius;
+Then also record _where_ did the `ray`[^2] hit in space.
+
+```cpp
+rec.p = r.at(rec.t);
+```
+
+Then the surface `normal` will be
+
+$$\vec n = \vec P - \vec C$$
+
+Where $\vec P$ is where the `ray`[^2] hit,  
+being the head of `resultant vector`[^1] and $\vec C$ being a `position vector`[^1] for `center`, being the tail of `resultant vector`.[^1]
+
+```cpp
+rec.normal = (rec.p - center);
+```
+
+To convert it to a `unit vector`,[^1] we will divide by the `radius` of the `sphere`.
+
+```cpp
+rec.normal = (rec.p - center) / radius;
+```
+
+Set the `normal` to always face towards the `camera`.
+
+```cpp
+vec3 outward_normal = rec.normal;
 rec.set_face_normal(r, outward_normal);
 ```
+
+Hence the full code becomes
 
 ```cpp
 bool sphere::hit(const ray& r, interval ray_t, hit_record& rec) const override {
@@ -170,8 +198,7 @@ bool sphere::hit(const ray& r, interval ray_t, hit_record& rec) const override {
 	rec.t = root;
 	rec.p = r.at(rec.t);
 	rec.normal = (rec.p - center) / radius;
-
-	vec3 outward_normal = (rec.p - center) / radius;
+	vec3 outward_normal = rec.normal;
 	rec.set_face_normal(r, outward_normal);
 
 	return true;
