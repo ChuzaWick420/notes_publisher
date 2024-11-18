@@ -114,11 +114,6 @@ A `ray tracer` is responsible for following tasks.
 3. Determine the color of pixel to show on screen.
 
 Now we need to know what a `ray`[^1] is.  
-For the dimensions, $16 : 9$ is pretty common so we are going to use that.
-
-```cpp
-float aspect_ratio = 16.0f / 9.0f
-```
 
 Using this, we will determine dimensions of the following
 

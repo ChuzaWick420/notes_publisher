@@ -2,6 +2,26 @@
 
 ## Members
 
+### Public
+
+#### `#!cpp double aspect_ratio`
+
+For the dimensions, $16 : 9$ is pretty common so we are going to use that.
+
+```cpp
+float aspect_ratio = 16.0f / 9.0f
+```
+
+But we will keep it $1.0$ for default.
+
+#### `#!cpp int img_width`
+
+#### `#!cpp int samples_per_pixel`
+
+#### `#!cpp int max_depth`
+
+### Private
+
 ## Method
 
 ### Constructors

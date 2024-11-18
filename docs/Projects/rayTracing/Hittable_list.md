@@ -42,6 +42,24 @@ void hittable_list::add(shared_ptr<hittable> object) {
 
 #### `#!cpp bool hit(const ray& r, interval ray_t, hit_record& rec) const override`
 
+Iterate over the `objects`.
+
+```cpp
+for (const auto& object : objects) {}
+```
+
+With each iteration, find a hit and narrow down the `interval`[^1]
+
+```cpp
+if (object->hit(r, interval(ray_t.min, closest_so_far), temp_rec)) {
+	hit_anything = true;
+	closest_so_far = temp_rec.t;
+	rec = temp_rec;
+}
+```
+
+Therefore, full code looks something like
+
 ```cpp
 bool hit(const ray& r, interval ray_t, hit_record& rec) const override{
 
@@ -60,3 +78,7 @@ bool hit(const ray& r, interval ray_t, hit_record& rec) const override{
 	return hit_anything;
 }
 ```
+
+## References
+
+[^1]: Read more about [[notes_publisher/docs/Projects/rayTracing/Interval|interval]] in context of this project.
