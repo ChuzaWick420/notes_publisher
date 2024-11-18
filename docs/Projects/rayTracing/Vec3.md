@@ -98,6 +98,17 @@ double vec3::length_squared() const {
 }
 ```
 
+#### `#!cpp bool near_zero()`
+
+Checks if the `vector`[^1] is very small.
+
+```cpp
+bool vec3::near_zero() const {
+    auto threshold = 1e-8;
+    return (std::fabs(e[0]) < threshold) && (std::fabs(e[1]) < threshold) && (std::fabs(e[2]) < threshold);
+}
+```
+
 ### Operator Overloaded
 
 #### `#!cpp operator-()`

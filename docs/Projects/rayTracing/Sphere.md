@@ -82,6 +82,8 @@ The `center` of the `sphere`.
 
 The `radius` of the `sphere`.
 
+### `#!cpp std::shared_ptr<material> mat`
+
 ## Methods
 
 ### `#!cpp hit()`
@@ -200,6 +202,8 @@ bool sphere::hit(const ray& r, interval ray_t, hit_record& rec) const override {
 	rec.normal = (rec.p - center) / radius;
 	vec3 outward_normal = rec.normal;
 	rec.set_face_normal(r, outward_normal);
+
+	rect.mat = mat;
 
 	return true;
 }
