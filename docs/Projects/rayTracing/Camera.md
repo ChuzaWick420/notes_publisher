@@ -16,17 +16,51 @@ But we will keep it $1.0$ for default.
 
 #### `#!cpp int img_width`
 
+The `width` of the image.
+
 #### `#!cpp int samples_per_pixel`
+
+Amount of samples per pixel for anti-aliasing.
 
 #### `#!cpp int max_depth`
 
+Maximum light bounces.
+
 ### Private
+
+#### `#!cpp std::vector<sf::Color> pixel_grid`
+
+A one dimensional array which is used like a 2D grid.
 
 ## Method
 
-### Constructors
+### `#!cpp int window_width = 1024`
 
-### Destructors
+Default `width` of the `window`.
+
+### `#!cpp int img_height`
+
+`Height` of the `window`.
+
+### `#!cpp point3 center`
+
+Center of the `camera` in space.
+
+### `#!cpp point3 pixel00_loc`
+
+Coordinates of the top left pixel.
+
+### `#!cpp vec3 pixel_delta_u`
+
+Horizontal gaps between `pixels`.
+
+### `#!cpp vec3 pixel_delta_v`
+
+Vertical gaps between `pixels`.
+
+### `#!cpp double pixel_samples_scale`
+
+A Scalar value for pixels sample.
 
 ### Normal
 
@@ -92,6 +126,116 @@ The `viewport_upper_left` is given by
 Similarly, `pixel00_loc` is given by  
 ![[pixel00_loc.svg]]
 
-### Overloaded
+#### `#!cpp void render(const hittable&)`
 
-### Static
+#### `#!cpp void show_img()`
+
+#### `#!cpp vec3 sample_square()`
+
+#### `#!cpp ray get_ray(int, int)`
+
+#### `#!cpp color ray_color(const ray&, int, const hittable&)`
+
+So our task is to smoothly transform each `color`[^1] component into the component of the other `color`,[^1] depending on some variable.  
+For our purpose, we can use the $y$ component of the `ray`[^2] to play that role since it changes according to `height`.  
+![[interpolation.svg]]  
+We need an equation for that `line`[^3]  
+
+$$\frac {y_2 - y_1}{x_2 - x_1} = \frac{y - y_1}{x - x_1}$$
+
+$$(y_2 - y_1) \cdot (x - x_1) = (y - y_1) \cdot (x_2 - x_1)$$
+
+We know that $y_1$ and $y_2$ are the component values of `blue` and `white` respectively and let's label them as $B$ and $W$.  
+Also, we want $x_1$ and $x_2$ to be $0$ and $1$ for simplicity.  
+Then the equation becomes.  
+
+$$(W - B) \cdot (h - 0) = (y(h) - B) \cdot (1 - 0)$$
+
+$$(W - B)h = y(h) - B$$
+
+$$y(h) = (W - B)h + B$$
+
+$$y(h) = Wh - Bh + B$$
+
+$$y(h) = Wh + B - Bh$$
+
+$$y(h) = Wh + B(1 - h)$$
+
+This `function`[^4] returns the pixel color for each `ray`[^2] for the _sky_.
+
+```cpp
+vec3 unit_direction = unit_vector(r.direction());
+```
+
+There is a slight problem though  
+![[unit _vec.svg]]  
+The $y$ component of the `unit vector`[^5] is in $[-1, 1]$ so we need to modify some of our maths for it.  
+![[unit_vec_2.svg]]  
+So the `interval`[^6] we are working with is $[-1, 1]$ and we want it to be $[0, 1]$  
+First thing to realize is that if we add $1$ to our input, the `interval`[^6] becomes  
+
+$$[-1, 1] \to [0, 2]$$
+
+```cpp
+unit_direction.y() + 1.0f;
+```
+
+then dividing by $2$, it is within $[0, 1]$  
+
+$$[0, 2] \to [0, 1]$$
+
+```cpp
+auto a = 0.5*(unit_direction.y() + 1.0);
+```
+
+Let's take a look at our equation again
+
+$$y(h) = Wh + B(1 - h)$$
+
+The way we will be sending the `rays`[^3] is going to be opposite to the direction of $y$ component of `unit vector`.[^5]  
+Since the direction is opposite, so the $W$ is replaced by $B$ and vise versa.
+
+$$y(a) = (1 - h)W + hB$$
+
+And this applies over all components of the `color`[^1]
+
+```cpp
+return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
+```
+
+if we run out of `depth` then return no light.
+
+```cpp
+if (depth <= 0)
+	return color(0, 0, 0);
+```
+
+```cpp
+color camera::ray_color(const ray& r, int depth, const hittable& world) const {
+    if (depth <= 0)
+        return color(0, 0, 0);
+        
+    hit_record rec;
+
+    if (world.hit(r, interval(0.001, infinity), rec)) {
+        vec3 direction = random_on_hemisphere(rec.normal);
+        return 0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
+    }
+
+    vec3 unit_direction = unit_vector(r.direction());
+    auto a = 0.5*(unit_direction.y() + 1.0);
+
+    return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
+}
+```
+
+#### `#!cpp vec3 sample_square()`
+
+## References
+
+[^1]: Read more about [[Vec3|color]] in context of this project.
+[^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
+[^3]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^4]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^5]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
+[^6]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
