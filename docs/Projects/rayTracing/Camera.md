@@ -203,11 +203,29 @@ And this applies over all components of the `color`[^1]
 return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
 ```
 
-if we run out of `depth` then return no light.
+There can be multiple bounces, therefore, we will recursively call this `function`[^4] and limit the number of such bounces using a `depth` value.
 
 ```cpp
 if (depth <= 0)
 	return color(0, 0, 0);
+```
+
+We will look for collisions within  
+
+$$[0.001, \infty)$$
+
+```cpp
+world.hit(r, interval(0.001, infinity), rec)
+```
+
+For each light bounce, we will calculate a random direction in a `hemisphere`.  
+![[hemisphere.svg]]  
+
+```cpp
+if (world.hit(r, interval(0.001, infinity), rec)) {
+	vec3 direction = random_on_hemisphere(rec.normal);
+	return 0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
+}
 ```
 
 ```cpp
