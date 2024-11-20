@@ -440,6 +440,6 @@ This highlights that linear time can be achieved in unexpected ways.
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^1]: Read more about [[M_Function|functions]].
 [^2]: Read more about [[27. Sigma Notation|summation]].
-[^3]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]].
+[^3]: Read more about [[M_Set|sets]].

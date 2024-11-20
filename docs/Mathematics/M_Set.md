@@ -5,34 +5,43 @@ tags:
   - sets
 ---
 
-# Definition
+# Sets
+
+## Definition
+
 A `set` is a collection of well defined distinct `objects`.  
 These `objects` are called `members` or `elements` of the `set`.
 
-# Ways to Describe a Set
+## Ways to Describe a Set
+
 The ways to describe a `set` are following
 
-## Descriptive Method
+### Descriptive Method
+
 A `set` may be described in terms of English words.
 
-### Example
+#### Example
+
 Set of all cities in Pakistan.
 
-## Tabular Method
+### Tabular Method
+
 A `set` may be described by listing all of its `elements`.
 
-### Example
+#### Example
 
 $$\mathbb{N} = \{1, 2, 3, \ldots \}$$
 
-## Set Builder Method
+### Set Builder Method
+
 A `set` maybe be described by stating the symbols and describing the property that is common between all `elements`.
 
-### Example
+#### Example
 
 $$\mathbb{W} = \{x | x \ge 0 \land x < \infty\}$$
 
-# Subsets and Supersets
+## Subsets and Supersets
+
 `Sets` can contain other `sets`.  
 Let us take an example of $\mathbb{N}$ and $\mathbb{Z}$ sets.  
 
@@ -43,7 +52,8 @@ We can also say that $\mathbb{Z}$ is a `superset` of $\mathbb{N}$
 
 $$\mathbb{Z} \supset \mathbb{N}$$
 
-# Operations on Set
+## Operations on Set
+
 Let's understand with a example.  
 Let's take 2 `sets`, `A` and `B` for example.
 
@@ -51,12 +61,14 @@ $$A = \{1, 2\}$$
 
 $$B = \{2, 3\}$$
 
-## Union
+### Union
+
 `Union` is a `binary operator` which takes 2 sets as input and then produces another `set` as output which contains `elements` which belong to either `set`.  
 
 $$A \cup B = \{1, 2, 3\}$$
 
-## Intersection
+### Intersection
+
 `Intersection` is also a `binary operator` which takes 2 sets as input and then produces another `set` as output which contain only those `elements` which are common to both `sets`.  
 
 $$A \cap B = \{2\}$$

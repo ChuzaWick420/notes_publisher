@@ -433,11 +433,11 @@ $$=0$$
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^1]: Read more about [[M_Function|functions]].
 [^2]: Read more about [[4. Lines|slopes]].
 [^3]: Read more about [[12. Continuity|continuous]].
 [^4]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/7. First Order Linear Equation/Lecture|linear differential equations]].
 [^5]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
-[^6]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]].
+[^6]: Read more about [[M_Set|sets]].

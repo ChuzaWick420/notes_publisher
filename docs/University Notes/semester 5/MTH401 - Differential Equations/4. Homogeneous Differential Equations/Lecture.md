@@ -315,9 +315,9 @@ $$
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^1]: Read more about [[M_Function|functions]].
 [^2]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/2. Fundamentals/Lecture|initial value problem]].
 [^3]: Read more about [[25. Integrations|integration]].
 [^4]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/3. Separable Equations/Lecture|separable equations]].

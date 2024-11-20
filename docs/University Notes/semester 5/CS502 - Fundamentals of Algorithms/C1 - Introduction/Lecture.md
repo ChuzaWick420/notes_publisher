@@ -385,5 +385,5 @@ Efficient design ensures that users can handle large inputs within a reasonable 
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]].
-[^2]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^1]: Read more about [[M_Set|sets]].
+[^2]: Read more about [[M_Function|functions]].

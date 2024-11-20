@@ -27,5 +27,5 @@ These are collection of followings:
 
 [^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 1/Lecture|strings]].
 [^2]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 7/Lecture|transition graphs]].
-[^3]: Read more about [[Mathematics/Set/Content|sets]].
+[^3]: Read more about [[M_Set|sets]].
 [^4]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 4/Lecture|regular expressions]].

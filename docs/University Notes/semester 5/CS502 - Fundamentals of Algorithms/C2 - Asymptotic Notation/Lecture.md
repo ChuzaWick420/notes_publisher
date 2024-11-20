@@ -187,7 +187,7 @@ Best sorting algorithms.
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^2]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]].
+[^1]: Read more about [[M_Function|functions]].
+[^2]: Read more about [[M_Set|sets]].

@@ -136,9 +136,9 @@ $$y = \pm \sqrt {4 - x^2}$$
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
 [^1]: Read more about [[15. The Derivative|derivatives]].
 [^2]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/7. Geometric meaning of partial derivative/Lecture|partial derivatives]].
-[^3]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
+[^3]: Read more about [[M_Function|functions]].
 [^4]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

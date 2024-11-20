@@ -144,7 +144,7 @@ $$y+c_{2}=-\frac{1}{c_{1}}\tan^{-1}\frac{x}{c_{1}}$$
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/7. First Order Linear Equation/Lecture|first order differential equation]].
 [^2]: Read more about [[15. The Derivative|differentiation]].

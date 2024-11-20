@@ -172,7 +172,7 @@ Where $k > 0$ for growth and $k < 0$ for decay.
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/7. First Order Linear Equation/Lecture|first order linear differential equations]].
 [^2]: Read more about [[4. Lines|lines]].

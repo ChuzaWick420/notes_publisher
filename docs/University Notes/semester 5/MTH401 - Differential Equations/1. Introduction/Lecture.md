@@ -39,6 +39,6 @@ $$y = \ln (x)$$
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
 [^1]: Read more about [[25. Integrations|anti derivatives]].

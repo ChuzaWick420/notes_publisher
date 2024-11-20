@@ -300,7 +300,7 @@ $M$ is the total amount.
 
 ## References
 
-Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
+Read more about [[M_Notations|notations and symbols]].
 
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/10. Applications of First Order Differential Equations/Lecture|exponential model]].
 [^2]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/45. Theorems/Lecture|partial fractions]].

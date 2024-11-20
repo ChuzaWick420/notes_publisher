@@ -107,4 +107,4 @@ Intuitively, this means that the `function` is _mirrored_ by $y$ axis and then m
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]]
+[^1]: Read more about [[M_Set|sets]]

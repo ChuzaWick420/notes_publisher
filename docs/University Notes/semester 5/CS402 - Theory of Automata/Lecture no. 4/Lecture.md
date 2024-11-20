@@ -101,4 +101,4 @@ This `language` can be represented as $a(a + b)^*$.
 
 [^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 3/Lecture|regular expressions]].
 [^2]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 1/Lecture|strings]].
-[^3]: Read more about [[Mathematics/Set/Content|sets]].
+[^3]: Read more about [[M_Set|sets]].

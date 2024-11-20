@@ -47,5 +47,5 @@ Following 3 steps are used to define a `language` recursively:
 
 ## References
 
-[^1]: Read more about [[Mathematics/Set/Content|sets]].
+[^1]: Read more about [[M_Set|sets]].
 [^2]: Read more about the [[semester 5/CS402 - Theory of Automata/Lecture no. 1/Lecture|primitives]].

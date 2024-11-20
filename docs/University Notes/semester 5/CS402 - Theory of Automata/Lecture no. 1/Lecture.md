@@ -163,4 +163,4 @@ $$Rev(s) = s$$
 
 ## References
 
-[^1]: Read more about [[Mathematics/Set/Content|sets]].
+[^1]: Read more about [[M_Set|sets]].
