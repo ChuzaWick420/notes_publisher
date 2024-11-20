@@ -5,7 +5,7 @@ repo_root=$(pwd)
 # directory to search for
 parentDirectory="docs"
 
-# Find full path for figures
+# Find full path for Figures
 find "$parentDirectory" -type d -name "Figures" | while IFS= read -r dir; do
 
     # Track where we are currently as a snapshot for reference
