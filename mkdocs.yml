@@ -22,7 +22,7 @@ theme:
 plugins:
   - search # search bar
   - callouts # Obsidian callouts, e.g. [!note]-
-  - obsidian-interactive-graph # Obsidian like graph, a bit hard to read
+  # - obsidian-interactive-graph # Obsidian like graph, a bit hard to read
   - obsidian-support # Obsidian Tags, causing problems to cpp code snippets within obsidian callouts
   - obsidian-bridge # Obsidian like file links
   - glightbox # Image zooming
@@ -76,8 +76,8 @@ extra_javascript:
   # For obsidian tags 
   - assets/javascripts/obsidian_tags.js
   # For Notes Graph
-  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
-  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - assets/javascripts/interactive_graph.js
+  # - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  # - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  # - assets/javascripts/interactive_graph.js
   # Not sure what is the following is for
   # - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
