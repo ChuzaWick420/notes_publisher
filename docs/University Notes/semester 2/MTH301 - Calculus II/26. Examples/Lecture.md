@@ -82,7 +82,7 @@ $$= \frac 1 {48}$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/26. Integration by Substitution/Lecture|integration by substitution]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^1]: Read more about [[26. Integration by Substitution|integration by substitution]].
+[^2]: Read more about [[12. Continuity|continuity]].
 [^3]: Read more about [[Mathematics/Function/Content|functions]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^4]: Read more about [[25. Integrations|integrals]].

@@ -58,5 +58,5 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/7. Geometric meaning of partial derivative/Lecture|partial derivatives]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/18. The Chain Rule/Lecture|the chain rule]].
+[^3]: Read more about [[12. Continuity|continuity]].
+[^4]: Read more about [[18. The Chain Rule|the chain rule]].

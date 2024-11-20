@@ -54,4 +54,4 @@ then
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[docs/Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].
+[^2]: Read more about [[9. Limits (Intuitive Introduction)|limits]].

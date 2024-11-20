@@ -148,8 +148,8 @@ As more and more terms of [fourier series](#fourier-series) are evaluated, the `
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].
+[^1]: Read more about [[42. Infinite Series|series]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^3]: Read more about [[25. Integrations|integration]].
+[^4]: Read more about [[12. Continuity|continuity]].
 [^5]: Read more about [[semester 2/MTH301 - Calculus II/39. Periodic Functions/Lecture|period]].

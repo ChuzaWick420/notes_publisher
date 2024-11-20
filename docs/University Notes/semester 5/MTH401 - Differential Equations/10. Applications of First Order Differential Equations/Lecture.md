@@ -175,6 +175,6 @@ Where $k > 0$ for growth and $k < 0$ for decay.
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/7. First Order Linear Equation/Lecture|first order linear differential equations]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^2]: Read more about [[4. Lines|lines]].
 [^3]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/2. Fundamentals/Lecture|initial value problem]].
-[^4]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
+[^4]: Read more about [[25. Integrations|integration]].

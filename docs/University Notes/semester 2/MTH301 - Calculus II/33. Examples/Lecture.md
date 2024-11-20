@@ -117,7 +117,7 @@ $$I = 2$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^1]: Read more about [[25. Integrations|integrals]].
 [^2]: Read more about [[semester 2/MTH301 - Calculus II/30. Exact Differential/Lecture|exact differentials]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^3]: Read more about [[12. Continuity|continuity]].
 [^4]: Read more about [[semester 2/MTH301 - Calculus II/6. Geometry of continuous functions/Lecture|partial derivatives]].

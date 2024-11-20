@@ -499,7 +499,7 @@ color camera::ray_color(const ray& r, int depth, const hittable& world) const {
 
 [^1]: Read more about [[Vec3|color]] in context of this project.
 [^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
-[^3]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^3]: Read more about [[4. Lines|lines]].
 [^4]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
 [^5]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
 [^6]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

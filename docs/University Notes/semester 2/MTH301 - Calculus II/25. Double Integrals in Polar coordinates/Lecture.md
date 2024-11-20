@@ -112,6 +112,6 @@ $$\frac \pi 8$$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/19. Use of integrals/Lecture|double integrals]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|quadrants]].
+[^2]: Read more about [[25. Integrations|integrals]].
+[^3]: Read more about [[4. Lines|lines]].
+[^4]: Read more about [[3. Coordinate Planes and Graphs|quadrants]].

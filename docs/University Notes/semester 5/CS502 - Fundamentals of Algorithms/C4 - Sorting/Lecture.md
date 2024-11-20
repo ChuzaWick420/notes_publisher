@@ -494,5 +494,5 @@ Any comparison-based sorting algorithm has worst-case running time $\Omega(n \lo
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/27. Sigma Notation/Lecture|sum]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
+[^1]: Read more about [[27. Sigma Notation|sum]].
+[^2]: Read more about [[25. Integrations|integration]].

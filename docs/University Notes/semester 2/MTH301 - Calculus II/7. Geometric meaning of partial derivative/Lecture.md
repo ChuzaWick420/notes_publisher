@@ -128,5 +128,5 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/6. Geometry of continuous functions/Lecture|partial derivatives]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^3]: Read more about [[9. Limits (Intuitive Introduction)|limits]].
+[^4]: Read more about [[12. Continuity|continuity]].

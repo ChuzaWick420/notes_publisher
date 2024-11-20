@@ -441,5 +441,5 @@ This highlights that linear time can be achieved in unexpected ways.
 ## References
 
 [^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/27. Sigma Notation/Lecture|summation]].
+[^2]: Read more about [[27. Sigma Notation|summation]].
 [^3]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]].

@@ -336,5 +336,5 @@ $$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
+[^2]: Read more about [[25. Integrations|integration]].
 [^3]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/4. Homogeneous Differential Equations/Lecture|homogeneous differential equations]].

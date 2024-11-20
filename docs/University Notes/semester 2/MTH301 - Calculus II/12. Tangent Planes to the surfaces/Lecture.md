@@ -170,9 +170,9 @@ $$3x+2y-z-6=0$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/14. Tangent Lines, Rates of Change/Lecture|tangents]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^1]: Read more about [[14. Tangent Lines, Rates of Change|tangents]].
+[^2]: Read more about [[4. Lines|lines]].
 [^3]: Read more about [[semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
+[^4]: Read more about [[3. Coordinate Planes and Graphs|planes]].
 [^5]: Read more about [[Mathematics/Function/Content|functions]].
 [^6]: Read more about [[semester 2/MTH301 - Calculus II/8. Euler theorem/Lecture|the chain rule]].

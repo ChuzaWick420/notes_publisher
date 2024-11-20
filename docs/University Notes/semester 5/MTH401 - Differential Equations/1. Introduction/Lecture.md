@@ -41,4 +41,4 @@ $$y = \ln (x)$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|anti derivatives]].
+[^1]: Read more about [[25. Integrations|anti derivatives]].

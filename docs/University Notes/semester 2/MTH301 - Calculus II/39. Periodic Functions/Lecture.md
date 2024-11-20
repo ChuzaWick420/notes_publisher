@@ -49,4 +49,4 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[2. Absolute Value|absolute value]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^3]: Read more about [[25. Integrations|integrals]].

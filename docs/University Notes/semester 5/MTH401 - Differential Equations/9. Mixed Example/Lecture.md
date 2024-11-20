@@ -81,4 +81,4 @@ $$x^3y^3=2x^3-9\ln x+c$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
+[^1]: Read more about [[25. Integrations|integration]].

@@ -52,8 +52,8 @@ $$L = \int_a^b \sqrt{\left(\frac {dx}{dt}\right)^2 + \left(\frac {dy}{dt}\right)
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|differentiation]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^1]: Read more about [[15. The Derivative|differentiation]].
+[^2]: Read more about [[12. Continuity|continuity]].
 [^3]: Read more about [[Mathematics/Function/Content|functions]].
 [^4]: Read more about [[semester 2/MTH301 - Calculus II/27. Vector Valued Functions/Lecture|vector valued functions]].
-[^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^5]: Read more about [[25. Integrations|integrals]].

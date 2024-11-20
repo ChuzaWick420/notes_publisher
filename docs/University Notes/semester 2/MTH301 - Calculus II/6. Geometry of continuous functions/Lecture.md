@@ -94,5 +94,5 @@ $$\frac{\partial w}{\partial z} = 8z - xy$$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|differentiation]].
+[^2]: Read more about [[12. Continuity|continuity]].
+[^3]: Read more about [[15. The Derivative|differentiation]].

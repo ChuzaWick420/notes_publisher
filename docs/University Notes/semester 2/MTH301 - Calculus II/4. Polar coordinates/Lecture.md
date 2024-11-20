@@ -158,5 +158,5 @@ Where $p$ would be the `radius` of the earth.
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|slopes]].
+[^1]: Read more about [[3. Coordinate Planes and Graphs|planes]].
+[^2]: Read more about [[4. Lines|slopes]].

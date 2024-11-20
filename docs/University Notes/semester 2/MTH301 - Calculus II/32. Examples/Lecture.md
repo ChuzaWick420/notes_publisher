@@ -85,6 +85,6 @@ If the `integrant`[^1] seen to be an `exact differential`[^3] then the `line int
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integration]].
+[^1]: Read more about [[25. Integrations|integration]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
 [^3]: Read more about [[semester 2/MTH301 - Calculus II/30. Exact Differential/Lecture|exact differential and line integrals]].

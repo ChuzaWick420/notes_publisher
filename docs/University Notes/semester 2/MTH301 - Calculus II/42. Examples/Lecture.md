@@ -130,6 +130,6 @@ $$f(x) = \left(\frac 4 \pi + 2\right)\left(\sin (x) + \frac 1 3 \sin (3x) + \fra
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/40. Fourier Series/Lecture|fourier series]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].
+[^2]: Read more about [[12. Continuity|continuity]].
+[^3]: Read more about [[42. Infinite Series|series]].
 [^4]: Read more about [[Mathematics/Function/Content|functions]].

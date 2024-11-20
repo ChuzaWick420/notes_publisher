@@ -308,7 +308,7 @@ Hence, verified.
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
+[^1]: Read more about [[25. Integrations|integrals]].
+[^2]: Read more about [[4. Lines|lines]].
+[^3]: Read more about [[3. Coordinate Planes and Graphs|planes]].
 [^4]: Read more about [[semester 2/MTH301 - Calculus II/4. Polar coordinates/Lecture|other coordinate systems]].

@@ -82,7 +82,7 @@ $$= \frac 9 2$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^1]: Read more about [[25. Integrations|integrals]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
 [^3]: Read more about [[semester 2/MTH301 - Calculus II/18. Revision Of Integration/Lecture|double integrals]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^4]: Read more about [[4. Lines|lines]].

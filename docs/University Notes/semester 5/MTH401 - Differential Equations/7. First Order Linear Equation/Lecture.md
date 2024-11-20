@@ -77,6 +77,6 @@ $$y(x-1)^{4}=\frac{x^{3}}{3}-x+c$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^1]: Read more about [[12. Continuity|continuity]].
 [^2]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/6. Integrating Factor Technique/Lecture|integrating factor]].
 [^3]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/2. Fundamentals/Lecture|initial value problem]].

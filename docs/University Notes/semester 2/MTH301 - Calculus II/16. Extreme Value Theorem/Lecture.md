@@ -107,7 +107,7 @@ Therefore, the `absolute minimum` is $-61$ existing at $(0, 9)$ and $(9, 0)$ and
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
+[^2]: Read more about [[12. Continuity|continuity]].
 [^3]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|extreme values]].
-[^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|quadrants]].
+[^4]: Read more about [[22. Relative Extrema|extreme values]].
+[^5]: Read more about [[3. Coordinate Planes and Graphs|quadrants]].

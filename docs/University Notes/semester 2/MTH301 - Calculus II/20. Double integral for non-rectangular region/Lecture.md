@@ -37,5 +37,5 @@ $$= 8$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]]. 
+[^1]: Read more about [[25. Integrations|integrals]]. 
 [^2]: Read more about [[1. Coordinates, Graphs, Lines|inequalities]]. 

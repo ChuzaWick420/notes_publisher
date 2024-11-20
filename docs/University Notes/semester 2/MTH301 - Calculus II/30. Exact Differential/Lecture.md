@@ -178,8 +178,8 @@ We can further break the `tangent component` $F_t$ into its $x$ component which 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
+[^2]: Read more about [[25. Integrations|integrals]].
+[^3]: Read more about [[3. Coordinate Planes and Graphs|planes]].
 [^4]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
-[^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/8. Graphing Functions/Lecture|intercepts]].
+[^5]: Read more about [[8. Graphing Functions|intercepts]].
 [^6]: Read more about [[semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].

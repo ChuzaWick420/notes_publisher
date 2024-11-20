@@ -111,7 +111,7 @@ $$r = -2 a \sin(\theta)$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|line]].
+[^1]: Read more about [[3. Coordinate Planes and Graphs|planes]].
+[^2]: Read more about [[4. Lines|line]].
 [^3]: Read more about [[semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^4]: Read more about [[4. Lines|lines]].

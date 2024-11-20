@@ -113,9 +113,9 @@ $$= \frac 1 3 (2 \hat i + \hat k)$$
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^1]: Read more about [[25. Integrations|integrals]].
 [^2]: Read more about [[semester 2/MTH301 - Calculus II/27. Vector Valued Functions/Lecture|vector valued functions]].
 [^3]: Read more about [[semester 2/MTH301 - Calculus II/31. Line Integral/Lecture|line integral]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|planes]].
+[^4]: Read more about [[3. Coordinate Planes and Graphs|planes]].
 [^5]: Read more about [[semester 2/MTH301 - Calculus II/1. Introduction/Lecture|octants]].
-[^6]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/8. Graphing Functions/Lecture|intercepts]].
+[^6]: Read more about [[8. Graphing Functions|intercepts]].

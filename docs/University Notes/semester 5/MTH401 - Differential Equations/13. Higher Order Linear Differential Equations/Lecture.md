@@ -436,8 +436,8 @@ $$=0$$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^2]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|slopes]].
-[^3]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuous]].
+[^2]: Read more about [[4. Lines|slopes]].
+[^3]: Read more about [[12. Continuity|continuous]].
 [^4]: Read more about [[notes_publisher/docs/University Notes/semester 5/MTH401 - Differential Equations/7. First Order Linear Equation/Lecture|linear differential equations]].
 [^5]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
 [^6]: Read more about [[notes_publisher/docs/Mathematics/Set/Content|sets]].

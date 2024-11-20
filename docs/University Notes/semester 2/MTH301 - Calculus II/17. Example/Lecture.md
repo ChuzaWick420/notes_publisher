@@ -145,6 +145,6 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/14. Extrema of function of two variables/Lecture|extreme values]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|extreme values]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
+[^3]: Read more about [[22. Relative Extrema|extreme values]].
+[^4]: Read more about [[4. Lines|lines]].
 [^5]: Read more about [[semester 2/MTH301 - Calculus II/15. Examples/Lecture|second partial derivative test]].

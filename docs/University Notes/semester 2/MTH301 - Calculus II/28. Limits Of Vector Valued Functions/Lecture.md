@@ -61,7 +61,7 @@ They are similar to properties of `integrals`[^4] for the real valued `functions
 
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
-[^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].
+[^1]: Read more about [[9. Limits (Intuitive Introduction)|limits]].
 [^2]: Read more about [[Mathematics/Function/Content|functions]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|derivative]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].
+[^3]: Read more about [[15. The Derivative|derivative]].
+[^4]: Read more about [[25. Integrations|integrals]].
