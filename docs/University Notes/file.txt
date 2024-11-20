@@ -1,45 +1,45 @@
-1. Introduction
-2. Fundamentals
-3. Separable Equations
-4. Homogeneous Differential Equations
-5. Exact Differential Equations
-6. Integrating Factor Technique
-7. First Order Linear Equation
-8. Bernoulli Equations
-9. Mixed Example
-10. Applications of First Order Differential Equations
-11. Radioactive Decay
-12. Applications of Non Linear Equations
-13. Higher Order Linear Differential Equations
-14. Solutions of Higher Order Linear Equations
-15. Construction of a Second Solution
-16. Homogeneous Linear Equations with Constant Coefficients
-17. Method of Undetermined Coefficients (Superposition Approach)
-18. Method of Undetermined Coefficients (Annihilator Operator Approach)_1
-19. Method of Undetermined Coefficients (Annihilator Operator Approach)_2
-20. Variation of Parameters
-21. Variation of Parameters for Higher-Order Equations
-22. Applications of Second Order Differential Equations
-23. Damped Motion
-24. Forced Motion
-25. Forced Motion-Examples
-26. Differential Equations with Variable Coefficients
-27. Cauchy_Euler Equation, Alternative Method of Solution
-28. Power Series, An Introduction
-29. Power Series, An Introduction Examples
-30. Solution about Ordinary points
-31. Solution about Singular Points
-32. Solution about Singular Points (other cases)
-33. Bessel's Differential Equation
-34. Legendre's Differential Equation
-35. Systems of Linear Differential Equations
-36. Systems of Linear Differential Equations (Continued)
-37. System of Linear First Order Equation
-38. Introduction to Matrices
-39. The Eigenvalue Problem
-40. Matrices and Systems of Linear First-Order Equations
-41. Matrices and Systems of Linear First-Order Equations (Continued)
-42. Homogeneous Linear Systems
-43. Linear and Repeated Eigenvalues
-44. Non_Homogeneous System
-45. Revision of the course
+1. Logic
+10. Applications of Venn Diagram
+11. Relations
+12. Types of Relations
+13. Matrix Representation of Relations
+14. Inverse of Relations
+15. Functions
+16. Types of Functions
+17. Inverse Function
+18. Composition of Functions
+19. Sequence
+2. Truth Tables
+20. Series
+21. Recursion I
+22. Recursion II
+23. Mathematical Induction
+24. Mathematical Induction for Divisibility
+25. Methods of Proof
+26. Proof by Contradiction
+27. Algorithm
+28. Division Algorithm
+29. Combinatorics
+3. Laws of Logic
+30. Permutations
+31. Combinations
+32. K-Combinations
+33. Tree Diagram
+34. Inclusion-Exclusion Principle
+35. Probability
+36. Laws of Probability
+37. Conditional Probability
+38. Random Variable
+39. Introduction to Graphs
+4. Biconditional
+40. Paths and Circuits
+41. Matrix Representation of Graphs
+42. Isomorphism of Graphs
+43. Planar Graphs
+44. Trees
+45. Spanning Trees
+5. Argument
+6. Applications of Logic
+7. Set Theory
+8. Venn Diagram
+9. Set Identities

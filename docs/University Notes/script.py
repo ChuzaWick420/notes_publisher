@@ -12,10 +12,7 @@ lines = myFile.readlines()
 
 
 for line in lines:
-    parent = line.strip()
-    child = "Imgs"
-    full_path = os.path.join(parent, child)
-    os.makedirs(full_path)
-    newfile = open(os.path.join(parent, "Lecture.md"), "x")
+    file = line.strip()
+    newfile = open(f"{file}.md", "x")
 
 myFile.close()
