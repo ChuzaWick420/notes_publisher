@@ -170,5 +170,5 @@ In the case of graph of the `function`[^1] above, $\lim_{x \to 2^-} f(x) = - \in
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^2]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
 [^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|differentiation]].

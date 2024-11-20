@@ -59,4 +59,4 @@ $$= 16\pi$$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 2/MTH301 - Calculus II/18. Revision Of Integration/Lecture|double integrals]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|planes]].
+[^2]: Read more about [[1. Coordinates, Graphs, Lines|planes]].

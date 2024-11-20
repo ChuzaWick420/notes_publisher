@@ -108,6 +108,6 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^3]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
 [^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/22. Relative Extrema/Lecture|extreme values]].
 [^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/3. Coordinate Planes and Graphs/Lecture|quadrants]].

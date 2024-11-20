@@ -141,4 +141,4 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/15. The Derivative/Lecture|derivatives]].
 [^2]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/7. Geometric meaning of partial derivative/Lecture|partial derivatives]].
 [^3]: Read more about [[notes_publisher/docs/Mathematics/Function/Content|functions]].
-[^4]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^4]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

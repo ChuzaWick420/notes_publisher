@@ -68,7 +68,7 @@ $$L=\int_{a}^{b}\sqrt{1+(f^{\prime}(x))^{2}}dx$$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^2]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
 [^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/4. Lines/Lecture|lines]].
 [^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/24. Newton's Method, Rolle's Theorem and Mean Value Theorem/Lecture|mean value theorem]].
 [^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].

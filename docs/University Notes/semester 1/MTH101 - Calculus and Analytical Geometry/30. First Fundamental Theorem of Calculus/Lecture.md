@@ -113,8 +113,8 @@ Here $f(c)$ is also called $f_{avg}$, the average value of $f(x)$ with respect t
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]]
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^2]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
 [^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|anti derivatives]].
 [^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/5. Distance, Circles, Quadratic Equations/Lecture|midpoint]].
 [^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/24. Newton's Method, Rolle's Theorem and Mean Value Theorem/Lecture|mean value theorem]].
-[^6]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|inequalities]].
+[^6]: Read more about [[1. Coordinates, Graphs, Lines|inequalities]].
