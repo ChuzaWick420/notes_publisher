@@ -242,5 +242,5 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
 [^2]: Read more about [[Mathematics/Set/Content|sets]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|interval]].
+[^3]: Read more about [[1. Coordinates, Graphs, Lines|interval]].
 [^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/9. Limits (Intuitive Introduction)/Lecture|limits]].

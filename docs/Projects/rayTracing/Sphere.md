@@ -213,4 +213,4 @@ bool sphere::hit(const ray& r, interval ray_t, hit_record& rec) const override {
 
 [^1]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
 [^2]: Read more about the [[notes_publisher/docs/Projects/rayTracing/Ray|Ray]] in context of this project.
-[^3]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^3]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

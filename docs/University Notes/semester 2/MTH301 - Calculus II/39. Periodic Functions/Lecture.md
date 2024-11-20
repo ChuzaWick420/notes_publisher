@@ -48,5 +48,5 @@ In general if we have something like $y = a \sin (n \cdot x)$ then $a$ is called
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[Mathematics/Function/Content|functions]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/2. Absolute Value/Lecture|absolute value]].
+[^2]: Read more about [[2. Absolute Value|absolute value]].
 [^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/25. Integrations/Lecture|integrals]].

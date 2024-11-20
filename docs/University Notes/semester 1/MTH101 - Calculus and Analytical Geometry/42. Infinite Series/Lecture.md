@@ -142,4 +142,4 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 [^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/27. Sigma Notation/Lecture|sum]].
 [^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/21. Applications of Differentiation/Lecture|decreasing functions]].
 [^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/12. Continuity/Lecture|continuity]].
-[^6]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^6]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

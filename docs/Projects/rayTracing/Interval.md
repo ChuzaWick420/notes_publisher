@@ -78,4 +78,4 @@ double interval::clamp(double x) const {
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^1]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

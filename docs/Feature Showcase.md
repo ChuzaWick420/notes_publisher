@@ -1,54 +1,59 @@
 # Feature Showcase
+
 This page show cases the features of this website.
 
 ## Normal Obsidian Callouts
-> [!note]- A note
+
+> [!note]- A note  
 > Hello
 
-> [!tip]- A tip
+> [!tip]- A tip  
 > Hello
 
-> [!abstract]- A abstract
+> [!abstract]- A abstract  
 > Hi
 
-> [!info]- A info
+> [!info]- A info  
 > Hi
 
-> [!todo]- A todo
+> [!todo]- A todo  
 > Hi
 
-> [!tip]- A tip
+> [!tip]- A tip  
 > Hi
 
-> [!success]- A success
+> [!success]- A success  
 > Hi
 
-> [!question]- A question
+> [!question]- A question  
 > Hi
 
-> [!warning]- A warning
+> [!warning]- A warning  
 > Hi
 
-> [!failure]- A failure
+> [!failure]- A failure  
 > Hi
 
-> [!danger]- A danger
+> [!danger]- A danger  
 > Hi
 
-> [!bug]- A bug
+> [!bug]- A bug  
 > Hi
 
-> [!example]- A example
+> [!example]- A example  
 > Hi
 
-> [!quote]- A quote
+> [!quote]- A quote  
 > Hi
 
-## Syntax highlighting
+## Syntax Highlighting
+
 ### Inline
+
 `#!cpp std::cout<< "Hello World!" << std::endl;`
 
 ### Block
+
 ```{.cpp .copy}
 #include <iostream>
 
@@ -58,7 +63,8 @@ int main () {
 }
 ```
 
-## Line highlight
+## Line Highlight
+
 ```cpp hl_lines="4-5"
 #include <iostream>
 
@@ -68,36 +74,39 @@ int main () {
 }
 ```
 
-## Tabbed content blocks
-=== "Tab 1 - Python"
-    ```python
-    print("Hello World!")
+## Tabbed Content Blocks
+
+=== "Tab 1 - Python"  
+    ```python  
+    print("Hello World!")  
     ```
 
-=== "Tab 2 - JavaScript"
-    ```js
-    console.log("Hello World");
+=== "Tab 2 - JavaScript"  
+    ```js  
+    console.log("Hello World");  
     ```
 
 ## Super Fences
 
-### Not close - able
-!!! note "non close able"
-    > [!note]- A note
+### Not close - Able
+
+!!! note "non close able"  
+    > [!note]- A note  
     > hello
 
 
     > [!tip]- A tip
     > hello
 
-### Close - able
-??? warning "3 notifications"
-    > [!note]- A note
-    > ```cpp
-    > #include <iostream>
-    > int main () {
-    >   return 0;
-    > }
+### Close - Able
+
+??? warning "3 notifications"  
+    > [!note]- A note  
+    > ```cpp  
+    > #include <iostream>  
+    > int main () {  
+    >   return 0;  
+    > }  
     > ```
 
     > [!note]- A note
@@ -126,11 +135,13 @@ int main () {
     >       console.log("hello")
     >       ```
     
+
 ## Buttons
-[Send Message :fontawesome-regular-paper-plane:](#){.md-button}
+
+[Send Message :fontawesome-regular-paper-plane:](#){.md-button}  
 [Go to root](#){.md-button .md-button--primary}
 
-## Code annotation
+## Code Annotation
 
 ```{.cpp .annotate .copy}
 #include <iostream>
@@ -151,6 +162,7 @@ int main () {
 | `calculate_distance()` | :material-close: No |
 
 ## Mermaid Diagrams
+
 ### Sequence Diagram
 
 ``` mermaid
@@ -167,6 +179,7 @@ sequenceDiagram
 ```
 
 ### Class Diagram
+
 ``` mermaid
 classDiagram
   Person <|-- Student
@@ -207,32 +220,39 @@ pie title Play Time
 ```
 
 ## Footnotes
+
 Hello World [^1]
 
-[^1]: This is a footnote
-
 ## Formatting
+
 - {--deleted--}
 - {++added++}
 - ==highlighted==
 
-## Images with captions
+## Images with Captions
+
 ![Dragon Lord](assets/dragon.png)
 
-/// caption
-Dragon Lord Placidusax
+/// caption  
+Dragon Lord Placidusax  
 ///
 
-## Custom lists
-### Unordered list
+## Custom Lists
+
+### Unordered List
+
 - Bullet 1
 - Bullet 2
 
-### Order listed
+### Order Listed
+
 1. One
 2. Two
 
-### Task list
+### Task List
+
 - [ ] Task 1
 - [x] Task 2
 - [ ] Task 3
+
+[^1]: This is a footnote

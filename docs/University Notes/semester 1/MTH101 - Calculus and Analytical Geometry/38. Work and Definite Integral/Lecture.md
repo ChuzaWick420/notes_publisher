@@ -79,4 +79,4 @@ $$F = \int_{a}^{b} \rho h(x) w(x) dx$$
 Read more about [[Mathematics/Mathematical notations/Content|notations and symbols]].
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/29. Definite Integral/Lecture|definite integrals]].
-[^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^2]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

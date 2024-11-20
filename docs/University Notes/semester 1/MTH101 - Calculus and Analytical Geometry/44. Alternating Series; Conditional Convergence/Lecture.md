@@ -173,6 +173,6 @@ Read more about [[Mathematics/Mathematical notations/Content|notations and symbo
 
 [^1]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/42. Infinite Series/Lecture|series]].
 [^2]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/27. Sigma Notation/Lecture|sum]].
-[^3]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|inequalities]].
-[^4]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/2. Absolute Value/Lecture|absolute values]].
-[^5]: Read more about [[semester 1/MTH101 - Calculus and Analytical Geometry/1. Coordinates, Graphs, Lines/Lecture|intervals]].
+[^3]: Read more about [[1. Coordinates, Graphs, Lines|inequalities]].
+[^4]: Read more about [[2. Absolute Value|absolute values]].
+[^5]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
