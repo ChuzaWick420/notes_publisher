@@ -33,3 +33,23 @@ date: 2024-12-03
 	- A driving theme for improvement within this Practice is focus on project-level audits that gather information about the organization's behavior in order to check that expectations are being met.  
 ![[Pasted image 20241203133444.png]]
 - Lets look at SAMM Construction Phase in the next module
+
+> [!QUESTION]- Post Assessments
+> 
+> > [!Question] _ is the main goal of the Education & Guidance phase in SAMMs Governance.  
+> > - [x] Providing knowledge and resources for secure software development  
+> > - [ ] Establishing a framework for software security assurance  
+> > - [ ] Conducting project-level audits for compliance  
+> > - [ ] Meeting external legal requirements
+> 
+> > [!QUESTION] In the Strategy & Metrics phase of SAMMs Governance, what is the primary focus?  
+> > - [x] Establishing a framework for software security assurance  
+> > - [ ] Identifying external legal requirement  
+> > - [ ] Conducting project-level audits  
+> > - [ ] Enhancing access to information for project teams
+> 
+> > [!QUESTION] In the context of software security: SAMM stands for _  
+> > - [ ] Security Assurance Management Model  
+> > - [ ] Secure Application Management Method  
+> > - [x] Software Assurance Maturity Model  
+> > - [ ] Systematic Application Security Model
