@@ -11,8 +11,8 @@ date: 2024-12-04
 
 - Carnegie Mellon Software Engineering Institute
 - https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards
-- https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
-
+- https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard  
+![[Pasted image 20241204065357.png]]
 - There are existing compiler implementations that allow const-qualified objects to be modified without generating a warning message.
 - Avoid casting away const qualification because doing so makes it possible to modify const-qualified objects without issuing diagnostics.
 
