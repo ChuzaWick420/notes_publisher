@@ -10,8 +10,8 @@ date: 2024-12-04
 # Ch03. case Study Security Hardening - c++ Applications
 
 - Carnegie Mellon Software Engineering Institute
-- https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682
-
+- https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682  
+![[Pasted image 20241204070504.png]]
 - Rule 01. Declarations and Initialization (DCL)
 - Rule 02. Expressions (EXP)
 - Rule 03. Integers (INT)
