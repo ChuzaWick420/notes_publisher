@@ -9,8 +9,8 @@ date: 2024-12-04
 
 # Ch03. Security Hardening of Asterisk Voip - part 1
 
-- http://www.ipcomms.net/asteriskblog/11-steps-to-secure-your-asterisk-pbx
-
+- http://www.ipcomms.net/asteriskblog/11-steps-to-secure-your-asterisk-pbx  
+![[Pasted image 20241204095034.png]]
 - Physically secure your IP PBX and network hardware
     - The first step to security of your system
 - Never, Never, Never use the default passwords on any system. (Use Strong Passwords)
