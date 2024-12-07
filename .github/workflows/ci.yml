@@ -35,13 +35,14 @@ jobs:
           ipywidgets
 
       - run: >
-          brew install
-          cairo
-          freetype
-          libffi
-          libjpeg
-          libpng
-          zlib
+          sudo apt update &&
+          sudo apt install -y 
+          libcairo2-dev
+          libfreetype6-dev
+          libffi-dev
+          libjpeg-dev
+          libpng-dev
+          zlib1g-dev
           pngquant
 
       - uses: actions/cache@v2
