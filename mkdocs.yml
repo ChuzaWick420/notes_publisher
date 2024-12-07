@@ -4,6 +4,9 @@ docs_dir: docs
 site_description: A website to contain my knowledge
 site_author: ChuzaWick420
 repo_url: https://github.com/ChuzaWick420/notes_publisher/
+repo_name: ChuzaWick420/notes_publisher/
+
+site_url: https://chuzawick420.github.io/notes_publisher/
 
 theme:
   name: "material"
@@ -18,6 +21,24 @@ theme:
     - content.code.annotate  # Showing annotation within code blocks
     - content.code.copy  # Button for copying code block
     - content.footnote.tooltips # ToolTip for footnotes
+    - navigation.tracking # updates URL bar according to heading
+    - navigation.path # Doc Path in the top of nav
+    - navigation.prune # reducing build time, good for large scale
+    - navigation.indexes # index pages are attached to the section itself
+    - toc.follow # automatically scroll tables of content according to content
+    - navigation.top # back to top
+    - navigation.footer # footer
+
+  custom_dir: overrides
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    logo: custom/site_logo
+
+  favicon: assets/icons/site_logo.svg
 
 plugins:
   - search # search bar
@@ -26,6 +47,7 @@ plugins:
   - obsidian-support # Obsidian Tags, causing problems to cpp code snippets within obsidian callouts
   - obsidian-bridge # Obsidian like file links
   - glightbox # Image zooming
+  - social # Social cards for embedded images when line is shared
 
 markdown_extensions:
   - admonition  # Obsidian callouts
@@ -56,11 +78,14 @@ markdown_extensions:
       pygments_style: "monokai" # The pygment theme, I will override with my own
   - pymdownx.tabbed: # Tabbed content blocks
       alternate_style: true
-  - pymdownx.emoji: # emojis for mkdocs
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist: # Mkdocs style checklist
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons/
 
 extra_css:
   - assets/stylesheets/pygments.css
@@ -81,3 +106,29 @@ extra_javascript:
   # - assets/javascripts/interactive_graph.js
   # Not sure what is the following is for
   # - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ChuzaWick420/
+      name: Github Profile
+
+    - icon: fontawesome/brands/itch-io
+      link: https://chuzawick420.itch.io/
+      name: Itch.io Profile
+
+    - icon: fontawesome/brands/artstation
+      link: https://www.artstation.com/chuzawick420
+      name: ArtStation Profile
+
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/ChuzaWick420
+      name: Gitlab Profile
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@wallbrick2170
+      name: Youtube Profile
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/muhammad-zaid-82b71b251/
+      name: LinkedIn Profile
