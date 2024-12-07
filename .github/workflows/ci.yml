@@ -32,7 +32,7 @@ jobs:
           pillow
           cairosvg
           plotly
-          ipywigdets
+          ipywidgets
 
       - run: >
           brew install
