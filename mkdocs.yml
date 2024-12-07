@@ -19,7 +19,7 @@ theme:
   previous: fontawesome/solid/angle-left
   next: fontawesome/solid/angle-right
 
-  feature:
+  features:
     - content.code.select # Selecting code lines, not working
     - content.code.annotate  # Showing annotation within code blocks
     - content.code.copy  # Button for copying code block
