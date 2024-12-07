@@ -33,15 +33,16 @@ jobs:
           cairosvg
           plotly
           ipywigdets
-        run: >
-          brew install
-          cairo
-          freetype
-          libffi
-          libjpeg
-          libpng
-          zlib
-          pngquant
+
+      - run: >
+        brew install
+        cairo
+        freetype
+        libffi
+        libjpeg
+        libpng
+        zlib
+        pngquant
 
       - uses: actions/cache@v2
         with:
