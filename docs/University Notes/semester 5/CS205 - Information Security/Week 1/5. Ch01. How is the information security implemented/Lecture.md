@@ -55,6 +55,8 @@ date: 2024-10-31
 - Management reviews and internal audit
 - Accreditation/testing
 
-## Assessment Questions
-
-1. `Awareness` is not the pillar of information security.
+> [!question] _ is not the pillar of information security.
+> - [x] Awareness
+> - [ ] Integrity
+> - [ ] Confidentiality
+> - [ ] Availability

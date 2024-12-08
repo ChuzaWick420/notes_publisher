@@ -45,15 +45,15 @@ date: 2024-10-31
 - Turn off all unused services
 - Session timeout and password retry lockout
 
-http://www.cisco.com/c/en/us/support/docs/ip/access-lists/13608-21.html
+[Cisco - Harden IOS Devices](http://www.cisco.com/c/en/us/support/docs/ip/access-lists/13608-21.html)
 
-> [!question]-
+> [!question]- Post Assessment
 > 
 > > [!question]- In terms of security hardening, SSH stands for  
-> > - [ ]Small Shell  
-> > - [ ]Select Shell  
-> > - [x]Secure Shell  
-> > - [ ]Smart Shell  
+> > - [ ] Small Shell  
+> > - [ ] Select Shell  
+> > - [x] Secure Shell  
+> > - [ ] Smart Shell  
 > 
 > > [!question]- Which of the following is the process of configuring IT assets to maximize security of the IT asset and minimize security risks  
 > > - [ ] Security test  

@@ -31,8 +31,22 @@ This NHS hack affected 99 countries
 - As per PWC Global Economic Crime Report 2016, Cyber Crime was amongst the top 3 most commonly reported types of economic crime
 - As per Europol 2013 report, Cyber Crime is now more profitable than the drug trade
 
-## Assessment Questions
-
-1. In Bangladesh Bank SWIFT Hack — Feb 2016, hackers send more than `three` dozen fraudulent money transfer requests.
-2. In Bangladesh Bank SWIFT Hack, USD `81 million` stolen.
-3. The NHS hack has shutdown IT systems in `99` countries.
+> [!question]- Post Assessment
+> 
+> > [!question] In Bangladesh Bank SWIFT Hack — Feb 2016, hackers send more than _ dozen fraudulent money transfer requests.
+> > - [x] 3
+> > - [ ] 2
+> > - [ ] 4
+> > - [ ] 7
+> 
+> > [!question] In Bangladesh Bank SWIFT Hack, USD _ stolen.
+> > - [x] 81 million
+> > - [ ] 69 million
+> > - [ ] 70 million
+> > - [ ] 80 million
+> 
+> > [!question] The NHS hack has shutdown IT systems in _ countries.
+> > - [ ] 88
+> > - [x] 99
+> > - [ ] 100
+> > - [ ] 70

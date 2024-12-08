@@ -52,9 +52,24 @@ Keeping information in its original form
 
 Keeping information and information systems available to use
 
-## Assessment Questions
-
-1. `confidentiality` is about keeping information secret
-2. Keeping the information in its original form is called `integrity`
-3. Keeping information and information systems available for use is called `availability`
-4. `IT Security` is Information security applied to technology.
+> [!QUESTION]- Post Assessment
+> 
+> > [!QUESTION] _ is about keeping information secret
+> > - [x] Confidentiality
+> > - [ ] Availability
+> > - [ ] Integrity
+> 
+> > [!QUESTION] Keeping the information in its original form is called _
+> > - [ ] Confidentiality
+> > - [ ] Availability
+> > - [x] Integrity
+> 
+> > [!QUESTION] Keeping information and information systems available for use is called _
+> > - [ ] Confidentiality
+> > - [x] Availability
+> > - [ ] Integrity
+> 
+> > [!QUESTION] `IT Security` is Information security applied to technology.
+> > - [x] IT Security
+> > - [ ] Cyber Security
+> > - [ ] Information Security
