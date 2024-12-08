@@ -25,18 +25,18 @@ Sum-total of all activities planned and executed by the organization to meet its
 
 ## Iso27001:2013 (ISMS) Requirements and Controls
 
-- 1. Policy
-- 2. Management commitment & performance review
-- 3. Risk management
-- 4. Asset management
-- 5. Access control
-- 6. Physical & environmental
-- 7. Operations security
-- 8. Communications security
-- 9. Incident management
-- 10. Business continuity
-- 11. Compliance
-- 12. Third-party reviews
+1. Policy
+2. Management commitment & performance review
+3. Risk management
+4. Asset management
+5. Access control
+6. Physical & environmental
+7. Operations security
+8. Communications security
+9. Incident management
+10. Business continuity
+11. Compliance
+12. Third-party reviews
 
 ## Additional Notes
 

@@ -48,7 +48,7 @@ date: 2024-10-31
 - Vulnerability Management standard
 - Social engineering prevention guideline
 
-> [!question]-
+> [!question]- Post Assessment
 > 
 > > [!question]- Which of the following is the more detailed description of the process  
 > > - [ ] Information  

@@ -31,6 +31,7 @@ date: 2024-11-02
 ## Technology
 
 `Technology` plays a central role in the Information Security program
+
 - Firewalls
 - Antivirus
 - Email anti-spam filtering solution

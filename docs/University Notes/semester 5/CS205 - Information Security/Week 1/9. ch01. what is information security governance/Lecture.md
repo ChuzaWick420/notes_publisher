@@ -24,7 +24,7 @@ It provides a model for establishing, implementing, operating, monitoring, revie
 - Ten short clauses and a long Annex with 114 controls in 14 groups
 - 27000+ certifications globally in 2015
 
-> [!question]- 
+> [!question]- Post Assessment
 > 
 > > [!question]- Responsibility for governance is associated with the Board and  
 > > - [ ] Junior management  
