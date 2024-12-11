@@ -61,7 +61,7 @@ $$L = \{x, xx, xxx, \dots\}$$
 
 The $x$, $xx$ and $xxx$ are the `words` of `language` $L$.
 
-> NOTE: All [words](#words) are [strings](#strings) but not all [strings](#strings) are [words](#words).
+> [!NOTE] All [words](#words) are [strings](#strings) but not all [strings](#strings) are [words](#words).
 
 ## Valid and Invalid Alphabets
 
@@ -82,7 +82,7 @@ It can be `tokenized` into following ways:
 The _2nd_ way is problematic, here's why.  
 When the `compiler` (`Lexical Analyzer`) scans the [string](#strings), the _1st_ `symbol` $B$ is recognized to be part of the [alphabet](#alphabets) but the _2nd_ `symbol` $abab$ is not recognized.
 
-> NOTE: While defining an [alphabet](#alphabets), any 2 or more `symbols` should NOT start with same `letter`.
+> [!NOTE] While defining an [alphabet](#alphabets), any 2 or more `symbols` should NOT start with same `letter`.
 
 ## Length of a String
 
@@ -159,7 +159,7 @@ It is a `language` defined over $\Sigma$ consisting of $\Lambda$ and $s$ such th
 
 $$Rev(s) = s$$
 
-> `Palindromes` can exist as [strings](#strings) of both lengths $2n - 1$ and $2n$.
+> [!NOTE] `Palindromes` can exist as [strings](#strings) of both lengths $2n - 1$ and $2n$.
 
 ## References
 
