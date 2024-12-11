@@ -86,15 +86,14 @@ $x$, $y$, $z$ where $x$ is `initial state` and $z$ is `final state`.
 
 | Old States | New States  |             |
 | ---------- | ----------- | ----------- |
-|            | Reading `a` | Reading `b` |
-| `x -`      | `z`         | `y`         |
-| `y`        | `y`         | `y`         |
-| `z +`      | `z`         | `z`         |
+|            | Reading $a$ | Reading $b$ |
+| $x^-$      | $z$         | $y$         |
+| $y$        | $y$         | $y$         |
+| $z^+$      | $z$         | $z$         |
 
 #### Transition Diagram
 
-![[Pasted image 20241025194349.png]]
-
+![[cs402_1_d_1.svg]]  
 This `language` can be represented as $a(a + b)^*$.
 
 ## References

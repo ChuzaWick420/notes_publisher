@@ -37,7 +37,7 @@ This theorem can be proved by following arguments
 
 1. If a `language` is represented by `finite automaton`[^2] then it can be represented by a `transition graph`[^3] as well since every `finite automaton`[^2] is a `transition graph`[^3]
 2. If a `language` is represented by `transition graph`[^3] then it can be represented by a `regular expression`[^5] as well
-3. If a `language` is represented by a `regular expression`[^5] then it can be represented by a `finite automaton`[^2] as well since it is also a `transition graph`[^3]
+3. If a `language` is represented by a `regular expression`[^5] then it can be represented by a `finite automaton`[^2] as well.
 
 ## References
 

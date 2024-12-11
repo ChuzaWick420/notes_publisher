@@ -47,8 +47,8 @@ date: 2024-11-14
 > 
 > > [!QUESTION]- As per the content description in the related video lecture, _ category of CIS benchmarks contains the maximum number of benchmarks.  
 > > - [ ] Mobile Devices  
-> > - [x] Server Software  
-> > - [ ] Operating Systems  
+> > - [ ] Server Software  
+> > - [x] Operating Systems  
 > > - [ ] Desktop Software  
 > 
 > > [!QUESTION]- As per the content description in the related video lecture, there are _ benchmarks in the Operating System Category of CIS benchmarks.  
