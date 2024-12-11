@@ -29,6 +29,7 @@ jobs:
           mkdocs-obsidian-support-plugin
           mkdocs-obsidian-bridge
           mkdocs-glightbox
+          mkdocs-exclude
           pillow
           cairosvg
           plotly

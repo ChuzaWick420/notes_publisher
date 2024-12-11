@@ -51,6 +51,9 @@ plugins:
   - obsidian-bridge # Obsidian like file links
   - glightbox # Image zooming
   - social # Social cards for embedded images when line is shared
+  - exclude:
+      glob:
+        - assets/**/*.md
 
 markdown_extensions:
   - admonition  # Obsidian callouts
