@@ -59,6 +59,6 @@ Which can further be converted to
 ## References
 
 [^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 10/Lecture|kleene's theorem]].
-[^2]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 7/Lecture|transition graphs]].
-[^3]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 3/Lecture|regular expressions]].
-[^4]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 7/Lecture|transition graphs]].
+[^2]: Read more about [[CS402_07|transition graphs]].
+[^3]: Read more about [[CS402_03|regular expressions]].
+[^4]: Read more about [[CS402_07|transition graphs]].

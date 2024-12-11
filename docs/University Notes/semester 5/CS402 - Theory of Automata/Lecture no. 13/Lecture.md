@@ -44,4 +44,4 @@ In a sense, the `final state` of $r_1$ _is_ the `initial state` of $r_2$.
 
 ## References
 
-[^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 4/Lecture|finite automaton]].
+[^1]: Read more about [[CS402_04|finite automaton]].

@@ -52,5 +52,5 @@ $$r_1 + r_2 = (a + b)^*b + (a + b)^* aa (a + b)^*$$
 
 ## References
 
-[^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 3/Lecture|regular expression]].
-[^2]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 4/Lecture|finite automaton]].
+[^1]: Read more about [[CS402_03|regular expression]].
+[^2]: Read more about [[CS402_04|finite automaton]].

@@ -52,4 +52,4 @@ $$r = (a+b)^*aa(a + b)^*$$
 
 ## References
 
-[^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 3/Lecture|finite automaton]].
+[^1]: Read more about [[CS402_03|finite automaton]].

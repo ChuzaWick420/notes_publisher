@@ -42,7 +42,7 @@ This theorem can be proved by following arguments
 ## References
 
 [^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 1/Lecture|strings]].
-[^2]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 4/Lecture|finite automata]].
-[^3]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 7/Lecture|transition graph]].
+[^2]: Read more about [[CS402_04|finite automata]].
+[^3]: Read more about [[CS402_07|transition graph]].
 [^4]: Read more about [[notes_publisher/docs/University Notes/semester 5/CS402 - Theory of Automata/Lecture no. 9/Lecture|generalized transition graph]].
-[^5]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 3/Lecture|regular expressions]].
+[^5]: Read more about [[CS402_03|regular expressions]].

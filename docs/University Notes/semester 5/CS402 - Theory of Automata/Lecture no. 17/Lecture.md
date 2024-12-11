@@ -83,6 +83,6 @@ $$L_1 = \{a\}, L_2=\{b\}, L_3=\{\Lambda\}$$
 ## References
 
 [^1]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 15/Lecture|non deterministic finite automaton]].
-[^2]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 4/Lecture|finite automaton]].
+[^2]: Read more about [[CS402_04|finite automaton]].
 [^3]: Read more about [[notes_publisher/docs/University Notes/semester 5/CS402 - Theory of Automata/Lecture no. 1/Lecture|strings]].
 [^4]: Read more about [[semester 5/CS402 - Theory of Automata/Lecture no. 10/Lecture|kleene's theorems]].
