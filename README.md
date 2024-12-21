@@ -9,11 +9,12 @@ Following are the primary goals for this project.
 [![wakatime](https://wakatime.com/badge/user/47e86f1b-ec2f-4c40-9f16-c1e58403c114/project/681a6bfe-d0ed-4350-bc28-5e4580f6c968.svg)](https://wakatime.com/badge/user/47e86f1b-ec2f-4c40-9f16-c1e58403c114/project/681a6bfe-d0ed-4350-bc28-5e4580f6c968)
 
 ## How it works
-I write my notes with [obsidian](https://obsidian.md/).  
-I write the 2D diagrams with [LaTeX](https://www.latex-project.org/).  
-I write the 3D diagrams with `python`.  
+I write  
+- my notes with [obsidian](https://obsidian.md/) or [NeoVim](https://neovim.io/).  
+- 2D diagrams with [LaTeX](https://www.latex-project.org/) or `Excalidraw`.  
+- 3D diagrams with `python`.  
 After writing my notes, I use `git` to commit and push to this repository.  
-After changes have been pushed, `Github Actions` spins up a `linux` machine to run my `./github/workflows/ci.yml` file.  
+After changes have been pushed, `Github Actions` spins up a `linux` machine to run instructions listed in `./github/workflows/ci.yml`.  
 The `ci.yml` file tells the machine to:
 - Use `mkdocs` to generate a website based on my notes.
 - Use `pygments` to syntax highlight the code blocks.
