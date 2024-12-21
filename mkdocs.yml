@@ -119,9 +119,9 @@ extra:
       link: https://github.com/ChuzaWick420/
       name: Github Profile
 
-    - icon: fontawesome/brands/itch-io
-      link: https://chuzawick420.itch.io/
-      name: Itch.io Profile
+    # - icon: fontawesome/brands/itch-io
+    #   link: https://chuzawick420.itch.io/
+    #   name: Itch.io Profile
 
     - icon: fontawesome/brands/artstation
       link: https://www.artstation.com/chuzawick420
@@ -131,10 +131,10 @@ extra:
       link: https://gitlab.com/ChuzaWick420
       name: Gitlab Profile
 
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@wallbrick2170
-      name: Youtube Profile
-
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/muhammad-zaid-82b71b251/
-      name: LinkedIn Profile
+    # - icon: fontawesome/brands/youtube
+    #   link: https://www.youtube.com/@wallbrick2170
+    #   name: Youtube Profile
+    #
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/muhammad-zaid-82b71b251/
+    #   name: LinkedIn Profile
