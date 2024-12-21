@@ -234,7 +234,7 @@ Hello World [^1]
 ![Dragon Lord](assets/dragon.png)
 
 /// caption  
-Dragon Lord Placidusax  
+Placidusax  
 ///
 
 ## Custom Lists
