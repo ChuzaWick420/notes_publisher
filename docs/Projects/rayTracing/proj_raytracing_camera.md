@@ -2,65 +2,28 @@
 
 ## `#!cpp void initialize()`
 
-Initializes the default conditions for `camera`.
-
-```cpp
-void camera::initialize() {
-    //file_ptr.open("image.ppm");
-
-    img_height = int(img_width / aspect_ratio);
-    img_height = (img_height < 1) ? 1 : img_height;
-
-    pixel_samples_scale = 1.0 / samples_per_pixel;
-
-    pixel_grid = new sf::Color*[img_height];
- 
-    for (int i = 0; i < img_width; i++) {
-        pixel_grid[i] = new sf::Color[img_width];
-    }
-
-    // Determine viewport dimensions.
-    auto focal_length = 1.0;
-    auto viewport_height = 2.0;
-    auto viewport_width = viewport_height * (double(img_width)/img_height);
-
-    // Calculate the vectors across the horizontal and down the vertical viewport edges.
-    auto viewport_u = vec3(viewport_width, 0, 0);
-    auto viewport_v = vec3(0, -viewport_height, 0);
-
-    // Calculate the horizontal and vertical delta vectors from pixel to pixel.
-    pixel_delta_u = viewport_u / img_width;
-    pixel_delta_v = viewport_v / img_height;
-
-    // Calculate the location of the upper left pixel.
-    auto viewport_upper_left =
-        center - vec3(0, 0, focal_length) - viewport_u/2 - viewport_v/2;
-        pixel00_loc = viewport_upper_left + 0.5 * (pixel_delta_u + pixel_delta_v);
-}
-```
-
-The `focal_length` variable controls the distance of `camera` from the `viewport`.  
-![[focal_length.svg]]  
+The `f_focal_length` variable controls the distance of `camera` from the object of focus.  
+![[Proj_raytracing_focal_length.svg]]  
 Here $f$ is the `focal_length`.  
 We control the `aspect ratio` and `image_width` manually.
 
 The value of `focal_length` and dimensions of `viewport` don't hold much value as long as they are both scaled equally.  
 In the following figure, $\frac {V_h} 2$ is the `viewport_height` and $S$ is any random `scalar` value.  
-![[viewport_dimensions.svg]]
+![[Proj_raytracing_viewport_dimensions.svg]]
 
-The following variables `pixel_delta_u` and `pixel_delta_v` are represented in the following figure, represented by  
+The following variables `#!cpp u_pixel_delta_u` and `#!cpp u_pixel_delta_v` are represented in the following figure, represented by  
 
 $$\vec {\Delta u}$$
 
 $$\vec {\Delta v}$$
 
-![[viewport.svg]]
+![[Proj_raytracing_viewport.svg]]
 
 The `viewport_upper_left` is given by  
-![[viewport_upper_left.svg]]
+![[Proj_raytracing_viewport_upper_left.svg]]
 
 Similarly, `pixel00_loc` is given by  
-![[pixel00_loc.svg]]
+![[Proj_raytracing_pixel00_loc.svg]]
 
 ## `#!cpp void render(const hittable&)`
 
@@ -94,7 +57,7 @@ For the $x$ coordinate of each pixel, we do
 int x = (index - 1) % img_width;
 ```
 
-![[modulo.svg]]
+![[Proj_raytracing_modulo.svg]]
 
 in the figure above, the `image_width` is $3$.  
 Similarly for $y$ coordinate, we do
@@ -152,118 +115,6 @@ void camera::render(const hittable& world) {
 }
 ```
 
-## `#!cpp void show_img()`
-
-To display something, we need a `window`.  
-
-```cpp
-sf::RenderWindow window(sf::VideoMode(window_width, window_height), "Ray Tracing", sf::Style::Default);
-```
-
-Then we need some entity to be displayed on this `window`, which is going to be a `sprite`.
-
-```cpp
-window.draw(s_image)
-```
-
-Now the question arises, what the `sprite` contains?  
-Well, a `texture`.
-
-```cpp
-sf::Sprite s_image(t_image);
-```
-
-Now how does the `texture` gets its data?  
-From an `image`.
-
-```cpp
-sf::Texture t_image;
-t_image.loadFromImage(i_image);
-```
-
-How does the `image` has the color data?  
-From an array of `pixels`.
-
-```cpp
-sf::Image i_image;
-i_image.create(img_width, img_height);
-
-int index = 1;
-
-for (auto pixel : pixel_grid) {
-	int x = (index - 1) % img_width;
-	int y = (index - 1) / img_width;
-	i_image.setPixel(x, y, pixel);
-
-	index++;
-}
-```
-
-Now we need to decide on the dimensions of `window` and `image`.  
-![[scaling_image.svg]]  
-It is obvious that we need to multiply a `scalar` value to the `image`'s dimensions to make it fit inside the `window`.  
-This `scalar` is
-
-```cpp
-float scalar = window_width / img_width;
-```
-
-But we are losing some data due to the `/` operator.  
-To make sure we get all decimal points (well most of them), we are going to cast it.
-
-```cpp
-float scalar = float(window_width) / img_width;
-```
-
-Also, since we are seeing things through the `camera` lens, it would make sense to put the display stuff inside `camera`.
-
-```cpp
-void camera::show_img() {
-
-    int window_height = window_width / aspect_ratio;
-
-    // Window to render image on
-    sf::RenderWindow window(sf::VideoMode(window_width, window_height), "Ray Tracing", sf::Style::Default);
-
-    float scalar = float(window_width) / img_width;
-
-    //creates an image
-    sf::Image i_image;
-    i_image.create(img_width, img_height);
-
-    int index = 1;
-
-    for (auto pixel : pixel_grid) {
-        int x = (index - 1) % img_width;
-        int y = (index - 1) / img_width;
-        i_image.setPixel(x, y, pixel);
-
-        index++;
-    }
-
-    sf::Texture t_image;
-    t_image.loadFromImage(i_image);
-
-    sf::Sprite s_image(t_image);
-    s_image.setScale(sf::Vector2f(scalar, scalar));
-
-    while (window.isOpen()){
-        sf::Event event;
-
-        while(window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-        window.clear(sf::Color::Green);
-
-        window.draw(s_image);
-
-        window.display();
-    }
-}
-```
-
 ## `#!cpp vec3 sample_square()`
 
 Get's a random `vector`[^1] in a `square space` with dimensions  
@@ -280,7 +131,7 @@ vec3 camera::sample_square() const {
 
 ## `#!cpp ray get_ray(int, int)`
 
-![[sampling.svg]]  
+![[Proj_raytracing_sampling.svg]]  
 We will need `pixel00_loc` are reference point.
 
 ```cpp
@@ -301,7 +152,7 @@ ray camera::get_ray(int u, int v) const {
 
 So our task is to smoothly transform each `color`[^1] component into the component of the other `color`,[^1] depending on some variable.  
 For our purpose, we can use the $y$ component of the `ray`[^2] to play that role since it changes according to `height`.  
-![[interpolation.svg]]  
+![[Proj_raytacing_interpolation.svg]]  
 We need an equation for that `line`[^3]  
 
 $$\frac {y_2 - y_1}{x_2 - x_1} = \frac{y - y_1}{x - x_1}$$
@@ -331,9 +182,9 @@ vec3 unit_direction = unit_vector(r.direction());
 ```
 
 There is a slight problem though  
-![[unit _vec.svg]]  
+![[Proj_raytracing_unit _vec.svg]]  
 The $y$ component of the `unit vector`[^5] is in $[-1, 1]$ so we need to modify some of our maths for it.  
-![[unit_vec_2.svg]]  
+![[Proj_raytracing_unit_vec_2.svg]]  
 So the `interval`[^6] we are working with is $[-1, 1]$ and we want it to be $[0, 1]$  
 First thing to realize is that if we add $1$ to our input, the `interval`[^6] becomes  
 
@@ -428,8 +279,6 @@ color camera::ray_color(const ray& r, int depth, const hittable& world) const {
     return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
 }
 ```
-
-## `#!cpp vec3 sample_square()`
 
 # References
 

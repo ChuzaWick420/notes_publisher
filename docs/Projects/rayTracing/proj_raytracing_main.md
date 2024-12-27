@@ -1,7 +1,5 @@
 # Ray Tracing
 
-## Glossary
-
 ## Overview
 
 This project is made with a modular approach. There are two main components at play:
@@ -12,11 +10,27 @@ This project is made with a modular approach. There are two main components at p
 The `editor` allows the designer to create a blueprint for the final scene. It generates a `JSON` file, containing data, describing the scene which is passed to the `engine` to do the actual heavy lifting. The `engine` then generates the final render which later can be saved as file and is also rendered on a window.
 
 ![[Proj_raytracing_intro.svg]]  
-/// captions  
+/// caption  
 `editor` communicating with `engine`  
 ///
 
 ## Tables of Content
+
+- [Introduction](#introduction)
+- [Components](#components)
+	- [Editor](#editor)
+	- [Engine](#engine)
+		- [Scene](#scene)
+		- [Camera](#camera)
+		- [Window Manager](#window-manager)
+		- [Execution Flow](#execution-flow)
+- [Objects and Materials](#objects-and-materials)
+	- [Sphere](#sphere)
+	- [Materials](#materials)
+		- [Lambertian](#lambertian)
+		- [Metal](#metal)
+		- [Dielectric](#dielectric)
+- [References](#references)
 
 ## Introduction
 
@@ -77,7 +91,7 @@ void setupCam();
 #### Execution Flow
 
 ![[Proj_raytracing_run.svg]]  
-/// captions  
+/// caption  
 Basic flow of `#!cpp Engine::run()`  
 ///
 
@@ -134,8 +148,8 @@ vec3 reflected = reflect(r_in.direction(), rec.normal);
 ```
 
 Add `fuzz` to it.  
-![[fuzz.svg]]  
-/// captions  
+![[Proj_raytracing_fuzz.svg]]  
+/// caption  
 `fuzz` being applied to a reflected `ray`.[^7]  
 ///
 
@@ -158,7 +172,10 @@ scattered = ray(rec.p, reflected);
 ```
 
 To make sure that the `scattered ray`[^7] is projected outside of the surface after hitting it, we check if the `dot product`[^6] is positive.  
-![[fuzz_correction.svg]]
+![[Proj_raytracing_fuzz_correction.svg]]  
+///caption  
+Error correction  
+///
 
 ```cpp
 return (dot(scattered.direction(), rec.normal) > 0);

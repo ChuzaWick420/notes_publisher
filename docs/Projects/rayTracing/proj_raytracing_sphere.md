@@ -1,6 +1,6 @@
 # Sphere
 
-![[sphere_definition.svg]]  
+![[Proj_raytracing_sphere_definition.svg]]  
 
 $$\vec P + \vec r = \vec C$$
 
@@ -54,7 +54,7 @@ $$= \frac{2h \pm 2\sqrt{h^2 - 4ac}}{2a}$$
 $$t = \frac{h \pm \sqrt{h^2 - 4ac}}{a}$$
 
 We can use `discriminant` to find the nature of the roots,  
-![[sphere_roots.svg]]  
+![[Proj_raytracing_sphere_roots.svg]]  
 Let $D$ be `discriminant` such that  
 
 $$D = h^2 - 4ac$$
@@ -117,7 +117,7 @@ $$t = \frac{h \pm \sqrt D}{a}$$
 
 $$\implies t = \frac{h}{a} \pm \frac{\sqrt D}{a}$$
 
-![[sphere_roots_2.svg]]
+![[Proj_raytracing_sphere_roots_2.svg]]
 
 ```cpp
 auto sqrtd = std::sqrt(discriminant);
@@ -127,7 +127,7 @@ auto root = (h - sqrtd) / a;
 ```
 
 Then we are checking if both of the `roots` are within the acceptable `interval`[^3] or not.  
-![[interval.svg]]
+![[Proj_raytracing_interval.svg]]
 
 ```cpp
 if (!ray_t.surrounds(root)){

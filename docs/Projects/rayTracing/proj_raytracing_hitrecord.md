@@ -4,7 +4,7 @@
 
 Imagine a `surface` $S$.  
 If the `dot product`[^1] of incident `ray`[^2] and the `normal vector`[^1] is negative, the `ray`[^2] is outside of the `surface` $S$.  
-![[surface_normals.svg]]
+![[Proj_raytracing_surface_normals.svg]]
 
 If our condition is `true` then the `normal` is the `outward normal`, otherwise it is opposite to `outward normal`.
 

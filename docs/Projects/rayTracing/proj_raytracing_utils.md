@@ -2,7 +2,7 @@
 
 ## `#!cpp random_on_hemisphere`
 
-![[hemisphere_creation.svg]]  
+![[Proj_raytracing_hemisphere_creation.svg]]  
 We first generate a random `unit vector`.[^1]  
 
 ```cpp
@@ -33,7 +33,7 @@ inline vec3 random_on_hemisphere(const vec3& normal) {
 
 ## `#!cpp vec3 reflect(const vec3&, const vec&)`
 
-![[reflection.svg]]
+![[Proj_raytracing_reflection.svg]]
 
 ```cpp
 inline vec3 reflect(const vec3& v, const vec3& n) {
@@ -56,7 +56,7 @@ If $R^\prime$ is the refracted `ray`[^3] then we can break it into components wh
 
 $$\vec R^\prime = \vec R^\prime_\parallel + \vec R^\prime_\perp$$
 
-![[refraction.svg]]  
+![[Proj_raytracing_refraction.svg]]  
 
 $$\vec R_\perp = \vec {R^\prime_x} = \frac \eta {\eta^\prime} \sin(\theta) \hat{R_x}$$
 
