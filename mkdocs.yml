@@ -38,8 +38,7 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-  icon:
-    logo: assets/icons/nerd.png
+  logo: assets/icons/nerd.png
 
   favicon: assets/icons/nerd.png
 
