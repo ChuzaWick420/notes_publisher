@@ -10,7 +10,7 @@ We know that for a `sphere`, we have
 
 $$(C_x - x)^2 + (C_y - y)^2 + (C_z - z)^2 = r^2$$
 
-where  
+where $\vec C$ is the `position vector`[^1] for the `center` and $\vec P$ is the `position vector`[^1] where a `ray`[^2] hits the `sphere`.
 
 $$\vec C = <C_x, C_y, C_z>$$
 
@@ -51,7 +51,7 @@ $$= \frac {-(-2h) \pm \sqrt{(-2h)^2 - 4ac}}{2a}$$
 
 $$= \frac{2h \pm 2\sqrt{h^2 - 4ac}}{2a}$$
 
-$$= \frac{h \pm \sqrt{h^2 - 4ac}}{2a}$$
+$$t = \frac{h \pm \sqrt{h^2 - 4ac}}{a}$$
 
 We can use `discriminant` to find the nature of the roots,  
 ![[sphere_roots.svg]]  
@@ -72,31 +72,31 @@ For two hits
 
 $$D > 0$$
 
-## Members
+## `#!cpp bool hit()`
 
-### `#!cpp point3 center`
+This `function` depends a lot on the `discriminant` and `quadratic formula`, first we show the relation between the mathematical terms and the code terms.
 
-The `center` of the `sphere`.
+- $\vec A$ is `#!cpp r.origin()`
+- $\vec b$ is `#!cpp r.direction()`
+- $\vec C$ is `#!cpp center`
+- $\vec C - \vec A$ is therefore, `#!cpp center - r.origin()`
+- $h = \vec b \cdot (\vec C - \vec A)$ is `#!cpp dot(r.origin(), oc)`
+- $c = (\vec C - \vec A) \cdot (\vec C - \vec A) - r^2$ is `#!cpp oc.length_squared() - radius * radius`
 
-### `#!cpp double radius`
-
-The `radius` of the `sphere`.
-
-### `#!cpp std::shared_ptr<material> mat`
-
-## Methods
-
-### `#!cpp hit()`
-
-The center from the point of intersection between the `sphere` surface and the `ray`.[^2]
-
-```cpp
-vec3 oc = center - r.origin();
-```
+> [!NOTE]- Explanation for $c$  
+> 
+> $$\vec {oc} = x \hat i + y \hat j$$
+> 
+> $$\implies \vec {oc} \cdot \vec {oc} = x^2 + y^2$$
+> 
+> $$= \left(\sqrt{x^2 + y^2}\right)^2$$
+> 
+> $$= (\text{len}(\vec {oc}))^2$$
 
 The `discriminant`
 
 ```cpp
+vec3 oc = center - r.origin();
 auto a = r.direction().length_squared();
 auto h = dot(r.direction(), oc);
 auto c = oc.length_squared() - radius*radius;
@@ -130,10 +130,11 @@ Then we are checking if both of the `roots` are within the acceptable `interval`
 ![[interval.svg]]
 
 ```cpp
-if (root <= ray_t.min || ray_t.max <= root) {
-	root = (h + sqrtd) / a;
-	if (root <= ray_t.min || ray_t.max <= root)
-		return false;
+if (!ray_t.surrounds(root)){
+    root = (h + sqrtd) / a;
+
+    if (!ray_t.surrounds(root))
+        return false;
 }
 ```
 
@@ -191,11 +192,13 @@ bool sphere::hit(const ray& r, interval ray_t, hit_record& rec) const override {
 
 	// Find the nearest root that lies in the acceptable range.
 	auto root = (h - sqrtd) / a;
-	if (root <= ray_t.min || ray_t.max <= root) {
-		root = (h + sqrtd) / a;
-		if (root <= ray_t.min || ray_t.max <= root)
-			return false;
-	}
+    if (!ray_t.surrounds(root)){
+        root = (h + sqrtd) / a;
+ 
+        if (!ray_t.surrounds(root))
+            return false;
+    }
+
 
 	rec.t = root;
 	rec.p = r.at(rec.t);
@@ -211,6 +214,6 @@ bool sphere::hit(const ray& r, interval ray_t, hit_record& rec) const override {
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
-[^2]: Read more about the [[notes_publisher/docs/Projects/rayTracing/Ray|Ray]] in context of this project.
+[^1]: Read more about [[10. Introduction to vectors|vectors]].
+[^2]: Read more about the [[notes_publisher/docs/Projects/rayTracing/proj_raytracing_ray|proj_raytracing_ray]] in context of this project.
 [^3]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].

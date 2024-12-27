@@ -6,8 +6,11 @@ Then we scale it by $t$ amount, hence making a `ray`.
 $$\vec R(t) = \vec A + t\vec b$$
 
 Here $\vec A$ is the `origin vector`[^1] and $\vec b$ is the `unit vector`.  
-![[ray.svg]]
+![[Proj_raytracing_ray_diagram.svg]]  
+/// captions  
+graphical representation of a `ray`  
+///
 
 ## References
 
-[^1]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
+[^1]: Read more about [[10. Introduction to vectors|vectors]].

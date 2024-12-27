@@ -39,9 +39,9 @@ theme:
     code: Roboto Mono
 
   icon:
-    logo: custom/site_logo
+    logo: assets/icons/nerd.png
 
-  favicon: assets/icons/site_logo.svg
+  favicon: assets/icons/nerd.png
 
 plugins:
   - search # search bar

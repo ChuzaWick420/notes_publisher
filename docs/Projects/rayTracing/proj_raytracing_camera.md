@@ -1,70 +1,6 @@
 # Camera
 
-## Members
-
-### Public
-
-#### `#!cpp double aspect_ratio`
-
-For the dimensions, $16 : 9$ is pretty common so we are going to use that.
-
-```cpp
-float aspect_ratio = 16.0f / 9.0f
-```
-
-But we will keep it $1.0$ for default.
-
-#### `#!cpp int img_width`
-
-The `width` of the image.
-
-#### `#!cpp int samples_per_pixel`
-
-Amount of samples per pixel for anti-aliasing.
-
-#### `#!cpp int max_depth`
-
-Maximum light bounces.
-
-### Private
-
-#### `#!cpp std::vector<sf::Color> pixel_grid`
-
-A one dimensional array which is used like a 2D grid.
-
-## Method
-
-### `#!cpp int window_width = 1024`
-
-Default `width` of the `window`.
-
-### `#!cpp int img_height`
-
-`Height` of the `window`.
-
-### `#!cpp point3 center`
-
-Center of the `camera` in space.
-
-### `#!cpp point3 pixel00_loc`
-
-Coordinates of the top left pixel.
-
-### `#!cpp vec3 pixel_delta_u`
-
-Horizontal gaps between `pixels`.
-
-### `#!cpp vec3 pixel_delta_v`
-
-Vertical gaps between `pixels`.
-
-### `#!cpp double pixel_samples_scale`
-
-A Scalar value for pixels sample.
-
-### Normal
-
-#### `#!cpp void initialize()`
+## `#!cpp void initialize()`
 
 Initializes the default conditions for `camera`.
 
@@ -126,7 +62,7 @@ The `viewport_upper_left` is given by
 Similarly, `pixel00_loc` is given by  
 ![[pixel00_loc.svg]]
 
-#### `#!cpp void render(const hittable&)`
+## `#!cpp void render(const hittable&)`
 
 First, we call the `camera::initialize()`.
 
@@ -216,7 +152,7 @@ void camera::render(const hittable& world) {
 }
 ```
 
-#### `#!cpp void show_img()`
+## `#!cpp void show_img()`
 
 To display something, we need a `window`.  
 
@@ -328,7 +264,7 @@ void camera::show_img() {
 }
 ```
 
-#### `#!cpp vec3 sample_square()`
+## `#!cpp vec3 sample_square()`
 
 Get's a random `vector`[^1] in a `square space` with dimensions  
 
@@ -342,7 +278,7 @@ vec3 camera::sample_square() const {
 }
 ```
 
-#### `#!cpp ray get_ray(int, int)`
+## `#!cpp ray get_ray(int, int)`
 
 ![[sampling.svg]]  
 We will need `pixel00_loc` are reference point.
@@ -361,7 +297,7 @@ ray camera::get_ray(int u, int v) const {
 }
 ```
 
-#### `#!cpp color ray_color(const ray&, int, const hittable&)`
+## `#!cpp color ray_color(const ray&, int, const hittable&)`
 
 So our task is to smoothly transform each `color`[^1] component into the component of the other `color`,[^1] depending on some variable.  
 For our purpose, we can use the $y$ component of the `ray`[^2] to play that role since it changes according to `height`.  
@@ -493,13 +429,13 @@ color camera::ray_color(const ray& r, int depth, const hittable& world) const {
 }
 ```
 
-#### `#!cpp vec3 sample_square()`
+## `#!cpp vec3 sample_square()`
 
-## References
+# References
 
-[^1]: Read more about [[Vec3|color]] in context of this project.
-[^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/Ray|ray]] in context of this project.
+[^1]: Read more about [[proj_raytracing_vec3|color]] in context of this project.
+[^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/proj_raytracing_ray|ray]] in context of this project.
 [^3]: Read more about [[4. Lines|lines]].
 [^4]: Read more about [[M_Function|functions]].
-[^5]: Read more about [[notes_publisher/docs/University Notes/semester 2/MTH301 - Calculus II/10. Introduction to vectors/Lecture|vectors]].
+[^5]: Read more about [[10. Introduction to vectors|vectors]].
 [^6]: Read more about [[1. Coordinates, Graphs, Lines|intervals]].
