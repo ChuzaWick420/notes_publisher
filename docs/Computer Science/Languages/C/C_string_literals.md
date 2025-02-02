@@ -37,3 +37,12 @@ int main () {
 5. An indexed multiplier to iteratively increase the total offset (the `character` to read) relative to the reference point(the `pointer`).
 6. Condition to exit the loop, that the `character` indicates end of a `string`.
 7. `#!cpp "hi"` results into an `array` of `characters`(h, i, `\0`) initialized in memory.
+
+Also, having 2 `string literals` side by side does concatenation.
+
+```cpp
+const char* text1 = "hello " "world";
+const char* text2 = "hello world";
+```
+
+Both are same.

@@ -4,6 +4,8 @@ The `#!cpp static` keyword is used for following
 
 ## Hiding a Global Variable within a File Scope
 
+imagine `main.c`
+
 ```c
 extern int var; // (1)!
 
@@ -12,19 +14,13 @@ int main () {
 }
 ```
 
-/// caption  
-main.c  
-///
-
 1. `#!cpp extern`[^1] ensures that `#!cpp printf` uses `var` defined inside some _other_ source file.
+
+Imagine `definition.c`
 
 ```c
 static int var = 6; // (1)!
 ```
-
-/// caption  
-definition.c  
-///
 
 1. `#!cpp static` ensures that the `var` variable is only accessible inside `definition.c`. If `#!cpp static` is removed, we will not get a linker error while trying to compile.
 
