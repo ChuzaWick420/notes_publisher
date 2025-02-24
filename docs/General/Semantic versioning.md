@@ -11,4 +11,4 @@
 > Additional labels for pre-release and build metadata are available as extensions to the `MAJOR.MINOR.PATCH` format.
 
 Example:  
-[Minecraft](https://www.minecraft.net/en-us) uses it as well.
+[Minecraft](https://www.minecraft.net/en-us) uses something similar as well.
