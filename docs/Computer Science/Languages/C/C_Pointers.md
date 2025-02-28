@@ -65,6 +65,22 @@ printf("%d\n", ptr[-1]); // (5)!
 4. `#!cpp ptr[1]` is same as `#!cpp *(ptr + 1)`.
 5. `#!cpp ptr[-1]` is same as `#!cpp *(ptr - 1)`. You can have negative indices for the subscript for [pointers](#pointers) but not for the `array` `arr`.
 
+## Valid and Invalid Operations
+
+```cpp
+int* p1;
+int* p2;
+
+p1 + p2 // Invalid
+p1 - p2 // Valid
+p1 * p2 // Invalid
+p1 / p2 // Invalid
+p1 > p2 // Valid
+p1 >= p2 // Valid
+p1 < p2 // Valid
+p1 <= p2 // Valid
+```
+
 ## References
 
 1. Read more about [[C_preprocessor_directives|macros]].
