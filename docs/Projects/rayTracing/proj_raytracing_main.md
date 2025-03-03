@@ -100,7 +100,7 @@ void Engine::run() {
     Hittable_list& HL_ref_scene = S_scene.create_scene();
     sf::Image* I_ref_image = Cam_camera.render(HL_ref_scene);
     if (save_img)
-        I_ref_image->saveToFile("./rendered_img.png");
+        I_ref_image->saveToFile("./imgs/rendered_img.png");
     WM_window.display(I_ref_image);
 }
 ```

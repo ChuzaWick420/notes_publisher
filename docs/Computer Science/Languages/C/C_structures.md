@@ -29,3 +29,38 @@ struct Node {
 	struct Node* rightNode;
 };
 ```
+
+## Padding and Size
+
+You can also use `#!cpp sizeof` operator to find out the size taken up by a `#!cpp struct`.
+
+```cpp
+struct Foo {
+	char x;
+	char y;
+};
+
+int main () {
+	printf("%d\n", sizeof(Foo)); // (1)!
+}
+```
+
+1. Outputs `2`.
+
+```cpp
+struct Foo {
+	char x;
+	int y;
+};
+
+int main () {
+	printf("%d\n", sizeof(Foo)); // (1)!
+}
+```
+
+1. Outputs `8`. Because the `#!cpp int` takes `4 bytes`, the compiler adds some `padding bytes` to the `#!cpp char` to make it aligned.
+
+![[C_e_structure_padding.svg]]  
+/// caption  
+Each green block represents a `byte` for corresponding `type` within the `#!cpp`.  
+///
