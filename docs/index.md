@@ -9,7 +9,8 @@
 
 ## Me
 
-I am a Computer Science student, a curious person who  
+I am a Computer Science student, a curious person who
+
 - Loves to learn cool things such as a concept in Mathematics or Computer Science, a new technology or maybe even a new programming language.  
 - Thinks deeply about things such as philosophy of nature, mathematics, programming and their connections with each oher.  
 - Crafts creative things such as games, graphics and other cool things.
