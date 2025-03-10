@@ -19,6 +19,7 @@
 ## Optional Arguments
 
 Following are the optional arguments you can use.
+
 - `Field Width` (the minimum amount of character space required inside `stdout`).
 	- Example: `#!cpp %11s` makes a `field width` of `11` characters.
 - `Left Justification Flag`

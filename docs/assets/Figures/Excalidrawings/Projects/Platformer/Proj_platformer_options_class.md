@@ -23,6 +23,8 @@ trigger() ^THRJ4CGl
 
 gameFont ^jbzYSCKm
 
+OptionText ^D8HSDY5e
+
 %%
 ## Drawing
 ```json
@@ -337,8 +339,8 @@ gameFont ^jbzYSCKm
 		},
 		{
 			"type": "arrow",
-			"version": 494,
-			"versionNonce": 851297531,
+			"version": 496,
+			"versionNonce": 254296066,
 			"index": "aC",
 			"isDeleted": false,
 			"id": "QTIyRD36atGbBoOjCouSE",
@@ -359,7 +361,7 @@ gameFont ^jbzYSCKm
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1741410190471,
+			"updated": 1741572457901,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -405,8 +407,8 @@ gameFont ^jbzYSCKm
 		},
 		{
 			"type": "arrow",
-			"version": 474,
-			"versionNonce": 1246850459,
+			"version": 476,
+			"versionNonce": 367325122,
 			"index": "aD",
 			"isDeleted": false,
 			"id": "wtx7jNbE6QbsjktRH821R",
@@ -427,7 +429,7 @@ gameFont ^jbzYSCKm
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1741410190471,
+			"updated": 1741572457902,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -619,24 +621,24 @@ gameFont ^jbzYSCKm
 		},
 		{
 			"type": "rectangle",
-			"version": 117,
-			"versionNonce": 270410203,
-			"index": "aG",
-			"isDeleted": true,
-			"id": "sxcDHKuHL4tsTzbZR0mWg",
+			"version": 232,
+			"versionNonce": 1767077250,
+			"index": "aK",
+			"isDeleted": false,
+			"id": "Y9U9TdlHznqwx2iBOtPRa",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -163.50434298448832,
-			"y": -231.09204283871557,
+			"x": 9.934654962200113,
+			"y": -231.9169931920781,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 163.94231719468974,
-			"height": 70.22553225020073,
-			"seed": 295398395,
+			"width": 155,
+			"height": 73,
+			"seed": 1005413342,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
@@ -645,48 +647,48 @@ gameFont ^jbzYSCKm
 			"boundElements": [
 				{
 					"type": "text",
-					"id": "fF6JEieZ"
+					"id": "D8HSDY5e"
 				}
 			],
-			"updated": 1741410518099,
+			"updated": 1741572468967,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 158,
-			"versionNonce": 565296469,
-			"index": "aH",
-			"isDeleted": true,
-			"id": "fF6JEieZ",
+			"version": 213,
+			"versionNonce": 1074623810,
+			"index": "aL",
+			"isDeleted": false,
+			"id": "D8HSDY5e",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -137.53318438714345,
-			"y": -220.9792767136152,
+			"x": 31.934654962200113,
+			"y": -207.9169931920781,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 112,
-			"height": 50,
-			"seed": 1826763931,
+			"width": 111,
+			"height": 25,
+			"seed": 781269022,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1741410518099,
+			"updated": 1741572468967,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 8,
-			"text": "virtual\ninit(Font)",
-			"rawText": "virtual\ninit(Font)",
+			"text": "OptionText",
+			"rawText": "OptionText",
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"containerId": "sxcDHKuHL4tsTzbZR0mWg",
-			"originalText": "virtual\ninit(Font)",
+			"containerId": "Y9U9TdlHznqwx2iBOtPRa",
+			"originalText": "OptionText",
 			"autoResize": true,
 			"lineHeight": 1.25
 		}
@@ -707,10 +709,10 @@ gameFont ^jbzYSCKm
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
-		"scrollX": 419.2770454539327,
-		"scrollY": 349.9120325585199,
+		"scrollX": 231.7006389725778,
+		"scrollY": 396.68292081199917,
 		"zoom": {
-			"value": 0.910118
+			"value": 1.029344
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
