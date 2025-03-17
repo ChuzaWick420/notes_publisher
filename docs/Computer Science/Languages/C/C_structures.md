@@ -62,5 +62,5 @@ int main () {
 
 ![[C_e_structure_padding.svg]]  
 /// caption  
-Each green block represents a `byte` for corresponding `type` within the `#!cpp`.  
+Each green block represents a `byte` for corresponding `type` within the `#!cpp struct`.  
 ///
