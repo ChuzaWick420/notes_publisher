@@ -91,3 +91,11 @@ long lseek(int file_descriptor, long offset, int origin); // (1)!
 ```
 
 1. Sets the position for `#!cpp read()` and `#!cpp write()` relative to `origin`.
+
+## Directory Listing
+
+The directory is a file which contains a `list`. Each entry contains the `filename` and an `inode`[^1] index.
+
+## References
+
+[^1]: Read more about [[Inode|inode]].
