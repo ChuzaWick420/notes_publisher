@@ -1,8 +1,6 @@
-There are 2 types of `lists`:
-- Ordered
-- Unordered
+# Lists
 
-# Ordered
+## Ordered
 
 ```tex
 \begin{enumerate}
@@ -11,7 +9,7 @@ There are 2 types of `lists`:
 \end{enumerate}
 ```
 
-# Unordered
+## Unordered
 
 ```tex
 \begin{itemize}
@@ -39,31 +37,49 @@ The `lists` can be nested as such:
 
 ![[Pasted image 20240404151605.png]]
 
-## Bullets
+### Bullets
+
 The style of `bullets` can be changed using:
 
 ```tex
 \usepackage{enumitem}
 ```
 
-Then chose the `list` type you want and append `[label=TYPE]`:
+#### Default Labels
 
 ```tex
 \begin{enumerate}[label=(roman*)]
 \end{enumerate}
 ```
 
----
-You can also change the bullets of each `item` to whatever you want:
+- `(\roman*)`
+- `\arabic*)`
+- `\alph*)`  
+
+
+![[Pasted image 20240404151209.png]]
+
+#### Custom Labels
+
+You can also change the bullets of each unique `item` to whatever you want:
 
 ```tex
 \item[$-$]
 \item[$\ast$]
-\item[$\CHARACTER$]
+```
+
+Also,
+
+```tex
+\usepackage{pifont}
+\item[\ding{CHARACTER_CODE}]
 ```
 
 ![[Pasted image 20240404152055.png]]  
-You can use `\item[\ding{CODE}]` to use the corresponding `bullet`.  
+/// caption  
+Characters Codes for reference  
+///
+
 If you don't want to keep writing the code for each `item` separately, you can also use:
 
 ```tex
@@ -72,10 +88,7 @@ If you don't want to keep writing the code for each `item` separately, you can a
 
 to globally change the bullets shown by `\item` command.
 
->Note: `\labelitemi` is the first nested level. The 2nd nested level would be `\labelitemii`.
-
-## Labels
-- `(\roman*)`
-- `\arabic*)`
-- `\alph*)`  
-![[Pasted image 20240404151209.png]]
+> [!TIP]
+> - For nested level 1, use `#!tex \labelitemi`.
+> - For nested level 2, use `#!tex \labelitemii`.
+> - For nested level 3, use `#!tex \labelitemiii`.
