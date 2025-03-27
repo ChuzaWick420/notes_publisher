@@ -8,6 +8,8 @@ repo_name: ChuzaWick420/notes_publisher/
 
 site_url: https://chuzawick420.github.io/notes_publisher/
 
+exclude_docs: docs/assets/Figures/Excalidrawings/**/*.md
+
 theme:
   name: "material"
   palette:
