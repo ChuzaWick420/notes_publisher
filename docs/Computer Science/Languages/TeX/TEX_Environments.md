@@ -43,3 +43,18 @@ $$
 	4 &= &4
 \end{array}
 $$
+
+## Center
+
+It is used to center objects.
+
+```tex
+\begin{center}
+\end{center}
+```
+
+Alternatively:
+
+```tex
+\centering
+```
