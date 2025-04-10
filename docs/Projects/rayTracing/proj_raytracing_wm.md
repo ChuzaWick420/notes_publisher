@@ -2,6 +2,7 @@
 
 `Window Manager` contains a `#!cpp sf::RenderWindow` object on which we will be drawing our rendered images.  
 The object which is rendered is actually a `#!cpp sf::Sprite`, which based on a `#!cpp sf::Texture`, containing a `#!cpp sf::Image`.  
+
 ![[Proj_raytracing_sprites.svg]]  
 /// caption  
 image to window pipeline  
@@ -9,6 +10,7 @@ image to window pipeline
 
 There can be a mismatch between the `sprite` and the `window` size (not the aspect ratios though because both determine the other factor of their dimension based on the aspect ratio).  
 We can _scale_ the `sprite` up or down to fit in the `window` perfectly.  
+
 ![[proj_raytracing_scaling_image.svg]]  
 /// caption  
 Sprite being scaled to the window  

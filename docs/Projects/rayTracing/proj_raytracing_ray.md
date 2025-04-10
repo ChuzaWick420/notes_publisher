@@ -7,7 +7,7 @@ $$\vec R(t) = \vec A + t\vec b$$
 
 Here $\vec A$ is the `origin vector`[^1] and $\vec b$ is the `unit vector`.  
 ![[Proj_raytracing_ray_diagram.svg]]  
-/// captions  
+/// caption  
 graphical representation of a `ray`  
 ///
 
