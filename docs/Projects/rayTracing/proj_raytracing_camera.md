@@ -286,5 +286,5 @@ color camera::ray_color(const ray& r, int depth, const hittable& world) const {
 [^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/proj_raytracing_ray|ray]] in context of this project.
 [^3]: Read more about [[mth101_04|lines]].
 [^4]: Read more about [[M_Function|functions]].
-[^5]: Read more about [[10. Introduction to vectors|vectors]].
+[^5]: Read more about [[mth301_10|vectors]].
 [^6]: Read more about [[mth101_01|intervals]].

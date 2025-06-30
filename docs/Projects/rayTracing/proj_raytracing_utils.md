@@ -123,6 +123,6 @@ inline vec3 refract(const vec3& uv, const vec3& n, double etai_over_etat) {
 
 ## References
 
-[^1]: Read more about [[10. Introduction to vectors|vectors]].
+[^1]: Read more about [[mth301_10|vectors]].
 [^2]: Read more about [[M_Function|functions]].
 [^3]: Read more about [[notes_publisher/docs/Projects/rayTracing/proj_raytracing_ray|ray]] in context of this project.

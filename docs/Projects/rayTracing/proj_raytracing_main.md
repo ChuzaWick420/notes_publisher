@@ -259,5 +259,5 @@ bool scatter(const ray& r_in, const hit_record& rec, color& attenuation, ray& sc
 [^3]: Read more about [[proj_raytracing_wm|window manager]].
 [^4]: Read more about [[proj_raytracing_sphere|spheres]].
 [^5]: Read more about [[proj_raytracing_vec3|points and vectors]].
-[^6]: Read more about [[10. Introduction to vectors|vectors]].
+[^6]: Read more about [[mth301_10|vectors]].
 [^7]: Read more about [[proj_raytracing_ray|rays]].

@@ -109,4 +109,4 @@ $$\left(\frac{a}{a^2 + b^2}, \frac{-b}{a^2 + b^2}\right)$$
 ## References
 
 [^1]: Read more about [[M_Real_Line|number line]].
-[^2]: Read more about [[10. Introduction to vectors|vectors]].
+[^2]: Read more about [[mth301_10|vectors]].

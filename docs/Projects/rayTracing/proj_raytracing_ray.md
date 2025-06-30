@@ -13,4 +13,4 @@ graphical representation of a `ray`
 
 ## References
 
-[^1]: Read more about [[10. Introduction to vectors|vectors]].
+[^1]: Read more about [[mth301_10|vectors]].

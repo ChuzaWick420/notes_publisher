@@ -20,5 +20,5 @@ void hit_record::set_face_normal(const ray& r, const vec3& outward_normal) {
 
 # References
 
-[^1]: Read more about [[10. Introduction to vectors|dot product]].
+[^1]: Read more about [[mth301_10|dot product]].
 [^2]: Read more about [[notes_publisher/docs/Projects/rayTracing/proj_raytracing_ray|ray]] in context of this project.
