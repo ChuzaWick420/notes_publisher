@@ -1,0 +1,21 @@
+@import "variables.css";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--page-colors-headings) !important;
+	font-weight: var(--page-styles-headings) !important;
+}
+
+p,
+li {
+	color: var(--page-colors-text);
+}
+
+iframe {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+}
