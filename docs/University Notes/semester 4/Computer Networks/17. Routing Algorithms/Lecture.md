@@ -72,4 +72,4 @@ This one is connection less and speed ranges from 1.5 Mbps to 1000 Mbps.
 `Asynchronous transfer mode` was designed for lower `jitter`, high capacity, audio, video and data.  
 It uses fixed size 48 octets data and 5 octets header.
 
-[^ 1]: Read more about [[Djikstra's Algorithm]].
+[^1]: Read more about [[Djikstra's Algorithm]].
