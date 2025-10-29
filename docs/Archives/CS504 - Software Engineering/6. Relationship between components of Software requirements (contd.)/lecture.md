@@ -5,6 +5,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Creating a Use case Model
+
 The #use-case-model is created firstly by identifying the `actors`.  
 Then their `use cases` are defined which define the system.  
 After that, the relationship between these `use cases` are defined.
@@ -12,6 +13,7 @@ After that, the relationship between these `use cases` are defined.
 All these steps are not sequential but parallel. 
 
 # Components of Use case
+
 1. **Priority**: Some use cases have higher priority so the ones with lower priority should be delayed to next phases.
 2. **Actor**: Defining which use cases will be used by an `actor`.
 3. **Summary**: To provide _context_ to the reader how this use case is going to be used.
@@ -40,14 +42,17 @@ All these steps are not sequential but parallel.
 3. **Exceptions**: The user is not allowed to delete the information that is being used inside the system.  
 **Assumptions**: An information which is not being used in the system, can be deleted permanently from the system and cannot be retrieved.
 
-# Other Ways to Express Use Case
+# Other Ways to Express Use case
+
 Another way is to create a table with 2 columns, namely `User Action` and `System Reaction`.
 
 # Activity Diagram
+
 It provides a visual for how the use case is being performed.  
 ![[Pasted image 20240429151743.png]]
 
 # Use case Limitations
+
 The _non-functional_ requirements are not documented.  
 These requirements can be something like:  
 **Usability**: It should be usable to colorblind people.  

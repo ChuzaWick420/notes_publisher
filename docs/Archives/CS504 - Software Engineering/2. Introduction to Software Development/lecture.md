@@ -20,6 +20,7 @@ Notice the `management` is a wrapper around the `construction` which means it fa
 4. Once deployed, it is in status quo, which means now once the user requests some changes, the loop begins again.
 
 # Software Engineering Phases
+
 **Vision**: Why are we doing this and what are our objectives.  
 **Definition**: Defining the activities and things need to be done.  
 **Development**: Determining the design of the system, such as how to build it and how to test it afterwards etc.  

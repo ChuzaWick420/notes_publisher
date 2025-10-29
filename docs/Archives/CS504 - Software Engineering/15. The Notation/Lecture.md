@@ -5,29 +5,37 @@ university-name: Virtual University of Pakistan
 ---
 
 # The Notation
+
 The famous notations of documenting #object-oriented-design are:
 1. Rumbaugh
 2. Booch
 3. Coad
 4. UML (Unified Modeling Language)
 
-# UML
+# Uml
+
 ## Class
+
 ![[Pasted image 20240525185735.png]]
 
 ## Relationships
+
 ![[Pasted image 20240525185811.png]]
 
 ## Association Example
+
 ![[Pasted image 20240525190004.png]]
 
 ## Aggregation Example
+
 ![[Pasted image 20240525190248.png]]
 
 ## Composition and Aggregation Example
+
 ![[Pasted image 20240525190330.png]]
 
 ## Generalization Example
+
 ![[Pasted image 20240525190441.png]]
 
 ## Multiplicity

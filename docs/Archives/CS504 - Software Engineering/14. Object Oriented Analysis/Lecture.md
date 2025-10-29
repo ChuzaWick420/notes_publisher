@@ -5,6 +5,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Object Oriented Analysis
+
 The intent of object oriented analysis is to define all `classes`, their `relationships` and their `behaviors`.
 
 The tasks involved are:
@@ -17,6 +18,7 @@ The tasks involved are:
 	1. Scenario diagrams
 
 # Object Oriented Design
+
 OOD transforms the analysis model into design model which serves as a blueprint for our software.  
 There are `4` layers of OOD pyramid:
 1. **The subsystem layer:** Representation of each of the subsystems which enable our software to fulfil customer requirements and act as a blueprint for technical infrastructure for those requirements.
@@ -25,19 +27,24 @@ There are `4` layers of OOD pyramid:
 4. **The responsibility layer:** This layer contains the #data-structures and #algorithms to handle the `attributes` and `methods` of the `objects`.
 
 # Abbot’s Textual Analysis
+
 This technique of identifying objects is one of the oldest.  
 Parts of speech are identified and then are modeled.  
 ![[Pasted image 20240525183110.png]]
 
 ## Example
+
 ### Problem Statement
+
 A simple cash register has a display, an electronic wire with a plug, and a numeric keypad, which has keys for subtotal, tax, and total. This cash storage device has a total key, which triggers the release on the drawer. The numeric buttons simply place a number on the display screen, the subtotal displays the current total, the tax key computes the tax, and the total key adds the subtotal to the tax.
 
 ### Tasks
+
 1. Identify all the classes in this problem statement.
 2. Eliminate the unnecessary classes.
 
 #### Nouns(initial)
+
 - Register 
 - Display 
 - Wire
@@ -54,6 +61,7 @@ A simple cash register has a display, an electronic wire with a plug, and a nume
 - Tax
 
 #### Nouns(general knowledge)
+
 - 0-9 keys 
 - Money
 - Tax Key 
@@ -61,6 +69,7 @@ A simple cash register has a display, an electronic wire with a plug, and a nume
 - Subtotal Key
 
 #### Eliminating Irrelevant / Redundant Nouns
+
 - Register
 - Display
 	- <span style="color:red;">Wire</span>, Irrelevant

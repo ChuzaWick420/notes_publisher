@@ -5,6 +5,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Architectural Views
+
 Software architecture provides a structure about the software by putting together architectural views in an organized fashion.
 
 According to Perry and Wolfe:  
@@ -31,6 +32,7 @@ These elements are further divided into 3 categories.
 Users are `views` are both managers and customers.
 
 ## Hierarchical Views
+
 Every view is almost hierarchical.
 - `function view` can contain `sub-functions`
 - `development view` contains directories which contain files.
@@ -38,6 +40,7 @@ Every view is almost hierarchical.
 - `concurrency views` would have `processes` that contain `threads`
 
 ## Architectural Styles
+
 Each style describes a system category that encompasses:
 1. a set of components (e.g. database, computational modules) that perform a function required by a system
 2. a set of connectors that enable "communication, coordination and cooperation" among components

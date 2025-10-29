@@ -5,6 +5,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Risks of Inadequate Requirements
+
 Without proper requirements, it can lead to production of products which is unacceptable by the end users (`stake holders`).  
 We need to closely work with the users to define the requirements.  
 Creeping user requirements can also lead to cost overrun.  
@@ -25,6 +26,7 @@ Now what does _it_ mean here? does it mean _operator, identity_ or _operator nam
 **Minimal specifications**: This leads to a product which does what the requirement statement says but lacks the major functionalities.
 
 # Levels of Software Requirements
+
 We define the requirements at different levels to focus on different aspects of the project.
 
 **Business Requirements**: These are captured to define the business objectives without going into the details. It is written in the project's vision.  
@@ -42,11 +44,13 @@ We define the requirements at different levels to focus on different aspects of 
 When writing the requirements, the levels should be derived from one another and be aligned (such as: the _functional_ requirements should align with _user's_ requirements which should align with _business_ requirements).
 
 # Stake Holders
+
 ![[Pasted image 20240428071201.png]]  
 _Requirement Statement_ is the _user requirements_.  
 _Requirement Specification_ is the _functional requirements_.
 
 # Characteristics of Requirement Statement
+
 1. It should be _complete_, meaning each statement is fully defined.
 2. It should be _unambiguous_, meaning every reader should get the same idea.
 3. It should be _necessary_, meaning it should be something user really wants.
@@ -54,12 +58,14 @@ _Requirement Specification_ is the _functional requirements_.
 5. It should be _verifiable_, meaning the user can _test_ if the requirement is fulfilled or not.
 
 # Characteristics of Requirement Specification
+
 1. It should be _complete_, meaning no requirement is missing.
 2. It should be _consistent_, meaning no requirement conflicts with one another.
 3. It should be _modifiable_, meaning the changes in specifications (when necessary) should be able to be tracked.
 4. It should be _traceable_, meaning, each requirement should be linked to its the source code, unit tests etc.
 
 # Mixed Level of Abstraction
+
 The level of abstraction should be uniform throughout the document, otherwise it can misguide workers involved in the project on the importance of tasks.  
 **Example**:
 1. The purpose of the system is to track the stock in a warehouse.

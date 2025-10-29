@@ -5,18 +5,23 @@ university-name: Virtual University of Pakistan
 ---
 
 # Identify Structures
+
 ## Structure
+
 A `structure` is a manner of organization which expresses a strong semantic organization within a problem domain.
 
 ## Types
+
 There are `2` types:
 1. Generalization-Specialization (Hierarchy)
 2. Whole-part (Aggregation)
 
 # Define Attributes
+
 When defining `attributes` of objects, remember to define them in such a way that the system needs it and there is no other way of knowing those `attributes`.
 
 ## Problems
+
 There are some problems that need to be addressed while defining the `attributes`.
 1. An attribute which varies with _time_ should be replaced by class with effective _date and time_. e.g. Price of an item.
 2. An attribute which can have multiple values should be replaced by a `class` with object connection.
@@ -24,6 +29,7 @@ There are some problems that need to be addressed while defining the `attributes
 4. If there are common attributes between the classes then they should be abstracted away into a common _generalized_ class.
 
 # Show Collaborations
+
 This is the 2nd step of evaluating the responsibilities of an object.  
 It can be done through 8 sub-steps:
 1. For an #actors, include an object connections to its #participant ( #association).
@@ -36,6 +42,7 @@ It can be done through 8 sub-steps:
 8. For all the objects mentioned above, include connections to objects which either receive `messages` from them or sends `messages` to them ( #association).
 
 # Define Services
+
 This is the 3rd and last step in defining the responsibilities of an object, that is to define what `services` it provides.  
 While establishing the `services` for the objects, following fundamental questions need to be asked:
 1. Why does the system need this object?

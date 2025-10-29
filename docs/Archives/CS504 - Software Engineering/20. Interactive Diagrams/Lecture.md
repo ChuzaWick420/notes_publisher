@@ -5,10 +5,12 @@ university-name: Virtual University of Pakistan
 ---
 
 # Interaction Diagram
+
 A series of diagrams can be used to describe the _dynamic behavior_ of an object-oriented system.  
 This is done in terms of #message .
 
 ## Purpose
+
 - Model interaction between objects
 - Assist in understanding how a system actually works.
 - Verify that the use case description can be supported by the existing classes
@@ -19,6 +21,7 @@ This is done in terms of #message .
 2. **Collaboration Diagrams:** They provide an organization-based view
 
 ### Sequence Diagrams
+
 The sequence of object interactions is illustrated by #message arranged in a time sequence.  
 These can be used to easily model:
 1. Sequential flows
@@ -36,4 +39,5 @@ In the above diagram,
 - boxes at top of the `life line` are called `activation boxes`, they represent for how long a #message will be activated.
 
 #### Syntax
+
 In the objects, \[instance name]\[: class name]

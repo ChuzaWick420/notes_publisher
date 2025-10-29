@@ -4,33 +4,41 @@ tags:
 university-name: Virtual University of Pakistan
 ---
 
-# Identifying Spec-Gen Structures
+# Identifying Spec-gen Structures
+
 ## Kind of Stores
+
 A store of a kind of sales outlet.  
 Connie might expand to other sales outlets so for now, leave the store as it is.
 
 ## Kind of Sales
+
 - Sales, return
 - Only difference is that these might be positive or negative.
 
 ## Prices
+
 - Regular price 
 - Promotional sales price
 
 ## Payment
+
 - Cash
 - Check
 - Charge  
 ![[Pasted image 20240723134742.png]]
 
 # Identifying Whole-part Structures
+
 - A store as a whole is made up of cashiers, registers and items
 - A register contains a cash drawer
 - A sale is constituted of sale line items  
 ![[Pasted image 20240723135218.png]]
 
 # Establishing Responsibilities
+
 ## Who I Know - Rules of Thumb
+
 - an #actors knows about its #participant.
 	- person knows about cashier
 - a `transaction` knows about its #participant.
@@ -48,10 +56,13 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 	- `store` knows about its `cashiers`, `items`, `registers`
 
 # Define Attributes, Services and Links - what I Know, what I Do, Who I Know
+
 ## Actors
+
 `person`
 
 ### Attributes
+
 - name
 - address
 - phone
@@ -59,33 +70,41 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 ### Services
 
 ## Participants
+
 `cashier`
 
 ### Attributes
+
 - number
 - password
 - authorization level
 - current session
 
 ### Services
+
 - isAuthorized
 - assess
 - Performance
 
 ## Places
+
 `store`
 
 ### Attributes
+
 - name
 
 ### Services
+
 - get item for UPC
 - get cashier for number
 
 ## Tangible Things
+
 - `item`
 
 ### Attributes
+
 - number
 - description
 - UPCs
@@ -96,10 +115,12 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 	- Price (specialization - promotional price)
 
 ### Services
+
 - get price for a date
 - how much for quantity
 
 ### Who I Know?
+
 - UPC  
 - Price  
 - Tax Category
@@ -108,13 +129,16 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 - `register`
 
 ### Attributes
+
 - number
 
 ### Services
+
 - How much over interval
 - How many over interval
 
 ### Who I Know?
+
 - Store
 - Session
 - Cash drawer (part of register)
@@ -122,38 +146,47 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 - `cash drawer`
 
 ### Attributes
+
 - balance
 - position (open, close)
 - Operational state
 
 ### Services
+
 - open
 
 ### Who I Know?
+
 - register
 
 - `Tax Category`
 
 ### Attributes
+
 - category
 - rate
 - effective date
 
 ### Services
+
 - get
 - add
 - set
 
 ### Who I Know?
+
 - items
 
 ## Transactions
+
 - `sale`
 
 ### Attributes
+
 - date and time
 
 ### Services
+
 - calculate subtotal
 - calculate total
 - calculate discount
@@ -161,6 +194,7 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 - commit
 
 ### Who I Know
+
 - session
 - payment
 - SLIs
@@ -168,31 +202,37 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 - `sale line item`
 
 ### Attributes
+
 - date and time?
 - quantity
 - tax status (regular, resale, tax-exempt)
 
 ### Services
+
 - calculate sub total
 
 ### Who I Know
+
 - item
 - sale
 
 - `return`
 
 ### Attributes
+
 - return price
 - reason code
 - sale date
 - sale price
 
 ### Services
+
 ### Who I Know
 
 - `payment`
 
 ### Attributes
+
 - `payment`
 	- amount paid
 	- cash tendered
@@ -208,7 +248,9 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 	- authorization code
 
 ### Services
+
 ### Who I Know
+
 - sale
 
 ![[Pasted image 20240723150152.png]]
@@ -216,16 +258,19 @@ Connie might expand to other sales outlets so for now, leave the store as it is.
 - `session`
 
 ### Attributes
+
 - start date
 - end date
 - start time
 - end time
 
 ### Services
+
 - how much money collected over interval
 - how many sales
 
 ### Who I Know
+
 - register
 - cashier
 - store

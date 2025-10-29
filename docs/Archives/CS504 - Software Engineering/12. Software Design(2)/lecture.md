@@ -5,6 +5,7 @@ university-name: Virtual University of Pakistan
 ---
 
 # Coupling and Cohesion
+
 Less `coupling` means the different components have less reliance over each other, meaning they are more independent.  
 More `coupling` means the opposite.
 
@@ -16,6 +17,7 @@ By making a strong `cohesive` component, it becomes more and more independent of
 So, there is a direct correlation between more `cohesion` and less `coupling`.
 
 ## Example of Coupling
+
 **Example:** Take electric appliances of a house.  
 All of them are encapsulated within their own bodies and do not rely on other appliances to function.  
 Like a fan doesn’t rely on a fridge to function.
@@ -59,6 +61,7 @@ Meanwhile, the other one depends more on internal structure of the `class` itsel
 As soon as the internal structure of the `class` changes, the 2nd function will break.
 
 ## Example of Cohesion
+
 A `class` is `cohesive` if most of its members access most of its data, most of the times.  
 If there are certain groups of methods which manipulate a certain subset of data, then the `class` is less `cohesive` and should be broken down into multiple `classes`.  
 ![[Pasted image 20240523184620.png]]
@@ -147,6 +150,7 @@ private:
 ```
 
 ## Abstraction and Encapsulation
+
 `Abstraction` is a special case of `separation of concern` where we hide the inner complexities of the `class` through `encapsulation` and focus mostly on the external `interface` it provides.
 
 Consider,
@@ -209,6 +213,7 @@ void selectionSort(int a[], int size) {
 Not only that our code is more readable now, but it has produced 2 auxiliary functions which are generic in nature and can be re-used elsewhere.
 
 ## Function Oriented Vs Object Oriented
+
 In the #functional-programming design, the decomposition revolves around #function .  
 On the other hand, in #object-oriented-programming design, the decomposition revolves around `data`.
 
