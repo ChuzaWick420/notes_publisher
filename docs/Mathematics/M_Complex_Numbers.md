@@ -11,7 +11,7 @@ This is where `complex numbers` come into play.
 
 `Complex numbers` do not follow order axioms and can be retreated as 2D points on a `plane` called the `complex plane`, `Z plane` or `argand diagram`.  
 This `plane` is a result of extending the `number line`[^1] into 2 dimensions.  
-![[m_complex_plane_1]]
+![[m_complex_plane_1.svg]]
 
 ## Representing `Complex numbers` on Complex Plane
 

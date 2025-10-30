@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 78e47b21d85b1fb99820b0a33f4eff904df77116: $$1$$
@@ -20,7 +21,7 @@ ef960b2d127a077eecee42f8a8bbb551a7965afe: $$\iota$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.2",
 	"elements": [
 		{
 			"type": "arrow",
@@ -146,7 +147,8 @@ ef960b2d127a077eecee42f8a8bbb551a7965afe: $$\iota$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -180,7 +182,8 @@ ef960b2d127a077eecee42f8a8bbb551a7965afe: $$\iota$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"crop": null
 		}
 	],
 	"appState": {
@@ -199,7 +202,8 @@ ef960b2d127a077eecee42f8a8bbb551a7965afe: $$\iota$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 157.91238072231644,
+		"currentItemFrameRole": null,
+		"scrollX": 156.16238072231644,
 		"scrollY": 216.06586035430797,
 		"zoom": {
 			"value": 2
@@ -217,13 +221,16 @@ ef960b2d127a077eecee42f8a8bbb551a7965afe: $$\iota$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
 			"type": "selection",
 			"customType": null,
 			"locked": false,
+			"fromSelection": false,
 			"lastActiveTool": null
 		}
 	},
