@@ -19,3 +19,9 @@ iframe {
 	width: 100%;
 	aspect-ratio: 1 / 1;
 }
+
+img.round_edged {
+	border-radius: 1rem;
+	border: solid 1px gray;
+	box-shadow: 0 0 30px 1px rgb(20, 23, 31);
+}
