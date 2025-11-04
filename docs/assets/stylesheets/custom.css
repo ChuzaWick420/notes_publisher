@@ -25,3 +25,8 @@ img.round_edged {
 	border: solid 1px gray;
 	box-shadow: 0 0 30px 1px rgb(20, 23, 31);
 }
+
+img {
+	display: flow-root;
+	margin: 1em auto;
+}
