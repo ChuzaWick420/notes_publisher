@@ -1,0 +1,50 @@
+---
+tags:
+  - university-notes
+university-name: Virtual University of Pakistan
+date: 2025-12-05
+---
+
+# Course Intro
+
+<span style="color: gray;">Dated: 05-12-2025</span>
+
+## Topics
+
+1. Introduction of Parallel and Distributed Computing
+2. Classification for Computer Organization
+3. Interconnection Networks/Topologies
+4. Concurrency Control & Memory Hierarchies
+5. Memory Consistency Model
+6. Fault Tolerance & Load Balancing
+7. Heterogeneity / GPU Architecture and Programming
+8. Message Passing Interface (MPI)
+9. Multithreaded Programming
+10. Parallel Algorithms & Architectures
+11. Parallel 1/0, Performance Analysis and tuning Power
+12. Scalability And Performance Studies
+13. Programming Models, Scheduling and Storage Systems
+14. Synchronization and OpenMP
+15. OpenMP, Types of Distributed Systems
+
+## Why Study These Topics?
+
+- Today, serial computers do not exists.
+- Even, your mobile phone is a parallel machine.
+- CPU's Clock frequencies are getting lower.
+- Number of processors are increasing.
+- Application will get slower, if we don't learn the skill to develop parallel programs
+
+## Text Books
+
+- Distributed Systems: Principles and Paradigms, A. S. Tanenbaum and M. V. Steen, Prentice Hall, 2nd Edition, 2007
+- Distributed and Cloud Computing: Clusters, Grids, Clouds, and the Future Internet, K Hwang, J Dongarra and GC. C. Fox, Elsevier, 1st Ed.
+- Introduction to Parallel Computing by Ananth Grama et al.
+
+## Course Resources on Web
+
+1. http://www.umsl.edu/æsiegelj/cs4790/
+2. https://ocw.mit.edu/courses/6-189-multicore-programming-primer-january-iap-2007/resources/l5-parallel-programming-concepts/
+3. https://ocw.mit.edu/courses/18-337j-parallel-computing-fall-2011/
+4. https://phdtopic.com/parallel-and-distributed-systems-in-cloud-computing/
+
