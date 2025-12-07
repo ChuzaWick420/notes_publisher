@@ -159,3 +159,28 @@ date: 2025-12-07
 > - [ ] Converting 64-bit into 32-bit code
 > - [x] Keeping separate APIs for 32 and 64-bit code
 
+> [!QUESTION]- A successful read using fread() function in C is indicated by a _ return value.
+> - [ ] Boolean
+> - [ ] Negative
+> - [x] Non-negative
+> - [ ] Zero
+
+> [!QUESTION]- Open file objects using C Library functions are identified by
+> - [ ] Handle
+> - [ ] Buffer
+> - [ ] Both Handle and Buffer
+> - [x] Pointer to a file structure
+
+> [!QUESTION]- What the following C statement represents?  
+> FILE *ptr;
+> - [ ] Pointer to a character
+> - [ ] Pointer to a binary number
+> - [ ] Pointer to an integer
+> - [x] Pointer to a file structure
+
+> [!QUESTION]- fopen() function in C returns _ if the file is not successfully opened.
+> - [ ] Pointer to a file
+> - [ ] Zero value
+> - [ ] Neither NIJLL nor Zero
+> - [x] NULL value
+
