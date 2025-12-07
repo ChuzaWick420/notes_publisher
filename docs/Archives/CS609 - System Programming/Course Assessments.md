@@ -207,3 +207,27 @@ date: 2025-12-07
 > - [ ] HANDLE
 > - [ ] INT
 > - [ ] DWORD
+
+> [!QUESTION]- The return type of malloc() function in C can be
+> - [ ] Null only
+> - [ ] An array
+> - [ ] Linked list
+> - [x] Pointer to the allocated space or Null
+
+> [!QUESTION]- CopyFile() convenience function has _ parameters.
+> - [ ] 2
+> - [ ] 4
+> - [x] 3
+> - [ ] 1
+
+> [!QUESTION]- LPWSTR stands for
+> - [x] Long Pointer to Wide String
+> - [ ] Long Pointer With String
+> - [ ] Last Pointer With String
+> - [ ] Last Pointer to Wide String
+
+> [!QUESTION]- Which of the following is return type CopyFile() convenience function?
+> - [x] BOOL
+> - [ ] HANDLE
+> - [ ] LPTSTR
+> - [ ] DWORD
