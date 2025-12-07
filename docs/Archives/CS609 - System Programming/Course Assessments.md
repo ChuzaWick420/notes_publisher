@@ -122,3 +122,22 @@ date: 2025-12-07
 > - [ ] Randomly generated
 > - [ ] Short and concise
 > - [ ] Back doors
+
+> [!QUESTION]- What is a key difference between 32-bit and 64-bit executable versions in Windows?
+> - [ ] The availability of virtual address space
+> - [ ] The use of different programming languages
+> - [x] The size of pointer variables
+> - [ ] The support for larger address spaces
+
+> [!QUESTION]- What is an important consideration when working with Windows functions that support 64-bit addresses?
+> - [x] Ensuring compatibility with Win32 versions
+> - [ ] Avoiding the use of pointers
+> - [ ] Using separate projects for different versions
+> - [ ] Testing on 32-bit computers only
+
+> [!QUESTION]- Windows operating system keeps _ versions of each API.
+> - [x] Two
+> - [ ] Interpreted
+> - [ ] One
+> - [ ] Compiled
+
