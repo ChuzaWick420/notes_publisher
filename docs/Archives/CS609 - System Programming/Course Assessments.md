@@ -99,3 +99,26 @@ date: 2025-12-07
 > - [ ] Processor needs to access main memory
 > - [ ] A process needs a resource
 
+> [!QUESTION]- What is a handle in Windows?
+> - [ ] A process ID
+> - [x] A kernel object identifier
+> - [ ] A file descriptor
+> - [ ] A thread ID
+
+> [!QUESTION]- In Windows, what is the basic unit of execution?
+> - [ ] Kernel object
+> - [ ] File descriptor
+> - [ ] Process ID
+> - [x] Thread
+
+> [!QUESTION]- A software or application can access any Windows object
+> - [ ] Directly
+> - [ ] Directly and through API as well
+> - [x] Through API only
+> - [ ] Not directly nor through API
+
+> [!QUESTION]- Windows function names are:
+> - [x] Long and descriptive
+> - [ ] Randomly generated
+> - [ ] Short and concise
+> - [ ] Back doors
