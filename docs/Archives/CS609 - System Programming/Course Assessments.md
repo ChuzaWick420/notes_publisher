@@ -141,3 +141,21 @@ date: 2025-12-07
 > - [ ] One
 > - [ ] Compiled
 
+> [!QUESTION]- fopen function is available in _ library.
+> - [x] stdio.h
+> - [ ] stdlib.h
+> - [ ] string.h
+> - [ ] signal.h
+
+> [!QUESTION]- Which statement is incorrect about the 32-bit source code?
+> - [ ] It runs on 64-bit hardware
+> - [ ] It has its own Windows APIs
+> - [ ] It does not support large disk space
+> - [x] It runs on 64-bit hardware and use its all features
+
+> [!QUESTION]- Windows supports both the 32 and 64-bit source code by
+> - [ ] Keeping separate compilers for each hardware
+> - [ ] Converting 32-bit into 64-bit code
+> - [ ] Converting 64-bit into 32-bit code
+> - [x] Keeping separate APIs for 32 and 64-bit code
+
