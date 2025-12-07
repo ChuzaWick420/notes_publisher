@@ -184,3 +184,26 @@ date: 2025-12-07
 > - [ ] Neither NIJLL nor Zero
 > - [x] NULL value
 
+> [!QUESTION]- Which data type is commonly used to identify Windows objects?
+> - [ ] DWORD
+> - [ ] INVALID_HANDLE_VALUE
+> - [ ] BOOL
+> - [x] HANDLE
+
+> [!QUESTION]- How the end of a file is detected in Windows file operations?
+> - [ ] By calling GetLastError() function
+> - [x] By a zero byte count
+> - [ ] By closing the handle
+> - [ ] By a system error code
+
+> [!QUESTION]- How can system error codes be obtained after a failed system call in Windows?
+> - [x] By using the GetLastError() function
+> - [ ] By checking the byte count
+> - [ ] By calling CloseHandle() function
+> - [ ] By closing the handle
+
+> [!QUESTION]- The return type of ReadFile() is
+> - [x] BOOL
+> - [ ] HANDLE
+> - [ ] INT
+> - [ ] DWORD
