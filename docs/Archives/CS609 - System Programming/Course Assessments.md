@@ -346,3 +346,26 @@ date: 2025-12-07
 > - [ ] Temporary file handles
 > - [ ] Event handles
 
+> [!QUESTION]- Which set of data types does Windows provide for generic code that works with both ASCII and Unicode?
+> - [ ] CHAR data types
+> - [ ] Unicode data types
+> - [ ] ASCII data types
+> - [x] TCHAR data types
+
+> [!QUESTION]- The latest versions of Windows supports _ standard
+> - [x] Both ASCII and Unicode
+> - [ ] ASCII
+> - [ ] Unicode
+> - [ ] Scan codes
+
+> [!QUESTION]- In Unicode format, _ number of characters can be encoded.
+> - [ ] $2^8$
+> - [x] $2^{16}$
+> - [ ] $2^{10}$
+> - [ ] $2^{32}$
+
+> [!QUESTION]- `#!cpp _stprintf()` is a/an C library function.
+> - [ ] Unicode
+> - [ ] ASCII
+> - [ ] Both ASCII and Unicode
+> - [x] Generic
