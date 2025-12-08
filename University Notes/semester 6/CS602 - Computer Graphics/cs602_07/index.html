@@ -1,0 +1,3650 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A website to contain my knowledge">
+      
+      
+        <meta name="author" content="ChuzaWick420">
+      
+      
+        <link rel="canonical" href="https://chuzawick420.github.io/notes_publisher/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_07/">
+      
+      
+        <link rel="prev" href="../cs602_06/">
+      
+      
+        <link rel="next" href="../cs602_08/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/icons/nerd.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>07. Ellipse and other Curves - Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/pygments.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/variables.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/obsidian_tags.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/interactive_graph.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website">
+<meta property="og:title" content="07. Ellipse and other Curves - Notes">
+<meta property="og:description" content="A website to contain my knowledge">
+<meta property="og:image" content="https://chuzawick420.github.io/notes_publisher/assets/images/social/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_07.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://chuzawick420.github.io/notes_publisher/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_07/">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="07. Ellipse and other Curves - Notes">
+<meta property="twitter:description" content="A website to contain my knowledge">
+<meta property="twitter:image" content="https://chuzawick420.github.io/notes_publisher/assets/images/social/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_07.png">
+<link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#07-ellipse-and-other-curves" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Notes" class="md-header__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  <img src="../../../../assets/icons/nerd.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              07. Ellipse and other Curves
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo" aria-hidden="true" type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ChuzaWick420/notes_publisher/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    ChuzaWick420/notes_publisher/
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Notes" class="md-nav__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  <img src="../../../../assets/icons/nerd.png" alt="logo">
+
+    </a>
+    Notes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ChuzaWick420/notes_publisher/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    ChuzaWick420/notes_publisher/
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Read Me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Dev%20Guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dev Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Feature%20Showcase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature Showcase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../Adventures/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adventures
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../Archives/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archives
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../Computer%20Science/Coding%20Standards/Google/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Science
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../General/Inode/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../Mathematics/M_Binomial_Theorem/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mathematics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../Projects/Portfolio/Goals/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    University Notes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    University Notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_01/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semester 1
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../semester%202/MTH301%20-%20Calculus%20II/mth301_01/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semester 2
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semester 6
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Semester 6
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10_3_1" id="__nav_10_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CS602   Computer Graphics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CS602   Computer Graphics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Introduction to Computer Graphics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Graphics Systems 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Graphics Systems 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Point
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line Drawing Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Circle Drawing Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Ellipse and other Curves
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Ellipse and other Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ellipse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ellipse
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ellipse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        History
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ellipse-drawing-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ellipse Drawing Techniques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Curves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conic-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conic Sections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hyperbola" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyperbola
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hyperbola">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Equation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#horizontal-transverse-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horizontal Transverse Axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vertical-transverse-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vertical Transverse Axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parabola" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parabola
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotations-of-axes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rotations of Axes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rotations of Axes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#animated-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Animated Applications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parabolic-reflectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parabolic Reflectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elliptical-orbits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elliptical Orbits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whispering-galleries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Whispering Galleries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polynomials-and-spline-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Polynomials and Spline Curves
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Filled Area Primitive - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Filled Area Primitives - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Mathematics Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. 2D Transformations 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. 2D Transformations - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Drawing Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Clipping - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Clipping - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. 3D Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    17. 3D Transformations - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_18/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    18. 3D Transformations - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    19. Projections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    20. Perspective Projection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    21. Triangles and Planes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    22. Triangle Rasterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    23. Lighting - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    24. Lighting - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    25. Mathematics of Lighting and Shading part - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    26. Mathematics of Lighting and Shading part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    27. Review 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_28/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    28. Review 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    29. Mathematics of Lighting and Shading part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    30. Mathematics of Lighting and Shading part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    31. Mathematics of Lighting and Shading part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    32. Introduction to OpenGL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_33/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    33. OpenGL Programming 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_34/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    34. OpenGL Programming 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_35/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    35. Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_36/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    36. Space Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_37/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    37. The Tangent Vector
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_38/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    38. Bezier Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_39/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    39. Building Polygonal Models of Surfaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_40/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    40. Fractals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_41/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    41. Viewing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_42/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    42. Examples of Composing Several Transformations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_43/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    43. Real World and Opengl Lighting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_44/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    44. Evaluators, Curves and Surfaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_45/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    45. Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../MTH501%20-%20Linear%20Algebra/mth501_01/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MTH501   Linear Algebra
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ellipse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ellipse
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ellipse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        History
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ellipse-drawing-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ellipse Drawing Techniques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Curves
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conic-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conic Sections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hyperbola" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyperbola
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hyperbola">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Equation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#horizontal-transverse-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horizontal Transverse Axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vertical-transverse-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vertical Transverse Axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parabola" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parabola
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotations-of-axes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rotations of Axes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rotations of Axes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#animated-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Animated Applications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parabolic-reflectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parabolic Reflectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elliptical-orbits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elliptical Orbits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whispering-galleries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Whispering Galleries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polynomials-and-spline-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Polynomials and Spline Curves
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Read Me
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_01/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    University Notes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../cs602_01/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Semester 6
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../cs602_01/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    CS602   Computer Graphics
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="07-ellipse-and-other-curves">07. Ellipse and other Curves</h1>
+<p><span style="color: gray;">Dated: 15-04-2025</span></p>
+<h2 id="ellipse">Ellipse</h2>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/07/cs602_e_7_1.svg" data-desc-position="bottom"><img alt="cs602_e_7_1.svg" src="../../../../assets/Figures/Excalidrawings/CS602/07/cs602_e_7_1.svg"></a>  </p>
+<figcaption>
+<p>Ellipse  </p>
+</figcaption>
+</figure>
+<div class="arithmatex">\[|\overline{O V_2}| = |\overline{O V_1}| = a\]</div>
+<div class="arithmatex">\[|\overline{O V_2^\prime}| = |\overline{O V_1^\prime}| = b\]</div>
+<div class="arithmatex">\[|\overline{O F_2}| = |\overline{O F_1}| = c\]</div>
+<div class="arithmatex">\[|r_1 + r_2| = 2c\]</div>
+<h3 id="history">History</h3>
+<ul>
+<li>The <a href="#ellipse">ellipse</a> was first studied by <code>Menaechmus</code>.</li>
+<li>It was further investigated by <code>Euclid</code> and later named by <code>Apollonius</code>.</li>
+<li>The concepts of <code>focus</code> and <code>conic section directrix</code> of an <a href="#ellipse">ellipse</a> were studied by <code>Pappus</code>.</li>
+<li>In <code>1602</code>, <code>Kepler</code> believed that the orbit of <code>Mars</code> was oval.</li>
+<li>He later discovered it was an <a href="#ellipse">ellipse</a> with the <code>Sun</code> at one <code>focus</code>.</li>
+<li><code>Kepler</code> introduced the word <code>"focus"</code> and published his findings in <code>1609</code>.</li>
+<li>In <code>1705</code>, <code>Halley</code> showed that the comet now named after him follows an <code>elliptical orbit</code> around the <code>Sun</code>.</li>
+<li>An <a href="#ellipse">ellipse</a> rotated about its <code>minor axis</code> gives an <em>oblate spheroid</em>.</li>
+<li>An <a href="#ellipse">ellipse</a> rotated about its <code>major axis</code> gives a <em>prolate spheroid</em>.</li>
+</ul>
+<hr>
+<div class="arithmatex">\[\frac {x^2}{a^2} + \frac{y^2}{b^2} = 1\]</div>
+<p>Assuming <span class="arithmatex">\(a &gt; b\)</span>, <span class="arithmatex">\(b\)</span> is called the <code>semi minor axis</code> and <span class="arithmatex">\(a\)</span> is called the <code>semi major axis</code>.<br>
+In general,<br>
+Equation of an <a href="#ellipse">ellipse</a> centered at <span class="arithmatex">\((x_0, y_0)\)</span> is</p>
+<div class="arithmatex">\[\frac {(x - x_0)^2}{a^2} + \frac{(y - y_0)^2}{b^2} = 1\]</div>
+<h2 id="ellipse-drawing-techniques">Ellipse Drawing Techniques</h2>
+<div class="arithmatex">\[\frac {x^2}{a^2} + \frac{y^2}{b^2} = 1\]</div>
+<div class="arithmatex">\[\implies b^2x^2 + a^2 y^2 = a^2b^2\]</div>
+<div class="arithmatex">\[f_{\text{ellipse}} = b^2x^2 + a^2 y^2 - a^2b^2\]</div>
+<p>Let's assume <span class="arithmatex">\(a &gt; b\)</span> and accordingly, <span class="arithmatex">\(r_x = a\)</span> and <span class="arithmatex">\(r_y = b\)</span>.  </p>
+<div class="arithmatex">\[f_{\text{ellipse}} = r_y^2x^2 + r_x^2 y^2 - r_x^2r_y^2\]</div>
+<div class="arithmatex">\[f_{\text{ellipse}} = 
+\begin{cases}
+    &lt; 0 &amp; \text{if } (x, y) \text{ is inside the ellipse boundary} \\
+    = 0 &amp; \text{if } (x, y) \text{ is on the ellipse boundary} \\
+    &gt; 0 &amp; \text{if } (x, y) \text{ is outside the ellipse boundary} \\
+\end{cases}
+\]</div>
+<p>Starting from <span class="arithmatex">\((0, r_y)\)</span>, we step using <span class="arithmatex">\(x\)</span> where <span class="arithmatex">\(y\)</span> is determined by <code>decision function</code>.<br>
+When <code>slope</code><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> <span class="arithmatex">\(m = -1\)</span>, we switch the stepping from <span class="arithmatex">\(x\)</span> to <span class="arithmatex">\(y\)</span>.<br>
+The <code>slope</code><sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> of the <a href="#ellipse">ellipse</a> can be figured out by using  </p>
+<div class="arithmatex">\[\frac{dy}{dx} = - \frac{r_y^2x^2}{r_x^2y^2}\]</div>
+<p>The boundary where we switch stepping, is determined by <span class="arithmatex">\(\frac {dy}{dx} = -1\)</span>.<br>
+This gives us  </p>
+<div class="arithmatex">\[r_y^2x^2 = r_x^2y^2\]</div>
+<p>we will switch the stepping whenever  </p>
+<div class="arithmatex">\[r_y^2x^2 \ge r_x^2y^2\]</div>
+<p>Similar to <a href="../cs602_06/">previous lecture</a>, for region 1, if <span class="arithmatex">\(P_k &lt; 0\)</span> then <span class="arithmatex">\(y_{k + 1} = yk\)</span> otherwise, <span class="arithmatex">\(y_{k + 1} = y_k - 1\)</span>.  </p>
+<div class="arithmatex">\[P_{k + 1} = P_k + 2r_y^2(x_k + 1) + r_y^2 \quad \text{where } P_k &lt; 0\]</div>
+<div class="arithmatex">\[P_{k + 1} = P_k + 2r_y^2(x_k + 1) + r_y^2 - 2r_x^2(y_k - 1)\quad \text{where } P_k &gt; 0\]</div>
+<p>For our stating point <span class="arithmatex">\(P_0\)</span>, we will put <span class="arithmatex">\((0, r_y)\)</span>,  </p>
+<div class="arithmatex">\[P_0 = r_y^2 - r_x^2r_y + \frac 1 4 r_x^2\]</div>
+<p>Similarly, for region 2  </p>
+<div class="arithmatex">\[P_{k + 1}^\prime = P_k^\prime - 2 r_x^2(y_k + 1) + r_x^2 \quad \text{where } P_k^\prime &gt; 0\]</div>
+<div class="arithmatex">\[P_{k + 1}^\prime = P_k^\prime + 2 r_y^2(x_k + 1) + r_x^2 - 2r_x^2y_k \quad \text{where } P_k^\prime &lt; 0\]</div>
+<p>Our starting point <span class="arithmatex">\(P_0^\prime\)</span> will be the last point computed in region 1.  </p>
+<div class="arithmatex">\[P_0^\prime = r_y^2 \left(x_0 + \frac 1 2\right) + r_x^2(y_0 - 1)^2 - r_x^2r_y^2\]</div>
+<div class="highlight"><pre><span></span><code><span class="nx">MidPointEllipse</span><span class="p">(</span><span class="nx">xcenter</span><span class="p">,</span><span class="w"> </span><span class="nx">ycenter</span><span class="p">,</span><span class="w"> </span><span class="nx">rx</span><span class="p">,</span><span class="w"> </span><span class="nx">ry</span><span class="p">)</span><span class="o">:</span>
+<span class="w">    </span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span>
+<span class="w">    </span><span class="nx">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ry</span>
+
+<span class="w">    </span><span class="k">do</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">DrawSymmetricPoints</span><span class="w"> </span><span class="p">(</span><span class="nx">xcenter</span><span class="p">,</span><span class="w"> </span><span class="nx">ycenter</span><span class="p">,</span><span class="w"> </span><span class="nx">x</span><span class="p">,</span><span class="w"> </span><span class="nx">y</span><span class="p">)</span>
+
+<span class="w">        </span><span class="nx">R1_P0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">ry</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mf">4</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">R1_Pk</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nx">R1_Pk_next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">R1_Pk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">2</span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nx">xk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nx">R1_Pk_next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">R1_Pk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">2</span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nx">xk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">2</span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nx">yk</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="nx">R2_P0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nx">x0</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mf">2</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nx">y0</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span>
+
+<span class="w">        </span><span class="nx">y</span><span class="o">++</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">R2_Pk</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nx">R2_Pk_next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">R2_PK</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">2</span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nx">yk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nx">R2_Pk_next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">R2_PK</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">2</span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">yk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">2</span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="p">(</span><span class="nx">xk</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="nx">x</span><span class="o">++</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nx">ry</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">x</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="nx">rx</span><span class="o">**</span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">y</span><span class="o">**</span><span class="mf">2</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="other-curves">Other Curves</h2>
+<p>Various curves are useful for</p>
+<ul>
+<li>Object Modeling</li>
+<li>Animation path specifications</li>
+<li>Data and <code>function</code><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> graphing</li>
+<li>Graphics applications</li>
+</ul>
+<p>Commonly encountered curves include</p>
+<ul>
+<li>Conics</li>
+<li>Trigonometric</li>
+<li>Exponential</li>
+<li>Probability distributions</li>
+<li>General polynomials</li>
+<li>Splines</li>
+</ul>
+<h2 id="conic-sections">Conic Sections</h2>
+<p>The general equation for a <code>conic section</code> is</p>
+<div class="arithmatex">\[Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0\]</div>
+<p>Type of the section can be found using  </p>
+<div class="arithmatex">\[B^2 - 4AC\]</div>
+<ul>
+<li><span class="arithmatex">\(&lt; 0\)</span><ul>
+<li><a href="#ellipse">ellipse</a></li>
+<li><code>circle</code><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></li>
+<li><code>point</code></li>
+<li>no <code>curve</code></li>
+</ul>
+</li>
+<li><span class="arithmatex">\(= 0\)</span><ul>
+<li><code>parabola</code></li>
+<li>2 parallel lines</li>
+<li>1 line</li>
+<li>no <code>curve</code></li>
+</ul>
+</li>
+<li><span class="arithmatex">\(&gt; 0\)</span><ul>
+<li><code>hyperbola</code></li>
+<li>2 intersecting lines</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Circle</th>
+<th>Ellipse</th>
+<th>Parabola</th>
+<th>Hyperbola</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Equation (horizontal vertex)</td>
+<td><span class="arithmatex">\(x^2 + y^2 = r^2\)</span></td>
+<td><span class="arithmatex">\(\frac{x^2}{a^2}+\frac{y^2}{b^2} = 1\)</span></td>
+<td><span class="arithmatex">\(4px = y^2\)</span></td>
+<td><span class="arithmatex">\(\frac{x^2}{a^2}-\frac{y^2}{b^2} = 1\)</span></td>
+</tr>
+<tr>
+<td>Equations of Asymptotes</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="arithmatex">\(y = \pm x \left(\frac b a\right)\)</span></td>
+</tr>
+<tr>
+<td>Equation (vertical vertex)</td>
+<td><span class="arithmatex">\(x^2 + y^2 = r^2\)</span></td>
+<td><span class="arithmatex">\(\frac{y^2}{a^2}+\frac{x^2}{b^2} = 1\)</span></td>
+<td><span class="arithmatex">\(4py = x^2\)</span></td>
+<td><span class="arithmatex">\(\frac{y^2}{a^2}-\frac{x^2}{b^2} = 1\)</span></td>
+</tr>
+<tr>
+<td>Equations of Asymptotes</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="arithmatex">\(x = \pm y \left(\frac b a\right)\)</span></td>
+</tr>
+<tr>
+<td>Variables</td>
+<td><span class="arithmatex">\(r =\)</span> circle radius</td>
+<td><span class="arithmatex">\(a=\)</span> major radius, <span class="arithmatex">\(b=\)</span> minor radius, <span class="arithmatex">\(c=\)</span> distance from <code>center</code> to <code>focus</code></td>
+<td><span class="arithmatex">\(p =\)</span> distance from <code>vertex</code> to <code>focus</code> or <code>directrix</code></td>
+<td><span class="arithmatex">\(a=\frac 1 2\)</span> length of major axis, <span class="arithmatex">\(b=\frac 1 2\)</span> length of minor axis, <span class="arithmatex">\(c=\)</span> distance from <code>center</code> to <code>focus</code></td>
+</tr>
+<tr>
+<td>Eccentricity</td>
+<td><span class="arithmatex">\(0\)</span></td>
+<td></td>
+<td><span class="arithmatex">\(\frac c a\)</span></td>
+<td><span class="arithmatex">\(\frac c a\)</span></td>
+</tr>
+<tr>
+<td>Relation to <code>Focus</code></td>
+<td><span class="arithmatex">\(p = 0\)</span></td>
+<td><span class="arithmatex">\(a^2 - b^2 = c^2\)</span></td>
+<td><span class="arithmatex">\(p = p\)</span></td>
+<td><span class="arithmatex">\(a^2 + b^2 = c^2\)</span></td>
+</tr>
+<tr>
+<td>Definition: locus of <code>points</code> meeting the condition</td>
+<td>distance to the <code>origin</code> is <code>constant</code></td>
+<td>sum of distances to each <code>focus</code> is <code>constant</code></td>
+<td>distance to <code>focus</code> = distance to <code>directrix</code></td>
+<td>difference between <code>distances</code> to each <code>foci</code> is constant</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hyperbola">Hyperbola</h2>
+<p><code>Set</code><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> of all points, whose difference of distances from 2 fixed points (the <code>foci</code>) is constant, is called a <code>hyperbola</code>.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/07/cs602_e_7_2.svg" data-desc-position="bottom"><img alt="cs602_e_7_2.svg" id="hyperbola_img" src="../../../../assets/Figures/Excalidrawings/CS602/07/cs602_e_7_2.svg"></a>  </p>
+<figcaption>
+<p>(Rough sketch of a) <code>hyperbola</code> with <code>center</code> <span class="arithmatex">\(O\)</span>, <code>foci</code> (<span class="arithmatex">\(F_1, F_2\)</span>) and <code>vertices</code> (<span class="arithmatex">\(V_1, V_2\)</span>).  </p>
+</figcaption>
+</figure>
+<div class="arithmatex">\[\overline{V_1V_2} = \text{Transverse Axis}\]</div>
+<h3 id="equation">Equation</h3>
+<h4 id="horizontal-transverse-axis">Horizontal Transverse Axis</h4>
+<details class="note">
+<summary>Centered at <span class="arithmatex">\((0, 0)\)</span></summary>
+<div class="arithmatex">\[\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\]</div>
+</details>
+<details class="note">
+<summary>Centered at <span class="arithmatex">\((h, k)\)</span></summary>
+<div class="arithmatex">\[\frac{(x - h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1\]</div>
+</details>
+<h4 id="vertical-transverse-axis">Vertical Transverse Axis</h4>
+<details class="note">
+<summary>Centered at <span class="arithmatex">\((0, 0)\)</span></summary>
+<div class="arithmatex">\[\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1\]</div>
+</details>
+<details class="note">
+<summary>Centered at <span class="arithmatex">\((h, k)\)</span></summary>
+<div class="arithmatex">\[\frac{(y-k)^2}{a^2} - \frac{(x-h)^2}{b^2} = 1\]</div>
+</details>
+<p>If <span class="arithmatex">\(c = |\overline{FO}|\)</span> and <span class="arithmatex">\(a = |\overline{VO}|\)</span> then</p>
+<div class="arithmatex">\[b^2 = c^2 - a^2\]</div>
+<p><code>Eccentricity</code> <span class="arithmatex">\(e\)</span> is given by  </p>
+<div class="arithmatex">\[e = \frac c a\]</div>
+<div class="admonition note">
+<p class="admonition-title">For <code>hyperbola</code>, <span class="arithmatex">\(e &gt; 1\)</span> and for <a href="#ellipse">ellipse</a>, <span class="arithmatex">\(1 \ge e &gt; 0\)</span></p>
+</div>
+<p>The coordinates of the corners of the <code>rectangle</code> shown in the <a href="#hyperbola_img">figure</a> are  </p>
+<div class="arithmatex">\[(h \pm a, k \pm b)\]</div>
+<p>and the dotted lines passing through these corners are called <code>asymptotes</code>, bounding both branches of the <code>hyperbola</code>.</p>
+<p><code>Slope</code><sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup> is given by  </p>
+<div class="arithmatex">\[\frac b a\]</div>
+<p>The equations for the <code>asymptotes</code> are  </p>
+<details class="note">
+<summary>For horizontal <code>hyperbola</code></summary>
+<div class="arithmatex">\[y = k \pm \frac b a (x - h)\]</div>
+</details>
+<details class="note">
+<summary>For vertical <code>hyperbola</code></summary>
+<div class="arithmatex">\[y = k \pm \frac a b (x - h)\]</div>
+</details>
+<p>Also, the <code>line</code><sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> joining both ends of the <code>rectangle</code>, passing through the <code>center</code> and perpendicular to the <code>axis</code> is called <code>conjugate axis</code>.</p>
+<h2 id="parabola">Parabola</h2>
+<p>It is defined as <code>set</code><sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup> of <code>points</code> which are equidistant from a <code>line</code><sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">5</a></sup> called <code>directrix</code> and a fixed point called <code>focus</code> which isn't on <code>directrix</code>.<br>
+The midpoint between <code>directrix</code> and <code>focus</code> is called the <code>vertex</code>.<br>
+The line passing through <code>focus</code> and <code>vertex</code> is called the <code>axis</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Although <code>parabola</code> looks like one of the branches of <a href="#hyperbola">hyperbola</a>, it is not quite the case.</p>
+</div>
+<p>Equations for <code>parabolas</code> with <code>vertex</code> at <span class="arithmatex">\((h, k)\)</span> are given by</p>
+<details class="note">
+<summary>For horizontal <code>parabola</code></summary>
+<div class="arithmatex">\[(y - k)^2 = 4p(x - h)\]</div>
+</details>
+<details class="note">
+<summary>For vertical <code>parabola</code></summary>
+<div class="arithmatex">\[(x - h)^2 = 4p(y - k)\]</div>
+</details>
+<h2 id="rotations-of-axes">Rotations of Axes</h2>
+<p>The <span class="arithmatex">\(B\)</span> term in the general equation</p>
+<div class="arithmatex">\[Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0\]</div>
+<p>controls rotation.</p>
+<h3 id="animated-applications">Animated Applications</h3>
+<p><a href="#ellipse">Ellipses</a>, <a href="#hyperbola">hyperbolas</a> and <a href="#parabola">parabolas</a> are useful for describing orbital motions in context of following <code>forces</code>.</p>
+<ul>
+<li>Gravitational</li>
+<li>Electromagnetic</li>
+<li>Nuclear</li>
+</ul>
+<h3 id="parabolic-reflectors">Parabolic Reflectors</h3>
+<ul>
+<li>Car headlights</li>
+<li>Telescope mirrors</li>
+<li>Antennas</li>
+</ul>
+<h3 id="elliptical-orbits">Elliptical Orbits</h3>
+<p>Sun being one of the <code>foci</code> was noted by <code>Apollonius</code> in 2nd century and was later studied by <code>Kepler</code> rigorously.<br>
+The <code>eccentricity</code> of the following orbits are</p>
+<ul>
+<li><span class="arithmatex">\(0.0167\)</span> for <code>earth</code></li>
+<li><span class="arithmatex">\(0.2481\)</span> for <code>pluto</code> (highest in all planets)</li>
+</ul>
+<h3 id="whispering-galleries">Whispering Galleries</h3>
+<p>In United States capital, <code>St. Paul's Cathedral</code> has one of the rooms with an elliptical ceiling which allows two people standing at different <code>foci</code> of the <code>ellipse</code> hear each other very closely.</p>
+<h3 id="polynomials-and-spline-curves">Polynomials and Spline Curves</h3>
+<div class="arithmatex">\[y = \sum_{i = 0}^n a_ix^i\]</div>
+<div class="arithmatex">\[y = a_0x^0 + a_1x^1 + \ldots + a_nx^n\]</div>
+<p>Applications involve</p>
+<ul>
+<li>Design of object shapes</li>
+<li>Specifications of animation paths</li>
+<li>Graphing of data trends in a discrete set of data points</li>
+</ul>
+<p>To design object shapes or motion paths, a few key points are chosen to outline the curve, then polynomial fitting is applied.<br>
+A common approach uses <code>cubic polynomial segments</code> between each pair of points, defined parametrically as:</p>
+<div class="arithmatex">\[x(u)=ax0+ax1u+ax2u2+ax3u3x(u) = a_{x0} + a_{x1}u + a_{x2}u^2 + a_{x3}u^3\]</div>
+<div class="arithmatex">\[y(u)=ay0+ay1u+ay2u2+ay3u3y(u) = a_{y0} + a_{y1}u + a_{y2}u^2 + a_{y3}u^3\]</div>
+<p>where <span class="arithmatex">\(u \in [0,1]u \in [0, 1]\)</span>.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/07/cs602_e_7_3.svg" data-desc-position="bottom"><img alt="cs602_e_7_3.svg" src="../../../../assets/Figures/Excalidrawings/CS602/07/cs602_e_7_3.svg"></a></p>
+<h2 id="references">References</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Read more about <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_04/">slopes</a>.&nbsp;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Read more about <a href="../../../../Mathematics/M_Function/">functions</a>.&nbsp;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p>Read more about <a href="../cs602_06/">circle</a>.&nbsp;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p>Read more about <a href="../../../../Mathematics/M_Set/">sets</a>.&nbsp;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:5">
+<p>Read more about <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_04/">lines</a>.&nbsp;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">↩</a><a class="footnote-backref" href="#fnref2:5" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../cs602_06/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 06. Circle Drawing Techniques">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                06. Circle Drawing Techniques
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../cs602_08/" class="md-footer__link md-footer__link--next" aria-label="Next: 08. Filled Area Primitive - 1">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                08. Filled Area Primitive - 1
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/ChuzaWick420/" target="_blank" rel="noopener" title="Github Profile" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.artstation.com/chuzawick420" target="_blank" rel="noopener" title="ArtStation Profile" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m2.1 377.4 43 74.3c4.3 8.5 10.8 15.7 18.9 20.7s17.4 7.6 27 7.6h285.4l-59.2-102.6zM501.9 350 335.7 59.3c-4.4-8.2-10.9-15.1-18.9-20S299.7 32 290.4 32H202l257.3 447.6 40.7-70.5c1.9-3.2 21-29.7 2-59.1zm-226.7-45.5-115.5-200-115.5 200z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://gitlab.com/ChuzaWick420" target="_blank" rel="noopener" title="Gitlab Profile" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m504 204.6-.7-1.8L433.6 21c-1.4-3.6-3.9-6.6-7.2-8.6-2.4-1.6-5.1-2.5-8-2.8s-5.7.1-8.4 1.1-5.1 2.7-7.1 4.8c-1.9 2.1-3.3 4.7-4.1 7.4l-47 144H161.3l-47.1-144c-.8-2.8-2.2-5.3-4.1-7.4-2-2.1-4.4-3.7-7.1-4.8-2.6-1-5.5-1.4-8.4-1.1s-5.6 1.2-8 2.8c-3.2 2-5.8 5.1-7.2 8.6L9.8 202.8l-.8 1.8c-10 26.2-11.3 55-3.5 82 7.7 26.9 24 50.7 46.4 67.6l.3.2.6.4 106 79.5c38.5 29.1 66.7 50.3 84.6 63.9 3.7 1.9 8.3 4.3 13 4.3s9.3-2.4 13-4.3c17.9-13.5 46.1-34.9 84.6-63.9l106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["content.code.select", "content.code.annotate", "content.code.copy", "content.footnote.tooltips", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="../../../../assets/javascripts/obsidian_tags.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

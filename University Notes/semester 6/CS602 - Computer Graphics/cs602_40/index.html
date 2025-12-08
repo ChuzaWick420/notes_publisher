@@ -1,0 +1,3509 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A website to contain my knowledge">
+      
+      
+        <meta name="author" content="ChuzaWick420">
+      
+      
+        <link rel="canonical" href="https://chuzawick420.github.io/notes_publisher/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_40/">
+      
+      
+        <link rel="prev" href="../cs602_39/">
+      
+      
+        <link rel="next" href="../cs602_41/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/icons/nerd.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>40. Fractals - Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/pygments.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/variables.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/obsidian_tags.css">
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/interactive_graph.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website">
+<meta property="og:title" content="40. Fractals - Notes">
+<meta property="og:description" content="A website to contain my knowledge">
+<meta property="og:image" content="https://chuzawick420.github.io/notes_publisher/assets/images/social/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_40.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://chuzawick420.github.io/notes_publisher/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_40/">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="40. Fractals - Notes">
+<meta property="twitter:description" content="A website to contain my knowledge">
+<meta property="twitter:image" content="https://chuzawick420.github.io/notes_publisher/assets/images/social/University%20Notes/semester%206/CS602%20-%20Computer%20Graphics/cs602_40.png">
+<link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#40-fractals" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Notes" class="md-header__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  <img src="../../../../assets/icons/nerd.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              40. Fractals
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo" aria-hidden="true" type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ChuzaWick420/notes_publisher/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    ChuzaWick420/notes_publisher/
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Notes" class="md-nav__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  <img src="../../../../assets/icons/nerd.png" alt="logo">
+
+    </a>
+    Notes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ChuzaWick420/notes_publisher/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    ChuzaWick420/notes_publisher/
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Read Me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Dev%20Guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dev Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Feature%20Showcase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature Showcase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../Adventures/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adventures
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../Archives/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archives
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../Computer%20Science/Coding%20Standards/Google/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Science
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../General/Inode/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../Mathematics/M_Binomial_Theorem/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mathematics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../Projects/Portfolio/Goals/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    University Notes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    University Notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_01/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semester 1
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../semester%202/MTH301%20-%20Calculus%20II/mth301_01/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semester 2
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semester 6
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Semester 6
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10_3_1" id="__nav_10_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CS602   Computer Graphics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CS602   Computer Graphics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Introduction to Computer Graphics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Graphics Systems 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Graphics Systems 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Point
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line Drawing Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Circle Drawing Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Ellipse and other Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Filled Area Primitive - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Filled Area Primitives - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Mathematics Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. 2D Transformations 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. 2D Transformations - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Drawing Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Clipping - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Clipping - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. 3D Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    17. 3D Transformations - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_18/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    18. 3D Transformations - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    19. Projections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    20. Perspective Projection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    21. Triangles and Planes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    22. Triangle Rasterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    23. Lighting - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    24. Lighting - 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    25. Mathematics of Lighting and Shading part - 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    26. Mathematics of Lighting and Shading part 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    27. Review 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_28/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    28. Review 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    29. Mathematics of Lighting and Shading part 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    30. Mathematics of Lighting and Shading part 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    31. Mathematics of Lighting and Shading part 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_32/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    32. Introduction to OpenGL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_33/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    33. OpenGL Programming 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_34/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    34. OpenGL Programming 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_35/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    35. Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_36/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    36. Space Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_37/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    37. The Tangent Vector
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_38/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    38. Bezier Curves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_39/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    39. Building Polygonal Models of Surfaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    40. Fractals
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    40. Fractals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hausdorff-besicovitch-fractal-dimension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hausdorff Besicovitch (Fractal dimension)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#koch-curve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Koch Curve
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self Similarity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fractal-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fractal Geometry
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        L Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="L Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simpleminded-example-of-l-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simpleminded Example of L System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bush" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bush
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bush">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#axiom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Axiom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#production-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Production Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turning-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turning Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Result
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ifs-iterated-function-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IFS - Iterated Function Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hop-along-or-the-chaos-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hop along or "The Chaos Game"
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_41/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    41. Viewing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_42/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    42. Examples of Composing Several Transformations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_43/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    43. Real World and Opengl Lighting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_44/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    44. Evaluators, Curves and Surfaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs602_45/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    45. Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../MTH501%20-%20Linear%20Algebra/mth501_01/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MTH501   Linear Algebra
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hausdorff-besicovitch-fractal-dimension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hausdorff Besicovitch (Fractal dimension)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#koch-curve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Koch Curve
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self Similarity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fractal-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fractal Geometry
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        L Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="L Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simpleminded-example-of-l-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simpleminded Example of L System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bush" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bush
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bush">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#axiom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Axiom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#production-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Production Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turning-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turning Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Result
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ifs-iterated-function-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IFS - Iterated Function Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hop-along-or-the-chaos-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hop along or "The Chaos Game"
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Read Me
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_01/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    University Notes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../cs602_01/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Semester 6
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../cs602_01/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    CS602   Computer Graphics
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="40-fractals">40. Fractals</h1>
+<p><span style="color: gray;">Dated: 07-07-2025</span></p>
+<p><code>Fractal</code> are geometric patterns that is repeated at ever smaller scales to produce irregular shapes and surfaces that can not be represented by classical geometry. <code>Fractals</code> are used in computer modeling of irregular patterns and structure in nature.</p>
+<p>According to <code>Webster</code>'s Dictionary a <code>fractal</code> is defined as being </p>
+<div class="admonition quote">
+<p class="admonition-title">"Derived from the Latin word <code>fractus</code> meaning broken, uneven: any of various extremely irregular curves or shapes that repeat themselves at any scale on which they are examined."</p>
+</div>
+<p><code>Mandelbrot</code>, the discoverer of fractals gives two definitions:</p>
+<div class="admonition quote">
+<p class="admonition-title">"I coined <code>fractal</code> from the Latin adjective <code>fractus</code>. The corresponding Latin verb <code>frangere</code> means 'to break:' to create irregular fragments. It is therefore sensible - and how appropriate for our needs! - that, in addition to 'fragmented' (as in fraction or refraction), <code>fractus</code> should also mean 'irregular,' both meanings being preserved in fragment"</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Every <code>set</code><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> with a non-integer (Hausdorff-Besicovitch) dimension (D) is a <code>fractal</code>. However not every <code>fractal</code> has an integer <span class="arithmatex">\(D\)</span>. A <code>fractal</code> is by definition a <code>set</code><sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> for which <span class="arithmatex">\(D\)</span> strictly exceeds the topological dimension (D^).</p>
+</div>
+<h2 id="hausdorff-besicovitch-fractal-dimension">Hausdorff Besicovitch (<code>Fractal</code> dimension)</h2>
+<p>First, we need to understand the <code>fractal</code> dimension. So first we have to develop an understanding of “how to calculate the <em>dimension</em> of an object”.</p>
+<p>Imagine the 3 different objects:</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_1.svg" data-desc-position="bottom"><img alt="cs602_e_40_1.svg" src="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_1.svg"></a>  </p>
+<figcaption>
+<p>Dividing the <code>line</code><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> into <span class="arithmatex">\(\frac 1 4\)</span>. The idea is self similarity.  </p>
+</figcaption>
+</figure>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_2.svg" data-desc-position="bottom"><img alt="cs602_e_40_2.svg" src="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_2.svg"></a>  </p>
+<figcaption>
+<p>Dividing the <code>square</code> into <span class="arithmatex">\(\frac 1 4\)</span>.  </p>
+</figcaption>
+</figure>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_3.svg" data-desc-position="bottom"><img alt="cs602_e_40_3.svg" src="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_3.svg"></a>  </p>
+<figcaption>
+<p>Dividing the <code>cube</code> into <span class="arithmatex">\(\frac 1 4\)</span>.  </p>
+</figcaption>
+</figure>
+<p>If we pay attention to the pattern common in all three, we immediately see that</p>
+<div class="arithmatex">\[4 = 4^1\]</div>
+<div class="arithmatex">\[16 = 4^2\]</div>
+<div class="arithmatex">\[64 = 4^3\]</div>
+<p>This gives us equation</p>
+<div class="arithmatex">\[N = S^D\]</div>
+<p>Here <span class="arithmatex">\(N\)</span> is the total number of smaller pieces, <span class="arithmatex">\(S\)</span> is the <code>scale</code> of 1 small piece compared to larger piece and <span class="arithmatex">\(D\)</span> is called the <code>dimension</code>.</p>
+<div class="arithmatex">\[\implies D = \frac {\log N} {\log S}\]</div>
+<p>This <code>dimension</code> is the <code>Hausdorff Besicovitch dimension</code>.</p>
+<h2 id="koch-curve">Koch Curve</h2>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_4.svg" data-desc-position="bottom"><img alt="cs602_e_40_4.svg" src="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_4.svg"></a>  </p>
+<figcaption>
+<p>An <code>equilateral triangle</code> with total length of curve being <span class="arithmatex">\(3\)</span>.  </p>
+</figcaption>
+</figure>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_5.svg" data-desc-position="bottom"><img alt="cs602_e_40_5.svg" src="../../../../assets/Figures/Excalidrawings/CS602/40/cs602_e_40_5.svg"></a>  </p>
+<figcaption>
+<p>Length is now <span class="arithmatex">\(4\)</span> .  </p>
+</figcaption>
+</figure>
+<p>Continue this process and eventually we will get something like</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Imgs/CS602/40/cs602_i_40_1.png" data-desc-position="bottom"><img alt="cs602_i_40_1.png" src="../../../../assets/Figures/Imgs/CS602/40/cs602_i_40_1.png"></a>  </p>
+<figcaption>
+<p>Snowflake fractal  </p>
+</figcaption>
+</figure>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Imgs/CS602/40/cs602_i_40_2.png" data-desc-position="bottom"><img alt="cs602_i_40_2.png" src="../../../../assets/Figures/Imgs/CS602/40/cs602_i_40_2.png"></a>  </p>
+<figcaption>
+<p>Snowflake for reference  </p>
+</figcaption>
+</figure>
+<h2 id="self-similarity">Self Similarity</h2>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../../assets/Figures/Imgs/CS602/40/cs602_i_40_3.png" data-desc-position="bottom"><img alt="cs602_i_40_3.png" src="../../../../assets/Figures/Imgs/CS602/40/cs602_i_40_3.png"></a>  </p>
+<figcaption>
+<p><code>Barnsley fern</code> example in nature  </p>
+</figcaption>
+</figure>
+<h2 id="fractal-geometry">Fractal Geometry</h2>
+<ul>
+<li>For 1 dimensional object (a point on a light), we just need 1 value to describe it.</li>
+<li>For 2 dimensional object (a point on a plane), we need 2 values to describe it.</li>
+<li>For 3 dimensional object (a point in a space), we need 3 values to describe it.</li>
+</ul>
+<p>Another mathematical way to define a <code>dimension</code> is to look at how <code>size</code> of an object increases in relation to increase in 1 dimension. Let <span class="arithmatex">\(x\)</span> be length in one <code>dimension</code> and <span class="arithmatex">\(2\)</span> be the linear scale.</p>
+<ul>
+<li>For one dimension, <span class="arithmatex">\(x \implies (2 \times x) \implies 2x\)</span></li>
+<li>For two dimensions, <span class="arithmatex">\(x \times x \implies (2 \times x) \times (2 \times x) = 4x^2\)</span></li>
+<li>For two dimensions, <span class="arithmatex">\(x \times x \times x \implies (2 \times x) \times (2 \times x) \times (2 \times x) = 8x^3\)</span></li>
+</ul>
+<p>So, in general terms</p>
+<div class="arithmatex">\[S = L^D\]</div>
+<p>Where <span class="arithmatex">\(S\)</span> is the size, <span class="arithmatex">\(D\)</span> is the <code>dimension</code> and <span class="arithmatex">\(L\)</span> is the linear scaling factor.</p>
+<div class="arithmatex">\[\implies D = \frac{\log S}{\log L}\]</div>
+<p>In the examples above the value of <span class="arithmatex">\(D\)</span> is an <code>integer</code>, <span class="arithmatex">\(1, 2\)</span> or <span class="arithmatex">\(3\)</span>, depending on the <code>dimension</code> of the geometry. This relationship holds for all <code>Euclidean shapes</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Fractal</th>
+<th>Euclidean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>modern invention</td>
+<td>traditional</td>
+</tr>
+<tr>
+<td>no specific size or scale</td>
+<td>based on a characteristic size or scale</td>
+</tr>
+<tr>
+<td>appropriate for geometry in nature</td>
+<td>suits description of man made objects</td>
+</tr>
+<tr>
+<td>described by an algorithm</td>
+<td>described by a usually simple formula</td>
+</tr>
+</tbody>
+</table>
+<h2 id="l-systems">L Systems</h2>
+<p>The following is based on <code>L Systems</code> as described in "Lecture Notes in Biomathematics" by <code>Przemyslaw Prusinkiewcz</code> and <code>James Hanan</code>.<br>
+A brief description of an <code>L system</code> will be presented here but for a more complete description the user should consult the literature.</p>
+<h3 id="simpleminded-example-of-l-system">Simpleminded Example of <code>L System</code></h3>
+<p>A string of <code>characters</code> (<code>symbols</code>) is rewritten on each iteration according to some <code>replacement rules</code>. Consider an initial string (<code>axiom</code>)  </p>
+<div class="arithmatex">\[F + F + F + F\]</div>
+<p>and a rewriting rule</p>
+<div class="arithmatex">\[F \to F + F - F - F F + F + F - F\]</div>
+<p>After the first iteration, we have</p>
+<div class="highlight"><pre><span></span><code>F + F - F - F F + F + F - F + F + F - F - F F + F + F - F + F + F - F - F F + F + F - F + F + F - F - F F + F + F - F
+</code></pre></div>
+<p>After the second iteration, we have</p>
+<div class="highlight"><pre><span></span><code>F + F - F - F F + F + F - F + F + F - F - F F + F + F - F - F + F - F - F F + F + F - F - F + F - F - F F + F + F - F F + F F - F F + F + F - F + F + F - F - F F + F + F - F +  F + F - F - F F + F + F - F - F + F - F - F F + F + F - F + F + F - F F F + F + F - F + F + F - F - F F + F + F - F - F + F - F - F F + F + F - F - F + F - F - F F + F + F - F F + F - F - F F + F + F - F + F + F - F - F F + F + F - F + F + F - F - F F + F + F - F - F + F - F - F F + F + F - F + F + F - F - F F + F + F F + F + F - F - F F + F + F - F - F + F - F - F F + F + F - F - F + F - F - F F + F + F - F F + F - F - F F + F + F - F + F + F - F - F F + F + F - F + F + F - F - F F + F + F - F - F + F - F - F F + F + F - F + F + F - F - F F + F + F - F + F + F - F F F + F + F - F - F + F - F - F F + F + F - F - F + F - F - F F + F + F - F F + F - F - F F + F + F - F + F + F - F - F F + F + F - F + F + F - F - F F + F + F - F - F + F - F - F F + F + F - F 
+</code></pre></div>
+<p>The graphical meaning for this is</p>
+<ul>
+<li><code>F</code> means move forward</li>
+<li><code>+</code> means turn right</li>
+<li><code>-</code> means turn left</li>
+</ul>
+<figure>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://l-systems.netlify.app/gifs/tiles.gif" data-desc-position="bottom"><img alt="https://l-systems.netlify.app/gifs/tiles.gif" src="https://l-systems.netlify.app/gifs/tiles.gif"></a>
+
+<figcaption>
+<p>5 iterations<br>
+Source: <a href="https://l-systems.netlify.app/">l-systems.netlify.app/</a>  </p>
+</figcaption>
+</figure>
+<table>
+<thead>
+<tr>
+<th>Character</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>F</code></td>
+<td>Move forward by line length drawing a line</td>
+</tr>
+<tr>
+<td><code>f</code></td>
+<td>Move forward by line length without drawing a line</td>
+</tr>
+<tr>
+<td><code>+</code></td>
+<td>Turn left by turning angle</td>
+</tr>
+<tr>
+<td><code>-</code></td>
+<td>Turn right by turning angle</td>
+</tr>
+<tr>
+<td><code>\|</code> (pipe)</td>
+<td>Reverse direction (i.e., turn by 180 degrees)</td>
+</tr>
+<tr>
+<td><code>[</code></td>
+<td>Push current drawing state onto stack</td>
+</tr>
+<tr>
+<td><code>]</code></td>
+<td>Pop current drawing state from the stack</td>
+</tr>
+<tr>
+<td><code>#</code></td>
+<td>Increment the line width by line width increment</td>
+</tr>
+<tr>
+<td><code>!</code></td>
+<td>Decrement the line width by line width increment</td>
+</tr>
+<tr>
+<td><code>@</code></td>
+<td>Draw a dot with line width radius</td>
+</tr>
+<tr>
+<td><code>{</code></td>
+<td>Open a polygon</td>
+</tr>
+<tr>
+<td><code>}</code></td>
+<td>Close a polygon and fill it with fill colour</td>
+</tr>
+<tr>
+<td><code>&gt;</code></td>
+<td>Multiply the line length by the line length scale factor</td>
+</tr>
+<tr>
+<td><code>&lt;</code></td>
+<td>Divide the line length by the line length scale factor</td>
+</tr>
+<tr>
+<td><code>&amp;</code></td>
+<td>Swap the meaning of + and -</td>
+</tr>
+<tr>
+<td><code>(</code></td>
+<td>Decrement turning angle by turning angle increment</td>
+</tr>
+<tr>
+<td><code>)</code></td>
+<td>Increment turning angle by turning angle increment</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bush">Bush</h3>
+<h4 id="axiom">Axiom</h4>
+<div class="arithmatex">\[F\]</div>
+<h4 id="production-rules">Production Rules</h4>
+<div class="arithmatex">\[F \to FF+[+F-F-F]-[-F+F+F]\]</div>
+<h4 id="turning-angle">Turning Angle</h4>
+<div class="arithmatex">\[\theta = 22.5\]</div>
+<h4 id="result">Result</h4>
+<figure>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://l-systems.netlify.app/gifs/bush2.gif" data-desc-position="bottom"><img alt="https://l-systems.netlify.app/gifs/bush2.gif" src="https://l-systems.netlify.app/gifs/bush2.gif"></a>
+
+<figcaption>
+<p>5 iterations<br>
+Source: <a href="https://l-systems.netlify.app/">l-systems.netlify.app/</a>  </p>
+</figcaption>
+</figure>
+<h2 id="ifs-iterated-function-systems"><code>IFS</code> - Iterated Function Systems</h2>
+<p>Instead of working with lines as in <code>L systems</code>, <code>IFS</code> replaces polygons by other polygons as described by a generator. On every iteration each polygon is replaced by a suitably scaled, rotated, and translated version of the polygons in the generator.</p>
+<div class="arithmatex">\[
+\begin{bmatrix}
+    x_n \\
+    y_n
+\end{bmatrix}
+=
+\begin{bmatrix}
+    a &amp; b \\
+    c &amp; d \\
+\end{bmatrix}
+\begin{bmatrix}
+    x_{n - 1} \\
+    y_{n - 1}
+\end{bmatrix}
++
+\begin{bmatrix}
+    e \\
+    f
+\end{bmatrix}
+\]</div>
+<p>To run the system an <code>initial point</code> is chosen and on each iteration one of the transformation is chosen randomly according to the assigned probabilities, the resulting points <span class="arithmatex">\((x_n, y_n)\)</span> are drawn on the page.<br>
+As in the case of <a href="#l-systems">L systems</a>, if the <code>IFS code</code> for a desired image can be determined (by something called the <code>Collage theorem</code>) then large data compression ratios can be achieved.<br>
+The fundamental iterative process involves replacing rectangles with a series of rectangles called the <code>generator</code>. The rectangles are replaced by a suitably scaled, translated, and rotated version of the <code>generator</code>.</p>
+<h2 id="hop-along-or-the-chaos-game">Hop along or "The Chaos Game"</h2>
+<div class="arithmatex">\[x_{n + 1} \leftarrow f(x_n, y_n)\]</div>
+<div class="arithmatex">\[y_{n + 1} \leftarrow f(x_n, y_n)\]</div>
+<h2 id="references">References</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Read more about <a href="../../../../Mathematics/M_Set/">sets</a>.&nbsp;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Read more about <a href="../../../semester%201/MTH101%20-%20Calculus%20and%20Analytical%20Geometry/mth101_04/">line</a>.&nbsp;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../cs602_39/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 39. Building Polygonal Models of Surfaces">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                39. Building Polygonal Models of Surfaces
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../cs602_41/" class="md-footer__link md-footer__link--next" aria-label="Next: 41. Viewing">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                41. Viewing
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/ChuzaWick420/" target="_blank" rel="noopener" title="Github Profile" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.artstation.com/chuzawick420" target="_blank" rel="noopener" title="ArtStation Profile" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m2.1 377.4 43 74.3c4.3 8.5 10.8 15.7 18.9 20.7s17.4 7.6 27 7.6h285.4l-59.2-102.6zM501.9 350 335.7 59.3c-4.4-8.2-10.9-15.1-18.9-20S299.7 32 290.4 32H202l257.3 447.6 40.7-70.5c1.9-3.2 21-29.7 2-59.1zm-226.7-45.5-115.5-200-115.5 200z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://gitlab.com/ChuzaWick420" target="_blank" rel="noopener" title="Gitlab Profile" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m504 204.6-.7-1.8L433.6 21c-1.4-3.6-3.9-6.6-7.2-8.6-2.4-1.6-5.1-2.5-8-2.8s-5.7.1-8.4 1.1-5.1 2.7-7.1 4.8c-1.9 2.1-3.3 4.7-4.1 7.4l-47 144H161.3l-47.1-144c-.8-2.8-2.2-5.3-4.1-7.4-2-2.1-4.4-3.7-7.1-4.8-2.6-1-5.5-1.4-8.4-1.1s-5.6 1.2-8 2.8c-3.2 2-5.8 5.1-7.2 8.6L9.8 202.8l-.8 1.8c-10 26.2-11.3 55-3.5 82 7.7 26.9 24 50.7 46.4 67.6l.3.2.6.4 106 79.5c38.5 29.1 66.7 50.3 84.6 63.9 3.7 1.9 8.3 4.3 13 4.3s9.3-2.4 13-4.3c17.9-13.5 46.1-34.9 84.6-63.9l106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["content.code.select", "content.code.annotate", "content.code.copy", "content.footnote.tooltips", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="../../../../assets/javascripts/obsidian_tags.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
