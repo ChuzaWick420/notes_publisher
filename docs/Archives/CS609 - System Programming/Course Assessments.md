@@ -298,3 +298,20 @@ date: 2025-12-07
 > - [x] It will fail to open the file
 > - [ ] It will open some other file instead of specified file
 
+> [!QUESTION]- The Windows API _ is used to write data from a buffer and store it in a file.
+> - [ ] CreateFile()
+> - [ ] CopyFile()
+> - [x] WriteFile()
+> - [ ] ReadFile()
+
+> [!QUESTION]- The Windows API _ is used to read data from a file and store it in a buffer.
+> - [ ] CreateFile()
+> - [ ] CopyFile()
+> - [ ] WriteFile()
+> - [x] ReadFile()
+
+> [!QUESTION]- The return type of WriteFile() function is
+> - [ ] DWORD
+> - [x] BOOL
+> - [ ] LPOVERLAPPED
+> - [ ] LPDWORD
