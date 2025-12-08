@@ -412,3 +412,21 @@ date: 2025-12-07
 > - [x] Generic
 > - [ ] Non-generic
 
+> [!QUESTION]- `#!cpp ReportError()` function is similar to which C library functions?
+> - [ ] perror
+> - [ ] err_sys
+> - [x] All of the given options
+> - [ ] err_ret
+
+> [!QUESTION]- Which of the following function turns the message number into a meaningful message?
+> - [ ] GetLastError
+> - [ ] All of the given option
+> - [x] FormatMessage
+> - [ ] ReportError
+
+> [!QUESTION]- Which header file includes all the header files that will be typically required for all subsequent programs?
+> - [ ] environmenth
+> - [ ] windows.h
+> - [ ] tchar.h
+> - [x] everything.h
+
