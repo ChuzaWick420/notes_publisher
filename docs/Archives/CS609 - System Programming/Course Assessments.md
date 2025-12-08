@@ -315,3 +315,34 @@ date: 2025-12-07
 > - [x] BOOL
 > - [ ] LPOVERLAPPED
 > - [ ] LPDWORD
+
+> [!QUESTION]- Which library in C provides functions using FILE objects connected to streams?
+> - [ ] kernel32.dll
+> - [ ] fileio.h
+> - [x] stdio.h
+> - [ ] windows.h
+
+> [!QUESTION]- CloseFile( ) API has _ parameters.
+> - [ ] 3
+> - [ ] 1
+> - [ ] 2
+> - [ ] 4
+
+> [!QUESTION]- In UNIX, what does the open function return?
+> - [ ] File descriptor
+> - [ ] CloseHandle
+> - [ ] HANDLE
+> - [ ] FILE
+
+> [!QUESTION]- Return type of the CloseFile ( ) API is
+> - [ ] BOOL
+> - [ ] HANDLE
+> - [ ] LPDWORD
+> - [ ] DWORD
+
+> [!QUESTION]- Which handles should not be closed by programs before terminating in Windows?
+> - [ ] Kernel handles
+> - [x] Standard device handles
+> - [ ] Temporary file handles
+> - [ ] Event handles
+
