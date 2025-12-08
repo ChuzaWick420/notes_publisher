@@ -508,3 +508,21 @@ date: 2025-12-07
 > - [ ] 4 
 > - [ ] 2
 
+> [!QUESTION]- `#!cpp RemoveDirectory()` function takes _ parameter(s).
+> - [ ] 4
+> - [ ] 2
+> - [x] 1
+> - [ ] 3
+
+> [!QUESTION]- What is the return type of `#!cpp RemoveDirectory()` function?
+> - [x] BOOL
+> - [ ] HANDLE
+> - [ ] DWORD
+> - [ ] VOID
+
+> [!QUESTION]- `#!cpp setCurrentDirectory()` function takes _ parameter(s).
+> - [x] 1
+> - [ ] 2
+> - [ ] 3
+> - [ ] 4
+
