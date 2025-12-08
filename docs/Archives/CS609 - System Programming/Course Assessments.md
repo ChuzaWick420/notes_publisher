@@ -472,3 +472,20 @@ date: 2025-12-07
 > - [x] `#!cpp Options()`
 > - [ ] `#!cpp CatFiIe()`
 
+> [!QUESTION]- When a text is encrypted, we represent that text by the symbol _, in the encryption formula.
+> - [ ] E
+> - [ ] A
+> - [x] C
+> - [ ] P
+
+> [!QUESTION]- _ empire is considered to be pioneers of encryption as they used basic encryption algorithms to encrypt secret conversation in a war.
+> - [ ] Chinese
+> - [ ] Persian
+> - [x] Roman
+> - [ ] Mughal
+
+> [!QUESTION]- The text that we are going to encrypt is called \_ text so it is denoted by \_
+> - [x] Plain, p 
+> - [ ] Personal, p 
+> - [ ] Proposed, P
+> - [ ] Secret, W
