@@ -454,3 +454,21 @@ date: 2025-12-07
 > - [ ] Console variable
 > - [x] Environment variable
 
+> [!QUESTION]- `#!cpp Options()` function takes _ parameters.
+> - [ ] 3
+> - [ ] 4
+> - [x] variable
+> - [ ] 5
+
+> [!QUESTION]- What is the return type of `#!cpp CatFile()` function?
+> - [ ] `#!cpp HANDLE`
+> - [x] `#!cpp VOID`
+> - [ ] `#!cpp DWORD`
+> - [ ] `#!cpp BOOL`
+
+> [!QUESTION]- Which of the following functions parses the given parameter list?
+> - [ ] `#!cpp Copyoptions()`
+> - [ ] `#!cpp CopyFile()`
+> - [x] `#!cpp Options()`
+> - [ ] `#!cpp CatFiIe()`
+
