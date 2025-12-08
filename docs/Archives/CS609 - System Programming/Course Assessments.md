@@ -231,3 +231,27 @@ date: 2025-12-07
 > - [ ] HANDLE
 > - [ ] LPTSTR
 > - [ ] DWORD
+
+> [!QUESTION]- Which file system is the only one to support security among the mentioned file systems?
+> - [ ] UDF
+> - [x] NTFS
+> - [ ] FAT
+> - [ ] CDFS
+
+> [!QUESTION]- Which option is NOT related to the NT File System?
+> - [x] File size limitation
+> - [ ] Compression
+> - [ ] Fault Tolerance
+> - [ ] Encryption
+
+> [!QUESTION]- Which file system is Microsoft's primary, full-functionality file system?
+> - [ ] CDFS
+> - [x] NTFS
+> - [ ] UDF
+> - [ ] FAT 32
+
+> [!QUESTION]- Keeping in view the support for huge file size, which file system is more favorable?
+> - [ ] FAT8
+> - [ ] FAT 16
+> - [x] NTFS
+> - [ ] FAT32
