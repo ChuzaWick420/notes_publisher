@@ -430,3 +430,27 @@ date: 2025-12-07
 > - [ ] tchar.h
 > - [x] everything.h
 
+> [!QUESTION]- In a Windows system, Input, \_, and \_ are the three standard I/O devices.
+> - [ ] Error, Correction
+> - [ ] Output , display
+> - [x] Output, Error
+> - [ ] Display, error
+
+> [!QUESTION]- `#!cpp STD_OUTPUT_HANDLE` contains _ as an environment variable.
+> - [x] CONOUT$
+> - [ ] CONIN$
+> - [ ] CONPRNT$
+> - [ ] CONDIS$
+
+> [!QUESTION]- `#!cpp GetStdHandle()` API has _ parameter/s.
+> - [ ] 2
+> - [ ] 3
+> - [ ] 4
+> - [x] 1
+
+> [!QUESTION]- `#!cpp STD_INPUT_HANDLE` macro contains a variable, `CONIN$`, which is a/an
+> - [ ] Default variable
+> - [ ] Input variable
+> - [ ] Console variable
+> - [x] Environment variable
+
