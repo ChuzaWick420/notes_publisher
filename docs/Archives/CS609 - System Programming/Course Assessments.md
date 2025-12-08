@@ -489,3 +489,22 @@ date: 2025-12-07
 > - [ ] Personal, p 
 > - [ ] Proposed, P
 > - [ ] Secret, W
+
+> [!QUESTION]- We use `#!cpp MoveFileEx()` to _ the existing file.
+> - [ ] OverWrite
+> - [ ] Copy
+> - [ ] Delete
+> - [ ] Rename
+
+> [!QUESTION]- Correct syntax of `#!cpp MoveFile()` functions is
+> - [ ] `#!cpp BOOL MoveFile(bool lpNewFileName, LPCTSTR lpExistingFileName);`
+> - [x] `#!cpp BOOL MoveFile(LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName);`
+> - [ ] `#!cpp BOOL MoveFile(LPCTSTR lpNewFileName, LPCTSTR lpExistingFileName);`
+> - [ ] `#!cpp BOOL MoveFile(bool lpNewFileName, bool lpExistingFileName);`
+
+> [!QUESTION]- `#!cpp DeleteFile()` function takes _ parameter(s). 
+> - [ ] 3 
+> - [x] 1
+> - [ ] 4 
+> - [ ] 2
+
