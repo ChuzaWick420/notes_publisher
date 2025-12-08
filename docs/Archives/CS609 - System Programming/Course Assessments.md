@@ -394,3 +394,21 @@ date: 2025-12-07
 > - [ ] a Unicode
 > - [x] a generic
 
+> [!QUESTION]- 8 bit only strategy involves ignoring Unicode and continuing to use the _ data type.
+> - [ ] bool
+> - [x] char
+> - [ ] handle
+> - [ ] dword
+
+> [!QUESTION]- Which strategy is suitable for projects that require backward compatibility with existing 8-bit code?
+> - [ ] Unicode only
+> - [x] Unicode and 8-bit
+> - [ ] 8-bit or Unicode with generic code
+> - [ ] 8-bit only
+
+> [!QUESTION]- To switch between a-bit character code and standard unicode, _ functions and data types are required
+> - [ ] Unicode
+> - [ ] 8-bit
+> - [x] Generic
+> - [ ] Non-generic
+
