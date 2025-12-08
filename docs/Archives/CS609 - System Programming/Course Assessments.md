@@ -280,3 +280,21 @@ date: 2025-12-07
 > - [ ] The root directory
 > - [ ] The previous directory
 
+> [!QUESTION]- In the CreateFile() function, if the same name file already exists, then the attribute, CREATE _ ALWAYS is used to
+> - [x] Overwrite an existing file
+> - [ ] Delete the existing file
+> - [ ] Delete the existing file and create a new file
+> - [ ] Creates a new file only
+
+> [!QUESTION]- CreateFile() API has _ parameters.
+> - [ ] 8
+> - [x] 7
+> - [ ] 6
+> - [ ] 5
+
+> [!QUESTION]- In the CreateFile() function, which statement is true about OPEN_EXISTING attribute, if the file does not exist?
+> - [ ] It will open an existing file
+> - [ ] It will create a new file
+> - [x] It will fail to open the file
+> - [ ] It will open some other file instead of specified file
+
