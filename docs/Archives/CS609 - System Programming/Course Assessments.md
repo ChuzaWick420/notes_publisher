@@ -141,7 +141,7 @@ date: 2025-12-07
 > - [ ] One
 > - [ ] Compiled
 
-> [!QUESTION]- fopen function is available in _ library.
+> [!QUESTION]- `#!cpp fopen()` function is available in _ library.
 > - [x] stdio.h
 > - [ ] stdlib.h
 > - [ ] string.h
@@ -159,7 +159,7 @@ date: 2025-12-07
 > - [ ] Converting 64-bit into 32-bit code
 > - [x] Keeping separate APIs for 32 and 64-bit code
 
-> [!QUESTION]- A successful read using fread() function in C is indicated by a _ return value.
+> [!QUESTION]- A successful read using `#!cpp fread()` function in C is indicated by a _ return value.
 > - [ ] Boolean
 > - [ ] Negative
 > - [x] Non-negative
@@ -178,7 +178,7 @@ date: 2025-12-07
 > - [ ] Pointer to an integer
 > - [x] Pointer to a file structure
 
-> [!QUESTION]- fopen() function in C returns _ if the file is not successfully opened.
+> [!QUESTION]- `#!cpp fopen()` function in C returns _ if the file is not successfully opened.
 > - [ ] Pointer to a file
 > - [ ] Zero value
 > - [ ] Neither NIJLL nor Zero
@@ -202,31 +202,31 @@ date: 2025-12-07
 > - [ ] By calling CloseHandle() function
 > - [ ] By closing the handle
 
-> [!QUESTION]- The return type of ReadFile() is
+> [!QUESTION]- The return type of `#!cpp ReadFile()` is
 > - [x] BOOL
 > - [ ] HANDLE
 > - [ ] INT
 > - [ ] DWORD
 
-> [!QUESTION]- The return type of malloc() function in C can be
+> [!QUESTION]- The return type of `#!cpp malloc()` function in C can be
 > - [ ] Null only
 > - [ ] An array
 > - [ ] Linked list
 > - [x] Pointer to the allocated space or Null
 
-> [!QUESTION]- CopyFile() convenience function has _ parameters.
+> [!QUESTION]- `#!cpp CopyFile()` convenience function has _ parameters.
 > - [ ] 2
 > - [ ] 4
 > - [x] 3
 > - [ ] 1
 
-> [!QUESTION]- LPWSTR stands for
+> [!QUESTION]- `#!cpp LPWSTR` stands for
 > - [x] Long Pointer to Wide String
 > - [ ] Long Pointer With String
 > - [ ] Last Pointer With String
 > - [ ] Last Pointer to Wide String
 
-> [!QUESTION]- Which of the following is return type CopyFile() convenience function?
+> [!QUESTION]- Which of the following is return type `#!cpp CopyFile()` convenience function?
 > - [x] BOOL
 > - [ ] HANDLE
 > - [ ] LPTSTR
@@ -280,19 +280,19 @@ date: 2025-12-07
 > - [ ] The root directory
 > - [ ] The previous directory
 
-> [!QUESTION]- In the CreateFile() function, if the same name file already exists, then the attribute, CREATE _ ALWAYS is used to
+> [!QUESTION]- In the `#!cpp CreateFile()` function, if the same name file already exists, then the attribute, `#!cpp CREATE_ALWAYS` is used to
 > - [x] Overwrite an existing file
 > - [ ] Delete the existing file
 > - [ ] Delete the existing file and create a new file
 > - [ ] Creates a new file only
 
-> [!QUESTION]- CreateFile() API has _ parameters.
+> [!QUESTION]- `#!cpp CreateFile()` API has _ parameters.
 > - [ ] 8
 > - [x] 7
 > - [ ] 6
 > - [ ] 5
 
-> [!QUESTION]- In the CreateFile() function, which statement is true about OPEN_EXISTING attribute, if the file does not exist?
+> [!QUESTION]- In the `#!cpp CreateFile()` function, which statement is true about `#!cpp OPEN_EXISTING` attribute, if the file does not exist?
 > - [ ] It will open an existing file
 > - [ ] It will create a new file
 > - [x] It will fail to open the file
@@ -310,19 +310,19 @@ date: 2025-12-07
 > - [ ] WriteFile()
 > - [x] ReadFile()
 
-> [!QUESTION]- The return type of WriteFile() function is
+> [!QUESTION]- The return type of `#!cpp WriteFile()` function is
 > - [ ] DWORD
 > - [x] BOOL
 > - [ ] LPOVERLAPPED
 > - [ ] LPDWORD
 
-> [!QUESTION]- Which library in C provides functions using FILE objects connected to streams?
+> [!QUESTION]- Which library in C provides functions using `#!cpp FILE` objects connected to streams?
 > - [ ] kernel32.dll
 > - [ ] fileio.h
 > - [x] stdio.h
 > - [ ] windows.h
 
-> [!QUESTION]- CloseFile( ) API has _ parameters.
+> [!QUESTION]- `#!cpp CloseFile()` API has _ parameters.
 > - [ ] 3
 > - [ ] 1
 > - [ ] 2
@@ -334,7 +334,7 @@ date: 2025-12-07
 > - [ ] HANDLE
 > - [ ] FILE
 
-> [!QUESTION]- Return type of the CloseFile ( ) API is
+> [!QUESTION]- Return type of the `#!cpp CloseFile()` API is
 > - [ ] BOOL
 > - [ ] HANDLE
 > - [ ] LPDWORD
