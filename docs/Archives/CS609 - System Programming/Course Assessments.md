@@ -255,3 +255,28 @@ date: 2025-12-07
 > - [ ] FAT 16
 > - [x] NTFS
 > - [ ] FAT32
+
+> [!QUESTION]- Which drives are normally designated as diskette drives?
+> - [ ] E: and F:
+> - [ ] C: and D:
+> - [ ] H: and K:
+> - [x] A: and B:
+
+> [!QUESTION]- In Windows file system, the extension and file name is separated by
+> - [x] dot(.)
+> - [ ] |
+> - [ ] \
+> - [ ] /
+
+> [!QUESTION]- In the Windows file system, which symbol can be used as a path separator?
+> - [ ] Backslash only
+> - [x] Both forward and backslash
+> - [ ] Pipe symbol
+> - [ ] Forward slash only
+
+> [!QUESTION]- What does a single period (.) represent as a directory name?
+> - [ ] The system directory
+> - [x] The current directory
+> - [ ] The root directory
+> - [ ] The previous directory
+
