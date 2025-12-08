@@ -369,3 +369,28 @@ date: 2025-12-07
 > - [ ] ASCII
 > - [ ] Both ASCII and Unicode
 > - [x] Generic
+
+> [!QUESTION]- All generic data types are included in _ header file.
+> - [x] `#!cpp <tchar.h>`
+> - [ ] `#!cpp <string.h>`
+> - [ ] `#!cpp <char.h>`
+> - [ ] `#!cpp <windows.h>`
+
+> [!QUESTION]- Which one is the correct definition of generic `#!cpp main()` function?
+> - [ ] `#!cpp int _main(int argc, LPTSTR argv[])`
+> - [x] `#!cpp int _tmain(int argc, LPTSTR argv[])`
+> - [ ] `#!cpp int main(int argc, String argv[])`
+> - [ ] `#!cpp int main(int argc, LPTSTR argv[])`
+
+> [!QUESTION]- `#!cpp TextOutW()` is a bits API and it supports _ standard.
+> - [ ] 32, Generic
+> - [ ] 16, Unicode
+> - [ ] 32, ASCII
+> - [x] 32, Unicode
+
+> [!QUESTION]- `#!cpp _tcscmpi()` is _ function to compare the strings.
+> - [ ] not a generic
+> - [ ] an ASCII
+> - [ ] a Unicode
+> - [x] a generic
+
