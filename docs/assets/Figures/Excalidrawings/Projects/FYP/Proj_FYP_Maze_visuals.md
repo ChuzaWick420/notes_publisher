@@ -83,13 +83,13 @@ generate_maze() ^XHJcOCUZ
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "nLzIJkJZr0fxX99yn18Iq",
 			"type": "rectangle",
-			"x": -206.5211611604147,
-			"y": -210.49024267749274,
+			"x": -185.5211611604147,
+			"y": -207.49024267749274,
 			"width": 128,
 			"height": 85,
 			"angle": 0,
@@ -107,8 +107,8 @@ generate_maze() ^XHJcOCUZ
 				"type": 3
 			},
 			"seed": 738131656,
-			"version": 91,
-			"versionNonce": 1069302968,
+			"version": 143,
+			"versionNonce": 1979116921,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -120,15 +120,16 @@ generate_maze() ^XHJcOCUZ
 					"type": "arrow"
 				}
 			],
-			"updated": 1764070003933,
+			"updated": 1774588659327,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "lfBix7cq",
 			"type": "text",
-			"x": -183.64111813062954,
-			"y": -205.49024267749274,
+			"x": -162.64111813062954,
+			"y": -202.49024267749274,
 			"width": 82.23991394042969,
 			"height": 75,
 			"angle": 0,
@@ -144,11 +145,11 @@ generate_maze() ^XHJcOCUZ
 			"index": "a1",
 			"roundness": null,
 			"seed": 222179784,
-			"version": 103,
-			"versionNonce": 954992312,
+			"version": 155,
+			"versionNonce": 2005718617,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1764070016354,
+			"boundElements": [],
+			"updated": 1774588659327,
 			"link": null,
 			"locked": false,
 			"text": "Minimum\nSpanning\nTree",
@@ -160,13 +161,14 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "nLzIJkJZr0fxX99yn18Iq",
 			"originalText": "Minimum\nSpanning\nTree",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "7oUJk5FgnhoOzQ54C8Q6Y",
 			"type": "rectangle",
-			"x": -207.31104800758746,
-			"y": 68.39342198722835,
+			"x": -186.31104800758746,
+			"y": 71.39342198722835,
 			"width": 128,
 			"height": 85,
 			"angle": 0,
@@ -184,8 +186,8 @@ generate_maze() ^XHJcOCUZ
 				"type": 3
 			},
 			"seed": 778918088,
-			"version": 217,
-			"versionNonce": 2093369272,
+			"version": 269,
+			"versionNonce": 607298361,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -197,15 +199,16 @@ generate_maze() ^XHJcOCUZ
 					"type": "arrow"
 				}
 			],
-			"updated": 1764070000516,
+			"updated": 1774588659327,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "do1QRy3x",
 			"type": "text",
-			"x": -172.56101749000933,
-			"y": 85.89342198722835,
+			"x": -151.56101749000933,
+			"y": 88.89342198722835,
 			"width": 58.49993896484375,
 			"height": 50,
 			"angle": 0,
@@ -221,11 +224,11 @@ generate_maze() ^XHJcOCUZ
 			"index": "a3",
 			"roundness": null,
 			"seed": 668401608,
-			"version": 248,
-			"versionNonce": 903018440,
+			"version": 300,
+			"versionNonce": 1481364505,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1764070025225,
+			"updated": 1774588659327,
 			"link": null,
 			"locked": false,
 			"text": "Maze\nSprite",
@@ -237,13 +240,14 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "7oUJk5FgnhoOzQ54C8Q6Y",
 			"originalText": "Maze\nSprite",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "tC6GUclqoFmIjN9_AmQL3",
 			"type": "rectangle",
-			"x": -207.22125067618023,
-			"y": -72.78359854919117,
+			"x": -186.22125067618023,
+			"y": -69.78359854919117,
 			"width": 128,
 			"height": 85,
 			"angle": 0,
@@ -261,8 +265,8 @@ generate_maze() ^XHJcOCUZ
 				"type": 3
 			},
 			"seed": 575907784,
-			"version": 211,
-			"versionNonce": 1442467512,
+			"version": 263,
+			"versionNonce": 399239417,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -278,15 +282,16 @@ generate_maze() ^XHJcOCUZ
 					"type": "arrow"
 				}
 			],
-			"updated": 1764069993834,
+			"updated": 1774588659327,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "a5BxYnyt",
 			"type": "text",
-			"x": -197.58121313955914,
-			"y": -55.28359854919117,
+			"x": -176.58121313955914,
+			"y": -52.28359854919117,
 			"width": 108.71992492675781,
 			"height": 50,
 			"angle": 0,
@@ -302,11 +307,11 @@ generate_maze() ^XHJcOCUZ
 			"index": "a5",
 			"roundness": null,
 			"seed": 136015560,
-			"version": 248,
-			"versionNonce": 1345304504,
+			"version": 300,
+			"versionNonce": 473326041,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1764069993834,
+			"updated": 1774588659327,
 			"link": null,
 			"locked": false,
 			"text": "generate\nmaze(MST)",
@@ -318,13 +323,14 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "tC6GUclqoFmIjN9_AmQL3",
 			"originalText": "generate\nmaze(MST)",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "VCt4Yao6VZjHWKUe_EwFN",
 			"type": "arrow",
-			"x": -142.6211611604147,
-			"y": -120.49024267749274,
+			"x": -121.62116116041469,
+			"y": -117.49024267749274,
 			"width": 0.7000895157655407,
 			"height": 42.706644128301576,
 			"angle": 0,
@@ -340,11 +346,11 @@ generate_maze() ^XHJcOCUZ
 			"index": "a6",
 			"roundness": null,
 			"seed": 405293000,
-			"version": 153,
-			"versionNonce": 633309128,
+			"version": 205,
+			"versionNonce": 580828857,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1764070016461,
+			"boundElements": [],
+			"updated": 1774588659327,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -365,7 +371,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49921875000000004,
 					1.0588235294117647
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "tC6GUclqoFmIjN9_AmQL3",
@@ -374,20 +381,22 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49921875000000004,
 					-0.058823529411764705
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "tnOn-ZiYWfIDUqGA6wlkG",
 			"type": "arrow",
-			"x": -143.32125067618023,
-			"y": 17.21640145080883,
+			"x": -122.32125067618023,
+			"y": 20.21640145080883,
 			"width": 0.08979733140722601,
 			"height": 46.177020536419505,
 			"angle": 0,
@@ -403,11 +412,11 @@ generate_maze() ^XHJcOCUZ
 			"index": "a7",
 			"roundness": null,
 			"seed": 1915685048,
-			"version": 196,
-			"versionNonce": 1213559224,
+			"version": 248,
+			"versionNonce": 2041085849,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1764070025278,
+			"boundElements": [],
+			"updated": 1774588659327,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -428,7 +437,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49921875000000004,
 					1.0588235294117647
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "7oUJk5FgnhoOzQ54C8Q6Y",
@@ -437,14 +447,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49921875000000004,
 					-0.05882352941176487
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "EusMJ40y0FAtSMNM2roZ2",
@@ -487,7 +499,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061640,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "CaSCotF9",
@@ -525,7 +538,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "EusMJ40y0FAtSMNM2roZ2",
 			"originalText": "0",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "bbDm6vrTf3CfLX5K3hvea",
@@ -568,7 +582,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061642,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ApDTu6jb",
@@ -606,7 +621,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "bbDm6vrTf3CfLX5K3hvea",
 			"originalText": "1",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "6vsT7PcwNLUd07JygyCTI",
@@ -645,7 +661,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061643,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "93nmPBZl",
@@ -683,7 +700,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "6vsT7PcwNLUd07JygyCTI",
 			"originalText": "2",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "IfiP2uh-2PIEX2meZKqyk",
@@ -735,7 +753,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					1.1092331011806777,
 					0.4976690657417275
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "bbDm6vrTf3CfLX5K3hvea",
@@ -744,14 +763,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					-0.10923310118067713,
 					0.4976690657417275
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "tsXOeXTp",
@@ -789,7 +810,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "IfiP2uh-2PIEX2meZKqyk",
 			"originalText": "3",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "ZvitOlj1AmlMZLUX_LZEq",
@@ -828,7 +850,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061643,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "j90q8M6n",
@@ -866,7 +889,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "ZvitOlj1AmlMZLUX_LZEq",
 			"originalText": "3",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "mIAlBZdK5rXRZ5iMjh_XZ",
@@ -913,7 +937,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061643,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "XfxqnPED",
@@ -951,7 +976,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "mIAlBZdK5rXRZ5iMjh_XZ",
 			"originalText": "4",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "1CzBDUckLaPw6lm-aRPm9",
@@ -998,7 +1024,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061644,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "8QbjhVLg",
@@ -1036,14 +1063,15 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "1CzBDUckLaPw6lm-aRPm9",
 			"originalText": "5",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "lcbk5mQcEyqImtFfa7pIa",
 			"type": "arrow",
 			"x": 515.7555443472249,
 			"y": -21.527642570469112,
-			"width": 107.88062494669163,
+			"width": 107.88062494669157,
 			"height": 0,
 			"angle": 0,
 			"strokeColor": "#f08c00",
@@ -1058,8 +1086,8 @@ generate_maze() ^XHJcOCUZ
 			"index": "aM",
 			"roundness": null,
 			"seed": 777741768,
-			"version": 603,
-			"versionNonce": 26817992,
+			"version": 604,
+			"versionNonce": 517531001,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1067,7 +1095,7 @@ generate_maze() ^XHJcOCUZ
 					"id": "BNkey2iD"
 				}
 			],
-			"updated": 1764070061649,
+			"updated": 1774587833426,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1076,7 +1104,7 @@ generate_maze() ^XHJcOCUZ
 					0
 				],
 				[
-					107.88062494669163,
+					107.88062494669157,
 					0
 				]
 			],
@@ -1088,7 +1116,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					1.1092331011806777,
 					0.4976690657417268
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "1CzBDUckLaPw6lm-aRPm9",
@@ -1097,14 +1126,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					-0.10923310118067775,
 					0.4976690657417268
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "BNkey2iD",
@@ -1142,7 +1173,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "lcbk5mQcEyqImtFfa7pIa",
 			"originalText": "4",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "5byyUhBL97mYnquSW1M5q",
@@ -1181,7 +1213,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061649,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "OUtFuR2r",
@@ -1219,7 +1252,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "5byyUhBL97mYnquSW1M5q",
 			"originalText": "6",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "_yGaDR_FeT63MsYm0-u7I",
@@ -1262,7 +1296,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061649,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "2xZoGKel",
@@ -1300,7 +1335,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "_yGaDR_FeT63MsYm0-u7I",
 			"originalText": "7",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "mLztOUV_CQsI0pI3PCa1l",
@@ -1339,7 +1375,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070061650,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "JLcSg1n6",
@@ -1377,7 +1414,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "mLztOUV_CQsI0pI3PCa1l",
 			"originalText": "8",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "w4CDCZp_yxTNPTOTG3Jux",
@@ -1429,7 +1467,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					1.1092331011806777,
 					0.4976690657417275
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "_yGaDR_FeT63MsYm0-u7I",
@@ -1438,14 +1477,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					-0.10923310118067713,
 					0.4976690657417275
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "Ki1S8ZJd",
@@ -1483,7 +1524,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "w4CDCZp_yxTNPTOTG3Jux",
 			"originalText": "2",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "Ay3R7dQSfYMItk-sDQamE",
@@ -1535,7 +1577,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					1.1165467129136821
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "ZvitOlj1AmlMZLUX_LZEq",
@@ -1544,14 +1587,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					-0.11654671291368308
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "Jbl6vnhn",
@@ -1589,7 +1634,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "Ay3R7dQSfYMItk-sDQamE",
 			"originalText": "5",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "pIA-FnGTaPJcw9sdgraJC",
@@ -1641,7 +1687,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					1.1165467129136821
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "mIAlBZdK5rXRZ5iMjh_XZ",
@@ -1650,14 +1697,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					-0.11654671291368275
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "vNxXRTqY",
@@ -1695,7 +1744,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "pIA-FnGTaPJcw9sdgraJC",
 			"originalText": "6",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "Gyla7YbWavMqvUuPjMto2",
@@ -1747,7 +1797,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					1.1165467129136828
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "_yGaDR_FeT63MsYm0-u7I",
@@ -1756,14 +1807,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					-0.11654671291368275
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "zph4uRqI",
@@ -1801,7 +1854,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "Gyla7YbWavMqvUuPjMto2",
 			"originalText": "6",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "xZVoe8g-zE0W0-nKKAeah",
@@ -1853,7 +1907,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					1.1165467129136821
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "1CzBDUckLaPw6lm-aRPm9",
@@ -1862,14 +1917,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.4978153379763841,
 					-0.11654671291368275
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "87s6FkVR",
@@ -1907,14 +1964,15 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "xZVoe8g-zE0W0-nKKAeah",
 			"originalText": "5",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "CGELWwT8DPq5EiHLg-XZX",
 			"type": "arrow",
 			"x": 651.4230046302571,
 			"y": 5.0229838564774525,
-			"width": 0.43275336447248947,
+			"width": 0.4327533644725463,
 			"height": 107.26591125880125,
 			"angle": 0,
 			"strokeColor": "#f08c00",
@@ -1929,8 +1987,8 @@ generate_maze() ^XHJcOCUZ
 			"index": "ae",
 			"roundness": null,
 			"seed": 1367213000,
-			"version": 334,
-			"versionNonce": 1368434120,
+			"version": 335,
+			"versionNonce": 560975449,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1938,7 +1996,7 @@ generate_maze() ^XHJcOCUZ
 					"id": "gFZjEAOj"
 				}
 			],
-			"updated": 1764070061650,
+			"updated": 1774587833432,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1947,7 +2005,7 @@ generate_maze() ^XHJcOCUZ
 					0
 				],
 				[
-					0.43275336447248947,
+					0.4327533644725463,
 					107.26591125880125
 				]
 			],
@@ -1959,7 +2017,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638655,
 					1.1165467129136828
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "mLztOUV_CQsI0pI3PCa1l",
@@ -1968,14 +2027,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					0.49781533797638533,
 					-0.11654671291368275
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": "arrow",
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "gFZjEAOj",
@@ -2013,7 +2074,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "CGELWwT8DPq5EiHLg-XZX",
 			"originalText": "4",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "TB85dnF56XVntGJy2LwCr",
@@ -2048,7 +2110,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070130734,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "zGqZc422",
@@ -2086,7 +2149,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": null,
 			"originalText": "Maze's Graph\nMinimum Spanning Tree",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "2EpuwCEFa9TmDLRiZSh8X",
@@ -2121,7 +2185,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070399068,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "LGXcXZpF",
@@ -2159,7 +2224,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "2EpuwCEFa9TmDLRiZSh8X",
 			"originalText": "0",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "v9vOH11AUWmiulnowJHzt",
@@ -2194,7 +2260,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070284489,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ZqX3clnC",
@@ -2232,7 +2299,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "v9vOH11AUWmiulnowJHzt",
 			"originalText": "1",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "rUaPFq00TwZQp8r1RRTR2",
@@ -2267,7 +2335,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070282049,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "OnJKbZ4u",
@@ -2305,7 +2374,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "rUaPFq00TwZQp8r1RRTR2",
 			"originalText": "2",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "Y86kPFxBDh-0J-6XsrAKH",
@@ -2340,7 +2410,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070285517,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "WSFGNcqd",
@@ -2378,7 +2449,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "Y86kPFxBDh-0J-6XsrAKH",
 			"originalText": "3",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "jO--4rJCv8AN8oPc89XPr",
@@ -2413,7 +2485,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070283584,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "HSHakIzr",
@@ -2451,7 +2524,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "jO--4rJCv8AN8oPc89XPr",
 			"originalText": "4",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "5hRr_sU9P8Hbu0gzvo8cs",
@@ -2486,7 +2560,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070282049,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "HWign2uX",
@@ -2524,7 +2599,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "5hRr_sU9P8Hbu0gzvo8cs",
 			"originalText": "5",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "kdyl3WsuyYl-xc50USZZ5",
@@ -2559,7 +2635,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070276449,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "CpIpl5c8",
@@ -2597,7 +2674,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "kdyl3WsuyYl-xc50USZZ5",
 			"originalText": "6",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "YrTht-N_j_S24Qz1OqsfV",
@@ -2632,7 +2710,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070278526,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "KG0HMz4C",
@@ -2670,7 +2749,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "YrTht-N_j_S24Qz1OqsfV",
 			"originalText": "7",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "ecLELgDdAIihSf6rKz66D",
@@ -2705,7 +2785,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070401684,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "JxZTul9l",
@@ -2743,7 +2824,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "ecLELgDdAIihSf6rKz66D",
 			"originalText": "8",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "AH0rQymYcripimwLF7CKC",
@@ -2778,7 +2860,8 @@ generate_maze() ^XHJcOCUZ
 			],
 			"updated": 1764070130735,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "RSXUyP8H0DATfi6nje8qz",
@@ -2838,7 +2921,8 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					1.012604287790698,
 					0.49974644005847957
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "AH0rQymYcripimwLF7CKC",
@@ -2847,14 +2931,16 @@ generate_maze() ^XHJcOCUZ
 				"fixedPoint": [
 					-0.01260428779069768,
 					0.49974644005847957
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "XHJcOCUZ",
@@ -2879,7 +2965,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 20,
 			"versionNonce": 2040753336,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070141834,
 			"link": null,
 			"locked": false,
@@ -2892,7 +2978,8 @@ generate_maze() ^XHJcOCUZ
 			"containerId": "RSXUyP8H0DATfi6nje8qz",
 			"originalText": "generate_maze()",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "6zMZgs3CgWEhQiMNSNm9Y",
@@ -2917,7 +3004,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 3,
 			"versionNonce": 1617889224,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070174917,
 			"link": null,
 			"locked": false,
@@ -2936,7 +3023,8 @@ generate_maze() ^XHJcOCUZ
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "igsvaRIyQblb3JlJ9HDSm",
@@ -2961,7 +3049,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 3,
 			"versionNonce": 1456559032,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070177401,
 			"link": null,
 			"locked": false,
@@ -2980,7 +3068,8 @@ generate_maze() ^XHJcOCUZ
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "x9iH22vSQvUksZ5CamlGm",
@@ -3005,7 +3094,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 3,
 			"versionNonce": 31660232,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070180371,
 			"link": null,
 			"locked": false,
@@ -3024,7 +3113,8 @@ generate_maze() ^XHJcOCUZ
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "jTs-FtTohXnPhD-1pUzVO",
@@ -3049,7 +3139,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 3,
 			"versionNonce": 2113876664,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070180428,
 			"link": null,
 			"locked": false,
@@ -3068,7 +3158,8 @@ generate_maze() ^XHJcOCUZ
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "dKWyXXSqpV1z2zMY_ssIr",
@@ -3093,7 +3184,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 3,
 			"versionNonce": 1120160200,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070182448,
 			"link": null,
 			"locked": false,
@@ -3112,7 +3203,8 @@ generate_maze() ^XHJcOCUZ
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "84fYBD0xY4T1d6gacz0b3",
@@ -3139,7 +3231,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 51,
 			"versionNonce": 1957619896,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070203902,
 			"link": null,
 			"locked": false,
@@ -3161,7 +3253,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "oPHywCG3W38DZFIXuL7RT",
@@ -3188,7 +3281,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 82,
 			"versionNonce": 1594092472,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070213673,
 			"link": null,
 			"locked": false,
@@ -3210,7 +3303,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "XQZdtcyg6Ie264X1BfnQ-",
@@ -3235,7 +3329,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 129,
 			"versionNonce": 2064345272,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070253299,
 			"link": null,
 			"locked": false,
@@ -3261,7 +3355,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "c3B1zVYRjMLDx70nnQ9ID",
@@ -3286,7 +3381,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 37,
 			"versionNonce": 717816776,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070328176,
 			"link": null,
 			"locked": false,
@@ -3305,7 +3400,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "RHZFjz6Bnp31vMBM6_ukQ",
@@ -3330,7 +3426,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 64,
 			"versionNonce": 1502695096,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070336966,
 			"link": null,
 			"locked": false,
@@ -3352,7 +3448,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "EEw9JFO_POiplSwrRmOQv",
@@ -3377,7 +3474,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 57,
 			"versionNonce": 304473528,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070345062,
 			"link": null,
 			"locked": false,
@@ -3399,7 +3496,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "4eW262OGPyVhU9D1pyUFe",
@@ -3424,7 +3522,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 56,
 			"versionNonce": 145054904,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070354248,
 			"link": null,
 			"locked": false,
@@ -3446,7 +3544,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "IRhthtNc3IRKy7ks-tsjC",
@@ -3471,7 +3570,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 44,
 			"versionNonce": 1749422792,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070362464,
 			"link": null,
 			"locked": false,
@@ -3493,7 +3592,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "zPEGpqN_R7iR8QTsR8PuT",
@@ -3518,7 +3618,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 49,
 			"versionNonce": 316141752,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070372345,
 			"link": null,
 			"locked": false,
@@ -3540,7 +3640,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "DYYMXfs3xran3Bjw_wwtL",
@@ -3565,7 +3666,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 53,
 			"versionNonce": 1391515064,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070381086,
 			"link": null,
 			"locked": false,
@@ -3587,7 +3688,8 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "eDjWfdLeT4ntHLgTw_EcM",
@@ -3612,7 +3714,7 @@ generate_maze() ^XHJcOCUZ
 			"version": 45,
 			"versionNonce": 1118646472,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1764070388951,
 			"link": null,
 			"locked": false,
@@ -3634,7 +3736,47 @@ generate_maze() ^XHJcOCUZ
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
+		},
+		{
+			"id": "Gc5gssNO",
+			"type": "image",
+			"x": 500.5060380445693,
+			"y": -37.29958416024505,
+			"width": 457,
+			"height": 15,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 1886,
+			"version": 4,
+			"versionNonce": 1100604217,
+			"updated": 1774596442439,
+			"isDeleted": true,
+			"groupIds": [],
+			"boundElements": [],
+			"link": null,
+			"locked": false,
+			"frameId": null,
+			"hasTextLink": false,
+			"fileId": "2a194b242fae159a822db6b12b64cb8b9d9aa862",
+			"customData": {
+				"latex": "\\begin{tabular}{cc}\n1 & 2\\\\\n3 & 4\n\\end{tabular}"
+			},
+			"scale": [
+				1,
+				1
+			],
+			"index": "b0a",
+			"status": "pending",
+			"crop": null
 		}
 	],
 	"appState": {
@@ -3654,10 +3796,10 @@ generate_maze() ^XHJcOCUZ
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
 		"currentItemFrameRole": null,
-		"scrollX": -520.2467141348898,
-		"scrollY": 426.1243496270472,
+		"scrollX": 269.2099692715648,
+		"scrollY": 460.0401075520917,
 		"zoom": {
-			"value": 0.897279
+			"value": 0.664861
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
@@ -3683,7 +3825,8 @@ generate_maze() ^XHJcOCUZ
 			"locked": false,
 			"fromSelection": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

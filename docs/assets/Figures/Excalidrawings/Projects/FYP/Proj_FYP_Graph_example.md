@@ -29,7 +29,7 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "mUGhaLAzXI9f1ZCXhiJrz",
@@ -64,7 +64,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			],
 			"updated": 1761734918821,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "mHgUzRb6",
@@ -102,7 +103,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"containerId": "mUGhaLAzXI9f1ZCXhiJrz",
 			"originalText": "1",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "pTd8V4aO-p79igVNqbtHy",
@@ -137,7 +139,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			],
 			"updated": 1761749096770,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ArXIafHY",
@@ -175,7 +178,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"containerId": "pTd8V4aO-p79igVNqbtHy",
 			"originalText": "2",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "2U4Tln_QfMYOJ1pAOcb_P",
@@ -210,7 +214,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			],
 			"updated": 1761736368217,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "kpyxcWgM",
@@ -248,7 +253,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"containerId": "2U4Tln_QfMYOJ1pAOcb_P",
 			"originalText": "3",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "X9xkHDFa5Oxw6iNT2_FkE",
@@ -294,7 +300,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "UH-_V4fDL5JSLYYS8bwGw",
@@ -340,7 +347,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "-hCp9nsOXjboaTlQnYkyk",
@@ -386,7 +394,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": null,
-			"polygon": false
+			"polygon": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "xs2qFcYn",
@@ -421,7 +430,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			],
 			"index": "aK",
 			"status": "pending",
-			"crop": null
+			"crop": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "cXcAqAgM",
@@ -456,7 +466,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			],
 			"index": "aL",
 			"status": "pending",
-			"crop": null
+			"crop": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "OtUAi7GM",
@@ -491,45 +502,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			],
 			"index": "aM",
 			"status": "pending",
-			"crop": null
-		},
-		{
-			"id": "d2XD0IRd",
-			"type": "text",
-			"x": -261.67884975539994,
-			"y": -101.28646991290478,
-			"width": 14.399993896484375,
-			"height": 45,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "aN",
-			"roundness": null,
-			"seed": 191096512,
-			"version": 3,
-			"versionNonce": 1462318784,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1761749096722,
-			"link": null,
-			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 36,
-			"fontFamily": 5,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "",
-			"autoResize": true,
-			"lineHeight": 1.25
+			"crop": null,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -549,10 +523,10 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
 		"currentItemFrameRole": null,
-		"scrollX": 451.3039437060147,
-		"scrollY": 353.63252635124314,
+		"scrollX": 414.9272985780721,
+		"scrollY": 272.04927645002954,
 		"zoom": {
-			"value": 1.015161
+			"value": 1.295821
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -578,7 +552,8 @@ f7b1f3dabb120050846924a8c4ed581e71f5e95c: $$V = \{1, 2, 3\}$$
 			"locked": false,
 			"fromSelection": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

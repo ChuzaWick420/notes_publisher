@@ -31,6 +31,7 @@ We can move our `data declaration` at the top but then the interpreter will star
 Therefore, we use an _unconditional jump_ instruction called `JMP`.
 
 # Relative Addressing
+
 The listing file generated is as follows:
 
 ```
@@ -62,21 +63,25 @@ This is a _relative address_ because due to first instruction, the #instruction-
 Then, It was pointing to `0103` (because of the 3 bytes `offset`, `E9`, `16`, `00`)  
 So, `0103 + 0016 = 0119`.
 
->[!NOTE] `0119` is composite of `0019` and `0100`  
->The `0019` is the `offset` value of our first instruction of the program meanwhile the `0100` is the `offset` created by the first statement `[org 0x0100]`
+> [!NOTE] `0119` is composite of `0019` and `0100`  
+> The `0019` is the `offset` value of our first instruction of the program meanwhile the `0100` is the `offset` created by the first statement `[org 0x0100]`
 
 # Types of Jumps
+
 There are 3 types of jumps.
 
 ![[Pasted image 20240606135146.png]]
 
 ## Short
+
 If the _relative address_ stored with the instruction is within `8-bits` (or `1 byte`) then it is called `short jump`.
 
 ## Near
+
 If the _relative address_ stored with the instruction is within `16-bits` (or `2 bytes`) then it is called `near jump`.
 
 ## Far
+
 This jump does not work with _relative addressing_ but works with _absolute addressing_ instead.  
 This jump can be used to jump from one code segment to another.  
 We need to provide it both `offset` and `segment` values (both `2 bytes` long).  
@@ -87,10 +92,11 @@ The following jump instructions have a `far` variant:
 2. CALL
 3. RET
 
->[!NOTE] Conditional Jumps can only be of `short jump` type
+> [!NOTE] Conditional Jumps can only be of `short jump` type
 
 # Sorting Example
-We will discuss about `bubble sort` [^1] algorithm.
+
+We will discuss about `bubble sort` algorithm.
 
 ```asm
 [org 0x0100]
@@ -121,5 +127,3 @@ noswap: add bx,2              ; advance bx to next index
 	int 0x21
 
 ```
-
-[^1]: Read about [[Bubble Sort]].

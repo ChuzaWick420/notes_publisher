@@ -65,13 +65,15 @@ Handler ^tudUALpW
 Score
 Repository ^oFVcpb2q
 
+State Machine ^OZgkSN8p
+
 %%
 ## Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "fiOzv751x9oWGNObwkJot",
@@ -110,7 +112,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997080589,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "635g19sY",
@@ -148,7 +151,8 @@ Repository ^oFVcpb2q
 			"containerId": "fiOzv751x9oWGNObwkJot",
 			"originalText": "Presentation\nLayer",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "JOhyuf6C9MxyIaksE8Jar",
@@ -187,7 +191,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997080589,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "y9zq1p1R",
@@ -225,7 +230,8 @@ Repository ^oFVcpb2q
 			"containerId": "JOhyuf6C9MxyIaksE8Jar",
 			"originalText": "Data Access\nLayer",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "5RcJv2CQsiHBB1CH39Lv4",
@@ -264,7 +270,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997080589,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "upGmYGxE",
@@ -302,7 +309,8 @@ Repository ^oFVcpb2q
 			"containerId": "5RcJv2CQsiHBB1CH39Lv4",
 			"originalText": "Domain Logic\nLayer",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "fT28YqFpdtYVtnd7pg8oC",
@@ -341,7 +349,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997080589,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "VajZ5mcR",
@@ -379,7 +388,8 @@ Repository ^oFVcpb2q
 			"containerId": "fT28YqFpdtYVtnd7pg8oC",
 			"originalText": "Service\nLayer",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "ltYz2KrLcQ04SGvoGjW3n",
@@ -416,7 +426,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000751529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "D4oyiYdo",
@@ -456,7 +467,8 @@ Repository ^oFVcpb2q
 			"containerId": "ltYz2KrLcQ04SGvoGjW3n",
 			"originalText": "Menu UIs",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "XPd_a2dR-Uh64DPfQRhtK",
@@ -493,7 +505,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000751529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "lvYCX4So",
@@ -533,7 +546,8 @@ Repository ^oFVcpb2q
 			"containerId": "XPd_a2dR-Uh64DPfQRhtK",
 			"originalText": "Input\nHandler",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "94lzayDqDyDuQCwSAIMDM",
@@ -570,7 +584,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000751529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "gep19SMp",
@@ -610,7 +625,8 @@ Repository ^oFVcpb2q
 			"containerId": "94lzayDqDyDuQCwSAIMDM",
 			"originalText": "Renderer",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "ncH9fd9tS271SF0f6T2KC",
@@ -647,7 +663,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000751529,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "AG7DwHPjrykBdQ2tvgjvg",
@@ -702,7 +719,8 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					1.0338538604743068,
 					0.583091862547559
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "ncH9fd9tS271SF0f6T2KC",
@@ -711,14 +729,16 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					-0.009911145454545453,
 					0.4993290916923077
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "kw_lxk5qoB3jWsV1myTyf",
@@ -755,7 +775,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000699167,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "4L2N7LRI",
@@ -795,7 +816,8 @@ Repository ^oFVcpb2q
 			"containerId": "kw_lxk5qoB3jWsV1myTyf",
 			"originalText": "Game\nService",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "rmuc8QpOT7LxDM30e9Oj5",
@@ -832,7 +854,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000699167,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "NYrdTrcF",
@@ -872,7 +895,8 @@ Repository ^oFVcpb2q
 			"containerId": "rmuc8QpOT7LxDM30e9Oj5",
 			"originalText": "Level\nService",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "1zAdmGrT9Qc52UwFDqGe0",
@@ -909,7 +933,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000699167,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "MNFGTIww",
@@ -949,7 +974,8 @@ Repository ^oFVcpb2q
 			"containerId": "1zAdmGrT9Qc52UwFDqGe0",
 			"originalText": "Score\nService",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "B_B2whPRGeDdb8EoBPhQC",
@@ -986,7 +1012,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000699167,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "b7kwfSw1LNLfeE_Pk85QD",
@@ -1041,7 +1068,8 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					1.0338538604743068,
 					0.4983333333333334
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "B_B2whPRGeDdb8EoBPhQC",
@@ -1050,14 +1078,16 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					-0.01076547489823597,
 					0.4993523138775511
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "L6etvkyOl660YsAfVOR-A",
@@ -1094,7 +1124,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "Celv2DA2",
@@ -1134,7 +1165,8 @@ Repository ^oFVcpb2q
 			"containerId": "L6etvkyOl660YsAfVOR-A",
 			"originalText": "Maze\nGenerator",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "Zf9wSDE0mLj8fGZ_2BfY5",
@@ -1171,7 +1203,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "bH6Vj85V",
@@ -1211,7 +1244,8 @@ Repository ^oFVcpb2q
 			"containerId": "Zf9wSDE0mLj8fGZ_2BfY5",
 			"originalText": "Pathfinding\nEngine",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "VLPZY-puappCbnjyGWw3D",
@@ -1248,7 +1282,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "3aHczD6R",
@@ -1288,7 +1323,8 @@ Repository ^oFVcpb2q
 			"containerId": "VLPZY-puappCbnjyGWw3D",
 			"originalText": "Player\nController",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "H1gRoTBFau-1lQQsLYcyH",
@@ -1325,7 +1361,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "zTiYqTFx",
@@ -1365,7 +1402,8 @@ Repository ^oFVcpb2q
 			"containerId": "H1gRoTBFau-1lQQsLYcyH",
 			"originalText": "AI\nController",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "HDcm469WH9sXWPZIR4Ywn",
@@ -1402,7 +1440,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "Msh9vK7G",
@@ -1442,7 +1481,8 @@ Repository ^oFVcpb2q
 			"containerId": "HDcm469WH9sXWPZIR4Ywn",
 			"originalText": "Difficulty\nManager",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "_2kTw9jFNh5l2abXXKzBN",
@@ -1479,7 +1519,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "DT8cWIYB",
@@ -1519,7 +1560,8 @@ Repository ^oFVcpb2q
 			"containerId": "_2kTw9jFNh5l2abXXKzBN",
 			"originalText": "Game\nEngine",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "s3oJB60ZTX4i-EZiEFoG2",
@@ -1556,7 +1598,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1768997057890,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "D6BB-5WhUYEeCZK15RnAl",
@@ -1611,7 +1654,8 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					1.0338538604743068,
 					0.4983333333333334
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "s3oJB60ZTX4i-EZiEFoG2",
@@ -1620,14 +1664,16 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					-0.011511577017114914,
 					0.49939638012820514
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
 		},
 		{
 			"id": "rrBBU_Y2su7aeLe7gU7Qb",
@@ -1664,7 +1710,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000767029,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "CygqeON4",
@@ -1704,7 +1751,8 @@ Repository ^oFVcpb2q
 			"containerId": "rrBBU_Y2su7aeLe7gU7Qb",
 			"originalText": "Game State\nRepository",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "7spVSpBp4S2d_mWYJwGYa",
@@ -1741,7 +1789,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000767029,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "tudUALpW",
@@ -1781,7 +1830,8 @@ Repository ^oFVcpb2q
 			"containerId": "7spVSpBp4S2d_mWYJwGYa",
 			"originalText": "JSON Storage\nHandler",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "dmkZzduUoPKt9qgGT4M41",
@@ -1818,7 +1868,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000767030,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "oFVcpb2q",
@@ -1858,7 +1909,8 @@ Repository ^oFVcpb2q
 			"containerId": "dmkZzduUoPKt9qgGT4M41",
 			"originalText": "Score\nRepository",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "L3-5r4_dukhtEQAd3AxZO",
@@ -1895,7 +1947,8 @@ Repository ^oFVcpb2q
 			],
 			"updated": 1769000767030,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "EiPn9IpZyqTiyQDtOev46",
@@ -1950,7 +2003,8 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					1.0338538604743075,
 					0.4983333333333332
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "L3-5r4_dukhtEQAd3AxZO",
@@ -1959,20 +2013,133 @@ Repository ^oFVcpb2q
 				"fixedPoint": [
 					-0.009291466745843231,
 					0.4991258754189946
-				]
+				],
+				"mode": "orbit"
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
 			"fixedSegments": null,
 			"startIsSpecial": null,
-			"endIsSpecial": null
+			"endIsSpecial": null,
+			"hasTextLink": false
+		},
+		{
+			"id": "v8SUxICc",
+			"type": "rectangle",
+			"x": 634.9550057103568,
+			"y": -396.3552304219478,
+			"width": 120.51992521006514,
+			"height": 82.22387420873599,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b08",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 113929045,
+			"version": 37,
+			"versionNonce": 1634311579,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "OZgkSN8p"
+				}
+			],
+			"updated": 1775999110307,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "OZgkSN8p",
+			"type": "text",
+			"x": 658.0150018847253,
+			"y": -380.2432933175798,
+			"width": 74.39993286132812,
+			"height": 50,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b09",
+			"roundness": null,
+			"seed": 310783029,
+			"version": 22,
+			"versionNonce": 2146219637,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1775999116437,
+			"locked": false,
+			"text": "State\nMachine",
+			"rawText": "State Machine",
+			"fontSize": 20,
+			"fontFamily": 5,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "v8SUxICc",
+			"originalText": "State Machine",
+			"autoResize": true,
+			"lineHeight": 1.25,
+			"hasTextLink": false
+		},
+		{
+			"id": "FdbuqPaQ",
+			"type": "text",
+			"x": -562.5178476846636,
+			"y": 59.751361357897,
+			"width": 8,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b07",
+			"roundness": null,
+			"seed": 129223547,
+			"version": 3,
+			"versionNonce": 766339259,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1775998732787,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 5,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1971c2",
+		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 2,
@@ -1986,10 +2153,10 @@ Repository ^oFVcpb2q
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
 		"currentItemFrameRole": null,
-		"scrollX": 1103.474249318486,
-		"scrollY": 582.5377782174361,
+		"scrollX": -3.4925471038825044,
+		"scrollY": 516.9983506490208,
 		"zoom": {
-			"value": 0.757118
+			"value": 0.88782
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -2015,7 +2182,8 @@ Repository ^oFVcpb2q
 			"locked": false,
 			"fromSelection": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }
