@@ -1,0 +1,34 @@
+14. Solutions of Higher Order Linear Equations
+15. Construction of a Second Solution
+16. Homogeneous Linear Equations with Constant Coefficients
+17. Method of Undetermined Coefficients (Superposition Approach)
+18. Method of Undetermined Coefficients (Annihilator Operator 
+Approach)_1
+19. Method of Undetermined Coefficients (Annihilator Operator 
+Approach)_2
+20. Variation of Parameters
+21. Variation of Parameters for Higher-Order Equations
+22. Applications of Second Order Differential Equations
+23. Damped Motion
+24. Forced Motion
+25. Forced Motion-Examples
+26. Differential Equations with Variable Coefficients
+27. Cauchy_Euler Equation, Alternative Method of Solution
+28. Power Series, An Introduction
+29. Power Series, An Introduction Examples
+30. Solution about Ordinary points
+31. Solution about Singular Points
+32. Solution about Singular Points (other cases)
+33. Bessel's Differential Equation
+34. Legendre's Differential Equation
+35. Systems of Linear Differential Equations
+36. Systems of Linear Differential Equations (Continued)
+37. System of Linear First Order Equation
+38. Introduction to Matrices
+39. The Eigenvalue Problem
+40. Matrices and Systems of Linear First-Order Equations
+41. Matrices and Systems of Linear First-Order Equations (Continued)
+42. Homogeneous Linear Systems
+43. Linear and Repeated Eigenvalues
+44. Non_Homogeneous System
+45. Revision of the course
