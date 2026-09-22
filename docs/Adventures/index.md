@@ -1,3 +1,3 @@
 # Adventures Index
 
-This directory contains things I explore related to science.
+This directory contains things I explored.
