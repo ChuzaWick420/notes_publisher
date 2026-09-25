@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 min ^DVfUlOsJ
 
@@ -19,7 +20,7 @@ max ^JUOU29d1
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -49,7 +50,8 @@ max ^JUOU29d1
 			"boundElements": [],
 			"updated": 1731846003708,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "line",
@@ -94,7 +96,9 @@ max ^JUOU29d1
 					38.327575197178106,
 					-46.56206015774248
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -139,7 +143,9 @@ max ^JUOU29d1
 					39,
 					35
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -184,7 +190,9 @@ max ^JUOU29d1
 					-0.15515039435621247,
 					81.00000000000001
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -229,7 +237,9 @@ max ^JUOU29d1
 					270.9902232662678,
 					-303.0092410008989
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -274,7 +284,9 @@ max ^JUOU29d1
 					279.18798374357476,
 					248.4058447696064
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -323,7 +335,9 @@ max ^JUOU29d1
 					4.360685368919462,
 					360.84671427808314
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -372,7 +386,9 @@ max ^JUOU29d1
 					14.172227448988224,
 					632.2993784933178
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "freedraw",
@@ -593,7 +609,8 @@ max ^JUOU29d1
 			],
 			"lastCommittedPoint": null,
 			"simulatePressure": true,
-			"pressures": []
+			"pressures": [],
+			"hasTextLink": false
 		},
 		{
 			"type": "freedraw",
@@ -890,14 +907,15 @@ max ^JUOU29d1
 			],
 			"lastCommittedPoint": null,
 			"simulatePressure": true,
-			"pressures": []
+			"pressures": [],
+			"hasTextLink": false
 		},
 		{
 			"id": "DVfUlOsJ",
 			"type": "text",
 			"x": 142.5028376589307,
 			"y": -144.29895275264784,
-			"width": 34,
+			"width": 33,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -915,7 +933,7 @@ max ^JUOU29d1
 			"version": 21,
 			"versionNonce": 964860508,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731846360286,
 			"link": null,
 			"locked": false,
@@ -928,7 +946,8 @@ max ^JUOU29d1
 			"containerId": null,
 			"originalText": "min",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -966,45 +985,8 @@ max ^JUOU29d1
 			"containerId": null,
 			"originalText": "max",
 			"autoResize": true,
-			"lineHeight": 1.25
-		},
-		{
-			"id": "hefcTfd2",
-			"type": "text",
-			"x": 197.47648883929725,
-			"y": -120.15164802856165,
-			"width": 8,
-			"height": 25,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "aH",
-			"roundness": null,
-			"seed": 1011845596,
-			"version": 4,
-			"versionNonce": 306880732,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1731846364323,
-			"link": null,
-			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 20,
-			"fontFamily": 5,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "",
-			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -1023,10 +1005,11 @@ max ^JUOU29d1
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": -143.53038254080673,
-		"scrollY": 218.85215054938612,
+		"currentItemFrameRole": null,
+		"scrollX": 362.7208509473318,
+		"scrollY": 348.51497222627347,
 		"zoom": {
-			"value": 1.946387
+			"value": 0.892707
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -1041,7 +1024,9 @@ max ^JUOU29d1
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -1049,7 +1034,8 @@ max ^JUOU29d1
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

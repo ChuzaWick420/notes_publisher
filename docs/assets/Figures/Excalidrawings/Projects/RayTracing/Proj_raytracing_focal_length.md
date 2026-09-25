@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 %%
 ## Drawing
@@ -15,7 +16,7 @@ tags: [excalidraw]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "48ZQswPaT0TyUhHvvseX1",
@@ -42,7 +43,7 @@ tags: [excalidraw]
 			"version": 182,
 			"versionNonce": 2067310949,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770299204,
 			"link": null,
 			"locked": false,
@@ -60,7 +61,9 @@ tags: [excalidraw]
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "Grdu9x1_w5SGByYYwJ_6k",
@@ -90,7 +93,8 @@ tags: [excalidraw]
 			"boundElements": [],
 			"updated": 1731770230628,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "TYz2CfiuaPkLRrvskO3Fy",
@@ -117,7 +121,7 @@ tags: [excalidraw]
 			"version": 40,
 			"versionNonce": 333280139,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770275122,
 			"link": null,
 			"locked": false,
@@ -135,7 +139,9 @@ tags: [excalidraw]
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "I887NF37bFZAx4VSLMCMM",
@@ -162,7 +168,7 @@ tags: [excalidraw]
 			"version": 29,
 			"versionNonce": 1089687851,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770252520,
 			"link": null,
 			"locked": false,
@@ -183,7 +189,9 @@ tags: [excalidraw]
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "OsNhzlQFNsMW_lasl60o3",
@@ -210,7 +218,7 @@ tags: [excalidraw]
 			"version": 55,
 			"versionNonce": 1782929413,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770290155,
 			"link": null,
 			"locked": false,
@@ -231,7 +239,9 @@ tags: [excalidraw]
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "A9wC2BLQGB1zqsX6YFV4m",
@@ -258,7 +268,7 @@ tags: [excalidraw]
 			"version": 35,
 			"versionNonce": 1653178437,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770314272,
 			"link": null,
 			"locked": false,
@@ -279,7 +289,9 @@ tags: [excalidraw]
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "vfhP1AWclr_vzgkMjWjLR",
@@ -304,7 +316,7 @@ tags: [excalidraw]
 			"version": 52,
 			"versionNonce": 1793304939,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770323773,
 			"link": null,
 			"locked": false,
@@ -519,7 +531,8 @@ tags: [excalidraw]
 			"lastCommittedPoint": [
 				-38.19121764017632,
 				96.05669891317052
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "mChC7lEr88d4J3evJj6Ax",
@@ -544,7 +557,7 @@ tags: [excalidraw]
 			"version": 16,
 			"versionNonce": 86565157,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731770325217,
 			"link": null,
 			"locked": false,
@@ -615,7 +628,8 @@ tags: [excalidraw]
 			"lastCommittedPoint": [
 				67.12395827667342,
 				-5.7865481272993975
-			]
+			],
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -634,10 +648,11 @@ tags: [excalidraw]
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 463.78032952015604,
-		"scrollY": 309.4641786756445,
+		"currentItemFrameRole": null,
+		"scrollX": 540.6808608040038,
+		"scrollY": 281.0358697022215,
 		"zoom": {
-			"value": 0.985835
+			"value": 0.969862
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -652,7 +667,9 @@ tags: [excalidraw]
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -660,7 +677,8 @@ tags: [excalidraw]
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

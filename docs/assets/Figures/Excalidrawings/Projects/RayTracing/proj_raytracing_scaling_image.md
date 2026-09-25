@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 window ^D0ln6Yfh
 
@@ -22,7 +23,7 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -57,7 +58,8 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			],
 			"updated": 1735306203444,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -72,11 +74,11 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 161.30253883645958,
+			"x": 162.3025464658541,
 			"y": -73.77716840801162,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 120.79994201660156,
+			"width": 118.7999267578125,
 			"height": 45,
 			"seed": 1064991499,
 			"groupIds": [],
@@ -95,7 +97,8 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			"containerId": "DtxMTTBdMgb3UeB2xEvSd",
 			"originalText": "window",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "rectangle",
@@ -130,7 +133,8 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			],
 			"updated": 1731767337660,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -168,7 +172,8 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			"containerId": "HoZMxVIBp9nwwPeSnitHW",
 			"originalText": "Sprite",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -202,7 +207,9 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -221,10 +228,11 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 376.74460585798147,
-		"scrollY": 410.6993395372399,
+		"currentItemFrameRole": null,
+		"scrollX": 233.40676536835534,
+		"scrollY": 268.1091119579531,
 		"zoom": {
-			"value": 1.120618
+			"value": 1.370349
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -239,7 +247,9 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -247,7 +257,8 @@ bc9905e0619297d83b2b0aed762d3a27db668d09: $$* \, S =$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

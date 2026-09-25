@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 e06bb513b8e7c36bacc9dab88623e2b442b027ad: $$\vec A$$
@@ -22,7 +23,7 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "freedraw",
@@ -187,7 +188,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			],
 			"lastCommittedPoint": null,
 			"simulatePressure": true,
-			"pressures": []
+			"pressures": [],
+			"hasTextLink": false
 		},
 		{
 			"type": "freedraw",
@@ -452,7 +454,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			],
 			"lastCommittedPoint": null,
 			"simulatePressure": true,
-			"pressures": []
+			"pressures": [],
+			"hasTextLink": false
 		},
 		{
 			"type": "freedraw",
@@ -593,7 +596,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			],
 			"lastCommittedPoint": null,
 			"simulatePressure": true,
-			"pressures": []
+			"pressures": [],
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -639,7 +643,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 					-417
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -685,7 +690,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 					-3
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -731,7 +737,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 					-257
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -777,7 +784,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 					-344
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "freedraw",
@@ -962,7 +970,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			],
 			"lastCommittedPoint": null,
 			"simulatePressure": true,
-			"pressures": []
+			"pressures": [],
+			"hasTextLink": false
 		},
 		{
 			"id": "EQwNuTuQPZEAFBVvDMOqf",
@@ -989,7 +998,7 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"version": 214,
 			"versionNonce": 1341163228,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731848741479,
 			"link": null,
 			"locked": false,
@@ -1008,7 +1017,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "afPaJe9JkBznoScbBoADZ",
@@ -1035,7 +1045,7 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"version": 60,
 			"versionNonce": 282213220,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731848746647,
 			"link": null,
 			"locked": false,
@@ -1054,7 +1064,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -1088,7 +1099,9 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -1122,7 +1135,9 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -1156,7 +1171,9 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -1175,10 +1192,11 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 283.5016734681759,
-		"scrollY": 355.2323696145225,
+		"currentItemFrameRole": null,
+		"scrollX": 417.45734253872746,
+		"scrollY": 283.2023503039002,
 		"zoom": {
-			"value": 1.441017
+			"value": 1.210464
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -1193,7 +1211,9 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -1201,7 +1221,8 @@ beb6af99e43cd45d42e2e02a918efee6f5917950: $$t \vec b$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

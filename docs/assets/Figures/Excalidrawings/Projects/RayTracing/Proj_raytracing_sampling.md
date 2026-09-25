@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 <u, v> ^tIffiUhL
 
@@ -19,7 +20,7 @@ offset ^3294y8s3
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -52,7 +53,8 @@ offset ^3294y8s3
 			],
 			"updated": 1731952128692,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -89,10 +91,12 @@ offset ^3294y8s3
 			"link": null,
 			"locked": false,
 			"startBinding": {
+				"mode": "inside",
 				"elementId": "KJIz1PnQv5a4ykCpuXKkU",
-				"focus": -0.038183223444331164,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.004811416498560554,
+					0.9974406460815042
+				]
 			},
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -108,7 +112,8 @@ offset ^3294y8s3
 					-192.80054989509432
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -146,7 +151,8 @@ offset ^3294y8s3
 			"containerId": "GxRGsMhTt4VjXozPlQIP7",
 			"originalText": "<u, v>",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -197,7 +203,8 @@ offset ^3294y8s3
 					98.64191224392732
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -212,8 +219,8 @@ offset ^3294y8s3
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -104.69487751476152,
-			"y": -84.86126529908628,
+			"x": -0.7685771149094762,
+			"y": 23.468691897369638,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 62.71995544433594,
@@ -235,7 +242,8 @@ offset ^3294y8s3
 			"containerId": "qiim72gfXUokQv6Vk9-nL",
 			"originalText": "offset",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -254,10 +262,11 @@ offset ^3294y8s3
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 419.9026896853204,
-		"scrollY": 283.83312152849925,
+		"currentItemFrameRole": null,
+		"scrollX": 305.178442235159,
+		"scrollY": 191.4979875046737,
 		"zoom": {
-			"value": 1.13542
+			"value": 1.555254
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
@@ -272,7 +281,9 @@ offset ^3294y8s3
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -280,7 +291,8 @@ offset ^3294y8s3
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

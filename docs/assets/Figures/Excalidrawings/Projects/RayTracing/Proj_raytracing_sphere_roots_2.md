@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
@@ -24,7 +25,7 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "pwI0sNY-laccIIJEUrdIE",
@@ -51,10 +52,11 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"version": 85,
 			"versionNonce": 1900105977,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731792139531,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ZEcszEEs99JenXGevnQ2V",
@@ -81,7 +83,7 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"version": 369,
 			"versionNonce": 2022195513,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731792136600,
 			"link": null,
 			"locked": false,
@@ -97,15 +99,18 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
+				"mode": "inside",
 				"elementId": "yJH5cJ5r6Oji6qflErYrc",
-				"focus": -0.0020371910232021445,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.008389710689165757,
+					0.991009109645405
+				]
 			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "GpnzVvmKPLzqzW--HEKVZ",
@@ -130,7 +135,7 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"version": 62,
 			"versionNonce": 1098217209,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731792148832,
 			"link": null,
 			"locked": false,
@@ -149,7 +154,8 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -183,7 +189,9 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"id": "yJH5cJ5r6Oji6qflErYrc",
@@ -216,7 +224,8 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			],
 			"updated": 1731792130082,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "agfILUiygs6VgHkn3WEJU",
@@ -241,7 +250,7 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"version": 145,
 			"versionNonce": 2104037145,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731792224291,
 			"link": null,
 			"locked": false,
@@ -259,7 +268,9 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "image",
@@ -293,7 +304,9 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -327,7 +340,9 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -361,7 +376,9 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"id": "gSzggMm3WKkcVsxZ8I3s4",
@@ -386,7 +403,7 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"version": 3,
 			"versionNonce": 1692144505,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731792261121,
 			"link": null,
 			"locked": false,
@@ -405,7 +422,8 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "sU2Cz85H3eF9349138LC5",
@@ -430,7 +448,7 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"version": 3,
 			"versionNonce": 1127922201,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731792264566,
 			"link": null,
 			"locked": false,
@@ -449,7 +467,8 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"lastCommittedPoint": [
 				0.0001,
 				0.0001
-			]
+			],
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -468,10 +487,11 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 450.15160631824267,
-		"scrollY": 76.85601198741244,
+		"currentItemFrameRole": null,
+		"scrollX": 444.38466079143393,
+		"scrollY": 160.36104010719424,
 		"zoom": {
-			"value": 1.196977
+			"value": 1.151678
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
@@ -486,7 +506,9 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -494,7 +516,8 @@ acf127fc3ffb5c218c249bedad0c82a30b7bb48a: $$\frac h a$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

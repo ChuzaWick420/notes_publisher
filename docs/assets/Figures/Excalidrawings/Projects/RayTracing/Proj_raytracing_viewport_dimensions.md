@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
@@ -24,7 +25,7 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "FjauePBIig6J-hQ9absn3",
@@ -51,7 +52,7 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"version": 73,
 			"versionNonce": 679536325,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731772252627,
 			"link": null,
 			"locked": false,
@@ -69,7 +70,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "UIs3qRDNgGZhCM4HLX-0p",
@@ -94,7 +97,7 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"version": 40,
 			"versionNonce": 774043269,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731772241021,
 			"link": null,
 			"locked": false,
@@ -261,7 +264,8 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"lastCommittedPoint": [
 				0,
 				2
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "9lQvrRr_NMp0BpkYOWqU5",
@@ -288,7 +292,7 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"version": 77,
 			"versionNonce": 397938053,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731772249161,
 			"link": null,
 			"locked": false,
@@ -306,7 +310,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "EoNrJlkxoXBIDYUhzcQam",
@@ -333,7 +339,7 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"version": 54,
 			"versionNonce": 941494277,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731772268749,
 			"link": null,
 			"locked": false,
@@ -354,7 +360,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "image",
@@ -388,7 +396,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -422,7 +432,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -456,7 +468,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -490,7 +504,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -509,10 +525,11 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 301.48679826351076,
-		"scrollY": 277.7689803745534,
+		"currentItemFrameRole": null,
+		"scrollX": 335.23358815918033,
+		"scrollY": 236.31584568189504,
 		"zoom": {
-			"value": 1.242507
+			"value": 1.325415
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -527,7 +544,9 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -535,7 +554,8 @@ d714cb4ccc904aa28a59f54eaef0ed8798283258: $$\theta$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

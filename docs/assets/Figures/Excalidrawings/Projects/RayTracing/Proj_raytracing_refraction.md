@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 a0198d42d81f4636eee3f9b80b459b1126b33353: $$\vec R$$
@@ -32,7 +33,7 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "line",
@@ -77,7 +78,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					823.0000000000001,
 					-7
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "arrow",
@@ -123,7 +126,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					-374
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -169,7 +173,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					340.92090584758785
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -215,7 +220,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					289
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -261,7 +267,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					334
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -295,7 +302,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "line",
@@ -340,7 +349,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					300,
 					-6
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -385,7 +396,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					-155.4903027874626,
 					0.9967327101760475
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -430,7 +443,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					0,
 					-333.9054579089743
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "image",
@@ -464,7 +479,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -498,7 +515,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -532,7 +551,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "arrow",
@@ -578,7 +599,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					-7.602433285480174
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -612,7 +634,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -646,7 +670,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "arrow",
@@ -692,7 +718,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					-3.2749599022096163
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -738,7 +765,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 					-301.0282720543007
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -772,7 +800,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -806,7 +836,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -825,10 +857,11 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": -326.11341971950037,
-		"scrollY": 1786.0963267949087,
+		"currentItemFrameRole": null,
+		"scrollX": -140.9196003433417,
+		"scrollY": 1786.0966777509893,
 		"zoom": {
-			"value": 0.627726
+			"value": 0.565117
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -843,7 +876,9 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -851,7 +886,8 @@ c46c7dcd9129077572b1bc5665a0b068597ae4a8: $$\vec n$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

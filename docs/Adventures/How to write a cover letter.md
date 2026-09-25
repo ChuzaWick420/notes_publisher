@@ -160,6 +160,7 @@ Avoid using
 - Columns
 
 File Formats
+
 - Accepted
 	- Word
 	- PDF

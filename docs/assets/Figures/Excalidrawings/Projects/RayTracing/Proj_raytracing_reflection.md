@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 ab7d7056a8fa7288ea216e6b6bcaa6fe7a2a81cf: $$\vec n$$
@@ -30,7 +31,7 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "line",
@@ -75,7 +76,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					502,
 					-8
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "arrow",
@@ -121,7 +124,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					217.1032740721422
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -167,7 +171,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					210.58590494306435
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -213,7 +218,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					-150.8973761064153
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -259,7 +265,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					214.02071558901048
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -305,7 +312,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					-212.76336572154798
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -339,7 +347,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -373,7 +383,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -407,7 +419,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -441,7 +455,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -475,7 +491,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "arrow",
@@ -521,7 +539,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					-213.856382215008
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -567,7 +586,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 					-213.856382215008
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -601,7 +621,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -635,7 +657,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -654,10 +678,11 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 236.5786562012893,
-		"scrollY": 259.71539092261673,
+		"currentItemFrameRole": null,
+		"scrollX": 304.33942548315076,
+		"scrollY": 247.41469858324405,
 		"zoom": {
-			"value": 1.359498
+			"value": 1.289224
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -672,7 +697,9 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -680,7 +707,8 @@ c4971a62eaca648f3e9031938eb285c730c9ed6d: $$\vec d = \frac {\vec n \cdot \vec v}
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 pixel00_loc ^lB1VvgrZ
 
@@ -22,7 +23,7 @@ viewport_upper_left ^tBmn1MKd
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -59,7 +60,8 @@ viewport_upper_left ^tBmn1MKd
 			],
 			"updated": 1731774640994,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -91,10 +93,12 @@ viewport_upper_left ^tBmn1MKd
 			"link": null,
 			"locked": false,
 			"startBinding": {
+				"mode": "inside",
 				"elementId": "WEDnKqX4kp1gH1dcaPVTa",
-				"focus": 0.13646845874984162,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.0004070434343722716,
+					0.008409681320218845
+				]
 			},
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -110,7 +114,8 @@ viewport_upper_left ^tBmn1MKd
 					55.498031405543145
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "rectangle",
@@ -138,7 +143,8 @@ viewport_upper_left ^tBmn1MKd
 			"boundElements": [],
 			"updated": 1731774587935,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "line",
@@ -181,7 +187,9 @@ viewport_upper_left ^tBmn1MKd
 					-38.653682494104515,
 					-54.24508383626426
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -224,7 +232,9 @@ viewport_upper_left ^tBmn1MKd
 					39.95296593928448,
 					-58.1429341718042
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "line",
@@ -267,7 +277,9 @@ viewport_upper_left ^tBmn1MKd
 					78.606648433389,
 					-3.248208612950009
 				]
-			]
+			],
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"type": "arrow",
@@ -300,10 +312,12 @@ viewport_upper_left ^tBmn1MKd
 			"locked": false,
 			"startBinding": null,
 			"endBinding": {
+				"mode": "orbit",
 				"elementId": "WEDnKqX4kp1gH1dcaPVTa",
-				"focus": 0.4636645753195629,
-				"gap": 1.292159523831259,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.2681677123401876,
+					0.7318322876598125
+				]
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -318,7 +332,8 @@ viewport_upper_left ^tBmn1MKd
 					-454.5306034590451
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -364,7 +379,8 @@ viewport_upper_left ^tBmn1MKd
 					-395.91249180787867
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -383,7 +399,7 @@ viewport_upper_left ^tBmn1MKd
 			"y": 10.744222051562417,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 122,
+			"width": 121,
 			"height": 25,
 			"seed": 1398150443,
 			"groupIds": [],
@@ -402,7 +418,8 @@ viewport_upper_left ^tBmn1MKd
 			"containerId": null,
 			"originalText": "pixel00_loc",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -440,7 +457,8 @@ viewport_upper_left ^tBmn1MKd
 			"containerId": null,
 			"originalText": "viewport_upper_left",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -474,7 +492,9 @@ viewport_upper_left ^tBmn1MKd
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -493,10 +513,11 @@ viewport_upper_left ^tBmn1MKd
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 364.7004293645566,
-		"scrollY": 351.75530329611996,
+		"currentItemFrameRole": null,
+		"scrollX": 508.1169199532852,
+		"scrollY": 207.58332957250713,
 		"zoom": {
-			"value": 0.991871
+			"value": 0.892943
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
@@ -511,7 +532,9 @@ viewport_upper_left ^tBmn1MKd
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -519,7 +542,8 @@ viewport_upper_left ^tBmn1MKd
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

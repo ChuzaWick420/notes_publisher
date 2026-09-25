@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 2beb75aaa1ee2f4fb95d2722347ba520720e5971: $$\hat n$$
@@ -18,7 +19,7 @@ tags: [excalidraw]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "FV790ILV-hvqOcc0uAIJK",
@@ -45,7 +46,7 @@ tags: [excalidraw]
 			"version": 83,
 			"versionNonce": 1364343871,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005858825,
 			"link": null,
 			"locked": false,
@@ -63,7 +64,9 @@ tags: [excalidraw]
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "iyQurRDvMSJ1P7jhjAyzZ",
@@ -90,7 +93,7 @@ tags: [excalidraw]
 			"version": 55,
 			"versionNonce": 1008445841,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005867542,
 			"link": null,
 			"locked": false,
@@ -109,7 +112,8 @@ tags: [excalidraw]
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -129,7 +133,7 @@ tags: [excalidraw]
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 25.395848968801474,
-			"height": 19.420355093789365,
+			"height": 19.42035509378936,
 			"seed": 12208,
 			"groupIds": [],
 			"frameId": null,
@@ -143,7 +147,9 @@ tags: [excalidraw]
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"id": "vUMbY5gNf0UQUCxwn3AcC",
@@ -170,7 +176,7 @@ tags: [excalidraw]
 			"version": 57,
 			"versionNonce": 1916358239,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005903026,
 			"link": null,
 			"locked": false,
@@ -189,7 +195,8 @@ tags: [excalidraw]
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "m0AXSgnNn0zjfJ_oUv-vI",
@@ -216,7 +223,7 @@ tags: [excalidraw]
 			"version": 131,
 			"versionNonce": 1740973777,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005944667,
 			"link": null,
 			"locked": false,
@@ -235,7 +242,8 @@ tags: [excalidraw]
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "iGEKtG1D9l_CHbl3vSQL-",
@@ -262,7 +270,7 @@ tags: [excalidraw]
 			"version": 85,
 			"versionNonce": 1250045105,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005923602,
 			"link": null,
 			"locked": false,
@@ -281,7 +289,8 @@ tags: [excalidraw]
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "Xtoo8juABCT8PvNJpCMYO",
@@ -308,7 +317,7 @@ tags: [excalidraw]
 			"version": 30,
 			"versionNonce": 290968799,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005935035,
 			"link": null,
 			"locked": false,
@@ -327,7 +336,8 @@ tags: [excalidraw]
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -346,10 +356,11 @@ tags: [excalidraw]
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 241.2278852099273,
-		"scrollY": 213.38367971229906,
+		"currentItemFrameRole": null,
+		"scrollX": 264.83664046740813,
+		"scrollY": 228.40646269212212,
 		"zoom": {
-			"value": 2.492074
+			"value": 1.514903
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -364,7 +375,9 @@ tags: [excalidraw]
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -372,7 +385,8 @@ tags: [excalidraw]
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

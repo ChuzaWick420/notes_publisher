@@ -130,6 +130,7 @@ vec3 reflected = reflect(r_in.direction(), rec.normal);
 ```
 
 Add `fuzz` to it.  
+
 ![[Proj_raytracing_fuzz.svg]]  
 /// caption  
 `fuzz` being applied to a reflected `ray`.[^7]  
@@ -154,6 +155,7 @@ scattered = ray(rec.p, reflected);
 ```
 
 To make sure that the `scattered ray`[^7] is projected outside of the surface after hitting it, we check if the `dot product`[^6] is positive.  
+
 ![[Proj_raytracing_fuzz_correction.svg]]  
 ///caption  
 Error correction  

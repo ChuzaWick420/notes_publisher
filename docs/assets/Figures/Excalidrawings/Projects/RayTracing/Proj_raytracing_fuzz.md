@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 a4d69fd4b0ccc849b544134a757c7aeb39466d4d: $$\vec v$$
@@ -24,7 +25,7 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "b6MaPyZ90gcNwjTuPjPxV",
@@ -51,7 +52,7 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"version": 46,
 			"versionNonce": 615448753,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732004869130,
 			"link": null,
 			"locked": false,
@@ -69,7 +70,9 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "pANH1K9E1PWYo4lkw0tGr",
@@ -96,7 +99,7 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"version": 51,
 			"versionNonce": 868200273,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732004878130,
 			"link": null,
 			"locked": false,
@@ -115,7 +118,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "V1YUoJ5KSrUvVjHrRi1eZ",
@@ -164,7 +168,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "SzC4Dl58AyvZeuz-1QJMB",
@@ -191,7 +196,7 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"version": 74,
 			"versionNonce": 1831832799,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732004920623,
 			"link": null,
 			"locked": false,
@@ -210,7 +215,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -244,7 +250,9 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -278,7 +286,9 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -312,7 +322,9 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"id": "MG8FSmgo-_DiylMRrlPCv",
@@ -347,7 +359,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			],
 			"updated": 1732005123722,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "TB7eMCsNEFcO-zppqT7aw",
@@ -394,14 +407,17 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			],
 			"startBinding": null,
 			"endBinding": {
+				"mode": "orbit",
 				"elementId": "MG8FSmgo-_DiylMRrlPCv",
-				"focus": -0.11221797961950102,
-				"gap": 1.4422708871965568,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.5001,
+					0.5591821802163656
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -435,7 +451,9 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "arrow",
@@ -481,7 +499,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 					28.688735693938156
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "23u-2W0_F1xIKDzSF7206",
@@ -508,7 +527,7 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"version": 35,
 			"versionNonce": 698228753,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1732005276734,
 			"link": null,
 			"locked": false,
@@ -527,7 +546,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -546,10 +566,11 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 320.92502864293334,
-		"scrollY": 439.71148825504036,
+		"currentItemFrameRole": null,
+		"scrollX": 320.9248435679006,
+		"scrollY": 336.7667360210954,
 		"zoom": {
-			"value": 0.782604
+			"value": 0.93206
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -564,7 +585,9 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -572,7 +595,8 @@ a074cbb3e196ec756ecd3644879d01659913fe3b: $$\hat r$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

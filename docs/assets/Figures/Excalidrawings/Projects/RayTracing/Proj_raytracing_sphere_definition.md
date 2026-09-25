@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 C ^JpscyCzE
 
@@ -21,7 +22,7 @@ r ^WgeI3art
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "eUEXvUDI6QNq9aWwpqqWM",
@@ -58,7 +59,8 @@ r ^WgeI3art
 			],
 			"updated": 1731787540496,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ppDAB0bgzDdxBjXba_0eT",
@@ -95,7 +97,8 @@ r ^WgeI3art
 			],
 			"updated": 1731787547331,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "kAPjBN-eQC__9AOAKOLxK",
@@ -143,27 +146,32 @@ r ^WgeI3art
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
+				"mode": "orbit",
 				"elementId": "eUEXvUDI6QNq9aWwpqqWM",
-				"focus": -0.262192712038574,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.48535720119823667,
+					0.4853572011982367
+				]
 			},
 			"endBinding": {
+				"mode": "orbit",
 				"elementId": "ppDAB0bgzDdxBjXba_0eT",
-				"focus": 0.9025762164574511,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.5001,
+					0.5363981322146619
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "iZ0YIB1O",
 			"type": "text",
-			"x": -146.5,
+			"x": -145.97999572753906,
 			"y": 1.5546875,
-			"width": 15,
+			"width": 13.959991455078125,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -181,7 +189,7 @@ r ^WgeI3art
 			"version": 4,
 			"versionNonce": 954450713,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731787557843,
 			"link": null,
 			"locked": false,
@@ -194,7 +202,8 @@ r ^WgeI3art
 			"containerId": "kAPjBN-eQC__9AOAKOLxK",
 			"originalText": "P",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "MJc2_BtwJ5FsYq2NsYqcI",
@@ -242,15 +251,18 @@ r ^WgeI3art
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
+				"mode": "inside",
 				"elementId": "eUEXvUDI6QNq9aWwpqqWM",
-				"focus": -0.03698943101551703,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.0011235955056179776,
+					0.9981684981684982
+				]
 			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "JpscyCzE",
@@ -275,7 +287,7 @@ r ^WgeI3art
 			"version": 4,
 			"versionNonce": 2011709367,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731787553784,
 			"link": null,
 			"locked": false,
@@ -288,7 +300,8 @@ r ^WgeI3art
 			"containerId": "MJc2_BtwJ5FsYq2NsYqcI",
 			"originalText": "C",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "YIgVTH5Oua8NeST9fw_LH",
@@ -336,22 +349,25 @@ r ^WgeI3art
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
+				"mode": "orbit",
 				"elementId": "ppDAB0bgzDdxBjXba_0eT",
-				"focus": -0.057063665583766375,
-				"gap": 1.8375941145991277,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.5001,
+					0.470691480470278
+				]
 			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "WgeI3art",
 			"type": "text",
-			"x": -34.25,
+			"x": -33.8699951171875,
 			"y": -72.1953125,
-			"width": 9,
+			"width": 8.239990234375,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -369,7 +385,7 @@ r ^WgeI3art
 			"version": 4,
 			"versionNonce": 2064691191,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731787568543,
 			"link": null,
 			"locked": false,
@@ -382,7 +398,8 @@ r ^WgeI3art
 			"containerId": "YIgVTH5Oua8NeST9fw_LH",
 			"originalText": "r",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -401,10 +418,11 @@ r ^WgeI3art
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 385.5,
-		"scrollY": 226.9453125,
+		"currentItemFrameRole": null,
+		"scrollX": 227.71052344071782,
+		"scrollY": 204.25958943364685,
 		"zoom": {
-			"value": 2
+			"value": 1.830618
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
@@ -419,7 +437,9 @@ r ^WgeI3art
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -427,7 +447,8 @@ r ^WgeI3art
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

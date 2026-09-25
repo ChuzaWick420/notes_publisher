@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 min ^0zHmdcZJ
 
@@ -24,7 +25,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "fbqmdbNQiCIAl0g1W5seG",
@@ -51,7 +52,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 92,
 			"versionNonce": 1527809124,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731851889713,
 			"link": null,
 			"locked": false,
@@ -70,7 +71,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "msPS44OY-Qw2OOg3r-PYe",
@@ -97,7 +99,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 80,
 			"versionNonce": 785054812,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731851898763,
 			"link": null,
 			"locked": false,
@@ -116,7 +118,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "CtTwqE17q4tU9DbGW5hJA",
@@ -141,7 +144,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 44,
 			"versionNonce": 1460250716,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731851922653,
 			"link": null,
 			"locked": false,
@@ -324,7 +327,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"lastCommittedPoint": [
 				1.7839669537960958,
 				1.7839669537961527
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "3M3MzSeF8rSr1yH-qL-Cm",
@@ -349,7 +353,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 79,
 			"versionNonce": 1627839204,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731851929966,
 			"link": null,
 			"locked": false,
@@ -672,7 +676,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"lastCommittedPoint": [
 				2.675950430694229,
 				4.459917384490353
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "ewTGNS7CB8Rpd_WVH2McN",
@@ -699,7 +704,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 56,
 			"versionNonce": 1793303524,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731852165014,
 			"link": null,
 			"locked": false,
@@ -717,7 +722,9 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "snJLdXaiQHcE_XNZ66a8j",
@@ -744,7 +751,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 219,
 			"versionNonce": 1289357916,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731852154395,
 			"link": null,
 			"locked": false,
@@ -763,7 +770,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ZNhOgpDm2kwexhuOxSOHV",
@@ -812,7 +820,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -846,7 +855,9 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -880,7 +891,9 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"id": "YC1xwdJ_j0aih_31crMJ9",
@@ -907,7 +920,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 49,
 			"versionNonce": 671170908,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731852184781,
 			"link": null,
 			"locked": false,
@@ -925,7 +938,9 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "gSzxS3y9TZOs-YGCbcMrv",
@@ -952,7 +967,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 45,
 			"versionNonce": 608234844,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731852193993,
 			"link": null,
 			"locked": false,
@@ -973,14 +988,16 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "0zHmdcZJ",
 			"type": "text",
 			"x": -134.61796555237697,
 			"y": 40.01651523372067,
-			"width": 34,
+			"width": 33,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -998,7 +1015,7 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"version": 52,
 			"versionNonce": 958825052,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731852210291,
 			"link": null,
 			"locked": false,
@@ -1011,7 +1028,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"containerId": null,
 			"originalText": "min",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -1049,45 +1067,8 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"containerId": null,
 			"originalText": "max",
 			"autoResize": true,
-			"lineHeight": 1.25
-		},
-		{
-			"id": "NW6B3Kp9",
-			"type": "text",
-			"x": 166.35345712789822,
-			"y": 67.45313663827602,
-			"width": 8,
-			"height": 25,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "dashed",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "aE",
-			"roundness": null,
-			"seed": 1435089380,
-			"version": 4,
-			"versionNonce": 1741976668,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1731852212326,
-			"link": null,
-			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 20,
-			"fontFamily": 5,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "",
-			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -1106,10 +1087,11 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 247.69010224993903,
-		"scrollY": 155.45642144920842,
+		"currentItemFrameRole": null,
+		"scrollX": 340.6633366140878,
+		"scrollY": 275.9828062950584,
 		"zoom": {
-			"value": 1.202772
+			"value": 1.312101
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -1124,15 +1106,19 @@ cf901140d1073262e4f5f3df39f43284b15cf870: $$lerp(h)$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
 			"type": "selection",
 			"customType": null,
 			"locked": false,
+			"fromSelection": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

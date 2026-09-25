@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 viewport_upper_left ^wNjyq55J
 
@@ -22,7 +23,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "8Ylw4EfTdJPRCsVQh-L68",
@@ -47,7 +48,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"version": 64,
 			"versionNonce": 2138888005,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731774226052,
 			"link": null,
 			"locked": false,
@@ -310,7 +311,8 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"lastCommittedPoint": [
 				4.516021716043099,
 				-3.763351430035925
-			]
+			],
+			"hasTextLink": false
 		},
 		{
 			"id": "wNjyq55J",
@@ -335,7 +337,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"version": 92,
 			"versionNonce": 1238244581,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731774314158,
 			"link": null,
 			"locked": false,
@@ -348,7 +350,8 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"containerId": null,
 			"originalText": "viewport_upper_left",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"id": "O02fiLv_DE0CbGLRvKMEF",
@@ -375,7 +378,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"version": 42,
 			"versionNonce": 1598982469,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731774278360,
 			"link": null,
 			"locked": false,
@@ -394,7 +397,8 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "BcxgoKTBHnz4l0glH7TtE",
@@ -421,7 +425,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"version": 78,
 			"versionNonce": 828707659,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731774303359,
 			"link": null,
 			"locked": false,
@@ -439,7 +443,9 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "N-0VwQhKX-qpdFmhIohn4",
@@ -466,7 +472,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"version": 44,
 			"versionNonce": 547607685,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731774308543,
 			"link": null,
 			"locked": false,
@@ -485,7 +491,8 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "Cq8gT_HyaXotWT3bxYWLa",
@@ -536,14 +543,15 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "GZdIz1yD",
 			"type": "text",
-			"x": -185.18046772598123,
+			"x": -184.68046772598126,
 			"y": -25.68736943885628,
-			"width": 133,
+			"width": 132,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -561,7 +569,7 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"version": 19,
 			"versionNonce": 566897163,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731774366910,
 			"link": null,
 			"locked": false,
@@ -574,7 +582,8 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"containerId": "Cq8gT_HyaXotWT3bxYWLa",
 			"originalText": "focal_length",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -608,7 +617,9 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -627,10 +638,11 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 361.46084653633636,
-		"scrollY": 252.3592348236666,
+		"currentItemFrameRole": null,
+		"scrollX": 389.84915562346333,
+		"scrollY": 212.88108631418368,
 		"zoom": {
-			"value": 1.361997
+			"value": 1.46478
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -645,7 +657,9 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -653,7 +667,8 @@ e97f365c4ee4467505f247f9ca2674538dd2ce05: $$\frac {\vec u + \vec v} 2$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

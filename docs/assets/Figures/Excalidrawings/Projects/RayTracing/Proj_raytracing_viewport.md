@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 c4debc73aee848e9a6277d5b21986c51510074b7: $$\vec u$$
@@ -28,7 +29,7 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "w75eVQRYZbDxiZ4M7yzO0",
@@ -65,7 +66,8 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			],
 			"updated": 1731773258530,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "DCUJ21An0dj0oskNdSR0q",
@@ -114,7 +116,8 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "cNWeHda0wT4wUmP176Bbx",
@@ -163,7 +166,8 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "Bi6mRKXVleIeJKct1P8ZW",
@@ -209,7 +213,8 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "ZOS_dLsA6XubMEO790gR0",
@@ -236,7 +241,7 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"version": 98,
 			"versionNonce": 1864194437,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731773411165,
 			"link": null,
 			"locked": false,
@@ -252,15 +257,18 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
+				"mode": "orbit",
 				"elementId": "ADPZU75F",
-				"focus": 1.4005939947821993,
-				"gap": 11.744144297570983,
-				"fixedPoint": null
+				"fixedPoint": [
+					-0.2435173844866241,
+					1.1997094862189972
+				]
 			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
@@ -306,7 +314,8 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 					104.58009330951532
 				]
 			],
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "q5NK7gyMzWoqWzS3wljuk",
@@ -331,7 +340,7 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"version": 86,
 			"versionNonce": 2113399499,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731773411158,
 			"link": null,
 			"locked": false,
@@ -349,7 +358,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "VR5d_ISG7wJoe1iS-lGQM",
@@ -376,7 +387,7 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"version": 74,
 			"versionNonce": 148798533,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731773411165,
 			"link": null,
 			"locked": false,
@@ -392,15 +403,18 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
+				"mode": "inside",
 				"elementId": "w75eVQRYZbDxiZ4M7yzO0",
-				"focus": 0.3657209111930663,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.00300100847681121,
+					0.17695330917447671
+				]
 			},
 			"endBinding": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -434,7 +448,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -468,7 +484,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -502,7 +520,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -541,7 +561,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -575,7 +597,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"type": "image",
@@ -609,7 +633,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -628,10 +654,11 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 478.49088782584295,
-		"scrollY": 349.12925355034247,
+		"currentItemFrameRole": null,
+		"scrollX": 364.87779428391815,
+		"scrollY": 252.68967340702682,
 		"zoom": {
-			"value": 1.244347
+			"value": 1.325237
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
@@ -646,7 +673,9 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -654,7 +683,8 @@ f9f20400d8b8ba1761653230f3b77642e242a080: $$\vec {\Delta v}$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

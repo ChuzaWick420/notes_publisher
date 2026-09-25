@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 Editor ^sw91j0OI
 
@@ -21,7 +22,7 @@ scene.json ^hxBxuhxW
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -60,7 +61,8 @@ scene.json ^hxBxuhxW
 			],
 			"updated": 1735129063819,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -98,7 +100,8 @@ scene.json ^hxBxuhxW
 			"containerId": "i-3B78LZIIC84tL7Q461M",
 			"originalText": "Editor",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "rectangle",
@@ -137,7 +140,8 @@ scene.json ^hxBxuhxW
 			],
 			"updated": 1735129059253,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "text",
@@ -152,11 +156,11 @@ scene.json ^hxBxuhxW
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 150.9500274658203,
+			"x": 152.85003662109375,
 			"y": -33.4140625,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 122.59994506835938,
+			"width": 118.7999267578125,
 			"height": 45,
 			"seed": 965325446,
 			"groupIds": [],
@@ -175,12 +179,13 @@ scene.json ^hxBxuhxW
 			"containerId": "sgGopik-VKbIZkeXToDyM",
 			"originalText": "Engine",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		},
 		{
 			"type": "arrow",
-			"version": 86,
-			"versionNonce": 778594760,
+			"version": 87,
+			"versionNonce": 2097570484,
 			"index": "a4",
 			"isDeleted": false,
 			"id": "FSMGJjcbb8a3nf0tKOiUG",
@@ -206,7 +211,7 @@ scene.json ^hxBxuhxW
 					"id": "hxBxuhxW"
 				}
 			],
-			"updated": 1740912550983,
+			"updated": 1790321660696,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -216,7 +221,8 @@ scene.json ^hxBxuhxW
 				"fixedPoint": [
 					1.0328947368421055,
 					0.5202476859165299
-				]
+				],
+				"mode": "orbit"
 			},
 			"endBinding": {
 				"elementId": "sgGopik-VKbIZkeXToDyM",
@@ -225,7 +231,8 @@ scene.json ^hxBxuhxW
 				"fixedPoint": [
 					-0.03289473684210526,
 					0.4857011752853784
-				]
+				],
+				"mode": "orbit"
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -240,7 +247,11 @@ scene.json ^hxBxuhxW
 					0
 				]
 			],
-			"elbowed": true
+			"elbowed": true,
+			"hasTextLink": false,
+			"fixedSegments": null,
+			"startIsSpecial": null,
+			"endIsSpecial": null
 		},
 		{
 			"type": "text",
@@ -255,11 +266,11 @@ scene.json ^hxBxuhxW
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -49.48287195646775,
+			"x": -48.48287195646775,
 			"y": -25.37300148590316,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 112,
+			"width": 110,
 			"height": 25,
 			"seed": 1421024518,
 			"groupIds": [],
@@ -278,7 +289,8 @@ scene.json ^hxBxuhxW
 			"containerId": "FSMGJjcbb8a3nf0tKOiUG",
 			"originalText": "scene.json",
 			"autoResize": true,
-			"lineHeight": 1.25
+			"lineHeight": 1.25,
+			"hasTextLink": false
 		}
 	],
 	"appState": {
@@ -297,10 +309,11 @@ scene.json ^hxBxuhxW
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
-		"scrollX": 290.04374885912694,
-		"scrollY": 276.32339125755,
+		"currentItemFrameRole": null,
+		"scrollX": 290.0438026909013,
+		"scrollY": 218.80530723480058,
 		"zoom": {
-			"value": 1.22066
+			"value": 1.44574
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -315,7 +328,9 @@ scene.json ^hxBxuhxW
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -323,7 +338,8 @@ scene.json ^hxBxuhxW
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }

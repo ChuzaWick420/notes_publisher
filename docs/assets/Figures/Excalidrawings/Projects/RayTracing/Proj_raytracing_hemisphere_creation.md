@@ -8,6 +8,7 @@ tags: [excalidraw]
 
 
 # Excalidraw Data
+
 ## Text Elements
 ## Embedded Files
 6dbb6054aab6e329d03c063f0ba5d0c2e88becc1: $$\hat n$$
@@ -20,7 +21,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.2",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
 	"elements": [
 		{
 			"id": "oato_Ef5D0kJMsGdlcXsO",
@@ -47,7 +48,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"version": 69,
 			"versionNonce": 30021912,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731951085894,
 			"link": null,
 			"locked": false,
@@ -65,7 +66,9 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"startBinding": null,
 			"endBinding": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"hasTextLink": false,
+			"polygon": false
 		},
 		{
 			"id": "hszPeFWOEhyja6xd1YwDA",
@@ -116,7 +119,8 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			],
 			"updated": 1731951152456,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "4pCL1X4oG68fjs17nmuAK",
@@ -143,7 +147,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"version": 47,
 			"versionNonce": 1566515304,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731951112158,
 			"link": null,
 			"locked": false,
@@ -160,14 +164,17 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
+				"mode": "orbit",
 				"elementId": "hszPeFWOEhyja6xd1YwDA",
-				"focus": 0.01900380149903546,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.5001,
+					0
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -201,7 +208,9 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		},
 		{
 			"id": "KFCSfHrroF9qAAtkEPSWD",
@@ -228,7 +237,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"version": 80,
 			"versionNonce": 1859762536,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731951174199,
 			"link": null,
 			"locked": false,
@@ -245,14 +254,17 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
+				"mode": "inside",
 				"elementId": "hszPeFWOEhyja6xd1YwDA",
-				"focus": 0.022758691436254294,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.13169409413544375,
+					0.16257367815002544
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "oxCO7AcWweA523Dk1K1Vl",
@@ -279,7 +291,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"version": 41,
 			"versionNonce": 567308568,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731951139596,
 			"link": null,
 			"locked": false,
@@ -296,14 +308,17 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
+				"mode": "inside",
 				"elementId": "hszPeFWOEhyja6xd1YwDA",
-				"focus": -0.0027398836956466647,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.9103037222482139,
+					0.22214829254563034
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "lUUi5W1NszeELyEB2MNw1",
@@ -330,7 +345,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"version": 35,
 			"versionNonce": 1190387048,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731951177262,
 			"link": null,
 			"locked": false,
@@ -347,14 +362,17 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
+				"mode": "inside",
 				"elementId": "hszPeFWOEhyja6xd1YwDA",
-				"focus": 0.012376309379847681,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.035918790828041135,
+					0.6737207867117186
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"id": "wyUz43h_2PwsqvyhiZci7",
@@ -381,7 +399,7 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"version": 34,
 			"versionNonce": 1620016744,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731951170874,
 			"link": null,
 			"locked": false,
@@ -398,14 +416,17 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
+				"mode": "inside",
 				"elementId": "hszPeFWOEhyja6xd1YwDA",
-				"focus": -0.027487853771869023,
-				"gap": 1,
-				"fixedPoint": null
+				"fixedPoint": [
+					0.813604115522982,
+					0.8792295994222692
+				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": false
+			"elbowed": false,
+			"hasTextLink": false
 		},
 		{
 			"type": "image",
@@ -439,7 +460,9 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"scale": [
 				1,
 				1
-			]
+			],
+			"hasTextLink": false,
+			"crop": null
 		}
 	],
 	"appState": {
@@ -458,10 +481,11 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 142.9630118846967,
-		"scrollY": 79.32608206169206,
+		"currentItemFrameRole": null,
+		"scrollX": 259.4126756045386,
+		"scrollY": 182.32636470755747,
 		"zoom": {
-			"value": 2.815428
+			"value": 1.460721
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -476,7 +500,9 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"enabled": true,
 			"clip": true,
 			"name": true,
-			"outline": true
+			"outline": true,
+			"markerName": true,
+			"markerEnabled": true
 		},
 		"objectsSnapModeEnabled": false,
 		"activeTool": {
@@ -484,7 +510,8 @@ d001d3b444e25f8a68e5462695ecb9b76669ce30: $$\theta$$
 			"customType": null,
 			"locked": false,
 			"lastActiveTool": null
-		}
+		},
+		"disableContextMenu": false
 	},
 	"files": {}
 }
