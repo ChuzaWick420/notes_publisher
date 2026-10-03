@@ -3,7 +3,7 @@ Provider: AMD
 Platform: AMD AI Developer Program, AMD AI Academy
 ---
 
-# Introduction
+# 1. Introduction
 
 <span style="color: gray;">Dated: 01-10-2026</span>
 
@@ -46,7 +46,7 @@ ROCm is open source and provides a migration path for CUDA through HIP.
 
 === "`HIP` (AMD)"  
 	```{.cpp .annotate .copy hl_lines="3-6"}  
-	#include <hip/hip runtime.h>
+	#include <hip/hip_runtime.h>
 	
 	__global__ void add(float* a, float* b, float* c) { // (1)!
 		int i = blockIdx.x * blockDim.x + threadIdx.x;
@@ -74,7 +74,7 @@ ROCm is open source and provides a migration path for CUDA through HIP.
 
 === "`CUDA` (NVIDIA)"  
 	```{.cpp .annotate .copy hl_lines="3-6"}  
-	#include <hip/hip runtime.h>
+	#include <cuda_runtime.h>
 	
 	__global__ void add(float* a, float* b, float* c) { // (1)!
 		int i = blockIdx.x * blockDim.x + threadIdx.x;
@@ -102,6 +102,17 @@ ROCm is open source and provides a migration path for CUDA through HIP.
 
 > [!TIP] `hipify-perl` renames CUDA APIs automatically.
 
+## Command line Tools
+
+AMD ROCm development loop: Monitor → Query → Compile → Profile.
+
+| **Tool**      | **What It Does**                                             | **When You Use It**                                           |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------- |
+| **amd-smi**   | GPU dashboard: temp, clocks, memory, power, utilization.     | When you want a quick health check – is it busy? overheating? |
+| **rocminfo**  | Lists GPUs and CPUs: name, CU count, ISA, wavefront, clocks. | First thing after install – does ROCm see the GPU?            |
+| **hipcc**     | HIP compiler – auto-detects GPU, emits native code.          | Every compile: `hipcc -O3 -o out in.hip`                      |
+| **rocprofv3** | Kernel times, HW counters, occupancy metrics.                | Profiling: `rocprofv3 --stats --kernel-trace -- ./app`        |
+
 [^1]: [What is Hip - ROCm Docs](https://rocm.docs.amd.com/projects/HIP/en/docs-6.4.2/what_is_hip.html#what-is-hip)
 [^2]: [What is ROCm - ROCm docs](https://rocm.docs.amd.com/en/docs-7.2.4/what-is-rocm.html)
-[^3]: [compatibility matrix](https://rocm.docs.amd.com/en/docs-7.2.4/compatibility/compatibility-matrix.html)
+[^3]: [Compatibility Matrix](https://rocm.docs.amd.com/en/docs-7.2.4/compatibility/compatibility-matrix.html)
