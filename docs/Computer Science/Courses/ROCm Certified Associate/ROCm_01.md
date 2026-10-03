@@ -44,61 +44,59 @@ ROCm is open source and provides a migration path for CUDA through HIP.
 
 ## `HIP` Vs `CUDA` - Side by Side
 
-### `HIP` (AMD)
-
-```{.cpp .annotate .copy} hl_lines="3-6" 
-#include <hip/hip runtime.h>
-
-__global__ void add(float* a, float* b, float* c) { // (1)!
-	int i = blockIdx.x * blockDim.x + threadIdx.x;
-	if (i < N) c[i] = a[i] + b[i];
-}
-
-int main () {
-	float *a, *b, *c;
+=== "`HIP` (AMD)"  
+	```{.cpp .annotate .copy hl_lines="3-6"}  
+	#include <hip/hip runtime.h>
 	
-	hipMalloc(&a, N * sizeof(float)) // (2)!
-	hipMalloc(&b, N * sizeof(float))
-	hipMalloc(&c, N * sizeof(float))
+	__global__ void add(float* a, float* b, float* c) { // (1)!
+		int i = blockIdx.x * blockDim.x + threadIdx.x;
+		if (i < N) c[i] = a[i] + b[i];
+	}
 	
-	hipMemcpy(a, h_a, N * sizeof(float), hipMemcpyHostToDevice);
-	hipMemcpy(b, h_b, N * sizeof(float), hipMemcpyHostToDevice);
+	int main () {
+		float *a, *b, *c;
+		
+		hipMalloc(&a, N * sizeof(float)) // (2)!
+		hipMalloc(&b, N * sizeof(float))
+		hipMalloc(&c, N * sizeof(float))
+		
+		hipMemcpy(a, h_a, N * sizeof(float), hipMemcpyHostToDevice);
+		hipMemcpy(b, h_b, N * sizeof(float), hipMemcpyHostToDevice);
+		
+		add <<<blocks, threads>>> (a, b, c);
+		
+		hipMemcpy(h_c, c, N * sizeof(float), hipMemcpyDeviceToHost);
+	}
+	```
 	
-	add <<<blocks, threads>>> (a, b, c);
-	
-	hipMemcpy(h_c, c, N * sizeof(float), hipMemcpyDeviceToHost);
-}
-```
+	1. Kernel remains the same.
+	2. API calls start with `hip` prefix.
 
-1. Kernel remains the same.
-2. API calls start with `hip` prefix.
-
-### `CUDA` (NVIDIA)
-
-```{.cpp .annotate .copy} hl_lines="3-6" 
-#include <hip/hip runtime.h>
-
-__global__ void add(float* a, float* b, float* c) { // (1)!
-	int i = blockIdx.x * blockDim.x + threadIdx.x;
-	if (i < N) c[i] = a[i] + b[i];
-}
-
-int main () {
-	float *a, *b, *c;
+=== "`CUDA` (NVIDIA)"  
+	```{.cpp .annotate .copy hl_lines="3-6"}  
+	#include <hip/hip runtime.h>
 	
-	cudaMalloc(&a, N * sizeof(float)) // (2)!
-	cudaMalloc(&b, N * sizeof(float))
-	cudaMalloc(&c, N * sizeof(float))
+	__global__ void add(float* a, float* b, float* c) { // (1)!
+		int i = blockIdx.x * blockDim.x + threadIdx.x;
+		if (i < N) c[i] = a[i] + b[i];
+	}
 	
-	cudaMemcpy(a, h_a, N * sizeof(float), cudaMemcpyHostToDevice);
-	cudaMemcpy(b, h_b, N * sizeof(float), cudaMemcpyHostToDevice);
+	int main () {
+		float *a, *b, *c;
+		
+		cudaMalloc(&a, N * sizeof(float)) // (2)!
+		cudaMalloc(&b, N * sizeof(float))
+		cudaMalloc(&c, N * sizeof(float))
+		
+		cudaMemcpy(a, h_a, N * sizeof(float), cudaMemcpyHostToDevice);
+		cudaMemcpy(b, h_b, N * sizeof(float), cudaMemcpyHostToDevice);
+		
+		add <<<blocks, threads>>> (a, b, c);
+		
+		cudaMemcpy(h_c, c, N * sizeof(float), cudaMemcpyDeviceToHost);
+	}
+	```
 	
-	add <<<blocks, threads>>> (a, b, c);
-	
-	cudaMemcpy(h_c, c, N * sizeof(float), cudaMemcpyDeviceToHost);
-}
-```
-
 	1. Kernel remains the same.
 	2. API calls start with `cuda` prefix.
 

@@ -48,7 +48,7 @@ plugins:
   - search # search bar
   - callouts # Obsidian callouts, e.g. [!note]-
   # - obsidian-interactive-graph # Obsidian like graph, a bit hard to read
-  - obsidian-support # Obsidian Tags, causing problems to cpp code snippets within obsidian callouts
+  # - obsidian-support # Obsidian Tags, causing problems to cpp code snippets within obsidian callouts
   - obsidian-bridge # Obsidian like file links
   - glightbox # Image zooming
   - social # Social cards for embedded images when line is shared
