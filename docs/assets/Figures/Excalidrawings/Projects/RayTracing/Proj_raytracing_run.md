@@ -31,7 +31,7 @@ rendered.png ^kOkATSNR
 save() ^aGeE9BaU
 
 ## Embedded Files
-4a37607c5ef12cab469154d913f1d982479215f1: [[raytracing_render_png.png]]
+4a37607c5ef12cab469154d913f1d982479215f1: [[Drafts/Junk/raytracing_render_png.png]]
 
 %%
 ## Drawing
