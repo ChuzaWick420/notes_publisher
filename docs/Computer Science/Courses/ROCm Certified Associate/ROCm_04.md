@@ -14,7 +14,7 @@ Use `#!cpp hipMemcpy` to copy data from Host (CPU) to Device (GPU) and other way
 
 ## Vector addition Example
 
-![[c_rocm_19.svg]]  
+![[c_rocm_e_19.svg]]  
 /// caption  
 Each `thread` is performing `#!cpp C[i] = A[i] + B[i]` independently and hence, there is no need for `CPU` loops.  
 ///
