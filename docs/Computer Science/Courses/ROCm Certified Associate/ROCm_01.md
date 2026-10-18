@@ -7,8 +7,8 @@ Platform: AMD AI Developer Program, AMD AI Academy
 
 <span style="color: gray;">Dated: 01-10-2026</span>
 
-![[c_rocm_e_1.svg]]
 
+![[c_rocm_e_1.svg]]  
 `ROCm`[^1] is open source and provides a migration path for CUDA through `HIP`.[^2]
 
 > [!NOTE] ==**Heterogeneous-computing Interface for Portability (HIP)**== is a C++ runtime API and kernel programming language created by AMD that lets developers build high-performance, single-source applications for both AMD and NVIDIA graphics cards.[^2]
@@ -105,13 +105,7 @@ Platform: AMD AI Developer Program, AMD AI Academy
 
 ## Command-line Tools
 
-```mermaid
----
-title: AMD `ROCm`[^1] development loop  
----
-flowchart TD
-	Monitor --> Query --> Compile --> Profile
-```
+AMD `ROCm`[^1] development loop  
 
 | Tool          | What It Does                                                 | When You Use It                                                 |
 | ------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
