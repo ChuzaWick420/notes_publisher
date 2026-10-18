@@ -1,0 +1,50 @@
+# Site build dependencies, pinned to the versions from the old working laptop
+mkdocs==1.6.1
+mkdocs-material==9.5.45
+mkdocs-material-extensions==1.3.1
+mkdocs-get-deps==0.2.0
+pymdown-extensions==10.12
+Markdown==3.7
+mkdocs-callouts==1.14.1
+mkdocs-glightbox==0.4.0
+mkdocs-obsidian-bridge==1.1.1
+obsidian-media==2.0.0
+mkdocs-obsidian-support-plugin==1.4.1
+mkdocs-exclude==1.0.2
+overrides==7.7.0
+# social plugin (cards) and image handling
+CairoSVG==2.7.1
+cairocffi==1.7.1
+cffi==1.17.1
+pycparser==2.22
+cssselect2==0.7.0
+defusedxml==0.7.1
+tinycss2==1.4.0
+webencodings==0.5.1
+pillow==10.4.0
+# mkdocs / material runtime
+click==8.1.7
+colorama==0.4.6
+ghp-import==2.1.0
+Jinja2==3.1.4
+MarkupSafe==3.0.2
+mergedeep==1.3.4
+packaging==24.2
+pathspec==0.12.1
+platformdirs==4.3.6
+PyYAML==6.0.2
+pyyaml_env_tag==0.1
+watchdog==6.0.0
+python-dateutil==2.9.0.post0
+six==1.16.0
+Pygments==2.18.0
+babel==2.16.0
+paginate==0.5.7
+regex==2024.11.6
+requests==2.32.3
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+urllib3==2.2.3
+# used by generate_diagrams.sh in CI (was installed before)
+numpy==2.2.3
