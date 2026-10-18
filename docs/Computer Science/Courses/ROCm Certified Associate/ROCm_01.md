@@ -106,13 +106,12 @@ Platform: AMD AI Developer Program, AMD AI Academy
 ## Command-line Tools
 
 ```mermaid
-flowchart LR
+---
+title: AMD `ROCm`[^1] development loop  
+---
+flowchart TD
 	Monitor --> Query --> Compile --> Profile
 ```
-
-/// caption  
-AMD `ROCm`[^1] development loop  
-/// 
 
 | Tool          | What It Does                                                 | When You Use It                                                 |
 | ------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -123,6 +122,6 @@ AMD `ROCm`[^1] development loop
 
 ## References
 
-[^1]: [ROCm --- ROCm docs](https://rocm.docs.amd.com/en/docs-7.2.4/what-is-rocm.html)
-[^2]: [HIP --- ROCm Docs](https://rocm.docs.amd.com/projects/HIP/en/docs-6.4.2/what_is_hip.html#what-is-hip)
-[^3]: [Compatibility Matrix --- ROCm Docs](https://rocm.docs.amd.com/en/docs-7.2.4/compatibility/compatibility-matrix.html)
+[^1]: [ROCm — ROCm docs](https://rocm.docs.amd.com/en/docs-7.2.4/what-is-rocm.html)
+[^2]: [HIP — ROCm Docs](https://rocm.docs.amd.com/projects/HIP/en/docs-6.4.2/what_is_hip.html#what-is-hip)
+[^3]: [Compatibility Matrix — ROCm Docs](https://rocm.docs.amd.com/en/docs-7.2.4/compatibility/compatibility-matrix.html)
