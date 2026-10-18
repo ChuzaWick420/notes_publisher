@@ -58,30 +58,26 @@ $\text{GEMM}: D = \alpha \times A \times B + \beta \times C$
 - Operator fusion — conv + bias + activation in a single `kernel`[^4]
 
 !!! TIP Why fuse matters
-
-> === "Without Fuse"
-> 	```mermaid
-> 	---
-> 	title: Without Fuse
-> 	---
-> 	flowchart LR
-> 		id1[conv]
-> 		id2[HBM]
-> 		id3[bn]
-> 		id4[HBM]
-> 		id5[relu]
-> 		id1 --> id2 --> id3 --> id4 --> id5
-> 	```
-> 
-> === "With Fuse"
-> 	```mermaid
-> 	---
-> 	title: reduces off chip memory access, avoids kernel launch overhead
-> 	---
-> 	flowchart LR
-> 		id1[conv + bn + relu]
-> 		id1 --> HBM
-> 	```
+	> === "Without Fuse"
+	> 	```mermaid
+	> 	flowchart LR
+	>		id1[conv]
+	> 		id2[HBM]
+	> 		id3[bn]
+	> 		id4[HBM]
+	> 		id5[relu]
+	> 		id1 --> id2 --> id3 --> id4 --> id5
+	> 	```
+	> 
+	> === "With Fuse"
+	> 	```mermaid
+	> 	---
+	> 	title: reduces off chip memory access, avoids kernel launch overhead
+	> 	---
+	> 	flowchart LR
+	> 		id1[conv + bn + relu]
+	> 		id1 --> HBM
+	> 	```
 
 ### `MIOpen` Autotune
 
@@ -176,6 +172,8 @@ $$\text{Time Domain} \longleftrightarrow \text{Frequency Domain}$$
 	> - Ray Tracing
 	> - Finance
 	> - Option Pricing
+
+---
 
 ## rocSPARSE - Sparse Matrix Operations
 
@@ -360,6 +358,8 @@ model = torch.compile(model) # default backend = TorchInductor; on AMD it emits 
 	> [!NOTE] Each GPU contributes 1 chunk per destination and receives 1 from each destination
 
 	> [!TIP] `MoE` token routing (tokens → expert GPU)
+
+---
 
 ## PyTorch And vLLM for Inference on ROCm
 
