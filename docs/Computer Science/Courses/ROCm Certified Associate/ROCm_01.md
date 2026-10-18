@@ -21,7 +21,7 @@ Platform: AMD AI Developer Program, AMD AI Academy
 	- EI Capitan MI300A
 	- Frontier MI250X super computers
 
-## Core `ROCm` Components Grouped by roles[^1]
+## Core ROCm Components Grouped by roles[^1]
 
 ![[c_rocm_e_2.svg]]
 
@@ -43,7 +43,7 @@ Platform: AMD AI Developer Program, AMD AI Academy
 `HIP`[^2] maintain a single source code base that can be compiled for `AMD` or `NVIDIA` GPUs.  
 ///
 
-## `HIP`[^2] Vs `CUDA` - Side by Side
+## HIP[^2] vs. CUDA — Side by Side
 
 === "`HIP` (AMD)"  
 	```{.cpp .annotate .copy hl_lines="3-6"}  
@@ -106,6 +106,11 @@ Platform: AMD AI Developer Program, AMD AI Academy
 ## Command-line Tools
 
 AMD `ROCm`[^1] development loop  
+
+```mermaid
+flowchart TD
+    Monitor --> Query --> Compile --> Profile
+```
 
 | Tool          | What It Does                                                 | When You Use It                                                 |
 | ------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
