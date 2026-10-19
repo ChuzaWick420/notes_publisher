@@ -7,17 +7,12 @@ Platform: AMD AI Developer Program, AMD AI Academy
 
 <span style="color: gray;">Dated: 17-10-2026</span>
 
-x-axis = Arithematic intensity - how much FLOPS were performed for each byte moved between HBM and GPU.  
-y-axis = Performance, Flops per second
-
-slope = available memory bandwidth, Line itself is the ceiling.
-
 ## Roofline Model
 
 ![[c_rocm_e_22.svg]]
 
 > [!NOTE] Description of Axes
-> - $x^+$ is `arithmetic intensity` is the `floating-point` work performed by a `kernel` divided by bytes transferred between `HBM` and the `GPU`.
+> - $x^+$ is `arithmetic intensity` which is the `floating-point` work performed by a `kernel`[^1] divided by bytes transferred between `HBM` and the `GPU`.
 > - $y^+$ is `performance` — number of `floating-point operations` performed per second.
 
 > [!EXAMPLE] `FP32` `SAXPY` (Single precision ax + y - $y = a \times x + y$) operation  
@@ -27,23 +22,23 @@ slope = available memory bandwidth, Line itself is the ceiling.
 > 2. Add: $+ y$
 > 
 > Theoretical `HBM` traffic: `read x` + `read y` + `write y` = 12 bytes  
-> Theoretical `arithmetic intensity`: $\frac{2 \text{ FLOPs}}{12 \text{ bytes}} = 0.17 \frac{\text{FLOP}}{\text{byte}}$
+> Theoretical `arithmetic intensity`: $\frac{2 \text{ FLOPs}}{12 \text{ bytes}} = 0.17 \frac{\text{FLOPs}}{\text{byte}}$
 > 
 > As it falls under memory bandwidth limited region, it is memory bound.
 
-### 3 Common `GPU` Bottlenecks
+### 3 Common GPU Bottlenecks
 
-| **CATEGORY**           | **DESCRIPTION / CEILING**                                                              | **ROOFLINE VIEW**                                                                    | **TYPICAL OPTIMIZATIONS**                                                                                        |     |
-| ---------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | --- |
-| **MEMORY-BOUND**       | HBM bandwidth sets the performance ceiling.                                            | Left of the ridge; memory bandwidth sets the ceiling.                                | Move fewer bytes, coalesce accesses, and reuse data.                                                             |     |
-| **COMPUTE-BOUND**      | Compute throughput sets the performance ceiling.                                       | Right of the ridge; compute throughput sets the ceiling.                             | Use optimized libraries or instructions, reduce unnecessary work, or use lower precision where accuracy permits. |     |
-| **OVERHEAD-DOMINATED** | Kernel launches, synchronization, or too little work per launch dominate elapsed time. | May sit far below the roofline; roofline position alone does not identify the cause. | Batch or fuse small operations, reduce launches and synchronization, and increase useful work per launch.        |     |
+| Category           | Description / Ceiling                                                                        | Roofline View                                                                        | Typical Optimizations                                                                                            |
+| ------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| Memory-Bound       | HBM bandwidth sets the performance ceiling.                                                  | Left of the ridge; memory bandwidth sets the ceiling.                                | Move fewer bytes, coalesce accesses, and reuse data.                                                             |
+| Compute-Bound      | Compute throughput sets the performance ceiling.                                             | Right of the ridge; compute throughput sets the ceiling.                             | Use optimized libraries or instructions, reduce unnecessary work, or use lower precision where accuracy permits. |
+| Overhead-Dominated | `Kernel launches`,[^1] synchronization, or too little work per launch dominate elapsed time. | May sit far below the roofline; roofline position alone does not identify the cause. | Batch or fuse small operations, reduce launches and synchronization, and increase useful work per launch.        |
 
 > [!NOTE] A real application can contain a mixture of these.
 
 ## Profiling
 
-- Starting with `kernel` timing to find where time is spent.
+Starting with `kernel`[^1] timing to find where time is spent.
 
 ```bash
 # First pass: identify important kernels
@@ -55,7 +50,7 @@ $ rocprofv3 --pmc <selected counters> --output-format csv -- ./app
 
 ### Kernel Timing
 
-Start here: which `kernel` consumes meaningful total time?
+Start here: which `kernel`[^1] consumes meaningful total time?
 
 - `AverageNs` — Average time per launch
 - Calls — Number of launches
@@ -79,49 +74,21 @@ Clue: high traffic or stalls relative to compute activity
 
 ## How to Improve Performance
 
-### 1. Profile
-
-```powershell
-rocprofv3 --kernel-trace --stats -- ./app
-```
-
-### 2. Is `GPU` Work Fragmented?
-
-many short `kernels` or gaps between launches?
-
-#### Yes - overhead Dominated
-
-Tell: Many short `kernels` or large gaps; little useful work per `launch`.
-
-Optimize: Batch or fuse work, reduce `launches` and `synchronization`, and increase useful work per launch.
-
-#### No
-
-##### 3. What Sets the Performance Ceiling?
-
-###### Memory-bound
-
-Tell: Left of the ridge; HBM bandwidth sets the ceiling.  
-Optimize: Move fewer bytes, coalesce accesses, and reuse data.
-
-###### Compute-bound
-
-Tell: Right of the ridge; compute throughput sets the ceiling.  
-Optimize: Use optimized libraries or instructions, reduce unnecessary work, and use lower precision where accuracy permits.
+![[c_rocm_e_23.svg]]
 
 ## Matrix Transpose
 
-![[c_rocm_e_23.svg]]
+![[c_rocm_e_24.svg]]
 
 > [!NOTE] The challenge  
 > Adjacent `threads` read contiguous elements from an input row but write strided elements to an output column. This access mismatch is the main optimization challenge
 
-![[c_rocm_e_24.svg]]  
+![[c_rocm_e_25.svg]]  
 /// caption  
 Elements in the same row are contiguous in memory, while elements in the same column are one row stride apart.  
 ///
 
-### Mapping 2D `HIP` Grid onto the `Matrix`
+### Mapping 2D HIP[^2] Grid onto the Matrix
 
 ![[c_rocm_i_5.png]]
 
@@ -173,7 +140,7 @@ Elements in the same row are contiguous in memory, while elements in the same co
 > index = 5 * 7 + 6 = 41;
 > ```
 
-### Baseline `kernel`
+### Baseline Kernel[^1]
 
 > [!NOTE] Each `thread` reads one input element and writes it directly to the transposed output-one element per thread, with no shared memory (`LDS`).
 
@@ -203,7 +170,7 @@ __global__ void transpose_baseline (const float* in, float* out, int width, int 
 
 ### Memory Coalescing
 
-![[c_rocm_e_25.svg]]  
+![[c_rocm_e_26.svg]]  
 /// caption  
 Coalesced - consecutive lanes -> consecutive addresses -> fewer, wider transactions  
 ///
@@ -218,7 +185,7 @@ Coalesced - consecutive lanes -> consecutive addresses -> fewer, wider transacti
 
 ---
 
-![[c_rocm_e_26.svg]]  
+![[c_rocm_e_27.svg]]  
 /// caption  
 Strided - consecutive lanes -> strided addresses -> many transactions  
 ///
@@ -231,9 +198,9 @@ Strided - consecutive lanes -> strided addresses -> many transactions
 > - Requests span many memory regions
 > - Lower transaction efficiency and effective bandwidth
 
-### Shared Memory (`LDS`) Staging
+### Shared Memory (LDS) Staging
 
-![[c_rocm_e_27.svg]]  
+![[c_rocm_e_28.svg]]  
 /// caption  
 `Threads` cooperatively load the input tile row-wise into `LDS`, then synchronize before reading it back. Then `threads` read the same `LDS` tile with swapped indices and write the transposed tile row-wise to global memory.  
 ///
@@ -257,7 +224,7 @@ if (out_col < height && out_row < width)
 	out[out_row * height + out_col] = tile[threadIdx.x][threadIdx.y]; // coalesced write
 ```
 
-### Optimized `kernel`
+### Optimized Kernel[^1]
 
 ```cpp
 #define TILE 16
@@ -287,15 +254,15 @@ __global__ void transpose_optimized(const float* in, float* out, int width, int 
 }
 ```
 
-> [!NOTE]- Changes compared to baseline `kernerl`  
+> [!NOTE]- Changes compared to baseline `kernel`[^1]
 > - +1 padding: reduces LDS bank conflicts during transposed reads.
 > - Coalesced load: Neighboring threads read neighboring global-memory addresses into an LDS row.
 > - Synchronize: Wait until the tile is fully loaded before any thread reads values written by another thread.
 > - Swapped LDS read + row-wise store: The baseline's strided write becomes a coalesced global store.
 
-## `SAXPY` - Single Precision Ax plus Y
+## SAXPY — Single Precision Ax plus Y
 
-### Baseline `Kernel`
+### Baseline Kernel[^1]
 
 ```cpp
 __global__ void saxpy(float a, const float* x, float* y, int N) {
@@ -312,7 +279,7 @@ int blk_in_grid = (N + thr_per_block - 1) / thr_per_blk;
 saxpy<<blk_in_grid, thr_per_blk>>(a, d_x, d_y, N);
 ```
 
-![[c_rocm_e_28.svg]]  
+![[c_rocm_e_29.svg]]  
 /// caption  
 Memory bound performance ceiling for `SAXPY`: $\left(5.3 \frac{\text{TB}}{s}\right) \times 0.17 \frac{\text{FLOPs}}{B} \approx 0.88 \frac{\text{FLOPs}}{s}$  
 
@@ -358,7 +325,7 @@ saxpy<<<blk_in_grid, thr_per_blk>>>(a, d_x, d_y, N);
 > 
 > $$B_{\text{effective}} = \frac{12N}{t_{\text{avg, ns}}} \quad BW_{\text{utilization}} = \frac{B_{\text{effective}}}{B_{\text{ceiling}}}$$
 
-## Mixed Precision `GEMM` - Throughput Vs Accuracy
+## Mixed Precision GEMM — Throughput Vs Accuracy
 
 > [!NOTE]
 > - `FP16` / `BF16` operands can increase `GEMM` throughput
@@ -414,3 +381,6 @@ for dtype in [torch.float32, torch.float16, torch.bfloat16]:
 > [!NOTE]
 > - `#!cpp time_gpu()` returns the average elapsed milliseconds per `GEMM` using `GPU` events and synchronization. 
 > - `#!cpp relative_difference()` compares the result with the `FP32` reference.
+
+[^1]: Read more about [[ROCm_02|Kernels]].
+[^2]: Learn more about [[ROCm_01|HIP]].
