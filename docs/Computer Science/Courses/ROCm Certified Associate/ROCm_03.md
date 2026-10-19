@@ -280,7 +280,7 @@ Separate ops often mean separate GPU launches and temporary memory writes.
 
 > [!TIP] Eager: More launches and temporary data
 
-### With `#!python torch.compile()` $\textemdash$ Graph Capture + Fused Eligible Ops
+### With `#!python torch.compile()` — Graph Capture + Fused Eligible Ops
 
 ![[c_rocm_e_12.svg]]  
 /// caption  
