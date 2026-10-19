@@ -7,14 +7,14 @@ Platform: AMD AI Developer Program, AMD AI Academy
 
 <span style="color: gray;">Dated: 16-10-2026</span>
 
-![[c_rocm_e_18.svg]]  
+![[c_rocm_e_20.svg]]  
 /// caption  
 Use `#!cpp hipMemcpy` to copy data from Host (CPU) to Device (GPU) and other way around.  
 ///
 
 ## Vector addition Example
 
-![[c_rocm_e_19.svg]]  
+![[c_rocm_e_21.svg]]  
 /// caption  
 Each `thread` is performing `#!cpp C[i] = A[i] + B[i]` independently and hence, there is no need for `CPU` loops.  
 ///

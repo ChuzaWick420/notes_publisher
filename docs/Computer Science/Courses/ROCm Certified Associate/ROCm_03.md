@@ -57,27 +57,11 @@ $\text{GEMM}: D = \alpha \times A \times B + \beta \times C$
 - Multi-precision — `fp32`, `fp16`, `bf16`, `int8`
 - Operator fusion — conv + bias + activation in a single `kernel`[^4]
 
-!!! TIP Why fuse matters
-	> === "Without Fuse"
-	>	```mermaid
-	>	flowchart LR
-	>		id1[conv]
-	>		id2[HBM]
-	>		id3[bn]
-	>		id4[HBM]
-	>		id5[relu]
-	>		id1 --> id2 --> id3 --> id4 --> id5
-	>	```
-	> 
-	> === "With Fuse"
-	>	```mermaid
-	>	---
-	>	title: reduces off chip memory access, avoids kernel launch overhead
-	>	---
-	>	flowchart LR
-	>		id1[conv + bn + relu]
-	>		id1 --> HBM
-	>	```
+!!! tip Why fuse matters  
+	> === "Without Fuse"  
+	> 	![[c_rocm_e_8.svg]]  
+	> === "With Fuse"  
+	> 	![[c_rocm_e_9.svg]]
 
 ### `MIOpen` Autotune
 
@@ -197,7 +181,7 @@ $$\text{Time Domain} \longleftrightarrow \text{Frequency Domain}$$
 > [!EXAMPLE] Memory Saved Example  
 > $10,000 \times 10,000$ `matrix`, $0.1\%$ density (typical `GNN` adjacency)
 > - Dense (`fp32`): <span style="color: red;">400 MB</span>
-> - `CSR` sparse: $\approx$ <span style="color: cyan;">840 MB</span>  
+> - `CSR` sparse: $\approx$ <span style="color: cyan;">840 KB</span>  
 > $\approx475\times$ smaller and only non zeroes are touched in compute.
 
 ## rocPRIM / hipCUB — Parallel Primitives
@@ -243,7 +227,7 @@ Generated with Claude Sonnet 5.5. Proofread by self.
 
 ## PyTorch On ROCm — Familiar Workflows and Ecosystem
 
-![[c_rocm_e_10.svg]]  
+![[c_rocm_e_12.svg]]  
 /// caption  
 The full stack  
 ///
@@ -273,7 +257,7 @@ The full stack
 
 ### Without `#!python torch.compile()` — Eager Mode
 
-![[c_rocm_e_11.svg]]  
+![[c_rocm_e_13.svg]]  
 /// caption  
 Separate ops often mean separate GPU launches and temporary memory writes.  
 ///
@@ -282,7 +266,7 @@ Separate ops often mean separate GPU launches and temporary memory writes.
 
 ### With `#!python torch.compile()` — Graph Capture + Fused Eligible Ops
 
-![[c_rocm_e_12.svg]]  
+![[c_rocm_e_14.svg]]  
 /// caption  
 Captures graph regions, fuses eligible ops; fewer GPU launches and temporary memory writes.  
 ///
@@ -295,8 +279,8 @@ model = torch.compile(model) # default backend = TorchInductor; on AMD it emits 
 
 ## RCCL — Multi-GPU and Multi-node Communication
 
-=== "All Reduce"
-	> ![[c_rocm_e_13.svg]]  
+=== "All Reduce"  
+	> ![[c_rocm_e_15.svg]]  
 
 	> | **Before**              | **After**            |
 	> | ----------------------- | -------------------- |
@@ -309,8 +293,8 @@ model = torch.compile(model) # default backend = TorchInductor; on AMD it emits 
 	> [!TIP] Used in  
 	> Data-parallel training (gradient sync)
 
-=== "All Gather"
-	> ![[c_rocm_e_14.svg]]  
+=== "All Gather"  
+	> ![[c_rocm_e_16.svg]]  
 
 	> | **Before**              | **After**                    |
 	> | ----------------------- | ---------------------------- |
@@ -322,8 +306,8 @@ model = torch.compile(model) # default backend = TorchInductor; on AMD it emits 
 	
 	> [!TIP] `FSDP` / `ZeRO-3` (gather sharded parameters)
 
-=== "Reduce Scatter"
-	> ![[c_rocm_e_15.svg]]  
+=== "Reduce Scatter"  
+	> ![[c_rocm_e_17.svg]]  
 
 	> | **Before**          | **After**                  |
 	> | ------------------- | -------------------------- |
@@ -335,8 +319,8 @@ model = torch.compile(model) # default backend = TorchInductor; on AMD it emits 
 	
 	> [!TIP] `FSDP` / `ZeRO-3` (reduce and shard gradients)
 
-=== "Broadcast"
-	> ![[c_rocm_e_16.svg]]  
+=== "Broadcast"  
+	> ![[c_rocm_e_18.svg]]  
 
 	> | **Before**         | **After**         |
 	> | ------------------ | ----------------- |
@@ -348,8 +332,8 @@ model = torch.compile(model) # default backend = TorchInductor; on AMD it emits 
 	
 	> [!TIP] Initial parameter / state sync
 
-=== "All to All"
-	> ![[c_rocm_e_17.svg]]  
+=== "All to All"  
+	> ![[c_rocm_e_19.svg]]  
 
 	> | **Before**        | **After**              |
 	> | ----------------- | ---------------------- |

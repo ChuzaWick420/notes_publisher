@@ -14,7 +14,7 @@ slope = available memory bandwidth, Line itself is the ceiling.
 
 ## Roofline Model
 
-![[c_rocm_e_20.svg]]
+![[c_rocm_e_22.svg]]
 
 > [!NOTE] Description of Axes
 > - $x^+$ is `arithmetic intensity` is the `floating-point` work performed by a `kernel` divided by bytes transferred between `HBM` and the `GPU`.
@@ -111,12 +111,12 @@ Optimize: Use optimized libraries or instructions, reduce unnecessary work, and 
 
 ## Matrix Transpose
 
-![[c_rocm_e_21.svg]]
+![[c_rocm_e_23.svg]]
 
 > [!NOTE] The challenge  
 > Adjacent `threads` read contiguous elements from an input row but write strided elements to an output column. This access mismatch is the main optimization challenge
 
-![[c_rocm_e_22.svg]]  
+![[c_rocm_e_24.svg]]  
 /// caption  
 Elements in the same row are contiguous in memory, while elements in the same column are one row stride apart.  
 ///
@@ -203,7 +203,7 @@ __global__ void transpose_baseline (const float* in, float* out, int width, int 
 
 ### Memory Coalescing
 
-![[c_rocm_e_23.svg]]  
+![[c_rocm_e_25.svg]]  
 /// caption  
 Coalesced - consecutive lanes -> consecutive addresses -> fewer, wider transactions  
 ///
@@ -218,7 +218,7 @@ Coalesced - consecutive lanes -> consecutive addresses -> fewer, wider transacti
 
 ---
 
-![[c_rocm_e_24.svg]]  
+![[c_rocm_e_26.svg]]  
 /// caption  
 Strided - consecutive lanes -> strided addresses -> many transactions  
 ///
@@ -233,7 +233,7 @@ Strided - consecutive lanes -> strided addresses -> many transactions
 
 ### Shared Memory (`LDS`) Staging
 
-![[c_rocm_e_25.svg]]  
+![[c_rocm_e_27.svg]]  
 /// caption  
 `Threads` cooperatively load the input tile row-wise into `LDS`, then synchronize before reading it back. Then `threads` read the same `LDS` tile with swapped indices and write the transposed tile row-wise to global memory.  
 ///
@@ -312,7 +312,7 @@ int blk_in_grid = (N + thr_per_block - 1) / thr_per_blk;
 saxpy<<blk_in_grid, thr_per_blk>>(a, d_x, d_y, N);
 ```
 
-![[c_rocm_e_26.svg]]  
+![[c_rocm_e_28.svg]]  
 /// caption  
 Memory bound performance ceiling for `SAXPY`: $\left(5.3 \frac{\text{TB}}{s}\right) \times 0.17 \frac{\text{FLOPs}}{B} \approx 0.88 \frac{\text{FLOPs}}{s}$  
 
