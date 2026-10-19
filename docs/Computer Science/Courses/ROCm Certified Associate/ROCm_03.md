@@ -57,11 +57,16 @@ $\text{GEMM}: D = \alpha \times A \times B + \beta \times C$
 - Multi-precision — `fp32`, `fp16`, `bf16`, `int8`
 - Operator fusion — conv + bias + activation in a single `kernel`[^4]
 
-!!! tip Why fuse matters  
-	> === "Without Fuse"  
-	> 	![[c_rocm_e_8.svg]]  
-	> === "With Fuse"  
-	> 	![[c_rocm_e_9.svg]]
+> [!TIP] Why fuse matters  
+> ![[c_rocm_e_8.svg]]  
+> /// caption  
+> Without Fuse  
+> ///
+> 
+> ![[c_rocm_e_9.svg]]  
+> /// caption  
+> With Fuse  
+> ///
 
 ### `MIOpen` Autotune
 
@@ -113,7 +118,7 @@ $$\text{Time Domain} \longleftrightarrow \text{Frequency Domain}$$
 	> [!NOTE]  
 	> Deterministic algorithm + seed -> reproducible sequence that passes statistical randomness tests.
 
-	![[c_rocm_e_8.svg]]  
+	![[c_rocm_e_10.svg]]  
 	/// caption  
 	clustered — has gaps  
 	///
@@ -140,7 +145,7 @@ $$\text{Time Domain} \longleftrightarrow \text{Frequency Domain}$$
 	> [!NOTE]  
 	> Points are constructed to reduce gaps and clumping. No seed like PRNG - indexed by dimension and offset.
 
-	![[c_rocm_e_9.svg]]  
+	![[c_rocm_e_11.svg]]  
 	/// caption  
 	uniform — no clumping  
 	///

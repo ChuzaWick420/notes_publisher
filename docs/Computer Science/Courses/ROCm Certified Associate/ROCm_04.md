@@ -3,7 +3,7 @@ Provider: AMD
 Platform: AMD AI Developer Program, AMD AI Academy
 ---
 
-# 4. `HIP`[^1] Programming and Porting from `CUDA` to `HIP`[^1]
+# 4. HIP[^1] Programming and Porting from CUDA to HIP[^1]
 
 <span style="color: gray;">Dated: 16-10-2026</span>
 
@@ -34,7 +34,7 @@ Each `thread` is performing `#!cpp C[i] = A[i] + B[i]` independently and hence, 
 | Host Buffer Initialization     | Initialize `h_A` and `h_B` with input values.  | `#!cpp for (int i = 0; i < N; i++) { //set host array values }`    |
 | Device (GPU) Memory Allocation | Allocate `d_A`, `d_B`, `d_C` in device memory. | `#!cpp hipMalloc(&device_buf, bytes);`                             |
 | Host-to-Device Data Transfer   | Copy `h_A` → `d_A` and `h_B` → `d_B`.          | `#!cpp hipMemcpy(dst_buf, src_buf, bytes, hipMemcpyHostToDevice);` |
-| Kernel Launch                  | Launch 1 GPU thread per output element.        | `#!cpp vec_add<<<(N+tpb-1)/tpb, tpb>>>(…); //tpb: threads/block`   |
+| `Kernel`[^2] Launch            | Launch 1 GPU thread per output element.        | `#!cpp vec_add<<<(N+tpb-1)/tpb, tpb>>>(…); //tpb: threads/block`   |
 | Device-to-Host Data Transfer   | Copy values of `d_C` (GPU results) → `h_C`.    | `#!cpp hipMemcpy(dst_buf, src_buf, bytes, hipMemcpyDeviceToHost);` |
 | Verify Results                 | Check values of `h_C` for correctness.         | `#!cpp for (int i = 0; i < N; i++) { //check results }`            |
 | Free Device and Host Memory    | Deallocate `d_[A,B,C]` and `h_[A,B,C]`.        | `#!cpp hipFree(device_buf); delete[] host_buf;`                    |
@@ -93,21 +93,21 @@ int main() { // (3)!
 }
 ```
 
-1. Makes HIP available to the program - including `memory management`, `data transfers`, `kernel launches`, and `GPU kernel` constructs.
-2. A `kernerl` (runs on `GPU`) which adds 2 elements and stores the result into 3rd array.
-3. Host-side entry point that coordinates `memory allocation`, `data transfers`, `kernel launch`, `verification`, and `cleanup`.
+1. Makes HIP available to the program - including `memory management`, `data transfers`, `kernel launches`,[^2] and `GPU kernel`[^2] constructs.
+2. A `kernel`[^2] (runs on `GPU`) which adds 2 elements and stores the result into 3rd array.
+3. Host-side entry point that coordinates `memory allocation`, `data transfers`, `kernel launch`,[^2] `verification`, and `cleanup`.
 4. Host arrays memory allocation. The `h_` prefix is to indicate these arrays belong to the host.
 5. Initializing host arrays.
 6. The `d_` prefix is to indicate these arrays belong to the host.
 7. Allocating memory on the `GPU`.
 8. Transfers data from host to device.
-9. Triple chevron syntax to launch the `kernel`.
+9. Triple chevron syntax to launch the `kernel`.[^2]
 10. Transfers data from device to host.
 11. Verifying results
 12. Deallocating memory
 13. Exiting
 
-> [!NOTE] `Kernel launches` are async with respect to the host.
+> [!NOTE] `Kernel launches`[^2] are async with respect to the host.
 
 ```{.cpp .copy .annotate}
 kernel_name <<< blocks_in_grid,
@@ -121,10 +121,10 @@ kernel_name <<< blocks_in_grid,
 2. `0` by default
 
 > [!NOTE] `#!cpp hipGetLastError()`  
-> Used here to detect immediate kernel launch errors.
+> Used here to detect immediate `kernel launch`[^2] errors.
 
 > [!NOTE] `#!cpp hipDeviceSynchronize()`  
-> Used here to detect errors that occurred during asynchronous kernel execution.
+> Used here to detect errors that occurred during asynchronous `kernel execution`.[^2]
 
 ```{.cpp .copy .annotate}
 hipEvent_t start, stop;
@@ -148,25 +148,25 @@ hipEventDestroy(start); hipEventDestroy(stop);
 ```
 
 1. Create two events
-2. Record start in the kernel's stream
-3. Launch kernel (or HIP API call) in that stream
+2. Record start in the `kernel`[^2]'s stream
+3. Launch `kernel`[^2] (or `HIP`[^1] API call) in that stream
 4. Record stop in the same stream
 5. Wait for the stop event
-6. Read elapsed ms
+6. Read elapsed $ms$.
 7. Destroy both events
 
 > [!NOTE] What is `HIP Stream`  
-> An ordered queue of `GPU` work, such as `kernel launches` and `memory copies`.  
+> An ordered queue of `GPU` work, such as `kernel launches`[^2] and `memory copies`.  
 > Operations in one stream are processed in submission order, while different streams may overlap.  
 > Here, `O` means the default stream; the events mark points in that queue.
 
-|                  |**hipify-perl**|**hipify-clang**|
-|---|---|---|
-| **Approach**     |Regex-based translation|Clang-based translation|
-| **Summary**      |Easy to run; no CUDA installation required|Better for complex C++; requires CUDA installation|
-| **How it works** |Uses regular-expression rules to replace recognized CUDA APIs and syntax with HIP equivalents|Uses Clang to parse CUDA as C++ before translating it to HIP|
-| **Handles**      |Most CUDA APIs, types, keywords, include directives, and kernel-launch syntax|Supported CUDA APIs and syntax in code that uses templates, namespaces, and other complex constructs|
-| **Use when**     |The code uses common CUDA features that translate cleanly to HIP and minimal setup is preferred|The code uses complex C++ and a CUDA installation is available|
+|                  | hipify-perl                                                                                         | hipify-clang                                                                                           |
+| ---------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Approach**     | Regex-based translation                                                                             | Clang-based translation                                                                                |
+| **Summary**      | Easy to run; no `CUDA` installation required                                                        | Better for complex `C++`; requires `CUDA` installation                                                 |
+| **How it works** | Uses regular-expression rules to replace recognized CUDA APIs and syntax with HIP equivalents       | Uses `Clang` to parse `CUDA` as `C++` before translating it to `HIP`                                   |
+| **Handles**      | Most `CUDA` APIs, types, keywords, include directives, and `kernel-launch`[^2] syntax                     | Supported `CUDA` APIs and syntax in code that uses templates, namespaces, and other complex constructs |
+| **Use when**     | The code uses common `CUDA` features that translate cleanly to `HIP` and minimal setup is preferred | The code uses complex `C++` and a `CUDA` installation is available                                     |
 
 ```powershell
 hipify-perl -examine vec_add.cu           # Report translation statistics without writing output
@@ -177,3 +177,4 @@ hipcc -o vec_add vec_add.hip && ./vec_add # Build and run the HIP program
 ## References
 
 [^1]: Read more about [[ROCm_01|HIP]].
+[^2]: Read more about [[ROCm_02|Kernels]].
