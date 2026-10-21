@@ -116,7 +116,7 @@ Elements in the same row are contiguous in memory, while elements in the same co
 > int col
 > int row
 > 
-> = blockIdx.x* blockDim.x + threadIdx.x;
+> = blockIdx.x * blockDim.x + threadIdx.x;
 > = blockIdx.y * blockDim.y + threadIdx.y;
 > ```
 
