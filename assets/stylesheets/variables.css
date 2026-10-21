@@ -1,0 +1,24 @@
+:root {
+	/*page colors*/
+	--page-colors-headings: #f5f5f5;
+	--page-colors-text: #f0f0f0;
+
+	/*page styles*/
+	--page-styles-headings: bold;
+
+	/*code blocks colors*/
+	--code-blocks-colors-keyword: #bb9af7;
+	--code-blocks-colors-comment: #8b949e;
+	--code-blocks-colors-class: #2ac3de;
+	--code-blocks-colors-preprocessor-directive: #7aa2f7;
+	--code-blocks-colors-preprocessor-file: #9ece6a;
+	--code-blocks-colors-parentheses: #99a1c2;
+	--code-blocks-colors-identifier: #e6edf3;
+	--code-blocks-colors-operator: #ff7b72;
+	--code-blocks-colors-literal-num: #e58f5c;
+	--code-blocks-colors-datatype: #27a1b9;
+	--code-blocks-colors-string: #9ece6a;
+	--code-blocks-colors-function: #f7768e;
+	--code-blocks-colors-operator: #89ddff;
+	/*code blocks styles*/
+}
